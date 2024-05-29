@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+</head>
+
+<body class='dark:bg-gray-900'>
+    <div class='flex items-center justify-center w-full min-h-[70vh] dark:text-gray-400 my-12 px-4'>
+        <div class='flex flex-col items-center w-full gap-8'>
+            <h1 class='text-9xl md:text-16xl w-full select-none text-center font-black dark:text-gray-400'>
+                404
+            </h1>
+            <p class='text-3xl font-semibold text-center'>{{page.description}}</p>
+            <p class='text-2xl md:px-12 text-center'>
+                {{page.sub_description}}
+            </p>
+            <div class='flex flex-row justify-between gap-8'>
+                <a href="/" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                    {{page.home_page}}
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>

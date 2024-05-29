@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{collection_name}}</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+</head>
+
+<body class="dark:bg-gray-900 bg-gray-100">
+
+    <!-- Navbar -->
+    <nav
+        class="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span
+                    class="self-center text-2xl font-semibold whitespace-nowrap dark:text-gray-400">{{components.navbar.title}}</span>
+            </a>
+            <div class="flex md:order-2">
+                <div class="relative hidden md:block">
+                    <!-- Search input -->
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="search-navbar" onkeypress="handleSearch(event)"
+                        class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder={{components.navbar.search_placeholder | tojson}}>
+                </div>
+                <!-- Mobile menu toggle button -->
+                <button data-collapse-toggle="navbar-search" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-search" aria-expanded="false">
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Dropdown menus -->
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+                <div class="relative mt-3 md:hidden">
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="search-navbar" onkeypress="handleSearch(event)"
+                        class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder={{components.navbar.search_placeholder | tojson}}>
+                </div>
+                <!-- Dropdown menus -->
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 bg-white dark:border-gray-700">
+                    <li>
+                        <a href="/" id="homeNavbarLink"
+                            class="block py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent"
+                            aria-current="page">{{components.navbar.home}}</a>
+                    </li>
+                    <li>
+                        <!-- Characters dropdown -->
+                        <button id="charactersNavbarLink" data-dropdown-toggle="charactersNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:dark:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                            {{components.navbar.characters}}
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+                        <!-- Characters Dropdown menu -->
+                        <div id="charactersNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul id="charactersList" class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <!-- Characters list items -->
+                            </ul>
+                            <div class="py-2">
+                                <a href="/All-Characters"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{{components.navbar.all_characters}}</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <!-- Weapons dropdown -->
+                        <button id="weaponsNavbarLink" data-dropdown-toggle="weaponsNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                            {{components.navbar.weapons}}
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+                        <!-- Weapons Dropdown menu -->
+                        <div id="weaponsNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul id="weaponsList" class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <!-- Weapons list items -->
+                            </ul>
+                            <div class="py-2">
+                                <a href="/All-Weapons"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{{components.navbar.all_weapons}}</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Toasts -->
+    <div id="toast-danger" class="hidden absolute flex items-center top-30 left-1/2 transform -translate-x-1/2 p-4 mb-4 rounded-lg shadow-lg text-red-800 dark:text-red-200 bg-red-200 dark:bg-red-800" role="alert">
+        <div class="text-sm font-normal pe-2">{{components.toast.nft_id_not_found}}</div>
+        <button type="button" onclick=hideToast() class="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Hero section -->
+    <section class="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold mb-4 dark:text-gray-400">{{collection_name}}</h1>
+            <p class="text-lg mb-8 dark:text-gray-400">{{collection_name}}</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="w-full mx-auto max-w-screen-xl flex flex-col sm:flex-row justify-between items-center dark:bg-gray-800 bg-white rounded-lg m-4 p-4 shadow-lg">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 mb-2 sm:mb-0">{{components.footer.made_w_love_for}} <a href={{components.footer.cantina_royale_link}} class="underline hover:text-blue-500 dark:hover:text-blue-500">{{components.footer.cantina_royale}}</a></span>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">{{components.footer.buy_me_a_coffee}} <a href={{components.footer.donation_link}} class="underline hover:text-blue-500 dark:hover:text-blue-500">{{components.footer.donation_name}}</a></span>
+    </div>
+
+    <!-- Navbar active tab -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("homeNavbarLink").classList = "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            document.getElementById("charactersNavbarLink").classList = "flex items-center justify-between w-full py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent";
+        });
+    </script>
+
+    <!-- Search function -->
+    <script>
+        function handleSearch(event) {
+            nft_ids = JSON.parse('{{nft_ids | tojson }}');
+            // Check if the pressed key is Enter
+            if (event.key === 'Enter') {
+                // Get the entered text
+                var searchText = event.target.value.trim();
+                // If the text is not empty, redirect to the corresponding page
+                if (searchText !== '') {
+                    if (nft_ids.includes(searchText)) {
+                        window.location.href = '/' + searchText; // Redirect to the page
+                    } else {
+                        showToast(); // Show the toast if the item is not found
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Navbar dropdown script -->
+    <script>
+        // Populate the dropdown list with items
+        document.addEventListener("DOMContentLoaded", function () {
+            var characters = JSON.parse('{{variables | tojson }}').characters;
+            var weapons = JSON.parse('{{variables | tojson }}').weapons;
+            var charactersList = document.getElementById("charactersList");
+            characters.forEach(function (collection_name) {
+                var li = document.createElement("li");
+                var a = document.createElement("a");
+                a.href = "/" + collection_name;
+                a.textContent = collection_name;
+                a.className = "block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white";
+                li.appendChild(a);
+                charactersList.appendChild(li);
+            });
+            var weaponsList = document.getElementById("weaponsList");
+            weapons.forEach(function (collection_name) {
+                var li = document.createElement("li");
+                var a = document.createElement("a");
+                a.href = "/" + collection_name;
+                a.textContent = collection_name;
+                a.className = "block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white";
+                li.appendChild(a);
+                weaponsList.appendChild(li);
+            });
+        });
+        // Function to toggle dropdown visibility
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            dropdown.classList.toggle('hidden');
+        }
+        // Add event listeners to toggle dropdowns
+        document.getElementById('charactersNavbarLink').addEventListener('click', function () {
+            toggleDropdown('charactersNavbar');
+        });
+        document.getElementById('weaponsNavbarLink').addEventListener('click', function () {
+            toggleDropdown('weaponsNavbar');
+        });
+    </script>
+
+    <!-- Toast component -->
+    <script>
+        function showToast() {
+            var toast = document.getElementById('toast-danger');
+            toast.classList.remove('hidden');
+            setTimeout(function() {
+                hideToast();
+            }, 3000);
+        }
+        function hideToast() {
+            var toast = document.getElementById('toast-danger');
+            toast.classList.add('hidden');
+        }
+    </script>
+
+    <!-- Flowbite JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+</body>
+
+</html>

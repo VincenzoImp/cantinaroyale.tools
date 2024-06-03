@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description: "Tools for Cantina Royale"
 };
 
-export { info };
+export const contents = info.contents.en;
+export const variables = info.variables;
 
 export default function RootLayout({
   children,

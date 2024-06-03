@@ -1,4 +1,11 @@
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
+
+export const generateMetadata = ({ params }: { params: { ID: string } }): Metadata => {
+    return {
+        title: `${params.ID} - Cantina Royale Tools`,
+    };
+};
 
 export default function Page( {params} : {params: {ID: string}} ) {
     // check if the ID is contained in the list of valid IDs

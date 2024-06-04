@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { contents } from "@/app/layout";
 
+const home = contents.pages.home;
+
+export const metadata: Metadata = {
+  title: `${home.title}`
+};
+
 export default function Home() {
-  var home = contents.pages.home;
   return (
     <>
       {Navbar()}
@@ -16,4 +22,4 @@ export default function Home() {
       {Footer()}
     </>
   );
-}
+};

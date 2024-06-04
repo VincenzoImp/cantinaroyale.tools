@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const contents = info.contents.en;
 export const variables = info.variables;
+export const nfts = info
 
 export default function RootLayout({
   children,

@@ -48,7 +48,7 @@ export default function Navbar() {
         }
     }
 
-    var characters = variables.characters;
+    var characters = variables.collections.characters;
     var charactersList = characters.map((collection_name) => {
         return (
             <li key={collection_name}>
@@ -57,7 +57,7 @@ export default function Navbar() {
         );
     });
 
-    var weapons = variables.weapons;
+    var weapons = variables.collections.weapons;
     var weaponsList = weapons.map((collection_name) => {
         return (
             <li key={collection_name}>
@@ -137,7 +137,7 @@ export default function Navbar() {
                                     {charactersList}
                                 </ul>
                                 <div className="py-2">
-                                    <a href="/All-Characters"
+                                    <a href={`/${variables.collections.all_characters}`}
                                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.all_characters}</a>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ export default function Navbar() {
                                     {weaponsList}
                                 </ul>
                                 <div className="py-2">
-                                    <a href="/All-Weapons"
+                                    <a href={`/${variables.collections.all_weapons}`}
                                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.all_weapons}</a>
                                 </div>
                             </div>

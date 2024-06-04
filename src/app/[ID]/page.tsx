@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { contents } from "@/app/layout";
-  
+import { variables } from "@/app/layout";
+
 export const generateMetadata = ({ params }: { params: { ID: string } }): Metadata => {
     const homeTitle = contents.pages.home.title;
-    const collections = ["1", "2", "3"];
-    const nftIDs = ["1", "2", "3"];
+    const collections = [...variables.collections.characters, ...variables.collections.weapons, variables.collections.all_characters, variables.collections.all_weapons];
+    const nftIDs: string[] = [];
     if (!collections.includes(params.ID) && !nftIDs.includes(params.ID)) {
         return {
             title: `404 - ${homeTitle}`,
@@ -20,8 +21,9 @@ export const generateMetadata = ({ params }: { params: { ID: string } }): Metada
 
 export default function Page( {params} : {params: {ID: string}} ) {
     // check if the ID is contained in the list of valid IDs
-    const validIDs = ["1", "2", "3"];
-    if (!validIDs.includes(params.ID)) {
+    const collections = [...variables.collections.characters, ...variables.collections.weapons, variables.collections.all_characters, variables.collections.all_weapons];
+    const nftIDs: string[] = [];
+    if (!collections.includes(params.ID) && !nftIDs.includes(params.ID)) {
         return notFound();
     }
     return (

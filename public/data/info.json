@@ -1,14 +1,18 @@
 {
     "variables": {
-        "weapons": [
-            "CRWEAPONS-e5ab49",
-            "CRMYTH-546419"
-        ],
-        "characters": [
-            "GSPACEAPE-08bc2b",
-            "CEA-2d29f9",
-            "CRHEROES-9edff2"
-        ],
+        "collections": {
+            "characters": [
+                "GSPACEAPE-08bc2b",
+                "CEA-2d29f9",
+                "CRHEROES-9edff2"
+            ],
+            "weapons": [
+                "CRWEAPONS-e5ab49",
+                "CRMYTH-546419"
+            ],
+            "all_characters": "All-Characters",
+            "all_weapons": "All-Weapons"
+        },
         "talents_class": {
             "Overachiever": "Valor",
             "Hodler": "Tactics",

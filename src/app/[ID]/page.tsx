@@ -8,7 +8,7 @@ import { variables } from "@/app/layout";
 export const generateMetadata = ({ params }: { params: { ID: string } }): Metadata => {
     const homeTitle = contents.pages.home.title;
     const collections = [...variables.collections.characters, ...variables.collections.weapons, variables.collections.all_characters, variables.collections.all_weapons];
-    const nftIDs: string[] = [];
+    const nftIDs: string[] = ['CEA-2d29f9-01'];
     if (!collections.includes(params.ID) && !nftIDs.includes(params.ID)) {
         return {
             title: `404 - ${homeTitle}`,
@@ -22,7 +22,7 @@ export const generateMetadata = ({ params }: { params: { ID: string } }): Metada
 export default function Page( {params} : {params: {ID: string}} ) {
     // check if the ID is contained in the list of valid IDs
     const collections = [...variables.collections.characters, ...variables.collections.weapons, variables.collections.all_characters, variables.collections.all_weapons];
-    const nftIDs: string[] = [];
+    const nftIDs: string[] = ['CEA-2d29f9-01'];
     if (!collections.includes(params.ID) && !nftIDs.includes(params.ID)) {
         return notFound();
     }
@@ -35,7 +35,7 @@ export default function Page( {params} : {params: {ID: string}} ) {
                 <p className="text-lg mb-8 dark:text-gray-400">{params.ID}</p>
             </div>
           </section>
-          {Footer()}
+          <Footer />
         </>
     );
 };

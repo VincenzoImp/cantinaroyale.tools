@@ -26,14 +26,6 @@ export default function Navbar() {
         }
     }
 
-    // Add event listeners function to toggle dropdown visibility
-    function toggleDropdown(dropdownId: string) {
-        const dropdown = document.getElementById(dropdownId);
-        if (dropdown) {
-            dropdown.classList.toggle('hidden');
-        }
-    }
-
     var characters = variables.collections.characters;
     var charactersList = characters.map((collection_name) => {
         return (
@@ -179,7 +171,7 @@ export default function Navbar() {
 
         <div id="toast-danger" className="hidden absolute flex items-center top-30 left-1/2 transform -translate-x-1/2 p-4 mb-4 rounded-lg shadow-lg text-red-800 dark:text-red-200 bg-red-200 dark:bg-red-800" role="alert">
             <div className="text-sm font-normal pe-2">{toast.nft_id_not_found}</div>
-            <button type="button" className="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
+            <button type="button" onClick={hideToast} className="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
                 <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                 </svg>

@@ -19,7 +19,7 @@ export default function Home() {
             <p className="text-lg mb-8 dark:text-gray-400">{home.hero_description}</p>
         </div>
       </section>
-      {Footer()}
+      <Footer />
     </>
   );
 };

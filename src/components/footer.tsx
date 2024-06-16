@@ -2,7 +2,7 @@ import { contents } from "@/app/layout";
 
 export default function Footer() {
 
-    var footer = contents.components.footer;
+    const footer = contents.components.footer;
 
     return (
         <div className="w-full mx-auto max-w-screen-xl flex flex-col sm:flex-row justify-between items-center dark:bg-gray-800 bg-white rounded-lg m-4 p-4 shadow-lg">

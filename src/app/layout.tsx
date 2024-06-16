@@ -6,7 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const contents = info.contents.en;
 export const variables = info.variables;
-export const nfts = info
+// for contents and variables open file src/data/{ID}.json and store the contents in nfts
+var nfts: { [key: string]: any } = {};
+for (const collection of variables.collections.characters) {
+  nfts[collection] = require(`../../public/data/${collection}_nfts.csv`);
+}
 
 export default function RootLayout({
   children,

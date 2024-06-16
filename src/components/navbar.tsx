@@ -8,6 +8,9 @@ export default function Navbar() {
     const navbar = contents.components.navbar;
     const toast = contents.components.toast;
     
+    const characters = variables.collections.characters;
+    const weapons = variables.collections.weapons;
+    const nft_ids = 
     // Add event listeners function to show toast
     function showToast() {
         var toast = document.getElementById('toast-danger');
@@ -26,7 +29,6 @@ export default function Navbar() {
         }
     }
 
-    var characters = variables.collections.characters;
     var charactersList = characters.map((collection_name) => {
         return (
             <li key={collection_name}>
@@ -35,7 +37,6 @@ export default function Navbar() {
         );
     });
 
-    var weapons = variables.collections.weapons;
     var weaponsList = weapons.map((collection_name) => {
         return (
             <li key={collection_name}>

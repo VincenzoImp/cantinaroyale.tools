@@ -28,7 +28,7 @@ export default function Page( {params} : {params: {ID: string}} ) {
     }
     return (
         <>
-          {Navbar()}
+          <Navbar />
           <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">
             <div className="text-center">
                 <h1 className="text-4xl font-bold mb-4 dark:text-gray-400">{params.ID}</h1>

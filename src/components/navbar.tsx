@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import { contents, variables } from "../app/layout";
 
 export default function Navbar() {
@@ -5,23 +8,6 @@ export default function Navbar() {
     const navbar = contents.components.navbar;
     const toast = contents.components.toast;
     
-    function handleSearch(event: { key: string; target: { value: string; }; }) {
-        const nft_ids = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
-        // Check if the pressed key is Enter
-        if (event.key === 'Enter') {
-            // Get the entered text
-            var searchText = event.target.value.trim();
-            // If the text is not empty, redirect to the corresponding page
-            if (searchText !== '') {
-                if (nft_ids.includes(searchText)) {
-                    window.location.href = '/' + searchText; // Redirect to the page
-                } else {
-                    showToast(); // Show the toast if the item is not found
-                }
-            }
-        }
-    }
-
     // Add event listeners function to show toast
     function showToast() {
         var toast = document.getElementById('toast-danger');
@@ -65,6 +51,28 @@ export default function Navbar() {
             </li>
         );
     });
+
+    useEffect(() => {
+        // Add event listeners to the search input
+        var searchInput = document.getElementById('search-navbar');
+        if (searchInput) {
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                        const nft_ids = ['CEA-2d29f9-01', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+                        // Get the entered text
+                        var searchText = (e.target as HTMLInputElement).value.trim();
+                        // If the text is not empty, redirect to the corresponding page
+                        if (searchText !== '') {
+                            if (nft_ids.includes(searchText)) {
+                                window.location.href = '/' + searchText; // Redirect to the page
+                            } else {
+                                showToast(); // Show the toast if the item is not found
+                            }
+                        }
+                    }
+            });
+        }
+    }, []);
 
     return (
         <>

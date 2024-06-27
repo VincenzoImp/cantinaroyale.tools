@@ -5,19 +5,44 @@ import { contents } from "@/app/layout";
 const page = contents.pages.weapon_nft;
 const components = contents.components;
 
-function displayAbout() {
-    
-}
-
-function displayStats() {
-    
-}
-
 function hideToast() {
     
 }
 
 export default function WeaponNft({ nft }: { [key: string]: any }) {
+    const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white"
+    const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200"
+    const classContentActive = ""
+    const classContentInactive = "hidden"
+    
+    function displayAbout() {
+        const aboutButton = document.getElementById("aboutButton");
+        const statsButton = document.getElementById("statsButton");
+        const aboutContent = document.getElementById("about");
+        const statsContent = document.getElementById("stats");
+
+        if (aboutButton && statsButton && aboutContent && statsContent) {
+            aboutButton.className = classButtonActive;
+            statsButton.className = classButtonInactive;
+            aboutContent.className = classContentActive;
+            statsContent.className = classContentInactive;
+        }
+    }
+
+    function displayStats() {
+        const aboutButton = document.getElementById("aboutButton");
+        const statsButton = document.getElementById("statsButton");
+        const aboutContent = document.getElementById("about");
+        const statsContent = document.getElementById("stats");
+
+        if (aboutButton && statsButton && aboutContent && statsContent) {
+            aboutButton.className = classButtonInactive;
+            statsButton.className = classButtonActive;
+            aboutContent.className = classContentInactive;
+            statsContent.className = classContentActive;
+        }
+    }
+
     const explorerUrl = `https://explorer.multiversx.com/nfts/${nft.identifier}`;
     const title = (
         <div className="text-center">
@@ -33,23 +58,23 @@ export default function WeaponNft({ nft }: { [key: string]: any }) {
 
             <div>
                 <div>
-                    <ul
-                        className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-gray-400 m-4 justify-between gap-1">
+                    <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-gray-400 m-4 justify-between gap-1">
                         <li className="flex-grow">
-                            <button id="aboutButton"
-                                className="w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white"
-                                onClick={() => displayAbout()}>{page.about.title}</button>
+                            <button id="aboutButton" className={classButtonActive} onClick={() => displayAbout()}>
+                                    {page.about.title}
+                            </button>
                         </li>
                         <li className="flex-grow">
-                            <button id="statsButton"
-                                className="w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200"
-                                onClick={() => displayStats()}>{page.stats.title}</button>
+                            <button id="statsButton" className={classButtonInactive} onClick={() => displayStats()}>
+                                {page.stats.title}
+                            </button>
                         </li>
                     </ul>
-                    <div id="about">
+                    <div id="about" className={classContentActive}>
+                        about
                     </div>
-
-                    <div id="stats" className="hidden">
+                    <div id="stats" className={classContentInactive}>
+                        stats
                     </div>
                 </div>
             </div>          

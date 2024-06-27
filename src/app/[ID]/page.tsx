@@ -23,42 +23,69 @@ export const generateMetadata = ({ params }: { params: { ID: string } }): Metada
 };
 
 export default function Page({ params }: { params: { ID: string } }) {
-    // check if the ID is contained in the list of valid IDs
     const character_collections = [...variables.collections.characters, variables.collections.all_characters];
     const weapon_collections = [...variables.collections.weapons, variables.collections.all_weapons];
     const collections = [...character_collections, ...weapon_collections];
-    var body = null;
     if (collections.includes(params.ID)) {
-        if (params.ID in character_collections) {
-            body = <CharacterCollection collection={data[params.ID]} />
-        }
-        if (params.ID in weapon_collections) {
-            body = <WeaponCollection collection={data[params.ID]} />
-        }
-        return (
-            <>
-                <Navbar />
-                {body}
-                <Footer />
-            </>
-        );
-    }
-    for (const collection in data) {
-        if (params.ID.startsWith(collection) && params.ID in data[collection].nfts) {
-            if (collection in character_collections) {
-                body = <CharacterNft nft={data[collection].nfts[params.ID]} />
+        const collectionName = params.ID;
+        var collectionData: { [key: string]: any } = {};
+        if (character_collections.includes(params.ID)) {
+            if (params.ID === variables.collections.all_characters) {
+                for (const character_collection in variables.collections.characters) {
+                    collectionData[character_collection] = data[character_collection];
+                }
             }
-            if (collection in weapon_collections) {
-                body = <WeaponNft nft={data[collection].nfts[params.ID]} />
+            else {
+                collectionData[params.ID] = data[params.ID];
             }
             return (
                 <>
                     <Navbar />
-                    {body}
+                    <CharacterCollection collectionName={collectionName} collectionData={collectionData} />
+                    <Footer />
+                </>
+            );
+        }
+        if (weapon_collections.includes(params.ID)) {
+            if (params.ID === variables.collections.all_weapons) {
+                for (const weapon_collection in variables.collections.weapons) {
+                    collectionData[weapon_collection] = data[weapon_collection];
+                }
+            }
+            else {
+                collectionData[params.ID] = data[params.ID];
+            }
+            return (
+                <>
+                    <Navbar />
+                    <WeaponCollection collectionName={collectionName} collectionData={collectionData} />
                     <Footer />
                 </>
             );
         }
     }
+    for (const collection in data) {
+        if (params.ID.startsWith(collection) && params.ID in data[collection].nfts) {
+            const nft: {[key: string]: any} = data[collection].nfts[params.ID];
+            if (character_collections.includes(collection)) {
+                return (
+                    <>
+                        <Navbar />
+                        <CharacterNft nft={nft} />
+                        <Footer />
+                    </>
+                );
+            }
+            if (weapon_collections.includes(collection)) {
+                return (
+                    <>
+                        <Navbar />
+                        <WeaponNft nft={nft} />
+                        <Footer />
+                    </>
+                );
+            }
+        }
+    }
     return notFound();
-};
+}

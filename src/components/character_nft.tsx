@@ -1,4 +1,5 @@
-export default function CharacterNft(nft: any) {
+// nft is a dictionary with string keys and values of any type
+export default function CharacterNft({ nft }: { [key: string]: any }) {
     return (
         <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">
             <div className="text-center">

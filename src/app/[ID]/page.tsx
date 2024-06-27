@@ -40,7 +40,7 @@ export default function Page({ params }: { params: { ID: string } }) {
             }
             return (
                 <>
-                    <Navbar />
+                    <Navbar activeItemID="characters" />
                     <CharacterCollection collectionName={collectionName} collectionData={collectionData} />
                     <Footer />
                 </>
@@ -57,7 +57,7 @@ export default function Page({ params }: { params: { ID: string } }) {
             }
             return (
                 <>
-                    <Navbar />
+                    <Navbar activeItemID="weapons" />
                     <WeaponCollection collectionName={collectionName} collectionData={collectionData} />
                     <Footer />
                 </>
@@ -70,7 +70,7 @@ export default function Page({ params }: { params: { ID: string } }) {
             if (character_collections.includes(collection)) {
                 return (
                     <>
-                        <Navbar />
+                        <Navbar activeItemID="characters" />
                         <CharacterNft nft={nft} />
                         <Footer />
                     </>
@@ -79,7 +79,7 @@ export default function Page({ params }: { params: { ID: string } }) {
             if (weapon_collections.includes(collection)) {
                 return (
                     <>
-                        <Navbar />
+                        <Navbar activeItemID="weapons" />
                         <WeaponNft nft={nft} />
                         <Footer />
                     </>

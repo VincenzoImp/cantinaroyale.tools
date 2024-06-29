@@ -13,7 +13,7 @@
             "all_characters": "All-Characters",
             "all_weapons": "All-Weapons"
         },
-        "talents_class": {
+        "talentsClass": {
             "Overachiever": "Valor",
             "Hodler": "Tactics",
             "Grounded": "Resolve",
@@ -211,8 +211,8 @@
                 "weapon_nft": {
                     "about": {
                         "title": "About",
-                        "not_ranked": "Not ranked",
-                        "not_for_sale": "Not for sale",
+                        "notRanked": "Not ranked",
+                        "notForSale": "Not for sale",
                         "keys": {
                             "collection": "Collection",
                             "owner": "Owner",
@@ -226,10 +226,10 @@
                             "wear": "Wear",
                             "level": "Level",
                             "starLevel": "Star Level",
-                            "Damage": "Damage",
-                            "Reload_Time": "Reload Time",
-                            "Ammo": "Ammo",
-                            "Range": "Range"
+                            "damage": "Damage",
+                            "reloadTime": "Reload Time",
+                            "ammo": "Ammo",
+                            "range": "Range"
                         }
                     }
                 }
@@ -239,21 +239,19 @@
                     "title": "Cantina Royale Tools",
                     "home": "Home",
                     "characters": "Characters",
-                    "all_characters": "All Characters",
+                    "allCharacters": "All Characters",
                     "weapons": "Weapons",
-                    "all_weapons": "All Weapons",
-                    "search_placeholder": "Search NFT by ID"
-                },
-                "toast": {
-                    "nft_id_not_found": "NFT ID not found"
+                    "allWeapons": "All Weapons",
+                    "searchPlaceholder": "Search NFT by ID",
+                    "toastText": "NFT ID not found"
                 },
                 "footer": {
-                    "made_w_love_for": "Made with ❤️ for ",
-                    "cantina_royale": "Cantina Royale",
-                    "cantina_royale_link": "https://cantinaroyale.io",
-                    "buy_me_a_coffee": "Buy me a ☕",
-                    "donation_name": "@vincenzoimp",
-                    "donation_link": "https://explorer.multiversx.com/accounts/erd1keu46ueul2pryusnrlrnz7xcvegucs323t5zd0ytsudgfr3zamfq9mg8lj"
+                    "madeForText": "Made with ❤️ for ",
+                    "madeForName": "Cantina Royale",
+                    "madeForLink": "https://cantinaroyale.io",
+                    "donationText": "Buy me a ☕",
+                    "donationName": "@vincenzoimp",
+                    "donationLink": "https://explorer.multiversx.com/accounts/erd1keu46ueul2pryusnrlrnz7xcvegucs323t5zd0ytsudgfr3zamfq9mg8lj"
                 }
             }
         }

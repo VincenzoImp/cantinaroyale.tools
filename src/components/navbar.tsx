@@ -8,7 +8,6 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
     const inactiveClass = "py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent";
         
     const navbar = contents.components.navbar;
-    const toast = contents.components.toast;
 
     const characters = variables.collections.characters;
     const weapons = variables.collections.weapons;
@@ -83,7 +82,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
     const searchInput = (
         <input type="text" onKeyDown={heandlSearch}
             className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder={navbar.search_placeholder}>
+            placeholder={navbar.searchPlaceholder}>
         </input>
     );
 
@@ -101,7 +100,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
 
     const toastError = (
         <div id="toast-danger" className="hidden absolute flex items-center top-30 left-1/2 transform -translate-x-1/2 p-4 mb-4 rounded-lg shadow-lg text-red-800 dark:text-red-200 bg-red-200 dark:bg-red-800" role="alert">
-            <div className="text-sm font-normal pe-2">{toast.nft_id_not_found}</div>
+            <div className="text-sm font-normal pe-2">{navbar.toastText}</div>
             <button type="button" onClick={hideToast} className="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
                 <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
@@ -146,7 +145,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
                     </ul>
                     <div className="py-2">
                         <a href={`/${variables.collections.all_characters}`}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.all_characters}</a>
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.allCharacters}</a>
                     </div>
                 </div>
             </li>
@@ -175,7 +174,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
                     </ul>
                     <div className="py-2">
                         <a href={`/${variables.collections.all_weapons}`}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.all_weapons}</a>
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.allWeapons}</a>
                     </div>
                 </div>
             </li>

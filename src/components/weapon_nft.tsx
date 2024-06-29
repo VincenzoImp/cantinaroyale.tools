@@ -2,18 +2,100 @@
 
 import { contents } from "@/app/layout";
 
-const page = contents.pages.weapon_nft;
-const components = contents.components;
-
-function hideToast() {
-    
-}
+const weapon_nft = contents.pages.weapon_nft;
 
 export default function WeaponNft({ nft }: { [key: string]: any }) {
+
     const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white"
     const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200"
     const classContentActive = ""
     const classContentInactive = "hidden"
+
+    // generate about content as a list of key-value pairs list item iterating over keys
+    // iterate over key value of weapon_nft.about.keys and generate a list of key-value pairs
+
+    const about = Object.entries(weapon_nft.about.keys).map(([key, value]) => {
+        const displayKey = value;
+        var displayValue = nft[key];
+        if (key === "collection") {
+            displayValue = <a href={"/" + displayValue} className="underline hover:text-blue-500 dark:hover:text-blue-500">{displayValue}</a>;
+        }
+        if (key === "owner") {
+            displayValue = displayValue.slice(0, 6) + "..." + displayValue.slice(-6);
+            displayValue = <a href={"https://explorer.multiversx.com/accounts/" + nft[key]} className="underline hover:text-blue-500 dark:hover:text-blue-500">{displayValue}</a>;
+        
+        }
+        if (parseFloat(displayValue)) {
+            displayValue = parseFloat(displayValue);
+        }
+        if (key === "price") {
+            if (nft.priceCurrency) {
+                displayValue = nft.priceAmount + " " + nft.priceCurrency;
+            } else {
+                displayValue = weapon_nft.about.notForSale;
+            }
+        }
+        if (key === "rank") {
+            if (!nft.rank) {
+                displayValue = weapon_nft.about.notRanked;
+            }
+        }
+        return (
+            <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                <span className="text-sm dark:text-gray-400">
+                    {displayKey}
+                </span>
+                <span className="text-sm dark:text-gray-400">
+                    {displayValue}
+                </span>
+            </div>
+        );
+    });
+    
+    const stats = Object.entries(weapon_nft.stats.keys).map(([key, value]) => {
+        const displayKey = value;
+        var displayValue = nft[key];
+        if (parseFloat(displayValue)) {
+            displayValue = parseFloat(displayValue);
+        }
+        return (
+            <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                <span className="text-sm dark:text-gray-400">
+                    {displayKey}
+                </span>
+                <span className="text-sm dark:text-gray-400">
+                    {displayValue}
+                </span>
+            </div>
+        );
+    }
+    );
+        
+
+    // <script>
+    //     document.addEventListener("DOMContentLoaded", function () {
+    //         var stats = JSON.parse('{{page.stats | tojson}}');
+    //         var nft = '{{nft | tojson | safe}}'.replace(/NaN/g, null).replace(/'/g, '"').replace(/None/g, null).replace(/True/g, true).replace(/False/g, false);
+    //         nft = JSON.parse(nft);
+    //         for (const [key, value] of Object.entries(stats.keys)) {
+    //             var div = document.createElement("div");
+    //             div.className = "flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg";
+    //             var span1 = document.createElement("span");
+    //             span1.className = "text-sm dark:text-gray-400";
+    //             span1.textContent = value;
+    //             var span2 = document.createElement("span");
+    //             span2.className = "text-sm dark:text-gray-400";
+    //             var text = nft[key];
+    //             if (parseFloat(text)) {
+    //                 text = parseFloat(text);
+    //             };
+    //             span2.textContent = text;
+    //             div.appendChild(span1);
+    //             div.appendChild(span2);
+    //             document.getElementById("stats").appendChild(div);
+    //         };
+    //     });
+    // </script>
     
     function displayAbout() {
         const aboutButton = document.getElementById("aboutButton");
@@ -55,39 +137,28 @@ export default function WeaponNft({ nft }: { [key: string]: any }) {
             <div className="dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg flex justify-center items-center">
                 <a href="{nft.url}"><img src={nft.url} alt={nft.name} className="w-full h-auto"/></a>
             </div>
-
             <div>
                 <div>
                     <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-gray-400 m-4 justify-between gap-1">
                         <li className="flex-grow">
                             <button id="aboutButton" className={classButtonActive} onClick={() => displayAbout()}>
-                                    {page.about.title}
+                                    {weapon_nft.about.title}
                             </button>
                         </li>
                         <li className="flex-grow">
                             <button id="statsButton" className={classButtonInactive} onClick={() => displayStats()}>
-                                {page.stats.title}
+                                {weapon_nft.stats.title}
                             </button>
                         </li>
                     </ul>
                     <div id="about" className={classContentActive}>
-                        about
+                        {about}
                     </div>
                     <div id="stats" className={classContentInactive}>
-                        stats
+                        {stats}
                     </div>
                 </div>
-            </div>          
-        </div>
-    );
-    const toast = (
-        <div id="toast-danger" className="hidden absolute top-0 flex items-center max-w-xs p-4 mb-4 rounded-lg shadow-lg text-red-800 dark:text-red-200 bg-red-200 dark:bg-red-800 " role="alert">
-            <div className="text-sm font-normal pe-2">{components.toast.nft_id_not_found}</div>
-            <button type="button" onClick={() => hideToast()} className="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
-                <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                </svg>
-            </button>
+            </div>
         </div>
     );
 
@@ -95,7 +166,6 @@ export default function WeaponNft({ nft }: { [key: string]: any }) {
         <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">
             {title}
             {card}
-            {toast}
         </section>
     );
 }

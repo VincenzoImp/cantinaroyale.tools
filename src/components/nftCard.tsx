@@ -40,7 +40,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 }
             }
             return (
-                <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
                     <span className="text-sm dark:text-gray-400">
                         {displayKey}
                     </span>
@@ -61,7 +61,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 displayValue = parseFloat(displayValue);
             }
             return (
-                <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
                     <span className="text-sm dark:text-gray-400">
                         {displayKey}
                     </span>
@@ -89,7 +89,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         };
         const component = Object.entries(talentsMap).sort(([talentNameA], [talentNameB]) => talentsMap[talentNameB] - talentsMap[talentNameA] || talentNameA.localeCompare(talentNameB)).map(([talentName, talentValue]: [string, number]) => {
             return (
-                <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                <div key={talentName} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
                     <span className="text-sm dark:text-gray-400">
                         <span>
                             <svg data-popover-target={"popover-"+talentName} className="flex-shrink-0 inline w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -128,7 +128,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 return null;
             }
             return (
-                <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
                     <span className="text-sm dark:text-gray-400">
                         {displayKey}
                     </span>

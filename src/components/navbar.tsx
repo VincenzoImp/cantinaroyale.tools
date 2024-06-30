@@ -29,18 +29,18 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
         }
     }
 
-    var charactersList = characters.map((collection_name) => {
+    var charactersList = characters.map((collectionName) => {
         return (
-            <li key={collection_name}>
-                <a href={"/" + collection_name} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collection_name}</a>
+            <li key={collectionName}>
+                <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
             </li>
         );
     });
 
-    var weaponsList = weapons.map((collection_name) => {
+    var weaponsList = weapons.map((collectionName) => {
         return (
-            <li key={collection_name}>
-                <a href={"/" + collection_name} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collection_name}</a>
+            <li key={collectionName}>
+                <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
             </li>
         );
     });
@@ -53,7 +53,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
                 for (const collection in identifiers) {
                     if (searchText.startsWith(collection) && identifiers[collection].includes(searchText)) {
                         found = true;
-                        window.location.href = '/' + searchText;
+                        window.location.href = '/nft/' + searchText;
                     }
                 }
                 if (!found) {

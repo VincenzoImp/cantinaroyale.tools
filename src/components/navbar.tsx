@@ -1,13 +1,13 @@
 "use client";
 
-import { contents, variables, data } from "../app/layout";
+import { contents, variables, identifiers } from "../app/layout";
+
+const navbar = contents.components.navbar;
 
 export default function Navbar( { activeItemID }: { activeItemID: string } ) {
-
+    
     const activeClass = "py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent";
     const inactiveClass = "py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent";
-        
-    const navbar = contents.components.navbar;
 
     const characters = variables.collections.characters;
     const weapons = variables.collections.weapons;
@@ -50,8 +50,8 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
             var searchText = (e.target as HTMLInputElement).value.trim();
             if (searchText !== '') {
                 var found = false;
-                for (const collection in data) {
-                    if (searchText.startsWith(collection) && searchText in data[collection].nfts) {
+                for (const collection in identifiers) {
+                    if (searchText.startsWith(collection) && identifiers[collection].includes(searchText)) {
                         found = true;
                         window.location.href = '/' + searchText;
                     }
@@ -144,7 +144,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
                         {charactersList}
                     </ul>
                     <div className="py-2">
-                        <a href={`/${variables.collections.all_characters}`}
+                        <a href={`/${variables.collections.allCharacters}`}
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.allCharacters}</a>
                     </div>
                 </div>
@@ -173,7 +173,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
                         {weaponsList}
                     </ul>
                     <div className="py-2">
-                        <a href={`/${variables.collections.all_weapons}`}
+                        <a href={`/${variables.collections.allWeapons}`}
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.allWeapons}</a>
                     </div>
                 </div>

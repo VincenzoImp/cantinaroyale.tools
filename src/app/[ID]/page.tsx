@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { contents, variables, data } from "@/app/layout";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { contents, variables, data } from "@/app/layout";
-import CharacterCollection from "@/components/character_collection";
-import WeaponCollection from "@/components/weapon_collection";
-import CharacterNft from "@/components/character_nft";
-import WeaponNft from "@/components/weapon_nft";
+import CharacterCollection from "@/components/characterCollection";
+import WeaponCollection from "@/components/weaponCollection";
+import CharacterNft from "@/components/characterNft";
+import WeaponNft from "@/components/weaponNft";
 
 export const generateMetadata = ({ params }: { params: { ID: string } }): Metadata => {
     const homeTitle = contents.pages.home.title;
-    const collections = [...variables.collections.characters, ...variables.collections.weapons, variables.collections.all_characters, variables.collections.all_weapons];
+    const collections = [...variables.collections.characters, ...variables.collections.weapons, variables.collections.allCharacters, variables.collections.all_weapons];
     if (collections.includes(params.ID)) {
         return { title: `${params.ID} - ${homeTitle}` };
     }
@@ -23,14 +23,14 @@ export const generateMetadata = ({ params }: { params: { ID: string } }): Metada
 };
 
 export default function Page({ params }: { params: { ID: string } }) {
-    const character_collections = [...variables.collections.characters, variables.collections.all_characters];
-    const weapon_collections = [...variables.collections.weapons, variables.collections.all_weapons];
+    const character_collections = [...variables.collections.characters, variables.collections.allCharacters];
+    const weapon_collections = [...variables.collections.weapons, variables.collections.allWeapons];
     const collections = [...character_collections, ...weapon_collections];
     if (collections.includes(params.ID)) {
         const collectionName = params.ID;
         var collectionData: { [key: string]: any } = {};
         if (character_collections.includes(params.ID)) {
-            if (params.ID === variables.collections.all_characters) {
+            if (params.ID === variables.collections.allCharacters) {
                 for (const character_collection in variables.collections.characters) {
                     collectionData[character_collection] = data[character_collection];
                 }
@@ -47,7 +47,7 @@ export default function Page({ params }: { params: { ID: string } }) {
             );
         }
         if (weapon_collections.includes(params.ID)) {
-            if (params.ID === variables.collections.all_weapons) {
+            if (params.ID === variables.collections.allWeapons) {
                 for (const weapon_collection in variables.collections.weapons) {
                     collectionData[weapon_collection] = data[weapon_collection];
                 }

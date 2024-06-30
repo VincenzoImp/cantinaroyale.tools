@@ -1,5 +1,6 @@
 import "./globals.css";
 import info from "../../public/data/info.json";
+import Script from 'next/script'
 
 export const contents = info.contents.en;
 
@@ -25,7 +26,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 		<html lang="en">
 			<body className="dark:bg-gray-900 bg-gray-100" suppressHydrationWarning={true}>
 				{children}
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+				<Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
 			</body>
 		</html>
 	);

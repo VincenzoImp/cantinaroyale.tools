@@ -1,11 +1,11 @@
-// nft is a dictionary with string keys and values of any type
+import NftTitle from "@/components/nftTitle";
+import NftCard from "@/components/nftCard";
+
 export default function CharacterNft({ nft }: { [key: string]: any }) {
     return (
         <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">
-            <div className="text-center">
-                <h1 className="text-4xl font-bold mb-4 dark:text-gray-400">{nft.identifier}</h1>
-                <p className="text-lg mb-8 dark:text-gray-400">{nft.identifier}</p>
-            </div>
+            <NftTitle nft={nft} />
+            <NftCard nft={nft} type="character" />
         </section>
-    )
+    );
 }

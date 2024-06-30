@@ -2,6 +2,7 @@
 
 import { contents, variables } from "@/app/layout";
 import { useState } from "react";
+import Image from 'next/image';
 
 export default function NftCard({ nft, type }: { [key: string]: any, type: string }) {
 
@@ -172,7 +173,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 dark:bg-gray-800 bg-white rounded-lg shadow-lg">
             <div className="dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg flex justify-center items-center">
-                <a href="{nft.url}"><img src={nft.url} alt={nft.name} className="w-full h-auto"/></a>
+                <a href="{nft.url}"><Image src={nft.url} alt={nft.name} className="w-full h-auto"/></a>
             </div>
             <DynamicArea nftCard={nftCard} nft={nft} />
         </div>

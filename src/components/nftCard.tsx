@@ -116,13 +116,37 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         return component;
     }
 
+    function Traits({ traits, nft }: { traits: { [key: string]: any }, nft: { [key: string]: any } }) {
+        const component = Object.entries(traits.keys).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)).map(([key, value]: [string, any]) => {
+            const displayKey: any = value;
+            var displayValue: any = nft[key];
+            if (parseFloat(displayValue)) {
+                displayValue = parseFloat(displayValue);
+            }
+            if (displayValue === null) {
+                return null;
+            }
+            return (
+                <div className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
+                    <span className="text-sm dark:text-gray-400">
+                        {displayKey}
+                    </span>
+                    <span className="text-sm dark:text-gray-400">
+                        {displayValue}
+                    </span>
+                </div>
+            );
+        });
+        return component;
+    }
+
     function DynamicArea({nftCard, nft}: {nftCard: { [key: string]: any }, nft: { [key: string]: any }}) {
         const [activeKey, setactiveKey] = useState("about");
         const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white";
         const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200";
         const buttons = Object.entries(nftCard).map(([key, value]: [string, any]) =>
             <li className="flex-grow">
-                <button id={key+"Button"} className={activeKey === key ? classButtonActive : classButtonInactive} onClick={() => setactiveKey(key)}>
+                <button className={activeKey === key ? classButtonActive : classButtonInactive} onClick={() => setactiveKey(key)}>
                     {value.title}
                 </button>
             </li>
@@ -130,14 +154,15 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         const dynamic: { [key: string]: JSX.Element } = {
             about: <About about={nftCard.about} nft={nft} />,
             stats: <Stats stats={nftCard.stats} nft={nft} />,
-            talents: <Talents talents={nftCard.talents} nft={nft} />
+            talents: <Talents talents={nftCard.talents} nft={nft} />,
+            traits: <Traits traits={nftCard.traits} nft={nft} />
         };
         return (
             <div>
                 <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-gray-400 m-4 justify-between gap-1">
                     {buttons}
                 </ul>
-                <div id={activeKey}>
+                <div>
                     {dynamic[activeKey]}
                 </div>
             </div>

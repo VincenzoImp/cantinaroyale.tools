@@ -113,7 +113,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
         var className = active ? activeClass : inactiveClass;
         var className = "block " + className;
         return (
-            <li>
+            <li key="home">
                 <a href="/" className={className}>
                     {navbar.home}
                 </a>
@@ -131,7 +131,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
         var className = active ? activeClass : inactiveClass;
         var className = "flex items-center justify-between w-full " + className;
         return (
-            <li>
+            <li key="characters">
                 <button id="charactersNavbarLink" data-dropdown-toggle="charactersNavbar"
                     className={className}>
                     {navbar.characters}
@@ -156,7 +156,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
         var className = active ? activeClass : inactiveClass;
         var className = "flex items-center justify-between w-full " + className;
         return (
-            <li>
+            <li key="weapons">
                 <button id="weaponsNavbarLink" data-dropdown-toggle="weaponsNavbar"
                     className={className}>
                     {navbar.weapons}

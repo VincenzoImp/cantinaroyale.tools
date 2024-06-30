@@ -146,7 +146,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white";
         const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200";
         const buttons = Object.entries(nftCard).map(([key, value]: [string, any]) =>
-            <li className="flex-grow">
+            <li className="flex-grow" key={key}>
                 <button className={activeKey === key ? classButtonActive : classButtonInactive} onClick={() => setactiveKey(key)}>
                     {value.title}
                 </button>

@@ -1,0 +1,247 @@
+{
+    "variables": {
+        "collections": {
+            "characters": [
+                "GSPACEAPE-08bc2b",
+                "CEA-2d29f9",
+                "CRHEROES-9edff2"
+            ],
+            "weapons": [
+                "CRWEAPONS-e5ab49",
+                "CRMYTH-546419"
+            ],
+            "allCharacters": "All-Characters",
+            "allWeapons": "All-Weapons"
+        },
+        "talentTypes": {
+            "overachiever": "valor",
+            "hodler": "tactics",
+            "grounded": "resolve",
+            "stonewall": "resolve",
+            "adrenalineRush": "tactics",
+            "overshield": "valor",
+            "blackWidow": "tactics",
+            "galvanized": "valor",
+            "nanoMeds": "valor",
+            "resilience": "valor",
+            "coldBlooded": "tactics",
+            "perseverance": "valor",
+            "escapeArtist": "tactics",
+            "scavenger": "tactics",
+            "coolMoves": "tactics",
+            "brawler": "valor",
+            "automaticWeaponsProficiency": "resolve",
+            "scatterWeaponsProficiency": "resolve",
+            "precisionWeaponsProficiency": "resolve",
+            "explosiveWeaponsProficiency": "resolve",
+            "elementalWeaponsProficiency": "resolve"
+        }
+    },
+    "contents": {
+        "en": {
+            "pages": {
+                "notFound": {
+                    "title": "404 - Page not found",
+                    "description": "You have discovered a secret place",
+                    "subDescription": "Unfortunately, this is only a 404 page",
+                    "homePage": "Home page"
+                },
+                "home": {
+                    "title": "Cantina Royale Tools",
+                    "heroTitle": "Coming Soon",
+                    "heroDescription": "We are currently working on something awesome. Stay tuned!"
+                },
+                "characterCollection": {},
+                "weaponCollection": {},
+                "characterNft": {},
+                "weaponNft": {}
+            },
+            "components": {
+                "navbar": {
+                    "title": "Cantina Royale Tools",
+                    "home": "Home",
+                    "characters": "Characters",
+                    "allCharacters": "All Characters",
+                    "weapons": "Weapons",
+                    "allWeapons": "All Weapons",
+                    "searchPlaceholder": "Search NFT by ID",
+                    "toastText": "NFT ID not found"
+                },
+                "footer": {
+                    "madeForText": "Made with ❤️ for ",
+                    "madeForName": "Cantina Royale",
+                    "madeForLink": "https://cantinaroyale.io",
+                    "donationText": "Buy me a ☕",
+                    "donationName": "@vincenzoimp",
+                    "donationLink": "https://explorer.multiversx.com/accounts/erd1keu46ueul2pryusnrlrnz7xcvegucs323t5zd0ytsudgfr3zamfq9mg8lj"
+                },
+                "nftCard": {
+                    "weapon": {
+                        "about": {
+                            "title": "About",
+                            "notRanked": "Not ranked",
+                            "notForSale": "Not for sale",
+                            "keys": {
+                                "collection": "Collection",
+                                "owner": "Owner",
+                                "rank": "Rank",
+                                "price": "Price"
+                            }
+                        },
+                        "stats": {
+                            "title": "Stats",
+                            "keys": {
+                                "wear": "Wear",
+                                "level": "Level",
+                                "starLevel": "Star Level",
+                                "damage": "Damage",
+                                "reloadTime": "Reload Time",
+                                "ammo": "Ammo",
+                                "range": "Range"
+                            }
+                        }
+                    },
+                    "character": {
+                        "about": {
+                            "title": "About",
+                            "notRanked": "Not ranked",
+                            "notForSale": "Not for sale",
+                            "keys": {
+                                "collection": "Collection",
+                                "owner": "Owner",
+                                "rank": "Rank",
+                                "price": "Price"
+                            }
+                        },
+                        "stats": {                            
+                            "title": "Stats",
+                            "keys": {
+                                "level": "Level",
+                                "health": "Health",
+                                "shield": "Shield",
+                                "talentPointsAvailable": "Talent Points Available",
+                                "talentPointsTotal": "Talent Points Total",
+                                "earnRate": "Earn Rate",
+                                "characterTokens": "Character Tokens"
+                            }
+                        },
+                        "talents": {
+                            "title": "Talents",
+                            "types": {
+                                "valor": "Valor",
+                                "tactics": "Tactics",
+                                "resolve": "Resolve"
+                            },
+                            "keys": {    
+                                "overachiever": {
+                                    "text": "Overachiever",
+                                    "info": "Increased champion skill charge speed."
+                                },
+                                "hodler": {
+                                    "text": "Hodler",
+                                    "info": "Increased max shield after a kill, maximum 3 times. Shield resets upon getting killed."
+                                },
+                                "grounded": {
+                                    "text": "Grounded",
+                                    "info": "Gain damage bonus while standing still for 2.5 seconds."
+                                },
+                                "stonewall": {
+                                    "text": "Stonewall",
+                                    "info": "Decreased damage taken."
+                                },
+                                "adrenalineRush": {
+                                    "text": "Adrenaline Rush",
+                                    "info": "Gain movement speed for 3 seconds after getting a kill."
+                                },
+                                "overshield": {
+                                    "text": "Overshield",
+                                    "info": "Gain shield after getting a kill."
+                                },
+                                "blackWidow": {
+                                    "text": "Black Widow",
+                                    "info": "Gain health after getting a kill."
+                                },
+                                "galvanized": {
+                                    "text": "Galvanized",
+                                    "info": "Reduced cooldown of the champion's skill after getting a kill."
+                                },
+                                "nanoMeds": {
+                                    "text": "Nano Meds",
+                                    "info": "Health regenerates when shield is full."
+                                },
+                                "resilience": {
+                                    "text": "Resilience",
+                                    "info": "Shield regenerates faster for 8 seconds when health drops below 25%."
+                                },
+                                "coldBlooded": {
+                                    "text": "Cold Blooded",
+                                    "info": "Faster ammo regeneration for 3 seconds when health drops below 25%."
+                                },
+                                "perseverance": {
+                                    "text": "Perseverance",
+                                    "info": "Faster ammo regeneration for 2 seconds after getting a kill."
+                                },
+                                "escapeArtist": {
+                                    "text": "Escape Artist",
+                                    "info": "Faster movement speed for 4 seconds when health drops below 25%."
+                                },
+                                "scavenger": {
+                                    "text": "Scavenger",
+                                    "info": "Increased movement speed when ammo is full."
+                                },
+                                "coolMoves": {
+                                    "text": "Cool Moves",
+                                    "info": "Increased movement speed in grass."
+                                },
+                                "brawler": {
+                                    "text": "Brawler",
+                                    "info": "Increased damage for 5 seconds when health drops below 25%."
+                                },
+                                "automaticWeaponsProficiency": {
+                                    "text": "Automatic Weapons Proficiency",
+                                    "info": "Increased damage of automatic-class weapons."
+                                },
+                                "scatterWeaponsProficiency": {
+                                    "text": "Scatter Weapons Proficiency",
+                                    "info": "Increased damage of scatter-class weapons."
+                                },
+                                "precisionWeaponsProficiency": {
+                                    "text": "Precision Weapons Proficiency",
+                                    "info": "Increased damage of precision-class weapons."
+                                },
+                                "explosiveWeaponsProficiency": {
+                                    "text": "Explosive Weapons Proficiency",
+                                    "info": "Increased damage of explosive-class weapons."
+                                },
+                                "elementalWeaponsProficiency": {
+                                    "text": "Elemental Weapons Proficiency",
+                                    "info": "Increased damage of elemental-class weapons."
+                                }
+                            }
+                        },
+                        "traits": {
+                            "title": "Traits",
+                            "keys": {
+                                "background": "Background",
+                                "body": "Body",
+                                "earrings": "Earrings",
+                                "eyes": "Eyes",
+                                "face": "Face",
+                                "head": "Head",
+                                "headgear": "Headgear",
+                                "legAccessories": "Leg Accessories",
+                                "legs": "Legs",
+                                "mouth": "Mouth",
+                                "perk1": "Perk 1",
+                                "perk2": "Perk 2",
+                                "rarityClass": "Rarity Class",
+                                "skin": "Skin",
+                                "species": "Species"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

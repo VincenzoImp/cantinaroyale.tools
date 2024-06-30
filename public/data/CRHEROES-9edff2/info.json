@@ -1,0 +1,60 @@
+{
+    "collection": "CRHEROES-9edff2",
+    "type": "NonFungibleESDT",
+    "name": "CantinaRoyaleHeroes",
+    "ticker": "CRHEROES",
+    "owner": "erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
+    "timestamp": 1713002436,
+    "canFreeze": false,
+    "canWipe": false,
+    "canPause": false,
+    "canTransferNftCreateRole": false,
+    "canChangeOwner": false,
+    "canUpgrade": true,
+    "canAddSpecialRoles": true,
+    "assets": {
+        "website": "https://cantinaroyale.io",
+        "description": "The Cantina Royale Heroes collection is the 2nd generation of characters in the Cantina Royale universe. With unique stats and ultimates, they bring an extra level of competitiveness to the arena.",
+        "status": "active",
+        "pngUrl": "https://media.elrond.com/tokens/asset/CRHEROES-9edff2/logo.png",
+        "svgUrl": "https://media.elrond.com/tokens/asset/CRHEROES-9edff2/logo.svg",
+        "social": {
+            "blog": "https://blog.cantinaroyale.io",
+            "twitter": "https://twitter.com/CantinaRoyale",
+            "whitepaper": "https://whitepaper.cantinaroyale.io",
+            "telegram": "https://t.me/CantinaRoyale",
+            "discord": "https://discord.gg/cantinaroyale"
+        }
+    },
+    "isVerified": true,
+    "holderCount": 116,
+    "nftCount": 600,
+    "canTransfer": true,
+    "roles": [
+        {
+            "canCreate": false,
+            "canBurn": false,
+            "canAddQuantity": false,
+            "canUpdateAttributes": false,
+            "canAddUri": false,
+            "roles": [
+                "ESDTRoleBurnForAll"
+            ]
+        },
+        {
+            "address": "erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
+            "canCreate": true,
+            "canBurn": true,
+            "canAddQuantity": false,
+            "canUpdateAttributes": true,
+            "canAddUri": true,
+            "roles": [
+                "ESDTRoleNFTCreate",
+                "ESDTRoleNFTBurn",
+                "ESDTRoleNFTUpdateAttributes",
+                "ESDTRoleNFTAddURI"
+            ]
+        }
+    ],
+    "totalNfts": 600
+}

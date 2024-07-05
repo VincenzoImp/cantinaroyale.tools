@@ -27,8 +27,8 @@
         }
     },
     "isVerified": true,
-    "holderCount": 14,
-    "nftCount": 584,
+    "holderCount": 15,
+    "nftCount": 676,
     "canTransfer": true,
     "roles": [
         {
@@ -56,5 +56,5 @@
             ]
         }
     ],
-    "totalNfts": 676
+    "totalNfts": 776
 }

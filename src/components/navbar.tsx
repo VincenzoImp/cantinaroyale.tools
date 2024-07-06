@@ -5,87 +5,66 @@ import { useState } from "react";
 
 const navbar = contents.components.navbar;
 
-const activeClass = "py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent";
-const inactiveClass = "py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent";
-const characters = variables.collections.characters;
-const weapons = variables.collections.weapons;
+export default function Navbar({ activeItemID }: { activeItemID: string }) {
 
-function showToast() {
-    var toast = document.getElementById('toast-danger');
-    if (toast) {
-        toast.classList.remove('hidden');
-        setTimeout(function () {
-            hideToast();
-        }, 3000);
-    }
-}
+    const [activeToast , setActiveToast] = useState(false);
+    const [mobileDropdown, setMobileDropdown] = useState(false);
+    const [charactersDropdownActive, setCharactersDropdownActive] = useState(false);
+    const [weaponsDropdownActive, setWeaponsDropdownActive] = useState(false);
 
-function hideToast() {
-    var toast = document.getElementById('toast-danger');
-    if (toast) {
-        toast.classList.add('hidden');
-    }
-}
+    const dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
+    const activeClass = "py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent";
+    const inactiveClass = "py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent";
+    const characters = variables.collections.characters;
+    const weapons = variables.collections.weapons;
 
-function heandleSearch(e: React.KeyboardEvent<HTMLInputElement>) {
-    if (e.key === 'Enter') {
-        var searchText = (e.target as HTMLInputElement).value.trim();
-        if (searchText !== '') {
-            var found = false;
-            for (const collection in identifiers) {
-                if (searchText.startsWith(collection) && identifiers[collection].includes(searchText)) {
-                    found = true;
-                    window.location.href = '/nft/' + searchText;
+    function heandleSearch(e: React.KeyboardEvent<HTMLInputElement>) {
+        if (e.key === 'Enter') {
+            var searchText = (e.target as HTMLInputElement).value.trim();
+            if (searchText !== '') {
+                var found = false;
+                for (const collection in identifiers) {
+                    if (searchText.startsWith(collection) && identifiers[collection].includes(searchText)) {
+                        found = true;
+                        window.location.href = '/nft/' + searchText;
+                    }
+                }
+                if (!found) {
+                    setActiveToast(true);
+                    setTimeout(function () { setActiveToast(false) }, 3000);
                 }
             }
-            if (!found) {
-                showToast();
-            }
         }
-    }
-}
+    };
 
-function ToastError() {
-    return (
-        <div id="toast-danger" className="hidden absolute flex items-center top-30 left-1/2 transform -translate-x-1/2 p-4 mb-4 rounded-lg shadow-lg text-red-800 dark:text-red-200 bg-red-200 dark:bg-red-800" role="alert">
-            <div className="text-sm font-normal pe-2">{navbar.toastText}</div>
-            <button type="button" onClick={hideToast} className="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
-                <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                </svg>
-            </button>
-        </div>
+    const title = (
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-gray-400">
+                {navbar.title}
+            </span>
+        </a>
     );
-}
 
-function HomeItem({ active, activeClass, inactiveClass }: { active: boolean, activeClass: string, inactiveClass: string }) {
-    var className = active ? activeClass : inactiveClass;
-    var className = "block " + className;
-    return (
+    const homeItem = (
         <li key="home">
-            <a href="/" className={className}>
+            <a href="/" className={`block "+ ${activeItemID == "home" ? activeClass : inactiveClass}`}>
                 {navbar.home}
             </a>
         </li>
     );
-}
 
-function CharactersItem({ active, activeClass, inactiveClass }: { active: boolean, activeClass: string, inactiveClass: string }) {
-    const CharactersList = characters.map((collectionName) => {
+    const charactersList = characters.map((collectionName) => {
         return (
             <li key={collectionName}>
                 <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
             </li>
         );
     });
-    var className = active ? activeClass : inactiveClass;
-    var className = "flex items-center justify-between w-full " + className;
-    const [charactersDropdownActive, setCharactersDropdownActive] = useState(false);
-    var dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
-    return (
+
+    const charactersItem = (
         <li key="characters">
             <button id="charactersNavbarLink"
-                className={className}>
+                className={`flex items-center justify-between w-full " + ${activeItemID == "characters" ? activeClass : inactiveClass}`}>
                 {navbar.characters}
                 <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
@@ -93,7 +72,7 @@ function CharactersItem({ active, activeClass, inactiveClass }: { active: boolea
             </button>
             <div id="charactersNavbar" className={dropdownClass + (charactersDropdownActive ? "" : " hidden")} onClick={() => setCharactersDropdownActive(!charactersDropdownActive)}>
                 <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    {CharactersList}
+                    {charactersList}
                 </ul>
                 <div className="py-2">
                     <a href={`/collection/${variables.collections.allCharacters}`}
@@ -102,23 +81,18 @@ function CharactersItem({ active, activeClass, inactiveClass }: { active: boolea
             </div>
         </li>
     );
-}
 
-function WeaponsItem({ active, activeClass, inactiveClass }: { active: boolean, activeClass: string, inactiveClass: string }) {
-    const WeaponsList = weapons.map((collectionName) => {
+    const weaponsList = weapons.map((collectionName) => {
         return (
             <li key={collectionName}>
                 <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
             </li>
         );
     });
-    var className = active ? activeClass : inactiveClass;
-    var className = "flex items-center justify-between w-full " + className;
-    const [weaponsDropdownActive, setWeaponsDropdownActive] = useState(false);
-    var dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
-    return (
+
+    const weaponsItem = (
         <li key="weapons">
-            <button id="weaponsNavbarLink" className={className} >
+            <button id="weaponsNavbarLink" className={`flex items-center justify-between w-full ${activeItemID == "weapons" ? activeClass : inactiveClass}`}>
                 {navbar.weapons}
                 <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
@@ -126,7 +100,7 @@ function WeaponsItem({ active, activeClass, inactiveClass }: { active: boolean, 
             </button>
             <div id="weaponsNavbar" className={dropdownClass + (weaponsDropdownActive ? "" : " hidden")} onClick={() => setWeaponsDropdownActive(!weaponsDropdownActive)}>
                 <ul id="weaponsList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    {WeaponsList}
+                    {weaponsList}
                 </ul>
                 <div className="py-2">
                     <a href={`/collection/${variables.collections.allWeapons}`}
@@ -135,30 +109,16 @@ function WeaponsItem({ active, activeClass, inactiveClass }: { active: boolean, 
             </div>
         </li>
     );
-}
 
-function Title() {
-    return (
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-gray-400">
-                {navbar.title}
-            </span>
-        </a>
-    );
-}
-
-function ListItems({ activeItemID }: { activeItemID: string }) {
-    return (
+    const listItem = (
         <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 bg-white dark:border-gray-700">
-            <HomeItem active = {activeItemID === "home"} activeClass = {activeClass} inactiveClass = {inactiveClass} />
-            <CharactersItem active = {activeItemID === "characters"} activeClass = {activeClass} inactiveClass = {inactiveClass} />
-            <WeaponsItem active = {activeItemID === "weapons"} activeClass = {activeClass} inactiveClass = {inactiveClass} />
+            {homeItem}
+            {charactersItem}
+            {weaponsItem}
         </ul>
     );
-}
 
-function SearchItem() {
-    return (
+    const searchItem = (
         <div className="relative flex">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -171,58 +131,55 @@ function SearchItem() {
             </input>
         </div>
     );
-}
 
-function DesktopNavbar({ activeID }: { activeID: string }) {
-    return (
-        <>
+    const toastError = (
+        <div id="toast-danger" className="absolute flex items-center top-30 left-1/2 transform -translate-x-1/2 p-4 mb-4 rounded-lg shadow-lg text-red-800 dark:text-red-200 bg-red-200 dark:bg-red-800" role="alert">
+            <div className="text-sm font-normal pe-2">{navbar.toastText}</div>
+            <button type="button" onClick={() => setActiveToast(false)} className="ms-auto -mx-1.5 -my-1.5 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-lg focus:ring-2 focus:ring-red-800 dark:focus:ring-red-200 p-1.5 hover:bg-red-400 dark:hover:bg-red-400 inline-flex items-center justify-center h-8 w-8">
+                <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                </svg>
+            </button>
+        </div>
+    );
+    
+    const mobileNavbar = (
         <nav className="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <Title />
-                <ListItems activeItemID={activeID} />
-                <SearchItem />
+            <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+                {title}
+                <button className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" onClick={() => setMobileDropdown(!mobileDropdown)}>
+                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div className={"px-4 pb-4" + (mobileDropdown ? "" : " hidden")}>
+                {searchItem}
+                {listItem}
             </div>
         </nav>
-        <ToastError />
-    </>
     );
-}
 
-function MobileNavbar({ activeID }: { activeID: string }) {
-    const [dropdown, setDropdown] = useState(false);
-    return (
-        <>
-            <nav className="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
-                <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
-                    <Title />
-                    <button className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" onClick={() => setDropdown(!dropdown)}>
-                        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
-                        </svg>
-                    </button>
-                </div>
-                <div className={"px-4 pb-4" + (dropdown ? "" : " hidden")}>
-                    <SearchItem />
-                    <ListItems activeItemID={activeID} />
-                </div>
-            </nav>
-            <ToastError />
-        </>
+    const desktopNavbar = (
+        <nav className="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                {title}
+                {listItem}
+                {searchItem}
+            </div>
+        </nav>
     );
-}
 
-function Navbar( { activeItemID }: { activeItemID: string } ) {
     return (
         <>
             <div className="md:hidden">
-                <MobileNavbar activeID={activeItemID} />
+                {mobileNavbar}
             </div>
             <div className="hidden md:block">
-                <DesktopNavbar activeID={activeItemID} />
+                {desktopNavbar}
             </div>
+            {activeToast ? toastError : null}
         </>
         
     );
 }
-
-export default Navbar;

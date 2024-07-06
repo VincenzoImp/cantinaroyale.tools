@@ -9,10 +9,10 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
 
     const [activeToast , setActiveToast] = useState(false);
     const [mobileDropdown, setMobileDropdown] = useState(false);
-    const [charactersDropdownActive, setCharactersDropdownActive] = useState(false);
-    const [weaponsDropdownActive, setWeaponsDropdownActive] = useState(false);
+    const [dropdownCharacters, setDropdownCharacters] = useState(false);
+    const [dropdownWeapons, setDropdownWeapons] = useState(false);
 
-    const dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
+    const dropdownClass = "mt-8 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 absolute text-center";
     const activeClass = "py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent";
     const inactiveClass = "py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-gray-400 md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent";
     const characters = variables.collections.characters;
@@ -36,6 +36,16 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
             }
         }
     };
+
+    function handleDropdownCharacters() {
+        setDropdownCharacters(!dropdownCharacters);
+        setDropdownWeapons(false);
+    }
+
+    function handleDropdownWeapons() {
+        setDropdownWeapons(!dropdownWeapons);
+        setDropdownCharacters(false);
+    }
 
     const title = (
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -62,16 +72,15 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
     });
 
     const charactersItem = (
-        <li key="characters">
-            <button id="charactersNavbarLink"
-                className={`flex items-center justify-between w-full " + ${activeItemID == "characters" ? activeClass : inactiveClass}`}>
+        <li key="characters" className="flex flex-col items-center" id="charactersNavbarLink">
+            <button className={`flex items-center justify-between w-full ${activeItemID == "characters" ? activeClass : inactiveClass}`} onClick={handleDropdownCharacters}>
                 {navbar.characters}
                 <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                 </svg>
             </button>
-            <div id="charactersNavbar" className={dropdownClass + (charactersDropdownActive ? "" : " hidden")} onClick={() => setCharactersDropdownActive(!charactersDropdownActive)}>
-                <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
+            <div id="charactersNavbar" className={dropdownClass + (dropdownCharacters ? "" : " hidden")}>
+                <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownDefaultButton">
                     {charactersList}
                 </ul>
                 <div className="py-2">
@@ -91,14 +100,14 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
     });
 
     const weaponsItem = (
-        <li key="weapons">
-            <button id="weaponsNavbarLink" className={`flex items-center justify-between w-full ${activeItemID == "weapons" ? activeClass : inactiveClass}`}>
+        <li key="weapons" className="flex flex-col items-center" id="weaponsNavbarLink">
+            <button className={`flex items-center justify-between w-full ${activeItemID == "weapons" ? activeClass : inactiveClass}`} onClick={handleDropdownWeapons}>
                 {navbar.weapons}
                 <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                 </svg>
             </button>
-            <div id="weaponsNavbar" className={dropdownClass + (weaponsDropdownActive ? "" : " hidden")} onClick={() => setWeaponsDropdownActive(!weaponsDropdownActive)}>
+            <div id="weaponsNavbar" className={dropdownClass + (dropdownWeapons ? "" : " hidden")}>
                 <ul id="weaponsList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
                     {weaponsList}
                 </ul>
@@ -153,7 +162,7 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
                     </svg>
                 </button>
             </div>
-            <div className={"px-4 pb-4" + (mobileDropdown ? "" : " hidden")}>
+            <div className={"px-4 pb-4 " + (mobileDropdown ? "" : " hidden")}>
                 {searchItem}
                 {listItem}
             </div>

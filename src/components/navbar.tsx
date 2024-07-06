@@ -1,6 +1,7 @@
 "use client";
 
 import { contents, variables, identifiers } from "../app/layout";
+import { useState } from "react";
 
 const navbar = contents.components.navbar;
 
@@ -45,7 +46,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
         );
     });
 
-    function heandlSearch(e: React.KeyboardEvent<HTMLInputElement>) {
+    function heandleSearch(e: React.KeyboardEvent<HTMLInputElement>) {
         if (e.key === 'Enter') {
             var searchText = (e.target as HTMLInputElement).value.trim();
             if (searchText !== '') {
@@ -80,7 +81,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
     );
 
     const searchInput = (
-        <input type="text" onKeyDown={heandlSearch}
+        <input type="text" onKeyDown={heandleSearch}
             className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder={navbar.searchPlaceholder}>
         </input>
@@ -130,6 +131,8 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
     function charactersItem(active: boolean) {
         var className = active ? activeClass : inactiveClass;
         var className = "flex items-center justify-between w-full " + className;
+        const [charactersDropdownActive, setCharactersDropdownActive] = useState(false);
+        var dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
         return (
             <li key="characters">
                 <button id="charactersNavbarLink" data-dropdown-toggle="charactersNavbar"
@@ -137,8 +140,7 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
                     {navbar.characters}
                     {dropdownIcon}
                 </button>
-                <div id="charactersNavbar"
-                    className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                <div id="charactersNavbar" className={dropdownClass + (charactersDropdownActive ? "" : " hidden")} onClick={() => setCharactersDropdownActive(!charactersDropdownActive)}>
                     <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400"
                         aria-labelledby="dropdownLargeButton">
                         {charactersList}
@@ -155,19 +157,15 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
     function weaponsItem(active: boolean) {
         var className = active ? activeClass : inactiveClass;
         var className = "flex items-center justify-between w-full " + className;
+        const [weaponsDropdownActive, setWeaponsDropdownActive] = useState(false);
+        var dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
         return (
             <li key="weapons">
-                <button id="weaponsNavbarLink" data-dropdown-toggle="weaponsNavbar"
-                    className={className}>
+                <button id="weaponsNavbarLink" data-dropdown-toggle="weaponsNavbar" className={className} >
                     {navbar.weapons}
-                    <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        fill="none" viewBox="0 0 10 6">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                            strokeWidth="2" d="m1 1 4 4 4-4" />
-                    </svg>
+                    {dropdownIcon}
                 </button>
-                <div id="weaponsNavbar"
-                    className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                <div id="weaponsNavbar" className={dropdownClass + (weaponsDropdownActive ? "" : " hidden")} onClick={() => setWeaponsDropdownActive(!weaponsDropdownActive)}>
                     <ul id="weaponsList" className="py-2 text-sm text-gray-700 dark:text-gray-400"
                         aria-labelledby="dropdownLargeButton">
                         {weaponsList}
@@ -194,19 +192,10 @@ export default function Navbar( { activeItemID }: { activeItemID: string } ) {
             <nav className="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     {title}
-                    <div className="flex md:order-2">
-                        <div className="relative hidden md:block">
-                            {searchIcon}
-                            {searchInput}
-                        </div>
-                        {hamburgerButton}
-                    </div>
-                    <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
-                        <div className="relative mt-3 md:hidden">
-                            {searchIcon}
-                            {searchInput}
-                        </div>
-                        {listItems}
+                    {listItems}
+                    <div className="relative flex">
+                        {searchIcon}
+                        {searchInput}
                     </div>
                 </div>
             </nav>

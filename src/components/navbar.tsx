@@ -58,36 +58,6 @@ function ToastError() {
     );
 }
 
-function CharactersList({ characters }: { characters: string[] }) {
-    var charactersList = characters.map((collectionName) => {
-        return (
-            <li key={collectionName}>
-                <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
-            </li>
-        );
-    });
-    return charactersList;
-}
-
-function WeaponsList({ weapons }: { weapons: string[] }) {
-    var weaponsList = weapons.map((collectionName) => {
-        return (
-            <li key={collectionName}>
-                <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
-            </li>
-        );
-    });
-    return weaponsList;
-}
-
-function DropdownIcon() {
-    return (
-        <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-        </svg>
-    );
-}
-
 function HomeItem({ active, activeClass, inactiveClass }: { active: boolean, activeClass: string, inactiveClass: string }) {
     var className = active ? activeClass : inactiveClass;
     var className = "block " + className;
@@ -101,21 +71,29 @@ function HomeItem({ active, activeClass, inactiveClass }: { active: boolean, act
 }
 
 function CharactersItem({ active, activeClass, inactiveClass }: { active: boolean, activeClass: string, inactiveClass: string }) {
+    const CharactersList = characters.map((collectionName) => {
+        return (
+            <li key={collectionName}>
+                <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
+            </li>
+        );
+    });
     var className = active ? activeClass : inactiveClass;
     var className = "flex items-center justify-between w-full " + className;
     const [charactersDropdownActive, setCharactersDropdownActive] = useState(false);
     var dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
     return (
         <li key="characters">
-            <button id="charactersNavbarLink" data-dropdown-toggle="charactersNavbar"
+            <button id="charactersNavbarLink"
                 className={className}>
                 {navbar.characters}
-                <DropdownIcon />
+                <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
+                </svg>
             </button>
             <div id="charactersNavbar" className={dropdownClass + (charactersDropdownActive ? "" : " hidden")} onClick={() => setCharactersDropdownActive(!charactersDropdownActive)}>
-                <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400"
-                    aria-labelledby="dropdownLargeButton">
-                    <CharactersList characters={characters} />
+                <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                    {CharactersList}
                 </ul>
                 <div className="py-2">
                     <a href={`/collection/${variables.collections.allCharacters}`}
@@ -127,20 +105,28 @@ function CharactersItem({ active, activeClass, inactiveClass }: { active: boolea
 }
 
 function WeaponsItem({ active, activeClass, inactiveClass }: { active: boolean, activeClass: string, inactiveClass: string }) {
+    const WeaponsList = weapons.map((collectionName) => {
+        return (
+            <li key={collectionName}>
+                <a href={"/collection/" + collectionName} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{collectionName}</a>
+            </li>
+        );
+    });
     var className = active ? activeClass : inactiveClass;
     var className = "flex items-center justify-between w-full " + className;
     const [weaponsDropdownActive, setWeaponsDropdownActive] = useState(false);
     var dropdownClass = "mt-2 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute"
     return (
         <li key="weapons">
-            <button id="weaponsNavbarLink" data-dropdown-toggle="weaponsNavbar" className={className} >
+            <button id="weaponsNavbarLink" className={className} >
                 {navbar.weapons}
-                <DropdownIcon />
+                <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
+                </svg>
             </button>
             <div id="weaponsNavbar" className={dropdownClass + (weaponsDropdownActive ? "" : " hidden")} onClick={() => setWeaponsDropdownActive(!weaponsDropdownActive)}>
-                <ul id="weaponsList" className="py-2 text-sm text-gray-700 dark:text-gray-400"
-                    aria-labelledby="dropdownLargeButton">
-                    <WeaponsList weapons={weapons} />
+                <ul id="weaponsList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                    {WeaponsList}
                 </ul>
                 <div className="py-2">
                     <a href={`/collection/${variables.collections.allWeapons}`}
@@ -203,18 +189,19 @@ function DesktopNavbar({ activeID }: { activeID: string }) {
 }
 
 function MobileNavbar({ activeID }: { activeID: string }) {
+    const [dropdown, setDropdown] = useState(false);
     return (
         <>
             <nav className="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
                 <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
                     <Title />
-                    <button className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                    <button className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" onClick={() => setDropdown(!dropdown)}>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
                 </div>
-                <div className="px-4 pb-4">
+                <div className={"px-4 pb-4" + (dropdown ? "" : " hidden")}>
                     <SearchItem />
                     <ListItems activeItemID={activeID} />
                 </div>

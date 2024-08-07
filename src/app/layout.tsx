@@ -1,6 +1,6 @@
 import "./globals.css";
 import info from "../../public/data/info.json";
-import {NextUIProvider} from "@nextui-org/react";
+import {Providers} from "./providers";
 
 export const contents = info.contents.en;
 
@@ -23,12 +23,12 @@ export const identifiers = onlyIdentifiers;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
-		<NextUIProvider>
-			<html lang="en">
-				<body className="dark:bg-gray-900 bg-gray-100">
+		<html lang="en">
+			<body className="dark:bg-gray-900 bg-gray-100">
+				<Providers>
 					{children}
-				</body>
-			</html>
-		</NextUIProvider>
+				</Providers>
+			</body>
+		</html>
 	);
 }

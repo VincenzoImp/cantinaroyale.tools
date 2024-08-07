@@ -98,7 +98,7 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
             return null;
         }
         return (
-            <Popover>
+            <Popover placement="bottom">
                 <PopoverTrigger>
                     <button className={`flex items-center justify-between w-full ${activeItemID == type ? activeClass : inactiveClass}`}>
                         {name}
@@ -107,8 +107,8 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
                         </svg>
                     </button>
                 </PopoverTrigger>
-                <PopoverContent className="absolute">
-                    <div className="z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 text-center">
+                <PopoverContent className="p-0 m-0">
+                    <div className="font-normal bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 text-center">
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
                             {list}
                         </ul>

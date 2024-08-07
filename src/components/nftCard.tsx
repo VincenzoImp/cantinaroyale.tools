@@ -2,6 +2,7 @@
 
 import { contents, variables } from "@/app/layout";
 import { useState } from "react";
+import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
 
 export default function NftCard({ nft, type }: { [key: string]: any, type: string }) {
 
@@ -91,14 +92,20 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 <div key={talentName} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
                     <span className="text-sm dark:text-gray-400">
                         <span>
-                            <svg data-popover-target={"popover-"+talentName} className="flex-shrink-0 inline w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
-                            </svg>
-                            <div data-popover={"popover-"+talentName} role="tooltip" className="absolute z-10 invisible inline-block w-64 text-sm text-gray-700 transition-opacity duration-300 bg-white rounded-lg shadow-lg opacity-0 dark:text-gray-200 dark:bg-gray-700">
-                                <div className="px-3 py-2">
-                                    {talents.keys[talentName].info}
-                                </div>
-                            </div>
+                            <Popover placement="top">
+                                <PopoverTrigger>
+                                    <svg className="flex-shrink-0 inline w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
+                                    </svg>
+                                </PopoverTrigger>
+                                <PopoverContent className="m-0 p-0">
+                                    <div className="w-64 text-sm text-gray-700 bg-white rounded-lg shadow-lg dark:text-gray-200 dark:bg-gray-700">
+                                        <div className="px-3 py-2">
+                                            {talents.keys[talentName].info}
+                                        </div>
+                                    </div>
+                                </PopoverContent>
+                            </Popover>
                         </span>
                         <span className="ms-2 me-2">
                             {talents.keys[talentName].text}

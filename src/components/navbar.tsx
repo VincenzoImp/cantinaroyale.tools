@@ -95,7 +95,7 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
             allname = navbar.allWeapons;
             allurl = variables.collections.allWeapons;
         } else {
-            return null;
+            return <></>;
         }
         return (
             <Popover placement="bottom">

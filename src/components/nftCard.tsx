@@ -171,7 +171,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         } else if (variables.collections.characters.includes(nft.collection)) {
             maxH = "720px";
         } else {
-            return null;
+            return <></>;
         }
         return (
             <div>

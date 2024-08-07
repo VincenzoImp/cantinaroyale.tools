@@ -1,5 +1,6 @@
 import "./globals.css";
 import info from "../../public/data/info.json";
+import {Providers} from "./providers";
 
 export const contents = info.contents.en;
 
@@ -24,7 +25,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 	return (
 		<html lang="en">
 			<body className="dark:bg-gray-900 bg-gray-100">
-				{children}
+				<Providers>
+					{children}
+				</Providers>
 			</body>
 		</html>
 	);

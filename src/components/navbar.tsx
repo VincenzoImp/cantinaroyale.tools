@@ -2,6 +2,7 @@
 
 import { contents, variables, identifiers } from "../app/layout";
 import { useState } from "react";
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
 
 const navbar = contents.components.navbar;
 
@@ -71,26 +72,6 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
         );
     });
 
-    const charactersItem = (
-        <li key="characters" className="flex flex-col items-center" id="charactersNavbarLink">
-            <button className={`flex items-center justify-between w-full ${activeItemID == "characters" ? activeClass : inactiveClass}`} onClick={handleDropdownCharacters}>
-                {navbar.characters}
-                <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-                </svg>
-            </button>
-            <div id="charactersNavbar" className={dropdownClass + (dropdownCharacters ? "" : " hidden")}>
-                <ul id="charactersList" className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownDefaultButton">
-                    {charactersList}
-                </ul>
-                <div className="py-2">
-                    <a href={`/collection/${variables.collections.allCharacters}`}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.allCharacters}</a>
-                </div>
-            </div>
-        </li>
-    );
-
     const weaponsList = weapons.map((collectionName) => {
         return (
             <li key={collectionName}>
@@ -99,33 +80,48 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
         );
     });
 
-    const weaponsItem = (
-        <li key="weapons" className="flex flex-col items-center" id="weaponsNavbarLink">
-            <button className={`flex items-center justify-between w-full ${activeItemID == "weapons" ? activeClass : inactiveClass}`} onClick={handleDropdownWeapons}>
-                {navbar.weapons}
-                <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-                </svg>
-            </button>
-            <div id="weaponsNavbar" className={dropdownClass + (dropdownWeapons ? "" : " hidden")}>
-                <ul id="weaponsList" className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    {weaponsList}
-                </ul>
-                <div className="py-2">
-                    <a href={`/collection/${variables.collections.allWeapons}`}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{navbar.allWeapons}</a>
-                </div>
-            </div>
-        </li>
-    );
-
-    const listItem = (
-        <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 bg-white dark:border-gray-700">
-            {homeItem}
-            {charactersItem}
-            {weaponsItem}
-        </ul>
-    );
+    function popoverItem(type: string) {
+        var name;
+        var list;
+        var allname;
+        var allurl;
+        if (type == "characters") {
+            name = navbar.characters;
+            list = charactersList;
+            allname = navbar.allCharacters;
+            allurl = variables.collections.allCharacters;
+        } else if (type == "weapons") {
+            name = navbar.weapons;
+            list = weaponsList;
+            allname = navbar.allWeapons;
+            allurl = variables.collections.allWeapons;
+        } else {
+            return null;
+        }
+        return (
+            <Popover>
+                <PopoverTrigger>
+                    <button className={`flex items-center justify-between w-full ${activeItemID == type ? activeClass : inactiveClass}`}>
+                        {name}
+                        <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
+                        </svg>
+                    </button>
+                </PopoverTrigger>
+                <PopoverContent className="absolute">
+                    <div className="z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 text-center">
+                        <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                            {list}
+                        </ul>
+                        <div className="py-2">
+                            <a href={`/collection/${allurl}`}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">{allname}</a>
+                        </div>
+                    </div>
+                </PopoverContent>
+            </Popover>
+        );
+    }
 
     const searchItem = (
         <div className="relative flex">
@@ -152,6 +148,14 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
         </div>
     );
     
+    const listItem = (
+        <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 bg-white dark:border-gray-700">
+            {homeItem}
+            {popoverItem("characters")}
+            {popoverItem("weapons")}
+        </ul>
+    );
+
     const mobileNavbar = (
         <nav className="w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4 bg-white">
             <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">

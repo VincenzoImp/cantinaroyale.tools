@@ -3,6 +3,7 @@
 import { contents, variables } from "@/app/layout";
 import { useState } from "react";
 import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
+import { ScrollShadow } from "@nextui-org/react";
 
 export default function NftCard({ nft, type }: { [key: string]: any, type: string }) {
 
@@ -148,6 +149,15 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
     }
 
     function DynamicArea({nftCard, nft}: {nftCard: { [key: string]: any }, nft: { [key: string]: any }}) {
+        // if nft.identifier startsWith one of variables.collections.weapons
+        var maxH;
+        if (variables.collections.weapons.includes(nft.collection)) {
+            maxH = "470px";
+        } else if (variables.collections.characters.includes(nft.collection)) {
+            maxH = "720px";
+        } else {
+            return null;
+        }
         const [activeKey, setactiveKey] = useState("about");
         const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white";
         const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200";
@@ -169,9 +179,9 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-gray-400 m-4 justify-between gap-1">
                     {buttons}
                 </ul>
-                <div>
+                <ScrollShadow size={20} style={{maxHeight: maxH}} hideScrollBar={true}>
                     {dynamic[activeKey]}
-                </div>
+                </ScrollShadow>
             </div>
         );
     }

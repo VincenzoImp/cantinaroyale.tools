@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { contents, variables, data } from "@/app/layout";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import CharacterCollection from "@/components/characterCollection";
-import WeaponCollection from "@/components/weaponCollection";
+import CharacterCollection from "@/components/collection/characterCollection";
+import WeaponCollection from "@/components/collection/weaponCollection";
 
 export const generateMetadata = ({ params }: { params: { identifier: string } }): Metadata => {
     const homeTitle = contents.pages.home.title;
@@ -24,9 +24,9 @@ export default function CollectionPage({ params }: { params: { identifier: strin
         var collectionData: { [key: string]: any } = {};
         if (characterCollections.includes(collectionName)) {
             if (collectionName === variables.collections.allCharacters) {
-                for (const characterCollection in variables.collections.characters) {
+                variables.collections.characters.forEach(characterCollection => {
                     collectionData[characterCollection] = data[characterCollection];
-                }
+                });
             }
             else {
                 collectionData[collectionName] = data[collectionName];
@@ -41,9 +41,9 @@ export default function CollectionPage({ params }: { params: { identifier: strin
         }
         if (weaponCollections.includes(collectionName)) {
             if (collectionName === variables.collections.allWeapons) {
-                for (const weaponCollection in variables.collections.weapons) {
+                variables.collections.weapons.forEach(weaponCollection => {
                     collectionData[weaponCollection] = data[weaponCollection];
-                }
+                });
             }
             else {
                 collectionData[collectionName] = data[collectionName];

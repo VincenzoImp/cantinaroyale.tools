@@ -166,9 +166,9 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             traits: <Traits traits={nftCard.traits} nft={nft} />
         };
         var maxH;
-        if (variables.collections.weapons.includes(nft.collection)) {
+        if (type === "weapon") {
             maxH = "470px";
-        } else if (variables.collections.characters.includes(nft.collection)) {
+        } else if (type === "character") {
             maxH = "720px";
         } else {
             return <></>;

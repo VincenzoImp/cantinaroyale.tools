@@ -1,4 +1,4 @@
-export default function nftTitle({ nft }: { [key: string]: any }) {
+export default function NftTitle({ nft }: { [key: string]: any }) {
     const explorerUrl = `https://explorer.multiversx.com/nfts/${nft.identifier}`;
     return (
         <div className="text-center">

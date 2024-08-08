@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { contents, variables, data } from "@/app/layout";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import CharacterNft from "@/components/characterNft";
-import WeaponNft from "@/components/weaponNft";
+import CharacterNft from "@/components/nft/characterNft";
+import WeaponNft from "@/components/nft/weaponNft";
 
 export const generateMetadata = ({ params }: { params: { identifier: string } }): Metadata => {
     const homeTitle = contents.pages.home.title;

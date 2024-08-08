@@ -51,8 +51,12 @@
                     "heroTitle": "Coming Soon",
                     "heroDescription": "We are currently working on something awesome. Stay tuned!"
                 },
-                "characterCollection": {},
-                "weaponCollection": {},
+                "characterCollection": {
+                    "allCharacters":"All Characters"
+                },
+                "weaponCollection": {
+                    "allWeapons":"All Weapons"
+                },
                 "characterNft": {},
                 "weaponNft": {}
             },
@@ -238,6 +242,39 @@
                                 "skin": "Skin",
                                 "species": "Species"
                             }
+                        }
+                    }
+                },
+                "collectionTable": {
+                    "weapons": {
+                        "columns": {
+                            "identifier": "ID",
+                            "collection": "Collection",
+                            "name": "Name",
+                            "owner": "Owner",
+                            "priceCurrency": "Price Currency",
+                            "priceAmount": "Price Amount",
+                            "realPriceAmount": "Real Price Amount",
+                            "xp": "XP",
+                            "wear": "Wear",
+                            "level": "Level",
+                            "starLevel": "Star Level"
+                        }
+                    },
+                    "characters": {
+                        "columns": {
+                            "identifier": "ID",
+                            "collection": "Collection",
+                            "name": "Name",
+                            "owner": "Owner",
+                            "priceCurrency": "Price Currency",
+                            "priceAmount": "Price Amount",
+                            "rank": "Rank",
+                            "rarityClass": "Rarity Class",
+                            "perk1": "Perk 1",
+                            "perk2": "Perk 2",
+                            "level": "Level",
+                            "characterTokens": "Character Tokens"
                         }
                     }
                 }

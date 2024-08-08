@@ -1,5 +1,5 @@
-import NftTitle from "@/components/nftTitle";
-import NftCard from "@/components/nftCard";
+import NftTitle from "@/components/nft/nftTitle";
+import NftCard from "@/components/nft/nftCard";
 
 export default function CharacterNft({ nft }: { [key: string]: any }) {
     return (

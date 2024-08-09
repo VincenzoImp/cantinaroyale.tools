@@ -21,6 +21,12 @@ for (const collection of variables.collections.characters.concat(variables.colle
 }
 export const identifiers = onlyIdentifiers;
 
+var tableUniqueValues: {
+	"characters": { [key: string]: { [key: string]: any } },
+	"weapons": { [key: string]: { [key: string]: any } }
+}
+
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html lang="en" className="dark:bg-gray-900 bg-gray-100">

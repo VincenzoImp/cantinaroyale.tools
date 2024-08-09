@@ -35,6 +35,65 @@
             "precisionWeaponsProficiency": "resolve",
             "explosiveWeaponsProficiency": "resolve",
             "elementalWeaponsProficiency": "resolve"
+        },
+        "tabelEntries": {
+            "characters": {
+                "sortable": [
+                    "identifier",
+                    "collection",
+                    "name",
+                    "owner",
+                    "priceCurrency",
+                    "priceAmount",
+                    "rank",
+                    "rarityClass",
+                    "perk1",
+                    "perk2",
+                    "level",
+                    "characterTokens"
+                ],
+                "filterable": [
+                    "collection",
+                    "rarityClass",
+                    "perk1",
+                    "perk2",
+                    "priceCurrency"
+                ],
+                "rangeble": [
+                    "priceAmount",
+                    "rank",
+                    "level",
+                    "characterTokens"
+                ]
+            },
+            "weapons": {
+                "sortable": [
+                    "identifier",
+                    "collection",
+                    "name",
+                    "owner",
+                    "priceCurrency",
+                    "priceAmount",
+                    "realPriceAmount",
+                    "xp",
+                    "wear",
+                    "level",
+                    "starLevel"
+                ],
+                "filterable": [
+                    "collection",
+                    "name",
+                    "priceCurrency"
+                ],
+                "rangeble": [
+                    "priceAmount",
+                    "realPriceAmount",
+                    "xp",
+                    "wear",
+                    "level",
+                    "starLevel"
+                ]
+            }
         }
     },
     "contents": {

@@ -22,7 +22,6 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             if (key === "owner") {
                 displayValue = displayValue.slice(0, 6) + "..." + displayValue.slice(-6);
                 displayValue = <a href={"https://explorer.multiversx.com/accounts/" + nft[key]} className="underline hover:text-blue-500 dark:hover:text-blue-500">{displayValue}</a>;
-            
             }
             if (parseFloat(displayValue)) {
                 displayValue = parseFloat(displayValue);

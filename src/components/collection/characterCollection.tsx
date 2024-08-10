@@ -3,9 +3,16 @@ import CollectionTitle from './collectionTitle';
 import { contents, variables } from "@/app/layout";
 
 export default function CharacterCollection({ collectionName, collectionData }: { collectionName: string, collectionData: { [key: string]: any } }) {
-    var tableColumns: { uid: string, name: string, sortable: boolean }[] = [];
+    var tableColumns: { uid: string, name: string, searchable: boolean, sortable: boolean, filterable: boolean, rangeble: boolean }[] = [];
     for (const [key, value] of Object.entries(contents.components.collectionTable.characters.columns)) {
-        tableColumns.push({ uid: key, name: value, sortable: variables.tabelEntries.characters.sortable.includes(key) });
+        tableColumns.push({ 
+            uid: key, 
+            name: value, 
+            searchable: variables.tabelEntries.characters.searchable.includes(key),
+            sortable: variables.tabelEntries.characters.sortable.includes(key),
+            filterable: variables.tabelEntries.characters.filterable.includes(key),
+            rangeble: variables.tabelEntries.characters.rangeble.includes(key)
+        });
     }
     var tableEntries: any[] = [];
     for (const collection of Object.values(collectionData)) {

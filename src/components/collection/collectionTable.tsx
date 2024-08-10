@@ -25,13 +25,12 @@ import {PlusIcon} from "../icon/plusIcon";
 import {VerticalDotsIcon} from "../icon/verticalDotsIcon";
 import {ChevronDownIcon} from "../icon/chevronDownIcon";
 import {SearchIcon} from "../icon/searchIcon";
-import { list } from "postcss";
 
 export default function CollectionTable({ tableColumns, tableEntries, type }: { tableColumns: {
     rangeble: any;
     filterable: any;
-    searchable: any; uid: string, name: string, sortable: boolean 
-}[], tableEntries: any[], type: string }) {
+    searchable: any; uid: string, name: string, sortable: boolean;
+}[], tableEntries: { [key: string]: any }[], type: string }) {
 
     const INITIAL_ROWS_PER_PAGE = 10;
     const INITIAL_PAGE = 1;
@@ -41,7 +40,6 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const [rowsPerPage, setRowsPerPage] = React.useState(INITIAL_ROWS_PER_PAGE);
     const [page, setPage] = React.useState(INITIAL_PAGE);
 
-    type Nft = typeof tableEntries[0];
     type EntriesUseStates = {
         searchable: { [key: string]: { value: string; setValue: React.Dispatch<React.SetStateAction<string>> } };
         sortable: { [key: string]: { value: string; setValue: React.Dispatch<React.SetStateAction<string>> } };
@@ -81,40 +79,38 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const selectedEntries = React.useMemo(() => {
         let filteredEntries = [...tableEntries];
         for (const column of Object.values(tableColumns)) {
-            if (column.searchable && entriesUseStates.searchable[column.uid].value !== "") {
-                filteredEntries = filteredEntries.filter((entry) => {
-                    return entry[column.uid].includes(entriesUseStates.searchable[column.uid].value);
-                });
+            if (column.searchable && entriesUseStates.searchable[column.uid].value !== "" && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => entry[column.uid].includes(entriesUseStates.searchable[column.uid].value));
             }
-            if (column.filterable && entriesUseStates.filterable[column.uid].value.length > 0) {
-                filteredEntries = filteredEntries.filter((entry) => {
-                    return entriesUseStates.filterable[column.uid].value.includes(entry[column.uid]);
-                });
+            if (column.sortable && entriesUseStates.sortable[column.uid].value !== "" && visibleColumns.includes(column.uid)) {
+                if (entriesUseStates.sortable[column.uid].value === "asc") {
+                    filteredEntries.sort((a, b) => a[column.uid].localeCompare(b[column.uid]));
+                } else if (entriesUseStates.sortable[column.uid].value === "desc") {
+                    filteredEntries.sort((a, b) => b[column.uid].localeCompare(a[column.uid]));
+                }
             }
-            if (column.rangeble && entriesUseStates.rangeble[column.uid].value.min !== "" && entriesUseStates.rangeble[column.uid].value.max !== "") {
-                filteredEntries = filteredEntries.filter((entry) => {
-                    return (
-                        Number(entry[column.uid]) >= Number(entriesUseStates.rangeble[column.uid].value.min) &&
-                        Number(entry[column.uid]) <= Number(entriesUseStates.rangeble[column.uid].value.max)
-                    );
-                });
+            if (column.filterable && entriesUseStates.filterable[column.uid].value.length > 0 && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => entriesUseStates.filterable[column.uid].value.includes(entry[column.uid]));
             }
-            if (column.sortable && entriesUseStates.sortable[column.uid].value !== "") {
-                filteredEntries = filteredEntries.sort((a, b) => {
-                    if (entriesUseStates.sortable[column.uid].value === "asc") {
-                        return Number(a[column.uid]) - Number(b[column.uid]);
-                    } else if (entriesUseStates.sortable[column.uid].value === "desc") {
-                        return Number(b[column.uid]) - Number(a[column.uid]);
+            if (column.rangeble && (entriesUseStates.rangeble[column.uid].value.min !== "" || entriesUseStates.rangeble[column.uid].value.max !== "") && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => {
+                    if (entriesUseStates.rangeble[column.uid].value.min !== "" && entriesUseStates.rangeble[column.uid].value.max !== "") {
+                        return entry[column.uid] >= entriesUseStates.rangeble[column.uid].value.min && entry[column.uid] <= entriesUseStates.rangeble[column.uid].value.max;
+                    } else if (entriesUseStates.rangeble[column.uid].value.min !== "") {
+                        return entry[column.uid] >= entriesUseStates.rangeble[column.uid].value.min;
+                    } else if (entriesUseStates.rangeble[column.uid].value.max !== "") {
+                        return entry[column.uid] <= entriesUseStates.rangeble[column.uid].value.max;
                     }
-                    return 0;
                 });
             }
         }
         return filteredEntries;
-    }, [tableEntries, tableColumns, entriesUseStates]);
+    }, [tableEntries, tableColumns, visibleColumns, entriesUseStates]);
 
-    const handleSearch = (column: string, value: string) => {
-        entriesUseStates.searchable[column].setValue(value);
+    const handleSearch = (column: { uid: string, searchable: any }, value: string) => {
+        if (column.searchable && entriesUseStates.searchable[column.uid].value !== "") {
+            entriesUseStates.searchable[column.uid].setValue(value);
+        }
     };
 
     const handleSort = (column: string, value: string) => {
@@ -160,7 +156,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                                 <Input
                                     placeholder="Search"
                                     value={entriesUseStates.searchable[column.uid].value}
-                                    onChange={(e) => handleSearch(column.uid, e.target.value)}
+                                    onChange={(e) => handleSearch(column, e.target.value)}
                                 />
                             )}
                             {column.sortable && (
@@ -225,7 +221,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 </TableHeader>
                 <TableBody>
                     {selectedEntries.slice((page - 1) * rowsPerPage, page * rowsPerPage).map((entry) => (
-                        <TableRow key={entry.id}>
+                        <TableRow key={entry.uid}>
                             {selectedColumns.map((column) => (
                                 <TableCell key={column.uid}>
                                     {entry[column.uid]}
@@ -236,7 +232,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 </TableBody>
             </Table>
             <Pagination
-                total={tableEntries.length}
+                total={Math.ceil(selectedEntries.length / rowsPerPage)}
                 page={page}
                 onChange={handlePageChange}
             />

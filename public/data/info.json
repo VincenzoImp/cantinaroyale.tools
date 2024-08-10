@@ -38,6 +38,12 @@
         },
         "tabelEntries": {
             "characters": {
+                "searchable": [
+                    "identifier",
+                    "collection",
+                    "name",
+                    "owner"
+                ],
                 "sortable": [
                     "identifier",
                     "collection",
@@ -67,6 +73,12 @@
                 ]
             },
             "weapons": {
+                "searchable": [
+                    "identifier",
+                    "collection",
+                    "name",
+                    "owner"
+                ],
                 "sortable": [
                     "identifier",
                     "collection",

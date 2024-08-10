@@ -26,7 +26,6 @@ var tableUniqueValues: {
 	"weapons": { [key: string]: { [key: string]: any } }
 }
 
-
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html lang="en" className="dark:bg-gray-900 bg-gray-100">

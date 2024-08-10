@@ -21,16 +21,8 @@ import {
     ChipProps,
     SortDescriptor
 } from "@nextui-org/react";
-import {PlusIcon} from "../icon/plusIcon";
-import {VerticalDotsIcon} from "../icon/verticalDotsIcon";
-import {ChevronDownIcon} from "../icon/chevronDownIcon";
-import {SearchIcon} from "../icon/searchIcon";
 
-export default function CollectionTable({ tableColumns, tableEntries, type }: { tableColumns: {
-    rangeble: any;
-    filterable: any;
-    searchable: any; uid: string, name: string, sortable: boolean;
-}[], tableEntries: { [key: string]: any }[], type: string }) {
+export default function CollectionTable({ tableColumns, tableEntries, type }: { tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[], tableEntries: { [key: string]: any }[], type: string }) {
 
     const INITIAL_ROWS_PER_PAGE = 10;
     const INITIAL_PAGE = 1;
@@ -47,6 +39,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         rangeble: { [key: string]: { value: { min: string; max: string }; setValue: React.Dispatch<React.SetStateAction<{ min: string; max: string }>> } };
     };
     
+    //52:11  Warning: The 'entriesUseStates' object makes the dependencies of useMemo Hook (at line 114) change on every render. To fix this, wrap the initialization of 'entriesUseStates' in its own useMemo() Hook.  react-hooks/exhaustive-deps
+
     const entriesUseStates: EntriesUseStates = {
         searchable: {},
         sortable: {},
@@ -83,11 +77,17 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 filteredEntries = filteredEntries.filter((entry) => entry[column.uid].includes(entriesUseStates.searchable[column.uid].value));
             }
             if (column.sortable && entriesUseStates.sortable[column.uid].value !== "" && visibleColumns.includes(column.uid)) {
-                if (entriesUseStates.sortable[column.uid].value === "asc") {
-                    filteredEntries.sort((a, b) => a[column.uid].localeCompare(b[column.uid]));
-                } else if (entriesUseStates.sortable[column.uid].value === "desc") {
-                    filteredEntries.sort((a, b) => b[column.uid].localeCompare(a[column.uid]));
-                }
+                const sortOrder = entriesUseStates.sortable[column.uid].value;
+                filteredEntries.sort((a, b) => {
+                    const aValue = a[column.uid];
+                    const bValue = b[column.uid];
+                    if (sortOrder === "asc") {
+                        return aValue > bValue ? 1 : aValue < bValue ? -1 : 0;
+                    } else if (sortOrder === "desc") {
+                        return aValue < bValue ? 1 : aValue > bValue ? -1 : 0;
+                    }
+                    return 0;
+                });
             }
             if (column.filterable && entriesUseStates.filterable[column.uid].value.length > 0 && visibleColumns.includes(column.uid)) {
                 filteredEntries = filteredEntries.filter((entry) => entriesUseStates.filterable[column.uid].value.includes(entry[column.uid]));

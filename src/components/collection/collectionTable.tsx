@@ -15,16 +15,12 @@ import {
     DropdownMenu,
     DropdownItem,
     Chip,
-    User,
     Pagination,
-    Selection,
-    ChipProps,
-    SortDescriptor
 } from "@nextui-org/react";
 
 export default function CollectionTable({ tableColumns, tableEntries, type }: { tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[], tableEntries: { [key: string]: any }[], type: string }) {
 
-    const INITIAL_ROWS_PER_PAGE = 10;
+    const INITIAL_ROWS_PER_PAGE = 25;
     const INITIAL_PAGE = 1;
     const INITIAL_VISIBLE_COLUMNS = tableColumns.map((column) => column.uid);
 
@@ -38,46 +34,49 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         filterable: { [key: string]: { value: string[]; setValue: React.Dispatch<React.SetStateAction<string[]>> } };
         rangeble: { [key: string]: { value: { min: string; max: string }; setValue: React.Dispatch<React.SetStateAction<{ min: string; max: string }>> } };
     };
-    
-    //52:11  Warning: The 'entriesUseStates' object makes the dependencies of useMemo Hook (at line 114) change on every render. To fix this, wrap the initialization of 'entriesUseStates' in its own useMemo() Hook.  react-hooks/exhaustive-deps
 
-    const entriesUseStates: EntriesUseStates = {
-        searchable: {},
-        sortable: {},
-        filterable: {},
-        rangeble: {}
-    };
-    for (const column of Object.values(tableColumns)) {
-        if (column.searchable) {
-            const [value, setValue] = React.useState("");
-            entriesUseStates.searchable[column.uid] = { value: value, setValue: setValue };
+    function initEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[]): EntriesUseStates {
+        var initialStates: EntriesUseStates = {
+            searchable: {},
+            sortable: {},
+            filterable: {},
+            rangeble: {}
+        };
+        for (const column of tableColumns) {
+            if (column.searchable) {
+                const [value, setValue] = React.useState("");
+                initialStates.searchable[column.uid] = { value, setValue };
+            }
+            if (column.sortable) {
+                const [value, setValue] = React.useState<string>("");
+                initialStates.sortable[column.uid] = { value, setValue };
+            }
+            if (column.filterable) {
+                const [value, setValue] = React.useState<string[]>([]);
+                initialStates.filterable[column.uid] = { value, setValue };
+            }
+            if (column.rangeble) {
+                const [value, setValue] = React.useState<{ min: string, max: string }>({ min: "", max: "" });
+                initialStates.rangeble[column.uid] = { value, setValue };
+            }
         }
-        if (column.sortable) {
-            const [value, setValue] = React.useState<string>("");
-            entriesUseStates.sortable[column.uid] = { value: value, setValue: setValue };
-        }
-        if (column.filterable) {
-            const [value, setValue] = React.useState<string[]>([]);
-            entriesUseStates.filterable[column.uid] = { value: value, setValue: setValue };
-        }
-        if (column.rangeble) {
-            const [value, setValue] = React.useState<{ min: string, max: string }>({ min: "", max: "" });
-            entriesUseStates.rangeble[column.uid] = { value: value, setValue: setValue };
-        }
+        return initialStates;
     }
-
-    const selectedColumns = React.useMemo(() => {
-        return tableColumns.filter((column) => visibleColumns.includes(column.uid));
-    }, [visibleColumns]);
+    var entriesUseStates = initEntriesUseStates(tableColumns);
 
     const selectedEntries = React.useMemo(() => {
         let filteredEntries = [...tableEntries];
         for (const column of Object.values(tableColumns)) {
-            if (column.searchable && entriesUseStates.searchable[column.uid].value !== "" && visibleColumns.includes(column.uid)) {
-                filteredEntries = filteredEntries.filter((entry) => entry[column.uid].includes(entriesUseStates.searchable[column.uid].value));
+            const searchableState = entriesUseStates.searchable[column.uid];
+            const sortableState = entriesUseStates.sortable[column.uid];
+            const filterableState = entriesUseStates.filterable[column.uid];
+            const rangebleState = entriesUseStates.rangeble[column.uid];
+    
+            if (column.searchable && searchableState?.value && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => entry[column.uid]?.includes(searchableState.value));
             }
-            if (column.sortable && entriesUseStates.sortable[column.uid].value !== "" && visibleColumns.includes(column.uid)) {
-                const sortOrder = entriesUseStates.sortable[column.uid].value;
+            if (column.sortable && sortableState?.value && visibleColumns.includes(column.uid)) {
+                const sortOrder = sortableState.value;
                 filteredEntries.sort((a, b) => {
                     const aValue = a[column.uid];
                     const bValue = b[column.uid];
@@ -89,26 +88,28 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                     return 0;
                 });
             }
-            if (column.filterable && entriesUseStates.filterable[column.uid].value.length > 0 && visibleColumns.includes(column.uid)) {
-                filteredEntries = filteredEntries.filter((entry) => entriesUseStates.filterable[column.uid].value.includes(entry[column.uid]));
+            if (column.filterable && filterableState?.value.length > 0 && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => filterableState.value.includes(entry[column.uid]));
             }
-            if (column.rangeble && (entriesUseStates.rangeble[column.uid].value.min !== "" || entriesUseStates.rangeble[column.uid].value.max !== "") && visibleColumns.includes(column.uid)) {
+            if (column.rangeble && (rangebleState?.value.min || rangebleState?.value.max) && visibleColumns.includes(column.uid)) {
                 filteredEntries = filteredEntries.filter((entry) => {
-                    if (entriesUseStates.rangeble[column.uid].value.min !== "" && entriesUseStates.rangeble[column.uid].value.max !== "") {
-                        return entry[column.uid] >= entriesUseStates.rangeble[column.uid].value.min && entry[column.uid] <= entriesUseStates.rangeble[column.uid].value.max;
-                    } else if (entriesUseStates.rangeble[column.uid].value.min !== "") {
-                        return entry[column.uid] >= entriesUseStates.rangeble[column.uid].value.min;
-                    } else if (entriesUseStates.rangeble[column.uid].value.max !== "") {
-                        return entry[column.uid] <= entriesUseStates.rangeble[column.uid].value.max;
+                    if (rangebleState.value.min && rangebleState.value.max) {
+                        return entry[column.uid] >= rangebleState.value.min && entry[column.uid] <= rangebleState.value.max;
+                    } else if (rangebleState.value.min) {
+                        return entry[column.uid] >= rangebleState.value.min;
+                    } else if (rangebleState.value.max) {
+                        return entry[column.uid] <= rangebleState.value.max;
                     }
+                    return true;
                 });
             }
         }
         return filteredEntries;
     }, [tableEntries, tableColumns, visibleColumns, entriesUseStates]);
+    
 
     const handleSearch = (column: { uid: string, searchable: any }, value: string) => {
-        if (column.searchable && entriesUseStates.searchable[column.uid].value !== "") {
+        if (column.searchable) {
             entriesUseStates.searchable[column.uid].setValue(value);
         }
     };
@@ -119,15 +120,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
 
     const handleFilterAdd = (column: string, value: string) => {
         entriesUseStates.filterable[column].setValue([...entriesUseStates.filterable[column].value, value]);
-    }
+    };
 
     const handleFilterRemove = (column: string, value: string) => {
         entriesUseStates.filterable[column].setValue(entriesUseStates.filterable[column].value.filter((v) => v !== value));
-    }
+    };
 
-    const handleRange = (column: string, value: { min: string, max: string }) => {
+    const handleRange = (column: string, value: { min: string; max: string }) => {
         entriesUseStates.rangeble[column].setValue(value);
-    }
+    };
 
     const handlePageChange = (page: number) => {
         setPage(page);
@@ -139,17 +140,17 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
 
     const handleColumnVisibilityAdd = (column: string) => {
         setVisibleColumns([...visibleColumns, column]);
-    }
+    };
 
     const handleColumnVisibilityRemove = (column: string) => {
         setVisibleColumns(visibleColumns.filter((c) => c !== column));
-    }
+    };
 
     return (
         <div>
             <Table>
                 <TableHeader>
-                    {tableColumns.map((column) => (
+                    {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
                         <TableColumn key={column.uid}>
                             {column.name}
                             {column.searchable && (
@@ -160,71 +161,56 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                                 />
                             )}
                             {column.sortable && (
-                                <Button
-                                    variant="ghost"
-                                    onClick={() => handleSort(column.uid, "asc")}
-                                />
-                            )}
-                            {column.sortable && (
-                                <Button
-                                    variant="ghost"
-                                    onClick={() => handleSort(column.uid, "desc")}
-                                />
+                                <Dropdown>
+                                    <DropdownTrigger>
+                                        <Button>{entriesUseStates.sortable[column.uid].value === "" ? "Sort" : entriesUseStates.sortable[column.uid].value}</Button>
+                                    </DropdownTrigger>
+                                    <DropdownMenu>
+                                        <DropdownItem onClick={() => handleSort(column.uid, "asc")}>Sort Ascending</DropdownItem>
+                                        <DropdownItem onClick={() => handleSort(column.uid, "desc")}>Sort Descending</DropdownItem>
+                                    </DropdownMenu>
+                                </Dropdown>
                             )}
                             {column.filterable && (
                                 <Dropdown>
                                     <DropdownTrigger>
-                                        <Button variant="ghost" />
+                                        <Button>Filter</Button>
                                     </DropdownTrigger>
                                     <DropdownMenu>
-                                        {tableEntries.map((entry) => (
-                                            <DropdownItem
-                                                key={entry[column.uid]}
-                                                onClick={() => handleFilterAdd(column.uid, entry[column.uid])}
-                                            >
-                                                {entry[column.uid]}
+                                        {tableEntries.map((entry) => entry[column.uid]).filter((value, index, self) => self.indexOf(value) === index).map((value) => (
+                                            <DropdownItem key={value}>
+                                                <Chip onClick={() => handleFilterAdd(column.uid, value)}>
+                                                    {value}
+                                                </Chip>
                                             </DropdownItem>
                                         ))}
                                     </DropdownMenu>
                                 </Dropdown>
                             )}
-                            {column.filterable && (
-                                entriesUseStates.filterable[column.uid].value.map((value) => (
-                                    <Chip
-                                        key={value}
-                                        onClose={() => handleFilterRemove(column.uid, value)}
-                                    >
-                                        {value}
-                                    </Chip>
-                                ))
-                            )}
                             {column.rangeble && (
-                                <Input
-                                    placeholder="Min"
-                                    value={entriesUseStates.rangeble[column.uid].value.min}
-                                    onChange={(e) => handleRange(column.uid, { min: e.target.value, max: entriesUseStates.rangeble[column.uid].value.max })}
-                                />
+                                <div>
+                                    <Input
+                                        placeholder="Min"
+                                        value={entriesUseStates.rangeble[column.uid].value.min}
+                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid].value, min: e.target.value })}
+                                    />
+                                    <Input
+                                        placeholder="Max"
+                                        value={entriesUseStates.rangeble[column.uid].value.max}
+                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid].value, max: e.target.value })}
+                                    />
+                                </div>
                             )}
-                            {column.rangeble && (
-                                <Input
-                                    placeholder="Max"
-                                    value={entriesUseStates.rangeble[column.uid].value.max}
-                                    onChange={(e) => handleRange(column.uid, { min: entriesUseStates.rangeble[column.uid].value.min, max: e.target.value })}
-                                />
-                            )}
-                            <Button
-                                variant="ghost"
-                                onClick={() => handleColumnVisibilityAdd(column.uid)}
-                            />
+                            <Button onClick={() => handleColumnVisibilityRemove(column.uid)}>Hide</Button>
                         </TableColumn>
                     ))}
                 </TableHeader>
                 <TableBody>
                     {selectedEntries.slice((page - 1) * rowsPerPage, page * rowsPerPage).map((entry) => (
                         <TableRow key={entry.uid}>
-                            {selectedColumns.map((column) => (
-                                <TableCell key={column.uid}>
-                                    {entry[column.uid]}
+                            {visibleColumns.map((column) => (
+                                <TableCell key={column}>
+                                    {entry[column]}
                                 </TableCell>
                             ))}
                         </TableRow>

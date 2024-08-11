@@ -255,7 +255,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const tableHeader = (
         <TableHeader>
             {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
-                <TableColumn key={column.uid}>
+                <TableColumn key={column.uid} className="dark:bg-gray-800 bg-white dark:text-white">
                     {headerCell(column.uid)}
                 </TableColumn>
             ))}
@@ -283,6 +283,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
             <Table 
                 shadow="none"
                 classNames={{ 
+                    thead: "background-transparent rounded-lg shadow-lg",
                     table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
                     wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4",
                 }}>

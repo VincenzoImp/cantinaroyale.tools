@@ -333,6 +333,7 @@
                     "emptyContent": "No NFTs to display",
                     "weapons": {
                         "columns": {
+                            "thumbnailUrl": "Image",
                             "identifier": "ID",
                             "collection": "Collection",
                             "name": "Name",
@@ -348,6 +349,7 @@
                     },
                     "characters": {
                         "columns": {
+                            "thumbnailUrl": "Imagejdfjdsjfjdjfhjhdhjhjsdhjf",
                             "identifier": "ID",
                             "collection": "Collection",
                             "name": "Name",

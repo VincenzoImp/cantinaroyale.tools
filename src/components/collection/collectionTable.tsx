@@ -16,7 +16,7 @@ import {
     DropdownItem,
     Chip,
     Pagination,
-    dropdownItem,
+    Image,
 } from "@nextui-org/react";
 import { contents, variables } from "@/app/layout";
 
@@ -263,14 +263,26 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         </TableHeader>
     );
 
+    function renderCell(entry: { [key: string]: any }, column: string) {
+        if (column === "thumbnailUrl") {
+            return (
+                <TableCell>
+                    <Image src={entry[column]} alt={entry["name"]}  radius="sm" width="100px" height="100px" />
+                </TableCell>
+            );
+        }
+        return (
+            <TableCell>
+                {entry[column]}
+            </TableCell>
+        );
+    }
     const tableBody = (
         <TableBody emptyContent={contents.components.collectionTable.emptyContent}>
             {selectedEntries.slice((page - 1) * rowsPerPage, page * rowsPerPage).map((entry) => (
                 <TableRow key={entry.uid}>
                     {visibleColumns.map((column) => (
-                        <TableCell key={column}>
-                            {entry[column]}
-                        </TableCell>
+                        renderCell(entry, column)
                     ))}
                 </TableRow>
             ))}

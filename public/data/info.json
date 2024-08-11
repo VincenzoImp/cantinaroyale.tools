@@ -336,7 +336,10 @@
                             "identifier": "ID",
                             "collection": "Collection",
                             "name": "Name",
-                            
+                            "owner": "Owner",
+                            "priceCurrency": "Price Currency",
+                            "priceAmount": "Price Amount",
+                            "realPriceAmount": "Real Price Amount",
                             "xp": "XP",
                             "wear": "Wear",
                             "level": "Level",

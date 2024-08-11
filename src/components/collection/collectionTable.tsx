@@ -238,9 +238,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     );
 
     const tableBottom = (
-        totalPages > 0 ? (
-        <div className="flex w-full justify-center pb-4">
-            <Pagination
+        totalPages > 1 ? (
+        <div className="flex w-full justify-center">
+            <Pagination 
+                className=" mb-2"
                 isCompact
                 showControls
                 showShadow
@@ -279,12 +280,12 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     return (
         <div className="dark:bg-gray-800 bg-white rounded-lg shadow-lg">
             {tableTop}
-            <div className="m-4">
+            <div className="mx-4 mt-4">
             <Table 
                 shadow="none"
                 classNames={{ 
                     table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                    wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4",
+                    wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4 mb-4"
                 }}>
                 {tableHeader}
                 {tableBody}

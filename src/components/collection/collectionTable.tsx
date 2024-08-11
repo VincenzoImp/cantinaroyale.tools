@@ -28,119 +28,117 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const [rowsPerPage, setRowsPerPage] = React.useState(INITIAL_ROWS_PER_PAGE);
     const [page, setPage] = React.useState(INITIAL_PAGE);
 
-    function InitEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string; name: string; sortable: boolean; }[]) {
+    function initEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string; name: string; sortable: boolean; }[]) {
         const initialStates = {
-            searchable: {} as { [key: string]: { value: string, setValue: React.Dispatch<React.SetStateAction<string>> } },
-            sortable: {} as { [key: string]: { value: string, setValue: React.Dispatch<React.SetStateAction<string>> } },
-            filterable: {} as { [key: string]: { value: string[], setValue: React.Dispatch<React.SetStateAction<string[]>> } },
-            rangeble: {} as { [key: string]: { value: { min: string, max: string }, setValue: React.Dispatch<React.SetStateAction<{ min: string, max: string }>> } },
+            searchable: {} as { [key: string]: string },
+            sortable: {} as { column: string; value: string }[],
+            filterable: {} as { [key: string]: string[] },
+            rangeble: {} as { [key: string]: { min: string; max: string } },
         };
-    
-        tableColumns.map((column) => {
+        tableColumns.forEach((column) => {
             if (column.searchable) {
-                const [value, setValue] = React.useState("");
-                initialStates.searchable[column.uid] = { value, setValue };
+                initialStates.searchable[column.uid] = "";
             }
             if (column.sortable) {
-                const [value, setValue] = React.useState<string>("");
-                initialStates.sortable[column.uid] = { value, setValue };
+                initialStates.sortable = [];
             }
             if (column.filterable) {
-                const [value, setValue] = React.useState<string[]>([]);
-                initialStates.filterable[column.uid] = { value, setValue };
+                initialStates.filterable[column.uid] = [];
             }
             if (column.rangeble) {
-                const [value, setValue] = React.useState<{ min: string, max: string }>({ min: "", max: "" });
-                initialStates.rangeble[column.uid] = { value, setValue };
+                initialStates.rangeble[column.uid] = { min: "", max: "" };
             }
         });
-    
         return initialStates;
     }
-    
-    const entriesUseStates = InitEntriesUseStates(tableColumns);
+
+    const [entriesUseStates, setEntitiesUseStates] = React.useState(initEntriesUseStates(tableColumns));
     
     const selectedEntries = React.useMemo(() => {
         let filteredEntries = [...tableEntries];
+        const sortableState = entriesUseStates.sortable;
         for (const column of Object.values(tableColumns)) {
             const searchableState = entriesUseStates.searchable[column.uid];
-            const sortableState = entriesUseStates.sortable[column.uid];
             const filterableState = entriesUseStates.filterable[column.uid];
             const rangebleState = entriesUseStates.rangeble[column.uid];
-    
-            if (column.searchable && searchableState?.value && visibleColumns.includes(column.uid)) {
-                filteredEntries = filteredEntries.filter((entry) => entry[column.uid]?.includes(searchableState.value));
+            if (column.searchable && searchableState !== "" && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => entry[column.uid].toLowerCase().includes(searchableState.toLowerCase()));
             }
-            if (column.sortable && sortableState?.value && visibleColumns.includes(column.uid)) {
-                const sortOrder = sortableState.value;
-                filteredEntries.sort((a, b) => {
-                    const aValue = a[column.uid];
-                    const bValue = b[column.uid];
-                    if (sortOrder === "asc") {
-                        return aValue > bValue ? 1 : aValue < bValue ? -1 : 0;
-                    } else if (sortOrder === "desc") {
-                        return aValue < bValue ? 1 : aValue > bValue ? -1 : 0;
-                    }
-                    return 0;
-                });
+            if (column.filterable && filterableState.length > 0 && visibleColumns.includes(column.uid)) {
+                filteredEntries = filteredEntries.filter((entry) => filterableState.includes(entry[column.uid]));
             }
-            if (column.filterable && filterableState?.value.length > 0 && visibleColumns.includes(column.uid)) {
-                filteredEntries = filteredEntries.filter((entry) => filterableState.value.includes(entry[column.uid]));
-            }
-            if (column.rangeble && (rangebleState?.value.min || rangebleState?.value.max) && visibleColumns.includes(column.uid)) {
+            if (column.rangeble && rangebleState.min !== "" && rangebleState.max !== "" && visibleColumns.includes(column.uid)) {
                 filteredEntries = filteredEntries.filter((entry) => {
-                    if (rangebleState.value.min && rangebleState.value.max) {
-                        return entry[column.uid] >= rangebleState.value.min && entry[column.uid] <= rangebleState.value.max;
-                    } else if (rangebleState.value.min) {
-                        return entry[column.uid] >= rangebleState.value.min;
-                    } else if (rangebleState.value.max) {
-                        return entry[column.uid] <= rangebleState.value.max;
-                    }
-                    return true;
+                    return parseFloat(entry[column.uid]) >= parseFloat(rangebleState.min) && parseFloat(entry[column.uid]) <= parseFloat(rangebleState.max);
                 });
             }
         }
+        for (const { column, value } of sortableState.reverse()) {
+            if (value === "asc") {
+                filteredEntries.sort((a, b) => {
+                    const valA = a[column];
+                    const valB = b[column];
+                    return typeof valA === 'number' && typeof valB === 'number' ?
+                        valA - valB :
+                        valA.toString().toLowerCase() > valB.toString().toLowerCase() ? 1 : -1;
+                });
+            } else if (value === "desc") {
+                filteredEntries.sort((a, b) => {
+                    const valA = a[column];
+                    const valB = b[column];
+                    return typeof valA === 'number' && typeof valB === 'number' ?
+                        valB - valA :
+                        valA.toString().toLowerCase() < valB.toString().toLowerCase() ? 1 : -1;
+                });
+            }
+        }        
         return filteredEntries;
-    }, [tableEntries, tableColumns, visibleColumns, entriesUseStates]);
-    
+    }, [tableEntries, entriesUseStates, visibleColumns]);
 
-    const handleSearch = (column: { uid: string, searchable: any }, value: string) => {
-        if (column.searchable) {
-            entriesUseStates.searchable[column.uid].setValue(value);
-        }
-    };
+    function clearEntriesUseStates(columnUid: string) {
+        setEntitiesUseStates({
+            ...entriesUseStates,
+            searchable: { ...entriesUseStates.searchable, [columnUid]: "" },
+            sortable: entriesUseStates.sortable.filter((state) => state.column !== columnUid),
+            filterable: { ...entriesUseStates.filterable, [columnUid]: [] },
+            rangeble: { ...entriesUseStates.rangeble, [columnUid]: { min: "", max: "" } },
+        });
+    }
 
-    const handleSort = (column: string, value: string) => {
-        entriesUseStates.sortable[column].setValue(value);
-    };
+    function handleColumnVisibilityAdd(columnUid: string) {
+        setVisibleColumns([...visibleColumns, columnUid]);
+    }
 
-    const handleFilterAdd = (column: string, value: string) => {
-        entriesUseStates.filterable[column].setValue([...entriesUseStates.filterable[column].value, value]);
-    };
+    function handleColumnVisibilityRemove(columnUid: string) {
+        setVisibleColumns(visibleColumns.filter((column) => column !== columnUid));
+        clearEntriesUseStates(columnUid);
+    }
 
-    const handleFilterRemove = (column: string, value: string) => {
-        entriesUseStates.filterable[column].setValue(entriesUseStates.filterable[column].value.filter((v) => v !== value));
-    };
+    function handleSearch(column: { uid: string; }, value: string) {
+        setEntitiesUseStates({ ...entriesUseStates, searchable: { ...entriesUseStates.searchable, [column.uid]: value } });
+    }
 
-    const handleRange = (column: string, value: { min: string; max: string }) => {
-        entriesUseStates.rangeble[column].setValue(value);
-    };
+    function handleSort(columnUid: string, value: string) {
+        setEntitiesUseStates({ ...entriesUseStates, sortable: [...entriesUseStates.sortable, { column: columnUid, value }] });
+    }
 
-    const handlePageChange = (page: number) => {
+    function handleFilterAdd(columnUid: string, value: string) {
+        setEntitiesUseStates({ ...entriesUseStates, filterable: { ...entriesUseStates.filterable, [columnUid]: [...entriesUseStates.filterable[columnUid], value] } });
+    }
+
+    function handleFilterRemove(columnUid: string, value: string) {
+        setEntitiesUseStates({ ...entriesUseStates, filterable: { ...entriesUseStates.filterable, [columnUid]: entriesUseStates.filterable[columnUid].filter((val) => val !== value) } });
+    }
+
+    function handleRange(columnUid: string, value: { min: string; max: string }) {
+        setEntitiesUseStates({ ...entriesUseStates, rangeble: { ...entriesUseStates.rangeble, [columnUid]: value } });
+    }
+
+    function handlePageChange(page: number) {
         setPage(page);
-    };
+    }
 
-    const handleRowsPerPageChange = (rowsPerPage: number) => {
-        setRowsPerPage(rowsPerPage);
-    };
 
-    const handleColumnVisibilityAdd = (column: string) => {
-        setVisibleColumns([...visibleColumns, column]);
-    };
-
-    const handleColumnVisibilityRemove = (column: string) => {
-        setVisibleColumns(visibleColumns.filter((c) => c !== column));
-    };
 
     return (
         <div>
@@ -152,14 +150,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                             {column.searchable && (
                                 <Input
                                     placeholder="Search"
-                                    value={entriesUseStates.searchable[column.uid].value}
+                                    value={entriesUseStates.searchable[column.uid]}
                                     onChange={(e) => handleSearch(column, e.target.value)}
                                 />
                             )}
                             {column.sortable && (
                                 <Dropdown>
                                     <DropdownTrigger>
-                                        <Button>{entriesUseStates.sortable[column.uid].value === "" ? "Sort" : entriesUseStates.sortable[column.uid].value}</Button>
+                                        <Button>{entriesUseStates.sortable.find((state) => state.column === column.uid)?.value || "Sort"}</Button>
                                     </DropdownTrigger>
                                     <DropdownMenu>
                                         <DropdownItem onClick={() => handleSort(column.uid, "asc")}>Sort Ascending</DropdownItem>
@@ -187,13 +185,13 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                                 <div>
                                     <Input
                                         placeholder="Min"
-                                        value={entriesUseStates.rangeble[column.uid].value.min}
-                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid].value, min: e.target.value })}
+                                        value={entriesUseStates.rangeble[column.uid].min}
+                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], min: e.target.value })}
                                     />
                                     <Input
                                         placeholder="Max"
-                                        value={entriesUseStates.rangeble[column.uid].value.max}
-                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid].value, max: e.target.value })}
+                                        value={entriesUseStates.rangeble[column.uid].max}
+                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], max: e.target.value })}
                                     />
                                 </div>
                             )}

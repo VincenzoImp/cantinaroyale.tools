@@ -283,7 +283,6 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
             <Table 
                 shadow="none"
                 classNames={{ 
-                    thead: "background-transparent rounded-lg shadow-lg",
                     table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
                     wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4",
                 }}>

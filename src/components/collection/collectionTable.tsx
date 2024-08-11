@@ -28,21 +28,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const [rowsPerPage, setRowsPerPage] = React.useState(INITIAL_ROWS_PER_PAGE);
     const [page, setPage] = React.useState(INITIAL_PAGE);
 
-    type EntriesUseStates = {
-        searchable: { [key: string]: { value: string; setValue: React.Dispatch<React.SetStateAction<string>> } };
-        sortable: { [key: string]: { value: string; setValue: React.Dispatch<React.SetStateAction<string>> } };
-        filterable: { [key: string]: { value: string[]; setValue: React.Dispatch<React.SetStateAction<string[]>> } };
-        rangeble: { [key: string]: { value: { min: string; max: string }; setValue: React.Dispatch<React.SetStateAction<{ min: string; max: string }>> } };
-    };
-
-    function InitEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[]): EntriesUseStates {
-        var initialStates: EntriesUseStates = {
-            searchable: {},
-            sortable: {},
-            filterable: {},
-            rangeble: {}
+    function InitEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string; name: string; sortable: boolean; }[]) {
+        const initialStates = {
+            searchable: {} as { [key: string]: { value: string, setValue: React.Dispatch<React.SetStateAction<string>> } },
+            sortable: {} as { [key: string]: { value: string, setValue: React.Dispatch<React.SetStateAction<string>> } },
+            filterable: {} as { [key: string]: { value: string[], setValue: React.Dispatch<React.SetStateAction<string[]>> } },
+            rangeble: {} as { [key: string]: { value: { min: string, max: string }, setValue: React.Dispatch<React.SetStateAction<{ min: string, max: string }>> } },
         };
-        for (const column of tableColumns) {
+    
+        tableColumns.forEach(column => {
             if (column.searchable) {
                 const [value, setValue] = React.useState("");
                 initialStates.searchable[column.uid] = { value, setValue };
@@ -59,11 +53,13 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 const [value, setValue] = React.useState<{ min: string, max: string }>({ min: "", max: "" });
                 initialStates.rangeble[column.uid] = { value, setValue };
             }
-        }
+        });
+    
         return initialStates;
     }
-    var entriesUseStates = InitEntriesUseStates(tableColumns);
-
+    
+    const entriesUseStates = InitEntriesUseStates(tableColumns);
+    
     const selectedEntries = React.useMemo(() => {
         let filteredEntries = [...tableEntries];
         for (const column of Object.values(tableColumns)) {

@@ -116,8 +116,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         clearEntriesUseStates(columnUid);
     }
 
-    function handleSearch(column: { uid: string; }, value: string) {
-        setEntitiesUseStates({ ...entriesUseStates, searchable: { ...entriesUseStates.searchable, [column.uid]: value } });
+    function handleSearch(column: string, value: string) {
+        setEntitiesUseStates({ ...entriesUseStates, searchable: { ...entriesUseStates.searchable, [column]: value} });
     }
 
     function handleSort(columnUid: string, value: string) {
@@ -146,25 +146,34 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         setPage(INITIAL_PAGE);
     }
 
-    // function headerCell(columnUid: string) {
-    //     const sortable = null;
-    //     const filterable = null;
-    //     const rangeble = null;
-    //     const searchable = null;
-    //     if 
-    //     return (
-    //         <Dropdown>
-    //             <DropdownTrigger>
-    //                 <Button>
-    //                     {tableColumns.find((column) => column.uid === columnUid)?.name}
-    //                 </Button>
-    //             </DropdownTrigger>
-    //             <DropdownMenu aria-label="Static Actions">
-    //                 <Button onClick={() => handleColumnVisibilityAdd(columnUid)}>Show</Button>
-    //             </DropdownMenu>
-    //         </Dropdown>
-    //     );
-    // }
+    function headerCell(columnUid: string) {
+        var sortable = null;
+        var filterable = null;
+        var rangeble = null;
+        var searchable = null;
+        if (tableColumns.find((column) => column.uid === columnUid)?.searchable) {
+            searchable = (
+                <Input
+                    placeholder="Search"
+                    onChange={(e) => handleSearch(columnUid, e.target.value)}
+                />
+            );
+        }
+        return (
+            <Dropdown>
+                <DropdownTrigger>
+                    {tableColumns.find((column) => column.uid === columnUid)?.name.toUpperCase()}
+                </DropdownTrigger>
+                <DropdownMenu>
+                    <DropdownItem key="new">{sortable}</DropdownItem>
+                    <DropdownItem key="new">{filterable}</DropdownItem>
+                    <DropdownItem key="new">{rangeble}</DropdownItem>
+                    <DropdownItem key="new">{searchable}</DropdownItem>
+                    
+                </DropdownMenu>
+            </Dropdown>
+        );
+    }
 
     const tableTop = (
         <div className="flex justify-between items-center dark:text-gray-400 mx-4 pt-4">
@@ -203,63 +212,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         <TableHeader>
             {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
                 <TableColumn key={column.uid}>
-                    {column.name}
-                    {column.searchable && (
-                        <Input
-                            placeholder="Search"
-                            value={entriesUseStates.searchable[column.uid]}
-                            onChange={(e) => handleSearch(column, e.target.value)}
-                        />
-                    )}
-                    {column.sortable && (
-                        <Dropdown>
-                            <DropdownTrigger>
-                                <Button>{entriesUseStates.sortable.find((state) => state.column === column.uid)?.value || "Sort"}</Button>
-                            </DropdownTrigger>
-                            <DropdownMenu>
-                                <DropdownItem onClick={() => handleSort(column.uid, "asc")}>Sort Ascending</DropdownItem>
-                                <DropdownItem onClick={() => handleSort(column.uid, "desc")}>Sort Descending</DropdownItem>
-                            </DropdownMenu>
-                        </Dropdown>
-                    )}
-                    {column.filterable && (
-                        <Dropdown>
-                            <DropdownTrigger>
-                                <Button>Filter</Button>
-                            </DropdownTrigger>
-                            <DropdownMenu>
-                                {tableEntries.map((entry) => entry[column.uid]).filter((value, index, self) => self.indexOf(value) === index).map((value) => (
-                                    <DropdownItem key={value}>
-                                        <Chip onClick={() => handleFilterAdd(column.uid, value)}>
-                                            {value}
-                                        </Chip>
-                                    </DropdownItem>
-                                ))}
-                            </DropdownMenu>
-                        </Dropdown>
-                    )}
-                    {column.rangeble && (
-                        <div>
-                            <Input
-                                placeholder="Min"
-                                value={entriesUseStates.rangeble[column.uid].min}
-                                onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], min: e.target.value })}
-                            />
-                            <Input
-                                placeholder="Max"
-                                value={entriesUseStates.rangeble[column.uid].max}
-                                onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], max: e.target.value })}
-                            />
-                        </div>
-                    )}
-                    <Button onClick={() => handleColumnVisibilityRemove(column.uid)}>Hide</Button>
+                    {headerCell(column.uid)}
                 </TableColumn>
             ))}
         </TableHeader>
     );
 
     const tableBody = (
-        <TableBody>
+        <TableBody emptyContent={contents.components.collectionTable.emptyContent}>
             {selectedEntries.slice((page - 1) * rowsPerPage, page * rowsPerPage).map((entry) => (
                 <TableRow key={entry.uid}>
                     {visibleColumns.map((column) => (

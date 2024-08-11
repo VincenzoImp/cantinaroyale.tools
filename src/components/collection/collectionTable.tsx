@@ -16,6 +16,7 @@ import {
     DropdownItem,
     Chip,
     Pagination,
+    dropdownItem,
 } from "@nextui-org/react";
 import { contents, variables } from "@/app/layout";
 
@@ -147,16 +148,59 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     }
 
     function headerCell(columnUid: string) {
-        var sortable = null;
-        var filterable = null;
-        var rangeble = null;
-        var searchable = null;
+        var dropdownItems: { [key: string]: JSX.Element } = {}
         if (tableColumns.find((column) => column.uid === columnUid)?.searchable) {
-            searchable = (
+            dropdownItems['searchable'] = (
                 <Input
                     placeholder="Search"
                     onChange={(e) => handleSearch(columnUid, e.target.value)}
                 />
+            );
+        }
+        if (tableColumns.find((column) => column.uid === columnUid)?.sortable) {
+            dropdownItems['sortable'] = (
+                <div>
+                    <Button
+                        onClick={() => handleSort(columnUid, "asc")}
+                    >
+                        Asc
+                    </Button>
+                    <Button
+                        onClick={() => handleSort(columnUid, "desc")}
+                    >
+                        Desc
+                    </Button>
+                </div>
+            );
+        }
+        if (tableColumns.find((column) => column.uid === columnUid)?.filterable) {
+            dropdownItems['filterable'] = (
+                <div>
+                    {tableEntries.map((entry) => entry[columnUid]).filter((value, index, self) => self.indexOf(value) === index).map((value) => (
+                        <Chip
+                            key={value}
+                            onClick={() => handleFilterAdd(columnUid, value)}
+                        >
+                            {value}
+                        </Chip>
+                    ))}
+                </div>
+            );
+        }
+        if (tableColumns.find((column) => column.uid === columnUid)?.rangeble) {
+            dropdownItems['rangeble'] = (
+                <div>
+                    <Input
+                        placeholder="Min"
+                        type="number"
+                        onChange={(e) => handleRange(columnUid, { min: e.target.value, max: entriesUseStates.rangeble[columnUid].max })}
+                    />
+                    <Input
+                        placeholder="Max"
+                        type="number"
+                        onChange={(e) => handleRange(columnUid, { min: entriesUseStates.rangeble[columnUid].min, max: e.target.value })}
+                    />
+                </div>
             );
         }
         return (
@@ -165,11 +209,11 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                     {tableColumns.find((column) => column.uid === columnUid)?.name.toUpperCase()}
                 </DropdownTrigger>
                 <DropdownMenu>
-                    <DropdownItem key="new">{sortable}</DropdownItem>
-                    <DropdownItem key="new">{filterable}</DropdownItem>
-                    <DropdownItem key="new">{rangeble}</DropdownItem>
-                    <DropdownItem key="new">{searchable}</DropdownItem>
-                    
+                    {Object.entries(dropdownItems).map(([key, value]) => (
+                        <DropdownItem key={key}>
+                            {value}
+                        </DropdownItem>
+                    ))}
                 </DropdownMenu>
             </Dropdown>
         );
@@ -235,10 +279,18 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     return (
         <div className="dark:bg-gray-800 bg-white rounded-lg shadow-lg">
             {tableTop}
-            <Table>
+            <div className="m-4">
+            <Table 
+                shadow="none"
+                classNames={{ 
+                    table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                    wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4",
+                }}>
                 {tableHeader}
                 {tableBody}
             </Table>
+            </div>
+            
             {tableBottom}
         </div>
     );

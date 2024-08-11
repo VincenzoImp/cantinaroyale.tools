@@ -17,16 +17,18 @@ import {
     Chip,
     Pagination,
 } from "@nextui-org/react";
+import { contents, variables } from "@/app/layout";
 
 export default function CollectionTable({ tableColumns, tableEntries, type }: { tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[], tableEntries: { [key: string]: any }[], type: string }) {
 
-    const INITIAL_ROWS_PER_PAGE = 25;
+    const INITIAL_ROWS_PER_PAGE = variables.tableInfo.nftsPerPage.default;
     const INITIAL_PAGE = 1;
     const INITIAL_VISIBLE_COLUMNS = tableColumns.map((column) => column.uid);
 
     const [visibleColumns, setVisibleColumns] = React.useState<string[]>(INITIAL_VISIBLE_COLUMNS);
     const [rowsPerPage, setRowsPerPage] = React.useState(INITIAL_ROWS_PER_PAGE);
     const [page, setPage] = React.useState(INITIAL_PAGE);
+    const [totalPages, setTotalPages] = React.useState(Math.ceil(tableEntries.length / rowsPerPage));
 
     function initEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string; name: string; sortable: boolean; }[]) {
         const initialStates = {
@@ -138,84 +140,146 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         setPage(page);
     }
 
+    function handleRowsPerPageChange(rowsPerPage: number) {
+        setRowsPerPage(rowsPerPage);
+        setTotalPages(Math.ceil(selectedEntries.length / rowsPerPage));
+        setPage(INITIAL_PAGE);
+    }
 
+    // function headerCell(columnUid: string) {
+    //     const sortable = null;
+    //     const filterable = null;
+    //     const rangeble = null;
+    //     const searchable = null;
+    //     if 
+    //     return (
+    //         <Dropdown>
+    //             <DropdownTrigger>
+    //                 <Button>
+    //                     {tableColumns.find((column) => column.uid === columnUid)?.name}
+    //                 </Button>
+    //             </DropdownTrigger>
+    //             <DropdownMenu aria-label="Static Actions">
+    //                 <Button onClick={() => handleColumnVisibilityAdd(columnUid)}>Show</Button>
+    //             </DropdownMenu>
+    //         </Dropdown>
+    //     );
+    // }
 
-    return (
-        <div>
-            <Table>
-                <TableHeader>
-                    {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
-                        <TableColumn key={column.uid}>
-                            {column.name}
-                            {column.searchable && (
-                                <Input
-                                    placeholder="Search"
-                                    value={entriesUseStates.searchable[column.uid]}
-                                    onChange={(e) => handleSearch(column, e.target.value)}
-                                />
-                            )}
-                            {column.sortable && (
-                                <Dropdown>
-                                    <DropdownTrigger>
-                                        <Button>{entriesUseStates.sortable.find((state) => state.column === column.uid)?.value || "Sort"}</Button>
-                                    </DropdownTrigger>
-                                    <DropdownMenu>
-                                        <DropdownItem onClick={() => handleSort(column.uid, "asc")}>Sort Ascending</DropdownItem>
-                                        <DropdownItem onClick={() => handleSort(column.uid, "desc")}>Sort Descending</DropdownItem>
-                                    </DropdownMenu>
-                                </Dropdown>
-                            )}
-                            {column.filterable && (
-                                <Dropdown>
-                                    <DropdownTrigger>
-                                        <Button>Filter</Button>
-                                    </DropdownTrigger>
-                                    <DropdownMenu>
-                                        {tableEntries.map((entry) => entry[column.uid]).filter((value, index, self) => self.indexOf(value) === index).map((value) => (
-                                            <DropdownItem key={value}>
-                                                <Chip onClick={() => handleFilterAdd(column.uid, value)}>
-                                                    {value}
-                                                </Chip>
-                                            </DropdownItem>
-                                        ))}
-                                    </DropdownMenu>
-                                </Dropdown>
-                            )}
-                            {column.rangeble && (
-                                <div>
-                                    <Input
-                                        placeholder="Min"
-                                        value={entriesUseStates.rangeble[column.uid].min}
-                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], min: e.target.value })}
-                                    />
-                                    <Input
-                                        placeholder="Max"
-                                        value={entriesUseStates.rangeble[column.uid].max}
-                                        onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], max: e.target.value })}
-                                    />
-                                </div>
-                            )}
-                            <Button onClick={() => handleColumnVisibilityRemove(column.uid)}>Hide</Button>
-                        </TableColumn>
-                    ))}
-                </TableHeader>
-                <TableBody>
-                    {selectedEntries.slice((page - 1) * rowsPerPage, page * rowsPerPage).map((entry) => (
-                        <TableRow key={entry.uid}>
-                            {visibleColumns.map((column) => (
-                                <TableCell key={column}>
-                                    {entry[column]}
-                                </TableCell>
-                            ))}
-                        </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
+    const tableTop = (
+        <div className="flex justify-between items-center dark:text-gray-400 mx-4 pt-4">
+            <span> 
+                {selectedEntries.length} {contents.components.collectionTable.nfts}
+            </span>
+            <label className="flex items-center">
+                {contents.components.collectionTable.nftsPerPage}
+                <select className="bg-transparent outline-none" onChange={(e) => handleRowsPerPageChange(parseInt(e.target.value))}>
+                    {variables.tableInfo.nftsPerPage.options.map((option) => (
+                    <option key={option} value={option} selected={option === rowsPerPage}>
+                        {option}
+                    </option>
+                ))}
+            </select>
+          </label>
+        </div>
+    );
+
+    const tableBottom = (
+        totalPages > 0 ? (
+        <div className="flex w-full justify-center pb-4">
             <Pagination
-                total={Math.ceil(selectedEntries.length / rowsPerPage)}
+                isCompact
+                showControls
+                showShadow
                 page={page}
+                total={totalPages}
                 onChange={handlePageChange}
             />
+        </div>
+        ) : null
+    );
+
+    const tableHeader = (
+        <TableHeader>
+            {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
+                <TableColumn key={column.uid}>
+                    {column.name}
+                    {column.searchable && (
+                        <Input
+                            placeholder="Search"
+                            value={entriesUseStates.searchable[column.uid]}
+                            onChange={(e) => handleSearch(column, e.target.value)}
+                        />
+                    )}
+                    {column.sortable && (
+                        <Dropdown>
+                            <DropdownTrigger>
+                                <Button>{entriesUseStates.sortable.find((state) => state.column === column.uid)?.value || "Sort"}</Button>
+                            </DropdownTrigger>
+                            <DropdownMenu>
+                                <DropdownItem onClick={() => handleSort(column.uid, "asc")}>Sort Ascending</DropdownItem>
+                                <DropdownItem onClick={() => handleSort(column.uid, "desc")}>Sort Descending</DropdownItem>
+                            </DropdownMenu>
+                        </Dropdown>
+                    )}
+                    {column.filterable && (
+                        <Dropdown>
+                            <DropdownTrigger>
+                                <Button>Filter</Button>
+                            </DropdownTrigger>
+                            <DropdownMenu>
+                                {tableEntries.map((entry) => entry[column.uid]).filter((value, index, self) => self.indexOf(value) === index).map((value) => (
+                                    <DropdownItem key={value}>
+                                        <Chip onClick={() => handleFilterAdd(column.uid, value)}>
+                                            {value}
+                                        </Chip>
+                                    </DropdownItem>
+                                ))}
+                            </DropdownMenu>
+                        </Dropdown>
+                    )}
+                    {column.rangeble && (
+                        <div>
+                            <Input
+                                placeholder="Min"
+                                value={entriesUseStates.rangeble[column.uid].min}
+                                onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], min: e.target.value })}
+                            />
+                            <Input
+                                placeholder="Max"
+                                value={entriesUseStates.rangeble[column.uid].max}
+                                onChange={(e) => handleRange(column.uid, { ...entriesUseStates.rangeble[column.uid], max: e.target.value })}
+                            />
+                        </div>
+                    )}
+                    <Button onClick={() => handleColumnVisibilityRemove(column.uid)}>Hide</Button>
+                </TableColumn>
+            ))}
+        </TableHeader>
+    );
+
+    const tableBody = (
+        <TableBody>
+            {selectedEntries.slice((page - 1) * rowsPerPage, page * rowsPerPage).map((entry) => (
+                <TableRow key={entry.uid}>
+                    {visibleColumns.map((column) => (
+                        <TableCell key={column}>
+                            {entry[column]}
+                        </TableCell>
+                    ))}
+                </TableRow>
+            ))}
+        </TableBody>
+    );
+
+    return (
+        <div className="dark:bg-gray-800 bg-white rounded-lg shadow-lg">
+            {tableTop}
+            <Table>
+                {tableHeader}
+                {tableBody}
+            </Table>
+            {tableBottom}
         </div>
     );
 

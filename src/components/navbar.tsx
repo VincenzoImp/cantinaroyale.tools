@@ -172,10 +172,10 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
 
     return (
         <>
-            <div className="md:hidden">
+            <div className="md:hidden outline-none">
                 {mobileNavbar}
             </div>
-            <div className="hidden md:block">
+            <div className="hidden md:block outline-none">
                 {desktopNavbar}
             </div>
             {activeToast ? toastError : null}

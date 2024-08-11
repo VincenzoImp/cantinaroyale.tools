@@ -36,6 +36,17 @@
             "explosiveWeaponsProficiency": "resolve",
             "elementalWeaponsProficiency": "resolve"
         },
+        "tableInfo": {
+            "nftsPerPage": {
+                "default": 25,
+                "options": [
+                    10,
+                    25,
+                    50,
+                    100
+                ]
+            }
+        },
         "tabelEntries": {
             "characters": {
                 "searchable": [
@@ -317,6 +328,8 @@
                     }
                 },
                 "collectionTable": {
+                    "nfts": "NFTs",
+                    "nftsPerPage": "NFTs per page:",
                     "weapons": {
                         "columns": {
                             "identifier": "ID",

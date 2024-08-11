@@ -36,7 +36,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
             rangeble: {} as { [key: string]: { value: { min: string, max: string }, setValue: React.Dispatch<React.SetStateAction<{ min: string, max: string }>> } },
         };
     
-        tableColumns.forEach(column => {
+        tableColumns.map((column) => {
             if (column.searchable) {
                 const [value, setValue] = React.useState("");
                 initialStates.searchable[column.uid] = { value, setValue };

@@ -330,6 +330,7 @@
                 "collectionTable": {
                     "nfts": "NFTs",
                     "nftsPerPage": "NFTs per page:",
+                    "emptyContent": "No NFTs to display",
                     "weapons": {
                         "columns": {
                             "identifier": "ID",

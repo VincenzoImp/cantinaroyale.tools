@@ -35,7 +35,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         rangeble: { [key: string]: { value: { min: string; max: string }; setValue: React.Dispatch<React.SetStateAction<{ min: string; max: string }>> } };
     };
 
-    function initEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[]): EntriesUseStates {
+    function InitEntriesUseStates(tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[]): EntriesUseStates {
         var initialStates: EntriesUseStates = {
             searchable: {},
             sortable: {},
@@ -62,7 +62,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         }
         return initialStates;
     }
-    var entriesUseStates = initEntriesUseStates(tableColumns);
+    var entriesUseStates = InitEntriesUseStates(tableColumns);
 
     const selectedEntries = React.useMemo(() => {
         let filteredEntries = [...tableEntries];

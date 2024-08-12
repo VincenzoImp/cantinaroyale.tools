@@ -279,14 +279,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
             displayValue = displayValue + " " + entry["priceCurrency"];
         }
         if (column === "rarityClass") {
-            const colorMapping: { [key: string]: string } = {
-                "Bronze": "bg-yellow-500",
-                "Silver": "bg-gray-300",
-                "Gold": "bg-yellow-300",
-                "Epic": "bg-purple-500",
-                "Legendary": "bg-red-500"
-            }
-            displayValue = <Chip size="sm" className={colorMapping[displayValue]}>{displayValue}</Chip>
+            const colors: { [key: string]: string } = {
+                Bronze: "bg-orange-200 text-orange-800 dark:bg-orange-800 dark:text-orange-200",
+                Silver: "bg-blue-200 text-blue-800 dark:bg-blue-800 dark:text-blue-200",
+                Gold: "bg-yellow-200 text-yellow-800 dark:bg-yellow-800 dark:text-yellow-200",
+                Epic: "bg-green-200 text-green-800 dark:bg-green-800 dark:text-green-200",
+                Legendary: "bg-purple-200 text-purple-800 dark:bg-purple-800 dark:text-purple-200",
+            };
+            displayValue = <Chip size="sm" className={colors[displayValue as keyof typeof colors]}>{entry[column]}</Chip>
         }
         if (column === "perk1" || column === "perk2") {
             const talentTypes: { [key: string]: string } = variables.talentTypes;

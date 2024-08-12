@@ -1,5 +1,6 @@
 {
     "variables": {
+        "defaultImage": "../images/default.png",
         "collections": {
             "characters": [
                 "GSPACEAPE-08bc2b",
@@ -349,7 +350,7 @@
                     },
                     "characters": {
                         "columns": {
-                            "thumbnailUrl": "Imagejdfjdsjfjdjfhjhdhjhjsdhjf",
+                            "thumbnailUrl": "Image",
                             "identifier": "ID",
                             "collection": "Collection",
                             "name": "Name",

@@ -41,10 +41,10 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             }
             return (
                 <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {displayKey}
                     </span>
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {displayValue}
                     </span>
                 </div>
@@ -62,10 +62,10 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             }
             return (
                 <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {displayKey}
                     </span>
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {displayValue}
                     </span>
                 </div>
@@ -90,7 +90,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         const component = Object.entries(talentsMap).sort(([talentNameA], [talentNameB]) => talentsMap[talentNameB] - talentsMap[talentNameA] || talentNameA.localeCompare(talentNameB)).map(([talentName, talentValue]: [string, number]) => {
             return (
                 <div key={talentName} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         <span>
                             <Popover placement="top">
                                 <PopoverTrigger>
@@ -114,7 +114,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                             {talents.types[talentTypes[talentName]]}
                         </span>
                     </span>
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {talentValue}
                     </span>
                 </div>
@@ -135,10 +135,10 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             }
             return (
                 <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {displayKey}
                     </span>
-                    <span className="text-sm dark:text-gray-400">
+                    <span className="text-sm dark:text-white">
                         {displayValue}
                     </span>
                 </div>
@@ -150,7 +150,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
     function DynamicArea({nftCard, nft}: {nftCard: { [key: string]: any }, nft: { [key: string]: any }}) {
         const [activeKey, setactiveKey] = useState("about");
         const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white";
-        const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-gray-400 dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200";
+        const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200";
         const buttons = Object.entries(nftCard).map(([key, value]: [string, any]) =>
             <li className="flex-grow" key={key}>
                 <button className={activeKey === key ? classButtonActive : classButtonInactive} onClick={() => setactiveKey(key)}>
@@ -174,7 +174,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         }
         return (
             <div>
-                <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-gray-400 m-4 justify-between gap-1">
+                <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-white m-4 justify-between gap-1">
                     {buttons}
                 </ul>
                 <ScrollShadow size={20} style={{maxHeight: maxH}} hideScrollBar={true}>

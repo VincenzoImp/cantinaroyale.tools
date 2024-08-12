@@ -256,7 +256,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const tableHeader = (
         <TableHeader>
             {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
-                <TableColumn width={column.uid === "thumbnailUrl" ? 75 : null}
+                <TableColumn width={column.uid === "thumbnailUrl" ? 100: null}
                 key={column.uid} align="center" className="dark:bg-gray-800 bg-white dark:text-white">
                     {headerCell(column.uid)}
                 </TableColumn>
@@ -265,21 +265,48 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     );
 
     function renderCell(entry: { [key: string]: any }, column: string) {
+        var displayValue: any = entry[column];
         if (column === "thumbnailUrl") {
-            return (
-                <TableCell>
-                    <Image 
-                        src={entry[column]} 
-                        alt={entry["name"]} 
-                        fallbackSrc={variables.defaultImage} 
-                        loading="lazy"
-                        radius="sm" height={75} width={75}/>
-                </TableCell>
-            );
+            displayValue = <Image
+                src={entry[column]}
+                alt={entry["name"]}
+                fallbackSrc={variables.defaultImage}
+                loading="lazy"
+                radius="sm"
+                height={75}
+            />;
+        }
+        if (column === "owner") {
+            displayValue = displayValue.slice(0, 6) + "..." + displayValue.slice(-6);
+        }
+        if (parseFloat(displayValue)) {
+            displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
+        }
+        if (column === "priceAmount" && entry["priceCurrency"]) {
+            displayValue = displayValue + " " + entry["priceCurrency"];
+        }
+        if (column === "rarityClass") {
+            const colorMapping: { [key: string]: string } = {
+                "Bronze": "bg-yellow-500",
+                "Silver": "bg-gray-300",
+                "Gold": "bg-yellow-300",
+                "Epic": "bg-purple-500",
+                "Legendary": "bg-red-500"
+            }
+            displayValue = <span className={`rounded-lg px-2 py-1 ${colorMapping[displayValue]}`}>{displayValue}</span>;
+        }
+        if (column === "perk1" || column === "perk2") {
+            const talentTypes: { [key: string]: string } = variables.talentTypes;
+            const colors: { [key: string]: string } = {
+                valor: "bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200",
+                tactics: "bg-green-200 text-green-800 dark:bg-green-800 dark:text-green-200",
+                resolve: "bg-purple-200 text-purple-800 dark:bg-purple-800 dark:text-purple-200"
+            };
+            displayValue = <span className={"text-xs font-medium px-2.5 py-0.5 rounded-full "+colors[talentTypes[displayValue]]}>{displayValue}</span>
         }
         return (
             <TableCell>
-                {entry[column]}
+                {displayValue}
             </TableCell>
         );
     }

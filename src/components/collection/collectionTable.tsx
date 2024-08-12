@@ -17,6 +17,7 @@ import {
     Chip,
     Pagination,
     Image,
+    Avatar,
 } from "@nextui-org/react";
 import { contents, variables } from "@/app/layout";
 
@@ -256,8 +257,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const tableHeader = (
         <TableHeader>
             {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
-                <TableColumn width={column.uid === "thumbnailUrl" ? 100: null}
-                key={column.uid} align="center" className="dark:bg-gray-800 bg-white dark:text-white">
+                <TableColumn key={column.uid} align="center" className="dark:bg-gray-800 bg-white dark:text-white">
                     {headerCell(column.uid)}
                 </TableColumn>
             ))}
@@ -267,14 +267,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     function renderCell(entry: { [key: string]: any }, column: string) {
         var displayValue: any = entry[column];
         if (column === "thumbnailUrl") {
-            displayValue = <Image
-                src={entry[column]}
-                alt={entry["name"]}
-                fallbackSrc={variables.defaultImage}
-                loading="lazy"
-                radius="sm"
-                height={75}
-            />;
+            displayValue = <Avatar src={entry[column]} alt={entry["name"]} size="lg" radius="sm"/>
         }
         if (column === "owner") {
             displayValue = displayValue.slice(0, 6) + "..." + displayValue.slice(-6);
@@ -293,7 +286,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 "Epic": "bg-purple-500",
                 "Legendary": "bg-red-500"
             }
-            displayValue = <span className={`rounded-lg px-2 py-1 ${colorMapping[displayValue]}`}>{displayValue}</span>;
+            displayValue = <Chip size="sm" className={colorMapping[displayValue]}>{displayValue}</Chip>
         }
         if (column === "perk1" || column === "perk2") {
             const talentTypes: { [key: string]: string } = variables.talentTypes;
@@ -302,13 +295,23 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 tactics: "bg-green-200 text-green-800 dark:bg-green-800 dark:text-green-200",
                 resolve: "bg-purple-200 text-purple-800 dark:bg-purple-800 dark:text-purple-200"
             };
-            displayValue = <span className={"text-xs font-medium px-2.5 py-0.5 rounded-full "+colors[talentTypes[displayValue]]}>{displayValue}</span>
+            displayValue = displayValue.replace(/\s/g, "")
+            displayValue = displayValue.charAt(0).toLowerCase() + displayValue.slice(1);
+            displayValue = <Chip size="sm" className={colors[talentTypes[displayValue]]}>{entry[column]}</Chip>
         }
-        return (
-            <TableCell>
-                {displayValue}
-            </TableCell>
-        );
+        if (["perk1", "perk2", "rarirtyClass", "thumbnailUrl"].includes(column)) {
+            return (
+                <TableCell>
+                    {displayValue}
+                </TableCell>
+            );
+        } else {
+            return (
+                <TableCell>
+                    <Chip variant="light" className="dark:text-white">{displayValue}</Chip>                
+                </TableCell>
+            );
+        }
     }
     const tableBody = (
         <TableBody emptyContent={contents.components.collectionTable.emptyContent}>

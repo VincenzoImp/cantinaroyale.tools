@@ -220,7 +220,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     }
 
     const tableTop = (
-        <div className="flex justify-between items-center dark:text-gray-400 mx-4 pt-4">
+        <div className="flex justify-between items-center dark:text-white mx-4 pt-4">
             <span> 
                 {selectedEntries.length} {contents.components.collectionTable.nfts}
             </span>
@@ -256,7 +256,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
     const tableHeader = (
         <TableHeader>
             {tableColumns.filter((column) => visibleColumns.includes(column.uid)).map((column) => (
-                <TableColumn key={column.uid} className="dark:bg-gray-800 bg-white dark:text-white">
+                <TableColumn width={column.uid === "thumbnailUrl" ? 75 : null}
+                key={column.uid} align="center" className="dark:bg-gray-800 bg-white dark:text-white">
                     {headerCell(column.uid)}
                 </TableColumn>
             ))}
@@ -267,7 +268,12 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         if (column === "thumbnailUrl") {
             return (
                 <TableCell>
-                    <Image src={entry[column]} alt={entry["name"]}  radius="sm" width="100px" height="100px" />
+                    <Image 
+                        src={entry[column]} 
+                        alt={entry["name"]} 
+                        fallbackSrc={variables.defaultImage} 
+                        loading="lazy"
+                        radius="sm" height={75} width={75}/>
                 </TableCell>
             );
         }

@@ -34,8 +34,8 @@ export default function CollectionTitle({ collectionName, collectionData }: { co
     }
     return (
         <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4 dark:text-gray-400">{titleText}</h1>
-            <div className="text-lg mb-4 dark:text-gray-400">
+            <h1 className="text-4xl font-bold mb-4 dark:text-white">{titleText}</h1>
+            <div className="text-lg mb-4 dark:text-white">
                 {subtitle}
             </div>
         </div>

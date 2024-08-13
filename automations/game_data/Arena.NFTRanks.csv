@@ -1,0 +1,6 @@
+RankIndex,NameID,MinTrophy,MaxTrophy,WinTrophy,LoseTrophy,DrawTrophy,WinCrown,LoseCrown,DrawCrown,WinScore,TrophyRank1,TrophyRank2,TrophyRank3,TrophyRank4,TrophyRank5,TrophyRank6,CrownRank1,CrownRank2,CrownRank3,CrownRank4,CrownRank5,CrownRank6,ScoreRank1,ScoreRank2,ScoreRank3,ScoreRank4,ScoreRank5,ScoreRank6,IsEnabled
+1,arenarank_name_1,0,50,1,0,0,100,0,0,150,2,2,1,1,0,0,100,75,50,25,10,0,125,80,50,20,0,0,True
+2,arenarank_name_2,51,300,3,-1,0,120,0,0,175,4,3,1,0,-1,-2,130,90,65,35,20,0,150,100,65,30,0,0,True
+3,arenarank_name_3,301,800,5,-2,0,150,0,0,200,7,5,3,0,-2,-5,150,120,90,50,30,0,180,125,80,40,0,0,True
+4,arenarank_name_4,801,1500,8,-5,0,200,0,0,250,9,6,2,-1,-4,-8,200,150,120,80,50,0,230,150,100,50,0,0,True
+5,arenarank_name_5,1501,3000,10,-12,0,250,0,0,300,12,8,2,-4,-8,-15,250,200,150,120,80,0,300,200,150,70,0,0,True

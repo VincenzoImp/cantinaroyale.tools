@@ -1,0 +1,9 @@
+StoreItemID,ItemID,PricePoolID,MaxPurchaseCount,IsVisible,IsEnabled
+store_item_1,BoosterBox,store_daily_boosterbox,5,True,True
+store_item_2,UpgradeItem,store_daily_upgradeitem,5,True,True
+store_item_3,EvolveItem,store_daily_evolveitem,3,True,True
+store_item_4,XPCard1,store_daily_xpcard1,10,True,True
+store_item_5,CantinaBox,store_daily_cantinabox_2,5,True,True
+store_item_6,PremiumBox,store_daily_premiumbox_2,1,True,True
+store_item_boxConvert,CantinaBox,store_daily_cantinabox_1,999,False,True
+store_item_premiumBoxConvert,PremiumBox,store_daily_premiumbox_1,999,False,True

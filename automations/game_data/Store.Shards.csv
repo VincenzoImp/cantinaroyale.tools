@@ -1,0 +1,7 @@
+ID,Name,PricePoolID,RewardPoolID,BonusPercentage
+iap_shards_1,Pile of Shards,iap_shards_1,iap_shards_1,0
+iap_shards_2,Tray of Shards,iap_shards_2,iap_shards_2,20
+iap_shards_3,Heap of Shards,iap_shards_3,iap_shards_3,30
+iap_shards_4,Box of Shards,iap_shards_4,iap_shards_4,50
+iap_shards_5,Barrel of Shards,iap_shards_5,iap_shards_5,70
+iap_shards_6,Tons Of Shards,iap_shards_6,iap_shards_6,100

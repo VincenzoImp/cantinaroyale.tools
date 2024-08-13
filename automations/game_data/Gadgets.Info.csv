@@ -1,0 +1,7 @@
+ItemID,Param1,Param2,Param3,Range,Duration,AOERadius,Cooldown,CraftingPriceID,CraftingTime,CraftingInstantPriceID,CraftingRewardPoolID,IsEnabled
+Gadget01,5.0,,,,,,60.0,gadget01_craft,300.0,gadget01_craft_instant,gadget01_craft,True
+Gadget02,50.0,,,12.0,5.0,4.0,60.0,gadget02_craft,300.0,gadget02_craft_instant,gadget02_craft,True
+Gadget03,50.0,2.0,3000.0,1.0,,,60.0,gadget03_craft,1200.0,gadget03_craft_instant,gadget03_craft,True
+Gadget04,2.0,2500.0,,12.0,,4.0,60.0,gadget04_craft,1200.0,gadget04_craft_instant,gadget04_craft,True
+Gadget05,100.0,,,1.0,5.0,4.0,60.0,gadget05_craft,14400.0,gadget05_craft_instant,gadget05_craft,True
+Gadget06,1.0,2500.0,,1.0,,2.0,60.0,gadget06_craft,14400.0,gadget06_craft_instant,gadget06_craft,True

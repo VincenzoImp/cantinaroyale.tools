@@ -1,0 +1,12 @@
+ID,Type,Name,StartDate,Duration,PurchaseLimit,PricePoolID,Discount,RewardPoolID,Description,IsEnabled
+bundle_dailydeal1,DailyDeal,Daily Essential Pack #1,,1,1,bundle_dailydeal_1,20,bundle_dailydeal_1,,True
+bundle_dailydeal2,DailyDeal,Daily Essential Pack #2,,1,1,bundle_dailydeal_2,30,bundle_dailydeal_2,,True
+bundle_dailydeal3,DailyDeal,Daily Essential Pack #3,,1,1,bundle_dailydeal_3,40,bundle_dailydeal_3,,True
+bundle_starterpack,StarterPack,Starter Pack,,3,1,bundle_starterpack,80,bundle_starterpack,,False
+bundle_nft_starterpack,NFTStarterPack,NFT Starter Pack,,3,1,bundle_nft_starterpack,80,bundle_nftstarterpack,,False
+bundle_2022_blackfriday,Calendar,Black Friday,2022-11-23T00:00:00,5,1,bundle_2022_blackfriday,50,bundle_2022_blackfriday,,False
+bundle_2022_cybermonday_1,Calendar,Cyber Monday #1,2022-11-27T00:00:00,2,1,bundle_2022_cybermonday1,30,bundle_2022_cybermonday1,,False
+bundle_2022_cybermonday_2,Calendar,Cyber Monday #2,2022-11-11T00:00:00,1,1,bundle_2022_cybermonday2,50,bundle_2022_cybermonday2,,False
+bundle_2022_1111,Calendar,11-11,2022-11-11T00:00:00,1,1,bundle_2022_11_11,25,bundle_2022_11_11,,False
+bundle_2022_xmas_1,Calendar,X-Mas #1,2022-11-12T00:00:00,30,1,bundle_2022_xmas1,25,bundle_2022_xmas1,,False
+bundle_2022_xmas_2,Calendar,X-Mas #2,2022-11-12T00:00:00,30,1,bundle_2022_xmas2,50,bundle_2022_xmas2,,False

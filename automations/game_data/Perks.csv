@@ -1,0 +1,22 @@
+ID,Min,MinKoef,Max,MaxKoef,Name,Description
+Overachiever,50,1.08,150,1.4,Overachiever,Gain extra Character XP after each game.
+Hodler,50,1.01,150,1.14,Hodler,Gain extra Shards and Crown after each game.
+Grounded,50,0.1,150,0.8,Grounded,Chance to avoid going to Shocked state when getting hit by damage type Shock.
+Stonewall,50,0.1,150,0.8,Stonewall,Chance to avoid going to Knockdown state when getting hit by damage type Knockdown.
+Adrenaline Rush,50,1.05,150,1.25,Adrenaline Rush,Gain movement speed for 2 seconds after getting a kill.
+Overshield,50,0.15,150,0.8,Overshield,Gain Shield after getting a kill.
+Black Widow,50,0.15,150,0.8,Black Widow,Gain Health after getting a kill.
+Galvanized,50,0.1,150,1.0,Galvanized,Gain Stamina after getting a kill.
+Nano Meds,50,0.05,150,0.25,Nano Meds,Health regenerates faster when shield is full.
+Resilience,50,1.1,150,2.0,Resilience,Shield regenerates faster when health is low.
+Cold Blooded,50,1.1,150,1.5,Cold Blooded,Weapons reload faster when health is low.
+Perseverance,50,1.1,150,2.0,Perseverance,Stamina regenerates faster when health is low.
+Escape Artist,50,1.05,150,1.25,Escape Artist,Faster dodge speed when enemies are close.
+Scavenger,50,0.25,150,0.65,Scavenger,Gain ammo for both weapons on Kill.
+Cool Moves,50,0.1,150,0.35,Cool Moves,Gain ammo for both weapons on Dodge.
+Brawler,50,1.05,150,1.2,Brawler,Increases the damage of <color=#DDD>Melee</color> weapons.
+Automatic Weapons Proficiency,50,1.05,150,1.2,Automatic Weapons Proficiency,Increases the damage of <color=#7AF>Automatic</color> weapons.
+Scatter Weapons Proficiency,50,1.05,150,1.2,Scatter Weapons Proficiency,Increases the damage of <color=#5E5>Scatter</color> weapons.
+Precision Weapons Proficiency,50,1.05,150,1.2,Precision Weapons Proficiency,Increases the damage of <color=#FE5>Precision</color> weapons.
+Explosive Weapons Proficiency,50,1.05,150,1.2,Explosive Weapons Proficiency,Increases the damage of <color=#FB5>Explosive</color> weapons.
+Elemental Weapons Proficiency,50,1.05,150,1.2,Elemental Weapons Proficiency,Increases the damage of <color=#A6F>Elemental</color> weapons.

@@ -1,0 +1,12 @@
+WeaponType,weapon_class,weapon_damage,weapon_damage_mul_from_0percent,weapon_damage_mul_from_20percent,weapon_damage_mul_from_70percent,weapon_cooldownAfterLastBullet,weapon_reloadTime,weapon_ammo,weapon_projectiles_per_shot,weapon_projectile_spread_angle,weapon_projectile_speed,weapon_projectile_range,weapon_projectile_spawn_delay_after_shot,weapon_projectile_shoot_in_sequence,weapon_projectile_shoot_in_sequence_fireRateSec,weapon_projectile_spread_width,weapon_projectile_aoe,weapon_projectile_aoe_radius,weapon_projectile_aoe_damagePercent,weapon_projectile_aoe2,weapon_projectile_aoe2_radius,weapon_projectile_aoe2_damagePercent,weapon_damageFrequency_teslagun_lightning,weapon_damagePercentage_teslagun_lightning,weapon_damageRadius_teslagun_lightning,weapon_damage_mul_from_40percent,weapon_damage_mul_from_60percent,weapon_damage_mul_from_80percent,weapon_overheat_time_on_empty_ammo,weapon_projectile_speed_backward,weapon_projectile_hold_time,weapon_warmup_time_in_seconds,weapon_cooldowntime_in_seconds,weapon_slowdown_rate,weapon_puddle_radius,weapon_puddle_slowrate_start,weapon_puddle_slowrate_end,weapon_puddle_slowrate_duration,weapon_puddle_duration,weapon_puddle_radius2,weapon_puddle_radius_grow_sec,weapon_projectile_range_multiplier,weapon_projectile_range_charge_sec
+WeaponType_Shotgun,Spread,2200,1.15,1,0.8,0.65,2.1,3,4,4,14,9,0.1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WeaponType_AssaultGun,Automatic,1700,,,,0.2,2.75,3,6,,14,10,0,TRUE,0.05,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WeaponType_MortarGun,Explosive,1200,,,,1,3,3,,,3.35,8,0.13,,,,TRUE,0.75,1.25,TRUE,1.75,1,,,,,,,,,,,,,,,,,,,,,
+WeaponType_TeslaGun,Elemental,1000,,,,0.5,2.7,2,,,10,9,0.2,,,,TRUE,1.75,1,,,,0,0,0,,,,,,,,,,,,,,,,,,
+WeaponType_RailGun,Precision,1100,0.85,0.95,,0.75,2,2,,,13.2,10,0.1,,,,,,,,,,,,,1.05,1.15,1.25,,,,,,,,,,,,,,,
+WeaponType_Flamer,Elemental,130,,,,0.05,0.1,65,1,3.2,10,9,0.2,FALSE,0.075,0,,,,,,,,,,,,,3,,,,,,,,,,,,,,
+WeaponType_Hammer,Precision,1400,,,,1,3,2,,,11,8.5,0.13,,,,TRUE,0.75,1,TRUE,2,0.33,,,,,,,,6,0.2,,,,,,,,,,,,
+WeaponType_RocketLauncher,Explosive,1300,,,,0.5,2.7,2,,,11.5,9,0,,,,TRUE,1.75,1,,,,,,,,,,,,,,,,,,,,,,,,
+WeaponType_Minigun,Automatic,250,,,,0.05,0.15,80,1,4,22,10,0.2,FALSE,0.075,0.3,,,,,,,,,,,,,,,,1,1,0.5,,,,,,,,,
+WeaponType_Spreadgun,Spread,1250,,,,1,3,3,,,3.35,8,0.13,,,,TRUE,1.5,1,,,,,,,,,,,,,,,,4,0.25,0.75,5,5,7,4,,
+WeaponType_Crossbow,Precision,1000,0.8,0.9,,0.75,2.4,2,,,12,10,0.1,,,,,,,,,,,,,1,1.1,1.2,,,,,,,,,,,,,,1.3,3

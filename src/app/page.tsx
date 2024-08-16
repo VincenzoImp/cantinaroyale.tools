@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+
   return (
     <>
       <Navbar activeItemID="home" />
@@ -19,6 +20,7 @@ export default function Home() {
             <p className="text-lg mb-8 dark:text-white">{home.heroDescription}</p>
         </div>
       </section>
+      
       <Footer />
     </>
   );

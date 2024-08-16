@@ -21,10 +21,10 @@ for (const collection of variables.collections.characters.concat(variables.colle
 }
 export const identifiers = onlyIdentifiers;
 
-var tableUniqueValues: {
-	"characters": { [key: string]: { [key: string]: any } },
-	"weapons": { [key: string]: { [key: string]: any } }
-}
+export const characters_info = require("../../public/stats/characters_info.json");
+export const weapons_info = require("../../public/stats/weapons_info.json");
+export const characters_upgrade = require("../../public/stats/characters_upgrade.json");
+export const weapons_upgrade = require("../../public/stats/weapons_upgrade.json");
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (

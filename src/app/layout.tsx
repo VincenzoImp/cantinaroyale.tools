@@ -21,10 +21,10 @@ for (const collection of variables.collections.characters.concat(variables.colle
 }
 export const identifiers = onlyIdentifiers;
 
-export const characters_info = require("../../public/stats/characters_info.json");
-export const weapons_info = require("../../public/stats/weapons_info.json");
-export const characters_upgrade = require("../../public/stats/characters_upgrade.json");
-export const weapons_upgrade = require("../../public/stats/weapons_upgrade.json");
+export const characters_info = require("../../public/data/characters_info.json");
+export const weapons_info = require("../../public/data/weapons_info.json");
+export const characters_upgrade = require("../../public/data/characters_upgrade.json");
+export const weapons_upgrade = require("../../public/data/weapons_upgrade.json");
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (

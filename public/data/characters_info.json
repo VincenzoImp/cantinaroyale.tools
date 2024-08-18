@@ -1,0 +1,1317 @@
+{
+    "free": {
+        "Rocky": {
+            "race": "Ape",
+            "speed": 510,
+            "levels": {
+                "20": {
+                    "health": 6115,
+                    "shield": 3063,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Bonnie": {
+            "race": "Bear",
+            "speed": 460,
+            "levels": {
+                "20": {
+                    "health": 8850,
+                    "shield": 2448,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Cranky": {
+            "race": "Cat",
+            "speed": 560,
+            "levels": {
+                "20": {
+                    "health": 5376,
+                    "shield": 2495,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Alex": {
+            "race": "Tiger",
+            "speed": 510,
+            "levels": {
+                "20": {
+                    "health": 4890,
+                    "shield": 4312,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Aldo": {
+            "race": "Croco",
+            "speed": 460,
+            "levels": {
+                "20": {
+                    "health": 2894,
+                    "shield": 7940,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Lola": {
+            "race": "Rabbit",
+            "speed": 560,
+            "levels": {
+                "20": {
+                    "health": 3992,
+                    "shield": 3495,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Zoom": {
+            "race": "Snail",
+            "speed": 575,
+            "levels": {
+                "20": {
+                    "health": 3070,
+                    "shield": 4068,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Finn": {
+            "race": "Shark",
+            "speed": 525,
+            "levels": {
+                "20": {
+                    "health": 5037,
+                    "shield": 5037,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Zayn": {
+            "race": "Squirrel",
+            "speed": 590,
+            "levels": {
+                "20": {
+                    "health": 5195,
+                    "shield": 3066,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Brutus": {
+            "race": "Bull",
+            "speed": 500,
+            "levels": {
+                "20": {
+                    "health": 2894,
+                    "shield": 7940,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        },
+        "Chicken": {
+            "race": "Chicken",
+            "speed": 510,
+            "levels": {
+                "20": {
+                    "health": 5422,
+                    "shield": 3901,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 0.0
+                }
+            }
+        }
+    },
+    "nft": {
+        "Bronze Genesis Ape": {
+            "race": "Ape",
+            "speed": 510,
+            "levels": {
+                "1": {
+                    "health": 2600,
+                    "shield": 1350,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 2652,
+                    "shield": 1376,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 2731,
+                    "shield": 1417,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 2832,
+                    "shield": 1469,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 2951,
+                    "shield": 1531,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3088,
+                    "shield": 1602,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3240,
+                    "shield": 1681,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3407,
+                    "shield": 1768,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 3588,
+                    "shield": 1862,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 3782,
+                    "shield": 1963,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 3989,
+                    "shield": 2070,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4208,
+                    "shield": 2184,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 4439,
+                    "shield": 2304,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 4681,
+                    "shield": 2430,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 4934,
+                    "shield": 2561,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 5198,
+                    "shield": 2698,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 5472,
+                    "shield": 2840,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 5757,
+                    "shield": 2988,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 6052,
+                    "shield": 3141,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 6356,
+                    "shield": 3299,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Silver Genesis Ape": {
+            "race": "Ape",
+            "speed": 510,
+            "levels": {
+                "1": {
+                    "health": 2700,
+                    "shield": 1400,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 2754,
+                    "shield": 1427,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 2836,
+                    "shield": 1469,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 2940,
+                    "shield": 1523,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3064,
+                    "shield": 1587,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3206,
+                    "shield": 1661,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3364,
+                    "shield": 1743,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3538,
+                    "shield": 1833,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 3726,
+                    "shield": 1930,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 3928,
+                    "shield": 2035,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4143,
+                    "shield": 2146,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4371,
+                    "shield": 2264,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 4611,
+                    "shield": 2388,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 4863,
+                    "shield": 2519,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 5126,
+                    "shield": 2655,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 5400,
+                    "shield": 2797,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 5685,
+                    "shield": 2945,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 5981,
+                    "shield": 3098,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 6287,
+                    "shield": 3256,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 6603,
+                    "shield": 3420,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Gold Genesis Ape": {
+            "race": "Ape",
+            "speed": 510,
+            "levels": {
+                "1": {
+                    "health": 2800,
+                    "shield": 1500,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 2856,
+                    "shield": 1528,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 2941,
+                    "shield": 1573,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 3049,
+                    "shield": 1631,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3178,
+                    "shield": 1700,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3325,
+                    "shield": 1779,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3489,
+                    "shield": 1867,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3669,
+                    "shield": 1963,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 3864,
+                    "shield": 2067,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 4073,
+                    "shield": 2179,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4296,
+                    "shield": 2298,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4532,
+                    "shield": 2424,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 4781,
+                    "shield": 2557,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 5042,
+                    "shield": 2697,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 5315,
+                    "shield": 2843,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 5599,
+                    "shield": 2995,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 5895,
+                    "shield": 3153,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 6202,
+                    "shield": 3317,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 6519,
+                    "shield": 3487,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 6847,
+                    "shield": 3662,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Epic Genesis Ape": {
+            "race": "Ape",
+            "speed": 510,
+            "levels": {
+                "1": {
+                    "health": 2900,
+                    "shield": 1600,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 2958,
+                    "shield": 1629,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 3046,
+                    "shield": 1677,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 3158,
+                    "shield": 1739,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3291,
+                    "shield": 1812,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3443,
+                    "shield": 1896,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3613,
+                    "shield": 1990,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3799,
+                    "shield": 2092,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 4001,
+                    "shield": 2203,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 4218,
+                    "shield": 2322,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4449,
+                    "shield": 2449,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4693,
+                    "shield": 2583,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 4951,
+                    "shield": 2725,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 5221,
+                    "shield": 2874,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 5504,
+                    "shield": 3030,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 5798,
+                    "shield": 3192,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 6104,
+                    "shield": 3360,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 6421,
+                    "shield": 3534,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 6750,
+                    "shield": 3715,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 7089,
+                    "shield": 3902,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Legendary Genesis Ape": {
+            "race": "Ape",
+            "speed": 510,
+            "levels": {
+                "1": {
+                    "health": 3000,
+                    "shield": 1750,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 3060,
+                    "shield": 1780,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 3151,
+                    "shield": 1833,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 3267,
+                    "shield": 1900,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3405,
+                    "shield": 1980,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3563,
+                    "shield": 2072,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3739,
+                    "shield": 2174,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3932,
+                    "shield": 2286,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 4141,
+                    "shield": 2408,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 4365,
+                    "shield": 2538,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4604,
+                    "shield": 2677,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4857,
+                    "shield": 2824,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 5123,
+                    "shield": 2979,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 5403,
+                    "shield": 3142,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 5695,
+                    "shield": 3312,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 6000,
+                    "shield": 3489,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 6317,
+                    "shield": 3673,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 6645,
+                    "shield": 3864,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 6985,
+                    "shield": 4062,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 7336,
+                    "shield": 4266,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Gold Space Shark": {
+            "race": "Shark",
+            "speed": 525,
+            "levels": {
+                "1": {
+                    "health": 2500,
+                    "shield": 2500,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 2600,
+                    "shield": 2600,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 2723,
+                    "shield": 2723,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 2862,
+                    "shield": 2862,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3014,
+                    "shield": 3014,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3176,
+                    "shield": 3176,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3347,
+                    "shield": 3347,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3526,
+                    "shield": 3526,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 3713,
+                    "shield": 3713,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 3906,
+                    "shield": 3906,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4106,
+                    "shield": 4106,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4311,
+                    "shield": 4311,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 4522,
+                    "shield": 4522,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 4738,
+                    "shield": 4738,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 4959,
+                    "shield": 4959,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 5184,
+                    "shield": 5184,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 5414,
+                    "shield": 5414,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 5648,
+                    "shield": 5648,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 5886,
+                    "shield": 5886,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 6128,
+                    "shield": 6128,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Epic Space Shark": {
+            "race": "Shark",
+            "speed": 525,
+            "levels": {
+                "1": {
+                    "health": 2750,
+                    "shield": 2750,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 2846,
+                    "shield": 2846,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 2969,
+                    "shield": 2969,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 3110,
+                    "shield": 3110,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3266,
+                    "shield": 3266,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3435,
+                    "shield": 3435,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 3615,
+                    "shield": 3615,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 3805,
+                    "shield": 3805,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 4004,
+                    "shield": 4004,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 4212,
+                    "shield": 4212,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4427,
+                    "shield": 4427,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 4650,
+                    "shield": 4650,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 4880,
+                    "shield": 4880,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 5116,
+                    "shield": 5116,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 5358,
+                    "shield": 5358,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 5606,
+                    "shield": 5606,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 5860,
+                    "shield": 5860,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 6119,
+                    "shield": 6119,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 6384,
+                    "shield": 6384,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 6654,
+                    "shield": 6654,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        },
+        "Legendary Space Shark": {
+            "race": "Shark",
+            "speed": 525,
+            "levels": {
+                "1": {
+                    "health": 3000,
+                    "shield": 3000,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.0
+                },
+                "2": {
+                    "health": 3120,
+                    "shield": 3120,
+                    "talentPoints": 0,
+                    "skillLevel": 0,
+                    "crownEarnRate": 1.08
+                },
+                "3": {
+                    "health": 3268,
+                    "shield": 3268,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.17
+                },
+                "4": {
+                    "health": 3435,
+                    "shield": 3435,
+                    "talentPoints": 0,
+                    "skillLevel": 1,
+                    "crownEarnRate": 1.27
+                },
+                "5": {
+                    "health": 3617,
+                    "shield": 3617,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.37
+                },
+                "6": {
+                    "health": 3811,
+                    "shield": 3811,
+                    "talentPoints": 0,
+                    "skillLevel": 2,
+                    "crownEarnRate": 1.48
+                },
+                "7": {
+                    "health": 4016,
+                    "shield": 4016,
+                    "talentPoints": 5,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.6
+                },
+                "8": {
+                    "health": 4231,
+                    "shield": 4231,
+                    "talentPoints": 10,
+                    "skillLevel": 3,
+                    "crownEarnRate": 1.74
+                },
+                "9": {
+                    "health": 4455,
+                    "shield": 4455,
+                    "talentPoints": 15,
+                    "skillLevel": 4,
+                    "crownEarnRate": 1.88
+                },
+                "10": {
+                    "health": 4687,
+                    "shield": 4687,
+                    "talentPoints": 20,
+                    "skillLevel": 4,
+                    "crownEarnRate": 2.03
+                },
+                "11": {
+                    "health": 4926,
+                    "shield": 4926,
+                    "talentPoints": 25,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.2
+                },
+                "12": {
+                    "health": 5172,
+                    "shield": 5172,
+                    "talentPoints": 30,
+                    "skillLevel": 5,
+                    "crownEarnRate": 2.38
+                },
+                "13": {
+                    "health": 5425,
+                    "shield": 5425,
+                    "talentPoints": 35,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.57
+                },
+                "14": {
+                    "health": 5684,
+                    "shield": 5684,
+                    "talentPoints": 40,
+                    "skillLevel": 6,
+                    "crownEarnRate": 2.79
+                },
+                "15": {
+                    "health": 5949,
+                    "shield": 5949,
+                    "talentPoints": 45,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.01
+                },
+                "16": {
+                    "health": 6219,
+                    "shield": 6219,
+                    "talentPoints": 50,
+                    "skillLevel": 7,
+                    "crownEarnRate": 3.26
+                },
+                "17": {
+                    "health": 6495,
+                    "shield": 6495,
+                    "talentPoints": 55,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.53
+                },
+                "18": {
+                    "health": 6776,
+                    "shield": 6776,
+                    "talentPoints": 60,
+                    "skillLevel": 8,
+                    "crownEarnRate": 3.82
+                },
+                "19": {
+                    "health": 7062,
+                    "shield": 7062,
+                    "talentPoints": 65,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.13
+                },
+                "20": {
+                    "health": 7352,
+                    "shield": 7352,
+                    "talentPoints": 70,
+                    "skillLevel": 9,
+                    "crownEarnRate": 4.47
+                }
+            }
+        }
+    }
+}

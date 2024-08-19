@@ -8,7 +8,8 @@ operations = {
     'info': True,
     'nfts_raw': True,
     'nfts_processed': True,
-    'txs': False
+    'txs': False,
+    'market_data': True
 }
 params = {
     'CRMYTH-546419': {
@@ -90,3 +91,12 @@ for collection_name in collections:
         get_collection_nfts_processed(collection_name, collection_folder_path)
     if operations['txs']:
         get_collection_txs(collection_name, collection_folder_path)
+
+if operations['market_data']:
+    data_folder_path = '../public/data'
+    collections = {
+    "genesis": ["CEA-2d29f9", "GSPACEAPE-08bc2b"],
+    "heroes": ["CRHEROES-9edff2"],
+    "weapons": ["CRWEAPONS-e5ab49", "CRMYTH-546419"],
+    }
+    mu.add_market_data(data_folder_path, collections)

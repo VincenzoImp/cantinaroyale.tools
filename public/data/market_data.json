@@ -1,0 +1,96 @@
+{
+    "CRT/EGLD": 0.00011159528941622,
+    "floorPrice": {
+        "genesis": {
+            "Bronze": {
+                "count": 5686,
+                "percent": 0.34988616085163987,
+                "floorPrice": 0.64
+            },
+            "Epic": {
+                "count": 2034,
+                "percent": 0.12516152852132176,
+                "floorPrice": 2.4
+            },
+            "Gold": {
+                "count": 2848,
+                "percent": 0.17525075379976618,
+                "floorPrice": 1.46
+            },
+            "Legendary": {
+                "count": 808,
+                "percent": 0.04972001722970894,
+                "floorPrice": 7.0
+            },
+            "Silver": {
+                "count": 4875,
+                "percent": 0.29998153959756324,
+                "floorPrice": 0.7000000000000001
+            }
+        },
+        "heroes": {
+            "Epic": {
+                "count": 190,
+                "percent": 0.31666666666666665,
+                "floorPrice": 4.6
+            },
+            "Gold": {
+                "count": 350,
+                "percent": 0.5833333333333334,
+                "floorPrice": 3.45
+            },
+            "Legendary": {
+                "count": 60,
+                "percent": 0.1,
+                "floorPrice": 20.125
+            }
+        },
+        "weapons": {
+            "Tesla Gun X": {
+                "count1*": 17148,
+                "floorPrice": 0.039259259259259265,
+                "percent1*": 0.22073759413014096
+            },
+            "Boomstick-X": {
+                "count1*": 16947,
+                "floorPrice": 0.04666666666666667,
+                "percent1*": 0.21815022205058893
+            },
+            "Blaster-X": {
+                "count1*": 16223,
+                "floorPrice": 0.06666666666666667,
+                "percent1*": 0.2088305335650383
+            },
+            "Mortar Gun X": {
+                "count1*": 15126,
+                "floorPrice": 0.03333333333333333,
+                "percent1*": 0.19470940335972195
+            },
+            "Railgun-X": {
+                "count1*": 12241,
+                "floorPrice": 0.03,
+                "percent1*": 0.15757224689450988
+            },
+            "Dragonbreath": {
+                "count1*": 3687,
+                "floorPrice": 0.3666666666666667,
+                "percent1*": 0.49029255319148934
+            },
+            "Hellfire Launcher": {
+                "count1*": 2406,
+                "floorPrice": 0.4666666666666666,
+                "percent1*": 0.3199468085106383
+            },
+            "Skybreaker": {
+                "count1*": 1424,
+                "floorPrice": 0.3166666666666667,
+                "percent1*": 0.18936170212765957
+            },
+            "Titan Shredder": {
+                "count1*": 3,
+                "floorPrice": 150.31111111111113,
+                "percent1*": 0.00039893617021276594
+            }
+        }
+    }
+}

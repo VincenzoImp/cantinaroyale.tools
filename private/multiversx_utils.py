@@ -7,6 +7,10 @@ import base64
 from selenium import webdriver
 from selenium_stealth import stealth
 from selenium.webdriver.common.by import By
+import os
+import json
+import pandas as pd
+import numpy as np
 
 def clear_keys(dictionary):
     keys = {}
@@ -336,3 +340,170 @@ def parse_nft_data(nft):
         new_key = new_key[0].lower() + new_key[1:]
         new_nft_data[new_key] = value if value != "None" else None
     return new_nft_data
+
+
+
+
+
+
+def add_market_data(data_folder_path, collections):
+
+    def get_character_value(floor_price, level, tokens):
+        shard_conversion = 1
+        token_conversion = 400
+        shards = 0
+        crown = 0
+        for l in range(1, level+1):
+            shards += characters_upgrade['nft'][str(l)]['shards']
+            tokens += characters_upgrade['nft'][str(l)]['tokens']
+            crown += characters_upgrade['nft'][str(l)]['crown']
+        shards = shards * shard_conversion /100 * crt_egld_rate
+        crown = crown /100 * crt_egld_rate
+        tokens = tokens * token_conversion /100 * crt_egld_rate
+        return floor_price + shards + tokens + crown
+
+    def get_character_floorPrice(df):
+        rarities = df.value_counts('rarityClass').reset_index()
+        rarities['percent'] = rarities['count'] / rarities['count'].sum()
+        onsale = df[(~df['priceAmount'].isna()) & (df['priceCurrency']=='EGLD')]
+        rarities = pd.merge(rarities, onsale.groupby('rarityClass').agg({'priceAmount':'min'}).reset_index().rename(columns={'priceAmount':'floorPrice'}), on='rarityClass', how='outer')
+        rarities = rarities.fillna(0)
+        rarities_dict = rarities.to_dict(orient='index')
+        while True:
+            last = -1
+            for index in range(len(rarities_dict)):
+                if rarities_dict[index]['floorPrice'] > 0:
+                    last = index
+                if last != -1 and rarities_dict[index]['floorPrice'] == 0:
+                    rarities_dict[index]['floorPrice'] = rarities_dict[last]['percent']/rarities_dict[index]['percent'] * rarities_dict[last]['floorPrice']
+            last = -1
+            for index in range(len(rarities_dict)-1, -1, -1):
+                if rarities_dict[index]['floorPrice'] > 0:
+                    last = index
+                if last != -1 and rarities_dict[index]['floorPrice'] == 0:
+                    rarities_dict[index]['floorPrice'] = rarities_dict[last]['percent']/rarities_dict[index]['percent'] * rarities_dict[last]['floorPrice']
+            rarities = pd.DataFrame(rarities_dict).T
+            if rarities[rarities['floorPrice']==0].shape[0] > 0:
+                rarities = rarities.sort_values('percent', ascending=False)
+                rarities.iloc[0, rarities.columns.get_loc('floorPrice')] = 5
+                rarities_dict = rarities.to_dict(orient='index')
+            else:
+                break
+        rarities = rarities.set_index('rarityClass')
+        rarities = rarities.to_dict(orient='index')
+        return rarities
+
+    def get_weapon_value(floor_price, starLevel, level, tokens):
+        shards_fusion = {
+            1: 0,
+            2: 1000,
+            3: 6000,
+            4: 35000,
+            5: 100000,
+            6: 500000
+        }
+        shard_conversion = 1
+        token_conversion = 100
+        shards = 0
+        crown = 0
+        for l in range(1, starLevel+1):
+            shards += shards_fusion[l]
+        for l in range(1, level+1):
+            shards += weapons_upgrade['nft'][str(l)]['shards']
+            tokens += weapons_upgrade['nft'][str(l)]['tokens']
+            crown += weapons_upgrade['nft'][str(l)]['crown']
+        shards = shards * shard_conversion /100 * crt_egld_rate
+        crown = crown /100 * crt_egld_rate
+        tokens = tokens * token_conversion /100 * crt_egld_rate
+        floor_price = floor_price * (3 ** (starLevel-1))
+        return floor_price + shards + tokens + crown
+
+    def get_weapon_floorPrice(df):
+        def foo(starlevel):
+            starlevel = int(starlevel)
+            result = 1
+            for i in range(1, starlevel):
+                result *= 3
+            return result
+        df['countStarLevel1'] = df['starLevel'].apply(foo)
+        rarities = df.groupby('name').agg({'countStarLevel1':'sum'}).reset_index()
+        onsale = df[(~df['priceAmount'].isna()) & (df['priceCurrency']=='EGLD')]
+        onsale['priceStarlevel1'] = onsale['priceAmount'] / onsale['countStarLevel1']
+        tmp = onsale.groupby('name').agg({'priceStarlevel1':'min'}).reset_index().rename(columns={'priceStarlevel1':'floorPrice'})
+        rarities = pd.merge(rarities, tmp, on='name', how='outer')
+        rarities['countStarLevel1%'] = rarities['countStarLevel1'] / rarities['countStarLevel1'].sum()
+        rarities = rarities.sort_values('countStarLevel1%', ascending=False).reset_index(drop=True)
+        rarities = rarities.fillna(0)
+        rarities = rarities.rename(columns={'countStarLevel1':'count1*', 'countStarLevel1%':'percent1*'})
+        rarities_dict = rarities.to_dict(orient='index')
+        while True:
+            last = -1
+            for index in range(len(rarities_dict)):
+                if rarities_dict[index]['floorPrice'] > 0:
+                    last = index
+                if last != -1 and rarities_dict[index]['floorPrice'] == 0:
+                    rarities_dict[index]['floorPrice'] = rarities_dict[last]['percent1*']/rarities_dict[index]['percent1*'] * rarities_dict[last]['floorPrice']
+            last = -1
+            for index in range(len(rarities_dict)-1, -1, -1):
+                if rarities_dict[index]['floorPrice'] > 0:
+                    last = index
+                if last != -1 and rarities_dict[index]['floorPrice'] == 0:
+                    rarities_dict[index]['floorPrice'] = rarities_dict[last]['percent1*']/rarities_dict[index]['percent1*'] * rarities_dict[last]['floorPrice']
+            rarities = pd.DataFrame(rarities_dict).T
+            if rarities[rarities['floorPrice']==0].shape[0] > 0:
+                rarities = rarities.sort_values('percent1*', ascending=False)
+                x = 1 if df['collection'].unique()[0] == 'CRMYTH-546419' else 0.1
+                rarities.iloc[0, rarities.columns.get_loc('floorPrice')] = x
+                rarities_dict = rarities.to_dict(orient='index')
+            else:
+                break
+        rarities = rarities.set_index('name')
+        rarities = rarities.to_dict(orient='index')
+        return rarities
+
+    with open(os.path.join(data_folder_path, 'characters_upgrade.json')) as f:
+        characters_upgrade = json.load(f)
+    with open(os.path.join(data_folder_path, 'weapons_upgrade.json')) as f:
+        weapons_upgrade = json.load(f)
+    genesis = pd.concat([pd.read_json(os.path.join(data_folder_path, collection, 'nfts.json'), orient='index') for collection in collections['genesis']])
+    heroes = pd.concat([pd.read_json(os.path.join(data_folder_path, collection, 'nfts.json'), orient='index') for collection in collections['heroes']])
+    weapons = pd.concat([pd.read_json(os.path.join(data_folder_path, collection, 'nfts.json'), orient='index') for collection in collections['weapons']])
+    weapons = weapons[~weapons['starLevel'].isna()]
+    # get CRT-EGLD rate
+    stealth_driver = open_stealth_driver(headless=True)
+    url = 'https://coindataflow.com/en/pair/crt-wegld'
+    stealth_driver.get(url)
+    crt_egld_rate = float(stealth_driver.find_element(By.ID, 'converter').get_attribute('data-rate'))
+    stealth_driver.close()
+    market_data = {'CRT/EGLD': crt_egld_rate, 'floorPrice': {'genesis': {}, 'heroes': {}, 'weapons': {}}}
+    # characters
+    for name, df in [('genesis', genesis), ('heroes', heroes)]:
+        floorPrice = get_character_floorPrice(df)
+        market_data['floorPrice'][name] = floorPrice
+        df['EGLDvalue'] = df.apply(lambda x: get_character_value(floorPrice[x['rarityClass']]['floorPrice'], x['level'], x['characterTokens']), axis=1)
+        df['flag'] = (~df['priceAmount'].isna()) & (df['priceCurrency']=='EGLD')
+        df['discount'] = df.apply(lambda x: x['priceAmount'] - x['EGLDvalue'] if x['flag'] else np.nan, axis=1)
+        df['discount'] = df.apply(lambda x: x['discount'] / x['EGLDvalue'] * 100 if x['flag'] else np.nan, axis=1)
+        df['discount'] = df['discount'].apply(lambda x: x if x < 0 else np.nan)
+        df = df.drop(columns=['flag'])
+        df = df.sort_values('discount', ascending=True)
+        for collection in df['collection'].unique():
+            collection_df = df[df['collection']==collection]
+            collection_df.to_json(os.path.join(data_folder_path, collection, 'nfts.json'), orient='index', indent=4)
+    # weapons
+    for collection in weapons['collection'].unique():
+        df = weapons[weapons['collection']==collection]
+        floorPrice = get_weapon_floorPrice(df)
+        market_data['floorPrice']['weapons'].update(floorPrice)
+    weapons['xp'] = weapons['xp'].astype(int)
+    weapons['starLevel'] = weapons['starLevel'].astype(int)
+    weapons['level'] = weapons['level'].astype(int)
+    weapons['value'] = weapons.apply(lambda x: get_weapon_value(market_data['floorPrice']['weapons'][x['name']]['floorPrice'], x['starLevel'], x['level'], x['xp']), axis=1)
+    weapons['discount'] = weapons.apply(lambda x: x['priceAmount'] - x['value'] if x['priceCurrency']=='EGLD' else np.nan, axis=1)
+    weapons['discount'] = weapons.apply(lambda x: x['discount'] / x['value'] * 100 if x['priceCurrency']=='EGLD' else np.nan, axis=1)
+    weapons = weapons.sort_values('discount', ascending=True)
+    for collection in weapons['collection'].unique():
+        collection_df = weapons[weapons['collection']==collection]
+        collection_df.to_json(os.path.join(data_folder_path, collection, 'nfts.json'), orient='index', indent=4)
+    with open(os.path.join(data_folder_path, 'market_data.json'), 'w') as f:
+        json.dump(market_data, f, indent=4)

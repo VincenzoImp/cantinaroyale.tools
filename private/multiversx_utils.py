@@ -428,7 +428,7 @@ def add_market_data(data_folder_path, collections):
         df['countStarLevel1'] = df['starLevel'].apply(foo)
         rarities = df.groupby('name').agg({'countStarLevel1':'sum'}).reset_index()
         onsale = df[(~df['priceAmount'].isna()) & (df['priceCurrency']=='EGLD')]
-        onsale['priceStarlevel1'] = onsale['priceAmount'] / onsale['countStarLevel1']
+        onsale['priceStarlevel1'] = onsale.apply(lambda x: x['priceAmount'] / x['countStarLevel1'], axis=1)
         tmp = onsale.groupby('name').agg({'priceStarlevel1':'min'}).reset_index().rename(columns={'priceStarlevel1':'floorPrice'})
         rarities = pd.merge(rarities, tmp, on='name', how='outer')
         rarities['countStarLevel1%'] = rarities['countStarLevel1'] / rarities['countStarLevel1'].sum()

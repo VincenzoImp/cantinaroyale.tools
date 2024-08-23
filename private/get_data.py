@@ -5,9 +5,9 @@ import os
 data_folder_path = '../public/data'
 collections = ['CRMYTH-546419', 'CRWEAPONS-e5ab49', 'GSPACEAPE-08bc2b', 'CEA-2d29f9', 'CRHEROES-9edff2']
 operations = {
-    'info': False,
-    'nfts_raw': False,
-    'nfts_processed': False,
+    'info': True,
+    'nfts_raw': True,
+    'nfts_processed': True,
     'txs': False,
     'market_data': True
 }

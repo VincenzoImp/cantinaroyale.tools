@@ -5,9 +5,9 @@ import os
 data_folder_path = '../public/data'
 collections = ['CRMYTH-546419', 'CRWEAPONS-e5ab49', 'GSPACEAPE-08bc2b', 'CEA-2d29f9', 'CRHEROES-9edff2']
 operations = {
-    'info': True,
-    'nfts_raw': True,
-    'nfts_processed': True,
+    'info': False,
+    'nfts_raw': False,
+    'nfts_processed': False,
     'txs': False,
     'market_data': True
 }
@@ -35,10 +35,6 @@ params = {
     'CRHEROES-9edff2': {
         'sleep_time': 0.6,
         'whitelist': ['https://metadata.cantinaroyale.io/dynamic/', 'https://metadata.cantinaroyale.io/metadata/']
-    },
-    'EAPES-8f3c1f': {
-        'sleep_time': 0,
-        'whitelist': []
     }
 }
 

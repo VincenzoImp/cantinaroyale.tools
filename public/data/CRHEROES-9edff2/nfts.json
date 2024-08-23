@@ -52,8 +52,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8026327876,
-        "discount":-19.2580226247
+        "EGLDvalue":7.80444178,
+        "discount":-19.2767378173
     },
     "CRHEROES-9edff2-0165":{
         "identifier":"CRHEROES-9edff2-0165",
@@ -108,8 +108,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.0530387045,
-        "discount":-0.7519979224
+        "EGLDvalue":7.0539452742,
+        "discount":-0.7647532286
     },
     "CRHEROES-9edff2-01":{
         "identifier":"CRHEROES-9edff2-01",
@@ -164,7 +164,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.2731466454,
+        "EGLDvalue":6.2765814972,
         "discount":null
     },
     "CRHEROES-9edff2-0100":{
@@ -220,7 +220,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":4.3006008165,
+        "EGLDvalue":4.3016609559,
         "discount":null
     },
     "CRHEROES-9edff2-0101":{
@@ -276,7 +276,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.720126537,
+        "EGLDvalue":3.7204878539,
         "discount":null
     },
     "CRHEROES-9edff2-0102":{
@@ -332,7 +332,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6543453782,
+        "EGLDvalue":3.6546275023,
         "discount":null
     },
     "CRHEROES-9edff2-0103":{
@@ -388,7 +388,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.9799690678,
+        "EGLDvalue":4.9818470864,
         "discount":null
     },
     "CRHEROES-9edff2-0104":{
@@ -444,7 +444,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.0965903308,
+        "EGLDvalue":4.0974048657,
         "discount":null
     },
     "CRHEROES-9edff2-0105":{
@@ -500,7 +500,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6997324421,
+        "EGLDvalue":4.7012730889,
         "discount":null
     },
     "CRHEROES-9edff2-0106":{
@@ -556,7 +556,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.2934893399,
+        "EGLDvalue":4.2945409179,
         "discount":null
     },
     "CRHEROES-9edff2-0107":{
@@ -612,7 +612,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2317083867,
+        "EGLDvalue":4.2326855878,
         "discount":null
     },
     "CRHEROES-9edff2-0108":{
@@ -668,7 +668,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":13.2028361494,
+        "EGLDvalue":13.2146135293,
         "discount":null
     },
     "CRHEROES-9edff2-0109":{
@@ -724,7 +724,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.5015000311,
+        "EGLDvalue":4.5028020295,
         "discount":null
     },
     "CRHEROES-9edff2-010a":{
@@ -780,7 +780,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4501640593,
+        "EGLDvalue":4.4514042552,
         "discount":null
     },
     "CRHEROES-9edff2-010b":{
@@ -836,7 +836,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7317938033,
+        "EGLDvalue":3.7321691662,
         "discount":null
     },
     "CRHEROES-9edff2-010c":{
@@ -892,7 +892,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8325767611,
+        "EGLDvalue":3.8330734548,
         "discount":null
     },
     "CRHEROES-9edff2-010d":{
@@ -948,7 +948,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7775739341,
+        "EGLDvalue":3.7780044109,
         "discount":null
     },
     "CRHEROES-9edff2-010e":{
@@ -1004,7 +1004,7 @@
         "precisionWeaponsProficiency":5,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.9377446754,
+        "EGLDvalue":4.9395718608,
         "discount":null
     },
     "CRHEROES-9edff2-010f":{
@@ -1060,7 +1060,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "EGLDvalue":4.583504246,
+        "EGLDvalue":4.5849049677,
         "discount":null
     },
     "CRHEROES-9edff2-0110":{
@@ -1116,7 +1116,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7005699762,
+        "EGLDvalue":3.7009077494,
         "discount":null
     },
     "CRHEROES-9edff2-0111":{
@@ -1172,7 +1172,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.0068079384,
+        "EGLDvalue":4.0075143859,
         "discount":null
     },
     "CRHEROES-9edff2-0112":{
@@ -1228,7 +1228,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.0343649103,
+        "EGLDvalue":4.0351045332,
         "discount":null
     },
     "CRHEROES-9edff2-0113":{
@@ -1284,7 +1284,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":3.9245814899,
+        "EGLDvalue":3.9251889465,
         "discount":null
     },
     "CRHEROES-9edff2-0114":{
@@ -1340,7 +1340,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4466083209,
+        "EGLDvalue":4.4478442362,
         "discount":null
     },
     "CRHEROES-9edff2-0115":{
@@ -1396,7 +1396,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.0321773424,
+        "EGLDvalue":9.0389337414,
         "discount":null
     },
     "CRHEROES-9edff2-0116":{
@@ -1452,7 +1452,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4523863957,
+        "EGLDvalue":4.4536292671,
         "discount":null
     },
     "CRHEROES-9edff2-0117":{
@@ -1508,7 +1508,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.8404063391,
+        "EGLDvalue":4.8421163406,
         "discount":null
     },
     "CRHEROES-9edff2-0118":{
@@ -1564,7 +1564,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.8692967129,
+        "EGLDvalue":4.871041495,
         "discount":null
     },
     "CRHEROES-9edff2-0119":{
@@ -1620,7 +1620,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5167147198,
+        "EGLDvalue":6.5204427988,
         "discount":null
     },
     "CRHEROES-9edff2-011a":{
@@ -1676,7 +1676,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9309151488,
+        "EGLDvalue":3.9315302303,
         "discount":null
     },
     "CRHEROES-9edff2-011b":{
@@ -1732,7 +1732,7 @@
         "precisionWeaponsProficiency":3,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4263850593,
+        "EGLDvalue":4.4275966281,
         "discount":null
     },
     "CRHEROES-9edff2-011c":{
@@ -1788,7 +1788,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.252153882,
+        "EGLDvalue":4.253155697,
         "discount":null
     },
     "CRHEROES-9edff2-011d":{
@@ -1844,7 +1844,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.3146529365,
+        "EGLDvalue":5.316933875,
         "discount":null
     },
     "CRHEROES-9edff2-011e":{
@@ -1900,7 +1900,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.9619515107,
+        "EGLDvalue":8.9686233661,
         "discount":null
     },
     "CRHEROES-9edff2-011f":{
@@ -1956,7 +1956,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6983476398,
+        "EGLDvalue":3.6986827375,
         "discount":null
     },
     "CRHEROES-9edff2-0120":{
@@ -2012,7 +2012,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.121480499,
+        "EGLDvalue":4.1223249987,
         "discount":null
     },
     "CRHEROES-9edff2-0121":{
@@ -2068,7 +2068,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.354048008,
+        "EGLDvalue":4.3551724915,
         "discount":null
     },
     "CRHEROES-9edff2-0122":{
@@ -2124,7 +2124,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9375821581,
+        "EGLDvalue":3.938205266,
         "discount":null
     },
     "CRHEROES-9edff2-0123":{
@@ -2180,7 +2180,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8472441816,
+        "EGLDvalue":3.8477585332,
         "discount":null
     },
     "CRHEROES-9edff2-0124":{
@@ -2236,7 +2236,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.0703667607,
+        "EGLDvalue":4.0711497255,
         "discount":null
     },
     "CRHEROES-9edff2-0125":{
@@ -2292,7 +2292,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.1357034522,
+        "EGLDvalue":4.1365650747,
         "discount":null
     },
     "CRHEROES-9edff2-0126":{
@@ -2348,7 +2348,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6974587052,
+        "EGLDvalue":3.6977927327,
         "discount":null
     },
     "CRHEROES-9edff2-0127":{
@@ -2404,7 +2404,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6947919015,
+        "EGLDvalue":3.6951227185,
         "discount":null
     },
     "CRHEROES-9edff2-0128":{
@@ -2460,7 +2460,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4670538162,
+        "EGLDvalue":4.4683143454,
         "discount":null
     },
     "CRHEROES-9edff2-0129":{
@@ -2516,7 +2516,7 @@
         "precisionWeaponsProficiency":12,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":3,
-        "EGLDvalue":4.3343803305,
+        "EGLDvalue":4.3354811364,
         "discount":null
     },
     "CRHEROES-9edff2-012a":{
@@ -2572,7 +2572,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.7099551897,
+        "EGLDvalue":4.7115081435,
         "discount":null
     },
     "CRHEROES-9edff2-012b":{
@@ -2628,7 +2628,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2650434334,
+        "EGLDvalue":4.2660607659,
         "discount":null
     },
     "CRHEROES-9edff2-012c":{
@@ -2684,7 +2684,7 @@
         "precisionWeaponsProficiency":11,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":15,
-        "EGLDvalue":6.779172654,
+        "EGLDvalue":6.7832167014,
         "discount":null
     },
     "CRHEROES-9edff2-012d":{
@@ -2964,7 +2964,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4226668037,
+        "EGLDvalue":3.4226700143,
         "discount":null
     },
     "CRHEROES-9edff2-0132":{
@@ -4252,7 +4252,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":5.3835453663,
+        "EGLDvalue":5.3859092432,
         "discount":null
     },
     "CRHEROES-9edff2-0149":{
@@ -4308,7 +4308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2588208913,
+        "EGLDvalue":4.2598307326,
         "discount":null
     },
     "CRHEROES-9edff2-014a":{
@@ -4364,7 +4364,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.3795451607,
+        "EGLDvalue":5.3819042218,
         "discount":null
     },
     "CRHEROES-9edff2-014b":{
@@ -4420,7 +4420,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.972686758,
+        "EGLDvalue":5.9757598915,
         "discount":null
     },
     "CRHEROES-9edff2-014c":{
@@ -4476,7 +4476,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2323153712,
+        "EGLDvalue":5.234497185,
         "discount":null
     },
     "CRHEROES-9edff2-014d":{
@@ -4532,7 +4532,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.3213199459,
+        "EGLDvalue":5.3236089106,
         "discount":null
     },
     "CRHEROES-9edff2-014e":{
@@ -4588,7 +4588,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4661648817,
+        "EGLDvalue":4.4674243407,
         "discount":null
     },
     "CRHEROES-9edff2-014f":{
@@ -4644,7 +4644,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4617202088,
+        "EGLDvalue":4.4629743169,
         "discount":null
     },
     "CRHEROES-9edff2-0150":{
@@ -4700,7 +4700,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.6812870496,
+        "EGLDvalue":4.6828054903,
         "discount":null
     },
     "CRHEROES-9edff2-0151":{
@@ -4756,7 +4756,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.9842429075,
+        "EGLDvalue":5.9873299533,
         "discount":null
     },
     "CRHEROES-9edff2-0152":{
@@ -4812,7 +4812,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.015526451,
+        "EGLDvalue":5.0174472765,
         "discount":null
     },
     "CRHEROES-9edff2-0153":{
@@ -4868,7 +4868,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4683872181,
+        "EGLDvalue":4.4696493526,
         "discount":null
     },
     "CRHEROES-9edff2-0154":{
@@ -4924,7 +4924,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.5752816011,
+        "EGLDvalue":4.5766724238,
         "discount":null
     },
     "CRHEROES-9edff2-0155":{
@@ -4980,7 +4980,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.101479471,
+        "EGLDvalue":4.1022998918,
         "discount":null
     },
     "CRHEROES-9edff2-0156":{
@@ -5036,7 +5036,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6956808361,
+        "EGLDvalue":3.6960127232,
         "discount":null
     },
     "CRHEROES-9edff2-0157":{
@@ -5092,7 +5092,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.101753105,
+        "EGLDvalue":5.1037777373,
         "discount":null
     },
     "CRHEROES-9edff2-0158":{
@@ -5148,7 +5148,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9188034152,
+        "EGLDvalue":3.9194039156,
         "discount":null
     },
     "CRHEROES-9edff2-0159":{
@@ -5204,7 +5204,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.5589905127,
+        "EGLDvalue":7.5639733687,
         "discount":null
     },
     "CRHEROES-9edff2-015a":{
@@ -5260,7 +5260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.837021434,
+        "EGLDvalue":3.8375234786,
         "discount":null
     },
     "CRHEROES-9edff2-015b":{
@@ -5316,7 +5316,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2773176842,
+        "EGLDvalue":5.2795536755,
         "discount":null
     },
     "CRHEROES-9edff2-015c":{
@@ -5372,7 +5372,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.6355069188,
+        "EGLDvalue":4.6369702456,
         "discount":null
     },
     "CRHEROES-9edff2-015d":{
@@ -5428,7 +5428,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":22.3786410988,
+        "EGLDvalue":22.4014650647,
         "discount":null
     },
     "CRHEROES-9edff2-015e":{
@@ -5484,7 +5484,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6965697706,
+        "EGLDvalue":3.696902728,
         "discount":null
     },
     "CRHEROES-9edff2-015f":{
@@ -5596,7 +5596,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.3064878601,
+        "EGLDvalue":9.3101073166,
         "discount":null
     },
     "CRHEROES-9edff2-0161":{
@@ -5652,7 +5652,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3843890685,
+        "EGLDvalue":7.385694545,
         "discount":null
     },
     "CRHEROES-9edff2-0162":{
@@ -5708,7 +5708,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":12.8246686868,
+        "EGLDvalue":12.8325236177,
         "discount":null
     },
     "CRHEROES-9edff2-0163":{
@@ -5764,7 +5764,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.3022223364,
+        "EGLDvalue":6.3022250119,
         "discount":null
     },
     "CRHEROES-9edff2-0164":{
@@ -5820,7 +5820,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5032840684,
+        "EGLDvalue":7.5047326803,
         "discount":null
     },
     "CRHEROES-9edff2-0166":{
@@ -5876,7 +5876,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8156931722,
+        "EGLDvalue":6.8163140059,
         "discount":null
     },
     "CRHEROES-9edff2-0167":{
@@ -5932,7 +5932,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":7.0130366485,
+        "EGLDvalue":7.0138950605,
         "discount":null
     },
     "CRHEROES-9edff2-0168":{
@@ -5988,7 +5988,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8275229557,
+        "EGLDvalue":7.8293619131,
         "discount":null
     },
     "CRHEROES-9edff2-0169":{
@@ -6044,7 +6044,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.7472452096,
+        "EGLDvalue":6.7477836401,
         "discount":null
     },
     "CRHEROES-9edff2-016a":{
@@ -6100,7 +6100,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.1384792249,
+        "EGLDvalue":9.1418964188,
         "discount":null
     },
     "CRHEROES-9edff2-016b":{
@@ -6156,7 +6156,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.443785168,
+        "EGLDvalue":6.4439582684,
         "discount":null
     },
     "CRHEROES-9edff2-016c":{
@@ -6212,7 +6212,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8213004137,
+        "EGLDvalue":7.8231318798,
         "discount":null
     },
     "CRHEROES-9edff2-016d":{
@@ -6268,7 +6268,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.3629866063,
+        "EGLDvalue":10.3678779625,
         "discount":null
     },
     "CRHEROES-9edff2-016e":{
@@ -6324,7 +6324,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":8.919579085,
+        "EGLDvalue":8.922732749,
         "discount":null
     },
     "CRHEROES-9edff2-016f":{
@@ -6380,7 +6380,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1517104427,
+        "EGLDvalue":7.1527358015,
         "discount":null
     },
     "CRHEROES-9edff2-0170":{
@@ -6436,7 +6436,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.537567766,
+        "EGLDvalue":6.5378537696,
         "discount":null
     },
     "CRHEROES-9edff2-0171":{
@@ -6492,7 +6492,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8957486846,
+        "EGLDvalue":7.8976697777,
         "discount":null
     },
     "CRHEROES-9edff2-0172":{
@@ -6548,7 +6548,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.8066329932,
+        "EGLDvalue":7.8084468014,
         "discount":null
     },
     "CRHEROES-9edff2-0173":{
@@ -6604,7 +6604,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.5750655355,
+        "EGLDvalue":7.5766005639,
         "discount":null
     },
     "CRHEROES-9edff2-0174":{
@@ -6660,7 +6660,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9797016018,
+        "EGLDvalue":6.9805198823,
         "discount":null
     },
     "CRHEROES-9edff2-0175":{
@@ -6716,7 +6716,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.2377662636,
+        "EGLDvalue":8.2400991054,
         "discount":null
     },
     "CRHEROES-9edff2-0176":{
@@ -6772,7 +6772,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.3878934064,
+        "EGLDvalue":6.3879992197,
         "discount":null
     },
     "CRHEROES-9edff2-0177":{
@@ -6828,7 +6828,7 @@
         "precisionWeaponsProficiency":13,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.8550118953,
+        "EGLDvalue":10.8604955919,
         "discount":null
     },
     "CRHEROES-9edff2-0178":{
@@ -6884,7 +6884,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8199670118,
+        "EGLDvalue":7.8217968727,
         "discount":null
     },
     "CRHEROES-9edff2-0179":{
@@ -6940,7 +6940,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":14.7756578523,
+        "EGLDvalue":14.7858615438,
         "discount":null
     },
     "CRHEROES-9edff2-017a":{
@@ -6996,7 +6996,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.9510848621,
+        "EGLDvalue":7.9530725734,
         "discount":null
     },
     "CRHEROES-9edff2-017b":{
@@ -7052,7 +7052,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3274972555,
+        "EGLDvalue":7.3287342409,
         "discount":null
     },
     "CRHEROES-9edff2-017c":{
@@ -7108,7 +7108,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8299161254,
+        "EGLDvalue":6.8305540819,
         "discount":null
     },
     "CRHEROES-9edff2-017d":{
@@ -7164,7 +7164,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":9.1464796361,
+        "EGLDvalue":9.1499064615,
         "discount":null
     },
     "CRHEROES-9edff2-017e":{
@@ -7220,7 +7220,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9801460691,
+        "EGLDvalue":6.9809648847,
         "discount":null
     },
     "CRHEROES-9edff2-017f":{
@@ -7276,7 +7276,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9779237327,
+        "EGLDvalue":6.9787398728,
         "discount":null
     },
     "CRHEROES-9edff2-0180":{
@@ -7332,7 +7332,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8814743309,
+        "EGLDvalue":6.8821743574,
         "discount":null
     },
     "CRHEROES-9edff2-0181":{
@@ -7388,7 +7388,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5850146491,
+        "EGLDvalue":6.5853577731,
         "discount":null
     },
     "CRHEROES-9edff2-0182":{
@@ -7444,7 +7444,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.4188949998,
+        "EGLDvalue":6.4190381354,
         "discount":null
     },
     "CRHEROES-9edff2-0183":{
@@ -7500,7 +7500,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9792571345,
+        "EGLDvalue":6.9800748799,
         "discount":null
     },
     "CRHEROES-9edff2-0184":{
@@ -7556,7 +7556,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8352497329,
+        "EGLDvalue":6.8358941104,
         "discount":null
     },
     "CRHEROES-9edff2-0185":{
@@ -7612,7 +7612,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.1767034117,
+        "EGLDvalue":9.1801666231,
         "discount":null
     },
     "CRHEROES-9edff2-0186":{
@@ -7668,7 +7668,7 @@
         "precisionWeaponsProficiency":3,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.0977590675,
+        "EGLDvalue":8.0999233572,
         "discount":null
     },
     "CRHEROES-9edff2-0187":{
@@ -7724,7 +7724,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1561551156,
+        "EGLDvalue":7.1571858253,
         "discount":null
     },
     "CRHEROES-9edff2-0188":{
@@ -7780,7 +7780,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":9.1633693931,
+        "EGLDvalue":9.1668165518,
         "discount":null
     },
     "CRHEROES-9edff2-0189":{
@@ -7836,7 +7836,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.4177241152,
+        "EGLDvalue":7.4190697231,
         "discount":null
     },
     "CRHEROES-9edff2-018a":{
@@ -7892,7 +7892,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.527558936,
+        "EGLDvalue":8.530240654,
         "discount":null
     },
     "CRHEROES-9edff2-018b":{
@@ -7948,7 +7948,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.0912628914,
+        "EGLDvalue":7.0922154785,
         "discount":null
     },
     "CRHEROES-9edff2-018c":{
@@ -8004,7 +8004,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5070620403,
+        "EGLDvalue":7.5085152005,
         "discount":null
     },
     "CRHEROES-9edff2-018d":{
@@ -8060,7 +8060,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5799546757,
+        "EGLDvalue":7.5814955901,
         "discount":null
     },
     "CRHEROES-9edff2-018e":{
@@ -8116,7 +8116,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.4239466573,
+        "EGLDvalue":7.4252997564,
         "discount":null
     },
     "CRHEROES-9edff2-018f":{
@@ -8172,7 +8172,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8213004137,
+        "EGLDvalue":7.8231318798,
         "discount":null
     },
     "CRHEROES-9edff2-0190":{
@@ -8228,7 +8228,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1330428166,
+        "EGLDvalue":7.1340457018,
         "discount":null
     },
     "CRHEROES-9edff2-0191":{
@@ -8284,7 +8284,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.5155583192,
+        "EGLDvalue":8.5182255899,
         "discount":null
     },
     "CRHEROES-9edff2-0192":{
@@ -8340,7 +8340,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.3905602101,
+        "EGLDvalue":6.390669234,
         "discount":null
     },
     "CRHEROES-9edff2-0193":{
@@ -8396,7 +8396,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1654889287,
+        "EGLDvalue":7.1665308752,
         "discount":null
     },
     "CRHEROES-9edff2-0194":{
@@ -8452,7 +8452,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5621759842,
+        "EGLDvalue":7.563695495,
         "discount":null
     },
     "CRHEROES-9edff2-0195":{
@@ -8508,7 +8508,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.7508009479,
+        "EGLDvalue":6.7513436591,
         "discount":null
     },
     "CRHEROES-9edff2-0196":{
@@ -8564,7 +8564,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3652769751,
+        "EGLDvalue":7.3665594428,
         "discount":null
     },
     "CRHEROES-9edff2-0197":{
@@ -8620,7 +8620,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.4264426278,
+        "EGLDvalue":8.4290026137,
         "discount":null
     },
     "CRHEROES-9edff2-0198":{
@@ -8676,7 +8676,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.7423560695,
+        "EGLDvalue":6.7428886139,
         "discount":null
     },
     "CRHEROES-9edff2-0199":{
@@ -8732,7 +8732,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.5908955247,
+        "EGLDvalue":8.5936534925,
         "discount":null
     },
     "CRHEROES-9edff2-019a":{
@@ -8788,7 +8788,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.8035731226,
+        "EGLDvalue":8.8065871291,
         "discount":null
     },
     "CRHEROES-9edff2-019b":{
@@ -8844,7 +8844,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.9938051223,
+        "EGLDvalue":8.9970481456,
         "discount":null
     },
     "CRHEROES-9edff2-019c":{
@@ -8900,7 +8900,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.6006738051,
+        "EGLDvalue":8.6034435448,
         "discount":null
     },
     "CRHEROES-9edff2-019d":{
@@ -8956,7 +8956,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.1515396095,
+        "EGLDvalue":8.1537686446,
         "discount":null
     },
     "CRHEROES-9edff2-019e":{
@@ -9012,7 +9012,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.4530592647,
+        "EGLDvalue":7.4544474119,
         "discount":null
     },
     "CRHEROES-9edff2-019f":{
@@ -9068,7 +9068,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.8171293749,
+        "EGLDvalue":8.8201597015,
         "discount":null
     },
     "CRHEROES-9edff2-01a0":{
@@ -9124,7 +9124,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.7719645446,
+        "EGLDvalue":7.7737366162,
         "discount":null
     },
     "CRHEROES-9edff2-01a1":{
@@ -9180,7 +9180,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.6337866181,
+        "EGLDvalue":8.6365962217,
         "discount":null
     },
     "CRHEROES-9edff2-01a2":{
@@ -9236,7 +9236,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5012839656,
+        "EGLDvalue":7.5027301696,
         "discount":null
     },
     "CRHEROES-9edff2-01a3":{
@@ -9292,7 +9292,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.5646802706,
+        "EGLDvalue":6.5649989144,
         "discount":null
     },
     "CRHEROES-9edff2-01a4":{
@@ -9348,7 +9348,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.9997026298,
+        "EGLDvalue":7.0005449892,
         "discount":null
     },
     "CRHEROES-9edff2-01a5":{
@@ -9404,7 +9404,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.8140181038,
+        "EGLDvalue":8.8170446849,
         "discount":null
     },
     "CRHEROES-9edff2-01a6":{
@@ -9460,7 +9460,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.6325726491,
+        "EGLDvalue":6.6329730273,
         "discount":null
     },
     "CRHEROES-9edff2-01a7":{
@@ -9516,7 +9516,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.8068038264,
+        "EGLDvalue":6.8074139584,
         "discount":null
     },
     "CRHEROES-9edff2-01a8":{
@@ -9572,7 +9572,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3314974611,
+        "EGLDvalue":7.3327392623,
         "discount":null
     },
     "CRHEROES-9edff2-01a9":{
@@ -9628,7 +9628,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.3306085266,
+        "EGLDvalue":7.3318492576,
         "discount":null
     },
     "CRHEROES-9edff2-01aa":{
@@ -9684,7 +9684,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3310529938,
+        "EGLDvalue":7.3322942599,
         "discount":null
     },
     "CRHEROES-9edff2-01ab":{
@@ -9740,7 +9740,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8155223389,
+        "EGLDvalue":7.8173468489,
         "discount":null
     },
     "CRHEROES-9edff2-01ac":{
@@ -9796,7 +9796,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.6379062565,
+        "EGLDvalue":6.6383130558,
         "discount":null
     },
     "CRHEROES-9edff2-01ad":{
@@ -9852,7 +9852,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.9424691504,
+        "EGLDvalue":8.9456503713,
         "discount":null
     },
     "CRHEROES-9edff2-01ae":{
@@ -9908,7 +9908,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.6132897224,
+        "EGLDvalue":7.6148707682,
         "discount":null
     },
     "CRHEROES-9edff2-01af":{
@@ -9964,7 +9964,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":14,
-        "EGLDvalue":7.1277092091,
+        "EGLDvalue":7.1287056733,
         "discount":null
     },
     "CRHEROES-9edff2-01b1":{
@@ -10020,7 +10020,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":11,
-        "EGLDvalue":7.3614990031,
+        "EGLDvalue":7.3627769226,
         "discount":null
     },
     "CRHEROES-9edff2-01b2":{
@@ -10076,7 +10076,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.6077852817,
+        "EGLDvalue":8.6105635828,
         "discount":null
     },
     "CRHEROES-9edff2-01b3":{
@@ -10132,7 +10132,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3192746107,
+        "EGLDvalue":7.320501697,
         "discount":null
     },
     "CRHEROES-9edff2-01b4":{
@@ -10188,7 +10188,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8961417515,
+        "EGLDvalue":6.8968594358,
         "discount":null
     },
     "CRHEROES-9edff2-01b5":{
@@ -10244,7 +10244,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.753912219,
+        "EGLDvalue":6.7544586757,
         "discount":null
     },
     "CRHEROES-9edff2-01b6":{
@@ -10300,7 +10300,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1299315455,
+        "EGLDvalue":7.1309306851,
         "discount":null
     },
     "CRHEROES-9edff2-01b7":{
@@ -10356,7 +10356,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.9728637593,
+        "EGLDvalue":7.9748776898,
         "discount":null
     },
     "CRHEROES-9edff2-01b8":{
@@ -10412,7 +10412,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.1522577108,
+        "EGLDvalue":9.1556914924,
         "discount":null
     },
     "CRHEROES-9edff2-01b9":{
@@ -10468,7 +10468,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5867925183,
+        "EGLDvalue":6.5871377826,
         "discount":null
     },
     "CRHEROES-9edff2-01ba":{
@@ -10524,7 +10524,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5765697706,
+        "EGLDvalue":6.576902728,
         "discount":null
     },
     "CRHEROES-9edff2-01bb":{
@@ -10580,7 +10580,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.7025082147,
+        "EGLDvalue":9.7066044329,
         "discount":null
     },
     "CRHEROES-9edff2-01bc":{
@@ -10636,7 +10636,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.847968451,
+        "EGLDvalue":7.8498320223,
         "discount":null
     },
     "CRHEROES-9edff2-01bd":{
@@ -10692,7 +10692,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.4947877894,
+        "EGLDvalue":6.4950222909,
         "discount":null
     },
     "CRHEROES-9edff2-01be":{
@@ -10748,7 +10748,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5801255089,
+        "EGLDvalue":6.580462747,
         "discount":null
     },
     "CRHEROES-9edff2-01bf":{
@@ -10804,7 +10804,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.4738978269,
+        "EGLDvalue":6.4741071793,
         "discount":null
     },
     "CRHEROES-9edff2-01c0":{
@@ -10860,7 +10860,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.9061936659,
+        "EGLDvalue":7.9081273335,
         "discount":null
     },
     "CRHEROES-9edff2-01c1":{
@@ -10916,7 +10916,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5805699762,
+        "EGLDvalue":6.5809077494,
         "discount":null
     },
     "CRHEROES-9edff2-01c2":{
@@ -10972,7 +10972,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1245979381,
+        "EGLDvalue":7.1255906566,
         "discount":null
     },
     "CRHEROES-9edff2-01c3":{
@@ -11028,7 +11028,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.9446400864,
+        "EGLDvalue":7.9466200389,
         "discount":null
     },
     "CRHEROES-9edff2-01c4":{
@@ -11084,7 +11084,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3323863957,
+        "EGLDvalue":7.3336292671,
         "discount":null
     },
     "CRHEROES-9edff2-01c5":{
@@ -11140,7 +11140,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5715097972,
+        "EGLDvalue":7.5730405449,
         "discount":null
     },
     "CRHEROES-9edff2-01c6":{
@@ -11196,7 +11196,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":11.5419360906,
+        "EGLDvalue":11.5482467628,
         "discount":null
     },
     "CRHEROES-9edff2-01c7":{
@@ -11252,7 +11252,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.0494829662,
+        "EGLDvalue":7.0503852552,
         "discount":null
     },
     "CRHEROES-9edff2-01c8":{
@@ -11308,7 +11308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.2877174332,
+        "EGLDvalue":7.2889065283,
         "discount":null
     },
     "CRHEROES-9edff2-01c9":{
@@ -11364,7 +11364,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8159668062,
+        "EGLDvalue":7.8177918513,
         "discount":null
     },
     "CRHEROES-9edff2-01ca":{
@@ -11420,7 +11420,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3443870125,
+        "EGLDvalue":7.3456443312,
         "discount":null
     },
     "CRHEROES-9edff2-01cb":{
@@ -11476,7 +11476,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8232491161,
+        "EGLDvalue":6.8238790462,
         "discount":null
     },
     "CRHEROES-9edff2-01cc":{
@@ -11532,7 +11532,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":11.2943678106,
+        "EGLDvalue":11.3003804398,
         "discount":null
     },
     "CRHEROES-9edff2-01cd":{
@@ -11588,7 +11588,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.765793403,
+        "EGLDvalue":8.7687619272,
         "discount":null
     },
     "CRHEROES-9edff2-01ce":{
@@ -11644,7 +11644,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":17,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8188558436,
+        "EGLDvalue":7.8206843667,
         "discount":null
     },
     "CRHEROES-9edff2-01cf":{
@@ -11700,7 +11700,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.684182255,
+        "EGLDvalue":7.685848647,
         "discount":null
     },
     "CRHEROES-9edff2-01d0":{
@@ -11756,7 +11756,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8788075272,
+        "EGLDvalue":6.8795043431,
         "discount":null
     },
     "CRHEROES-9edff2-01d1":{
@@ -11812,7 +11812,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.9515293294,
+        "EGLDvalue":7.9535175757,
         "discount":null
     },
     "CRHEROES-9edff2-01d2":{
@@ -11868,7 +11868,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.8164112735,
+        "EGLDvalue":7.8182368537,
         "discount":null
     },
     "CRHEROES-9edff2-01d3":{
@@ -11924,7 +11924,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.1882595613,
+        "EGLDvalue":9.1917366848,
         "discount":null
     },
     "CRHEROES-9edff2-01d4":{
@@ -11980,7 +11980,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.3541652929,
+        "EGLDvalue":7.3554343834,
         "discount":null
     },
     "CRHEROES-9edff2-01d5":{
@@ -12036,7 +12036,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1370430222,
+        "EGLDvalue":7.1380507231,
         "discount":null
     },
     "CRHEROES-9edff2-01d6":{
@@ -12092,7 +12092,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1419321623,
+        "EGLDvalue":7.1429457493,
         "discount":null
     },
     "CRHEROES-9edff2-01d7":{
@@ -12148,7 +12148,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":11,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.4611110763,
+        "EGLDvalue":8.4637127989,
         "discount":null
     },
     "CRHEROES-9edff2-01d8":{
@@ -12204,7 +12204,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":4,
-        "EGLDvalue":7.149043639,
+        "EGLDvalue":7.1500657873,
         "discount":null
     },
     "CRHEROES-9edff2-01d9":{
@@ -12260,7 +12260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":10.345652382,
+        "EGLDvalue":10.3505228699,
         "discount":null
     },
     "CRHEROES-9edff2-01da":{
@@ -12316,7 +12316,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.4212284531,
+        "EGLDvalue":6.4213743978,
         "discount":null
     },
     "CRHEROES-9edff2-01db":{
@@ -13492,7 +13492,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":5,
-        "EGLDvalue":9.1789257482,
+        "EGLDvalue":9.1823916349,
         "discount":null
     },
     "CRHEROES-9edff2-01f0":{
@@ -13548,7 +13548,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.9300240663,
+        "EGLDvalue":8.9331903048,
         "discount":null
     },
     "CRHEROES-9edff2-01f1":{
@@ -13604,7 +13604,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.9653078154,
+        "EGLDvalue":7.9673126494,
         "discount":null
     },
     "CRHEROES-9edff2-01f2":{
@@ -13660,7 +13660,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5290631711,
+        "EGLDvalue":7.5305428181,
         "discount":null
     },
     "CRHEROES-9edff2-01f3":{
@@ -13716,7 +13716,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.4731116931,
+        "EGLDvalue":8.4757278631,
         "discount":null
     },
     "CRHEROES-9edff2-01f4":{
@@ -13772,7 +13772,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.4282718974,
+        "EGLDvalue":9.4320379674,
         "discount":null
     },
     "CRHEROES-9edff2-01f5":{
@@ -13828,7 +13828,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9912577513,
+        "EGLDvalue":6.9920899441,
         "discount":null
     },
     "CRHEROES-9edff2-01f6":{
@@ -13884,7 +13884,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.0023694336,
+        "EGLDvalue":7.0032150035,
         "discount":null
     },
     "CRHEROES-9edff2-01f7":{
@@ -13940,7 +13940,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9805905364,
+        "EGLDvalue":6.9814098871,
         "discount":null
     },
     "CRHEROES-9edff2-01f8":{
@@ -13996,7 +13996,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":8.5388928519,
+        "EGLDvalue":8.5415882146,
         "discount":null
     },
     "CRHEROES-9edff2-01f9":{
@@ -14052,7 +14052,7 @@
         "precisionWeaponsProficiency":3,
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":13,
-        "EGLDvalue":8.4464436558,
+        "EGLDvalue":8.4490277206,
         "discount":null
     },
     "CRHEROES-9edff2-01fa":{
@@ -14108,7 +14108,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9774792654,
+        "EGLDvalue":6.9782948704,
         "discount":null
     },
     "CRHEROES-9edff2-01fb":{
@@ -14164,7 +14164,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":3,
-        "EGLDvalue":9.3891587759,
+        "EGLDvalue":9.3928777584,
         "discount":null
     },
     "CRHEROES-9edff2-01fc":{
@@ -14220,7 +14220,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.5759544701,
+        "EGLDvalue":7.5774905687,
         "discount":null
     },
     "CRHEROES-9edff2-01fd":{
@@ -14276,7 +14276,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.4541704329,
+        "EGLDvalue":7.4555599179,
         "discount":null
     },
     "CRHEROES-9edff2-01fe":{
@@ -14332,7 +14332,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3514984891,
+        "EGLDvalue":7.3527643692,
         "discount":null
     },
     "CRHEROES-9edff2-01ff":{
@@ -14388,7 +14388,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3701661153,
+        "EGLDvalue":7.3714544689,
         "discount":null
     },
     "CRHEROES-9edff2-02":{
@@ -14444,7 +14444,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":22.3786410988,
+        "EGLDvalue":22.4014650647,
         "discount":null
     },
     "CRHEROES-9edff2-0200":{
@@ -14500,7 +14500,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5710653299,
+        "EGLDvalue":7.5725955426,
         "discount":null
     },
     "CRHEROES-9edff2-0201":{
@@ -14556,7 +14556,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.3283861901,
+        "EGLDvalue":7.3296242457,
         "discount":null
     },
     "CRHEROES-9edff2-0202":{
@@ -14612,7 +14612,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5755100028,
+        "EGLDvalue":7.5770455663,
         "discount":null
     },
     "CRHEROES-9edff2-0203":{
@@ -14668,7 +14668,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.5821770122,
+        "EGLDvalue":7.5837206019,
         "discount":null
     },
     "CRHEROES-9edff2-0204":{
@@ -14724,7 +14724,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3661659097,
+        "EGLDvalue":7.3674494476,
         "discount":null
     },
     "CRHEROES-9edff2-0205":{
@@ -14780,7 +14780,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3288306574,
+        "EGLDvalue":7.3300692481,
         "discount":null
     },
     "CRHEROES-9edff2-0206":{
@@ -14836,7 +14836,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.3448314798,
+        "EGLDvalue":7.3460893336,
         "discount":null
     },
     "CRHEROES-9edff2-0207":{
@@ -14892,7 +14892,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.3794485279,
+        "EGLDvalue":6.3795441746,
         "discount":null
     },
     "CRHEROES-9edff2-0208":{
@@ -14948,7 +14948,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.3790040606,
+        "EGLDvalue":6.3790991722,
         "discount":null
     },
     "CRHEROES-9edff2-0209":{
@@ -15004,7 +15004,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.8974751533,
+        "EGLDvalue":6.8981944429,
         "discount":null
     },
     "CRHEROES-9edff2-020a":{
@@ -15060,7 +15060,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5792365744,
+        "EGLDvalue":6.5795727422,
         "discount":null
     },
     "CRHEROES-9edff2-020b":{
@@ -15116,7 +15116,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.4734533596,
+        "EGLDvalue":6.4736621769,
         "discount":null
     },
     "CRHEROES-9edff2-020c":{
@@ -15172,7 +15172,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5756808361,
+        "EGLDvalue":6.5760127232,
         "discount":null
     },
     "CRHEROES-9edff2-020d":{
@@ -15228,7 +15228,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.7365779947,
+        "EGLDvalue":6.7371035831,
         "discount":null
     },
     "CRHEROES-9edff2-020e":{
@@ -15284,7 +15284,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.6490179387,
+        "EGLDvalue":6.6494381151,
         "discount":null
     },
     "CRHEROES-9edff2-020f":{
@@ -15340,7 +15340,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.6583517518,
+        "EGLDvalue":6.658783165,
         "discount":null
     },
     "CRHEROES-9edff2-0210":{
@@ -15396,7 +15396,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.5756808361,
+        "EGLDvalue":6.5760127232,
         "discount":null
     },
     "CRHEROES-9edff2-0211":{
@@ -15452,7 +15452,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.0037028354,
+        "EGLDvalue":7.0045500106,
         "discount":null
     },
     "CRHEROES-9edff2-0212":{
@@ -15508,7 +15508,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.9965913588,
+        "EGLDvalue":6.9974299726,
         "discount":null
     },
     "CRHEROES-9edff2-0213":{
@@ -15564,7 +15564,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.0072585737,
+        "EGLDvalue":7.0081100296,
         "discount":null
     },
     "CRHEROES-9edff2-0214":{
@@ -15620,7 +15620,7 @@
         "precisionWeaponsProficiency":14,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.5616634845,
+        "EGLDvalue":10.5667940243,
         "discount":null
     },
     "CRHEROES-9edff2-0215":{
@@ -15676,7 +15676,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":10.0736384011,
+        "EGLDvalue":10.0781814163,
         "discount":null
     },
     "CRHEROES-9edff2-0216":{
@@ -15732,7 +15732,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.4315026012,
+        "EGLDvalue":7.4328647967,
         "discount":null
     },
     "CRHEROES-9edff2-0217":{
@@ -15788,7 +15788,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":7.774853582,
+        "EGLDvalue":7.7766291316,
         "discount":null
     },
     "CRHEROES-9edff2-0218":{
@@ -15844,7 +15844,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.9603506428,
+        "EGLDvalue":10.9659611548,
         "discount":null
     },
     "CRHEROES-9edff2-0219":{
@@ -15900,7 +15900,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.6099048173,
+        "EGLDvalue":6.6102779061,
         "discount":null
     },
     "CRHEROES-9edff2-021a":{
@@ -15956,7 +15956,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.75702349,
+        "EGLDvalue":6.7575736923,
         "discount":null
     },
     "CRHEROES-9edff2-021b":{
@@ -16012,7 +16012,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.078083074,
+        "EGLDvalue":10.08263144,
         "discount":null
     },
     "CRHEROES-9edff2-021c":{
@@ -16068,7 +16068,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.6467956023,
+        "EGLDvalue":6.6472131033,
         "discount":null
     },
     "CRHEROES-9edff2-021d":{
@@ -16124,7 +16124,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.5801948995,
+        "EGLDvalue":21.5821574617,
         "discount":null
     },
     "CRHEROES-9edff2-021e":{
@@ -16180,7 +16180,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7983089057,
+        "EGLDvalue":23.8029418153,
         "discount":null
     },
     "CRHEROES-9edff2-021f":{
@@ -16236,7 +16236,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.8285326813,
+        "EGLDvalue":23.8332019768,
         "discount":null
     },
     "CRHEROES-9edff2-0220":{
@@ -16292,7 +16292,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":5,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.8129763262,
+        "EGLDvalue":23.8176268937,
         "discount":null
     },
     "CRHEROES-9edff2-0221":{
@@ -16348,7 +16348,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.2160053565,
+        "EGLDvalue":22.2187333595,
         "discount":null
     },
     "CRHEROES-9edff2-0222":{
@@ -16404,7 +16404,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.1311204203,
+        "EGLDvalue":20.1313384679,
         "discount":null
     },
     "CRHEROES-9edff2-0223":{
@@ -16460,7 +16460,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":28.4198797775,
+        "EGLDvalue":28.4300765129,
         "discount":null
     },
     "CRHEROES-9edff2-0224":{
@@ -16516,7 +16516,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.233510414,
+        "EGLDvalue":21.2350556091,
         "discount":null
     },
     "CRHEROES-9edff2-0225":{
@@ -16572,7 +16572,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.7212618634,
+        "EGLDvalue":20.7221903716,
         "discount":null
     },
     "CRHEROES-9edff2-0226":{
@@ -16628,7 +16628,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7520843076,
+        "EGLDvalue":23.7566615683,
         "discount":null
     },
     "CRHEROES-9edff2-0227":{
@@ -16684,7 +16684,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.9764888882,
+        "EGLDvalue":22.9801324235,
         "discount":null
     },
     "CRHEROES-9edff2-0228":{
@@ -16740,7 +16740,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.8929804382,
+        "EGLDvalue":23.8977273212,
         "discount":null
     },
     "CRHEROES-9edff2-0229":{
@@ -16796,7 +16796,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.6859781143,
+        "EGLDvalue":21.688068027,
         "discount":null
     },
     "CRHEROES-9edff2-022a":{
@@ -16852,7 +16852,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":21.8250963758,
+        "EGLDvalue":21.8273537705,
         "discount":null
     },
     "CRHEROES-9edff2-022b":{
@@ -16908,7 +16908,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.3076170185,
+        "EGLDvalue":23.311659193,
         "discount":null
     },
     "CRHEROES-9edff2-022c":{
@@ -16964,7 +16964,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":30.9911230448,
+        "EGLDvalue":31.0044152536,
         "discount":null
     },
     "CRHEROES-9edff2-022d":{
@@ -17020,7 +17020,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7489730366,
+        "EGLDvalue":23.7535465516,
         "discount":null
     },
     "CRHEROES-9edff2-022e":{
@@ -17076,7 +17076,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.2695636649,
+        "EGLDvalue":22.2723561457,
         "discount":null
     },
     "CRHEROES-9edff2-022f":{
@@ -17132,7 +17132,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":11,
-        "EGLDvalue":23.3738426446,
+        "EGLDvalue":23.377964547,
         "discount":null
     },
     "CRHEROES-9edff2-0230":{
@@ -17188,7 +17188,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":30.2835311206,
+        "EGLDvalue":30.2959714722,
         "discount":null
     },
     "CRHEROES-9edff2-0231":{
@@ -17244,7 +17244,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.281068414,
+        "EGLDvalue":21.2826708632,
         "discount":null
     },
     "CRHEROES-9edff2-0232":{
@@ -17300,7 +17300,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":23.7960865692,
+        "EGLDvalue":23.8007168034,
         "discount":null
     },
     "CRHEROES-9edff2-0233":{
@@ -17356,7 +17356,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.4733519169,
+        "EGLDvalue":22.4763897347,
         "discount":null
     },
     "CRHEROES-9edff2-0234":{
@@ -17412,7 +17412,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.2448443299,
+        "EGLDvalue":21.2464031696,
         "discount":null
     },
     "CRHEROES-9edff2-0235":{
@@ -17468,7 +17468,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":14,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.0897766464,
+        "EGLDvalue":22.0923526849,
         "discount":null
     },
     "CRHEROES-9edff2-0236":{
@@ -17524,7 +17524,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.8294216159,
+        "EGLDvalue":23.8340919816,
         "discount":null
     },
     "CRHEROES-9edff2-0237":{
@@ -17580,7 +17580,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7400836908,
+        "EGLDvalue":23.7446465041,
         "discount":null
     },
     "CRHEROES-9edff2-0238":{
@@ -17636,7 +17636,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.7763758072,
+        "EGLDvalue":20.7773706661,
         "discount":null
     },
     "CRHEROES-9edff2-0239":{
@@ -17692,7 +17692,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7236384011,
+        "EGLDvalue":23.7281814163,
         "discount":null
     },
     "CRHEROES-9edff2-023a":{
@@ -17748,7 +17748,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":23.3138395606,
+        "EGLDvalue":23.3178892263,
         "discount":null
     },
     "CRHEROES-9edff2-023b":{
@@ -17804,7 +17804,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":13,
-        "EGLDvalue":22.2228945995,
+        "EGLDvalue":22.2256308963,
         "discount":null
     },
     "CRHEROES-9edff2-023c":{
@@ -17860,7 +17860,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":21.7046457405,
+        "EGLDvalue":21.7067581268,
         "discount":null
     },
     "CRHEROES-9edff2-023d":{
@@ -17916,7 +17916,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.293239864,
+        "EGLDvalue":20.2936530843,
         "discount":null
     },
     "CRHEROES-9edff2-023e":{
@@ -17972,7 +17972,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.8035911127,
+        "EGLDvalue":22.8070264995,
         "discount":null
     },
     "CRHEROES-9edff2-023f":{
@@ -18028,7 +18028,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.6528139009,
+        "EGLDvalue":20.6536600058,
         "discount":null
     },
     "CRHEROES-9edff2-0240":{
@@ -18084,7 +18084,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":36.8316454569,
+        "EGLDvalue":36.8519689652,
         "discount":null
     },
     "CRHEROES-9edff2-0241":{
@@ -18140,7 +18140,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":27.082255471,
+        "EGLDvalue":27.0908418647,
         "discount":null
     },
     "CRHEROES-9edff2-0242":{
@@ -18196,7 +18196,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.7728200689,
+        "EGLDvalue":20.7738106471,
         "discount":null
     },
     "CRHEROES-9edff2-0243":{
@@ -18252,7 +18252,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7196381955,
+        "EGLDvalue":23.7241763949,
         "discount":null
     },
     "CRHEROES-9edff2-0244":{
@@ -18308,7 +18308,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":12,
         "elementalWeaponsProficiency":2,
-        "EGLDvalue":20.9819419284,
+        "EGLDvalue":20.9831842647,
         "discount":null
     },
     "CRHEROES-9edff2-0245":{
@@ -18364,7 +18364,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":24.1329927743,
+        "EGLDvalue":24.1380286038,
         "discount":null
     },
     "CRHEROES-9edff2-0246":{
@@ -18420,7 +18420,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.7770939086,
+        "EGLDvalue":21.779293514,
         "discount":null
     },
     "CRHEROES-9edff2-0247":{
@@ -18476,7 +18476,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":22.4631291693,
+        "EGLDvalue":22.4661546801,
         "discount":null
     },
     "CRHEROES-9edff2-0248":{
@@ -18532,7 +18532,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.6319239383,
+        "EGLDvalue":20.6327448942,
         "discount":null
     },
     "CRHEROES-9edff2-0249":{
@@ -18588,7 +18588,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.734972317,
+        "EGLDvalue":23.7395289768,
         "discount":null
     },
     "CRHEROES-9edff2-024a":{
@@ -18644,7 +18644,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.3480635418,
+        "EGLDvalue":23.3521544092,
         "discount":null
     },
     "CRHEROES-9edff2-024b":{
@@ -18700,7 +18700,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":24.1947737275,
+        "EGLDvalue":24.199883934,
         "discount":null
     },
     "CRHEROES-9edff2-024c":{
@@ -18756,7 +18756,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.4021857502,
+        "EGLDvalue":21.4039340105,
         "discount":null
     },
     "CRHEROES-9edff2-024d":{
@@ -18812,7 +18812,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":21.8590981234,
+        "EGLDvalue":21.8613964522,
         "discount":null
     },
     "CRHEROES-9edff2-024e":{
@@ -19092,7 +19092,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":19.9860018504,
+        "EGLDvalue":19.9860451924,
         "discount":null
     },
     "CRHEROES-9edff2-0253":{
@@ -19148,7 +19148,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.3227289063,
+        "EGLDvalue":23.3267892738,
         "discount":null
     },
     "CRHEROES-9edff2-0254":{
@@ -19204,7 +19204,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.8365330925,
+        "EGLDvalue":23.8412120196,
         "discount":null
     },
     "CRHEROES-9edff2-0255":{
@@ -19260,7 +19260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":26.2751028741,
+        "EGLDvalue":26.2827175512,
         "discount":null
     },
     "CRHEROES-9edff2-0256":{
@@ -19316,7 +19316,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":20.4212464432,
+        "EGLDvalue":20.4218137683,
         "discount":null
     },
     "CRHEROES-9edff2-0257":{
@@ -19372,7 +19372,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":23.7609736534,
+        "EGLDvalue":23.7655616158,
         "discount":null
     },
     "CRHEROES-9edff2-0258":{
@@ -19428,7 +19428,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":27.9529668903,
+        "EGLDvalue":27.9626015177,
         "discount":null
     },
     "CRHEROES-9edff2-03":{
@@ -19484,7 +19484,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8410216396,
+        "EGLDvalue":3.8415284999,
         "discount":null
     },
     "CRHEROES-9edff2-04":{
@@ -19540,7 +19540,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":4.9032984605,
+        "EGLDvalue":4.9050841767,
         "discount":null
     },
     "CRHEROES-9edff2-05":{
@@ -19596,7 +19596,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":5,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.1945273357,
+        "EGLDvalue":7.199071421,
         "discount":null
     },
     "CRHEROES-9edff2-06":{
@@ -19652,7 +19652,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4937218536,
+        "EGLDvalue":4.495014488,
         "discount":null
     },
     "CRHEROES-9edff2-07":{
@@ -19708,7 +19708,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":5.0010812641,
+        "EGLDvalue":5.0029846993,
         "discount":null
     },
     "CRHEROES-9edff2-08":{
@@ -19764,7 +19764,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.5457245264,
+        "EGLDvalue":4.5470797659,
         "discount":null
     },
     "CRHEROES-9edff2-09":{
@@ -19820,7 +19820,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7023478454,
+        "EGLDvalue":3.7026877589,
         "discount":null
     },
     "CRHEROES-9edff2-0a":{
@@ -19876,7 +19876,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7423499014,
+        "EGLDvalue":3.7427379726,
         "discount":null
     },
     "CRHEROES-9edff2-0b":{
@@ -19932,7 +19932,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6524563922,
+        "EGLDvalue":3.6527362422,
         "discount":null
     },
     "CRHEROES-9edff2-0c":{
@@ -19988,7 +19988,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4226668037,
+        "EGLDvalue":3.4226700143,
         "discount":null
     },
     "CRHEROES-9edff2-0d":{
@@ -20044,7 +20044,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.0057481706,
+        "EGLDvalue":5.0076572242,
         "discount":null
     },
     "CRHEROES-9edff2-0e":{
@@ -20100,7 +20100,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.8964092175,
+        "EGLDvalue":4.8981866399,
         "discount":null
     },
     "CRHEROES-9edff2-0f":{
@@ -20156,7 +20156,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":17,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6866206571,
+        "EGLDvalue":4.6881455188,
         "discount":null
     },
     "CRHEROES-9edff2-10":{
@@ -20212,7 +20212,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":11,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2565985549,
+        "EGLDvalue":4.2576057208,
         "discount":null
     },
     "CRHEROES-9edff2-11":{
@@ -20268,7 +20268,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8312433592,
+        "EGLDvalue":3.8317384477,
         "discount":null
     },
     "CRHEROES-9edff2-12":{
@@ -20324,7 +20324,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6591234015,
+        "EGLDvalue":3.6594112779,
         "discount":null
     },
     "CRHEROES-9edff2-13":{
@@ -20380,7 +20380,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9188034152,
+        "EGLDvalue":3.9194039156,
         "discount":null
     },
     "CRHEROES-9edff2-14":{
@@ -20436,7 +20436,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4871145607,
+        "EGLDvalue":3.4871953587,
         "discount":null
     },
     "CRHEROES-9edff2-15":{
@@ -20660,7 +20660,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4217778692,
+        "EGLDvalue":3.4217800095,
         "discount":null
     },
     "CRHEROES-9edff2-19":{
@@ -20772,7 +20772,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4208889346,
+        "EGLDvalue":3.4208900048,
         "discount":null
     },
     "CRHEROES-9edff2-1b":{
@@ -20884,7 +20884,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":4.8535181241,
+        "EGLDvalue":4.8552439107,
         "discount":null
     },
     "CRHEROES-9edff2-1d":{
@@ -20940,7 +20940,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "EGLDvalue":4.2432645362,
+        "EGLDvalue":4.2442556495,
         "discount":null
     },
     "CRHEROES-9edff2-1e":{
@@ -20996,7 +20996,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.854184825,
+        "EGLDvalue":4.8559114143,
         "discount":null
     },
     "CRHEROES-9edff2-1f":{
@@ -21052,7 +21052,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.032416208,
+        "EGLDvalue":5.0343573667,
         "discount":null
     },
     "CRHEROES-9edff2-20":{
@@ -21164,7 +21164,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4204444673,
+        "EGLDvalue":3.4204450024,
         "discount":null
     },
     "CRHEROES-9edff2-22":{
@@ -21220,7 +21220,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":4.8699634138,
+        "EGLDvalue":4.8717089986,
         "discount":null
     },
     "CRHEROES-9edff2-23":{
@@ -21276,7 +21276,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6250619375,
+        "EGLDvalue":4.6265126898,
         "discount":null
     },
     "CRHEROES-9edff2-24":{
@@ -21332,7 +21332,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2254858446,
+        "EGLDvalue":4.2264555545,
         "discount":null
     },
     "CRHEROES-9edff2-25":{
@@ -21388,7 +21388,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4204444673,
+        "EGLDvalue":3.4204450024,
         "discount":null
     },
     "CRHEROES-9edff2-26":{
@@ -21444,7 +21444,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.857962797,
+        "EGLDvalue":4.8596939344,
         "discount":null
     },
     "CRHEROES-9edff2-27":{
@@ -21500,7 +21500,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":14,
-        "EGLDvalue":7.5309890735,
+        "EGLDvalue":7.5359382191,
         "discount":null
     },
     "CRHEROES-9edff2-28":{
@@ -21556,7 +21556,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.3143793024,
+        "EGLDvalue":4.3154560295,
         "discount":null
     },
     "CRHEROES-9edff2-29":{
@@ -21612,7 +21612,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7965749107,
+        "EGLDvalue":3.7970282624,
         "discount":null
     },
     "CRHEROES-9edff2-2a":{
@@ -21668,7 +21668,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":3.9685837515,
+        "EGLDvalue":3.9692441816,
         "discount":null
     },
     "CRHEROES-9edff2-2b":{
@@ -21724,7 +21724,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":4.19837334,
+        "EGLDvalue":4.1993104096,
         "discount":null
     },
     "CRHEROES-9edff2-2c":{
@@ -21780,7 +21780,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.9740201599,
+        "EGLDvalue":5.9770948986,
         "discount":null
     },
     "CRHEROES-9edff2-2d":{
@@ -21836,7 +21836,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.485670042,
+        "EGLDvalue":3.4857491009,
         "discount":null
     },
     "CRHEROES-9edff2-2e":{
@@ -21892,7 +21892,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9174700133,
+        "EGLDvalue":3.9180689085,
         "discount":null
     },
     "CRHEROES-9edff2-2f":{
@@ -21948,7 +21948,7 @@
         "precisionWeaponsProficiency":11,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":3,
-        "EGLDvalue":4.3437141435,
+        "EGLDvalue":4.3448261863,
         "discount":null
     },
     "CRHEROES-9edff2-30":{
@@ -22004,7 +22004,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7112371912,
+        "EGLDvalue":3.7115878064,
         "discount":null
     },
     "CRHEROES-9edff2-31":{
@@ -22060,7 +22060,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.548784397,
+        "EGLDvalue":3.5489394382,
         "discount":null
     },
     "CRHEROES-9edff2-32":{
@@ -22116,7 +22116,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6699531337,
+        "EGLDvalue":4.6714579297,
         "discount":null
     },
     "CRHEROES-9edff2-33":{
@@ -22172,7 +22172,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.3934944799,
+        "EGLDvalue":4.3946664523,
         "discount":null
     },
     "CRHEROES-9edff2-34":{
@@ -22620,7 +22620,7 @@
         "precisionWeaponsProficiency":13,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":4.2330417885,
+        "EGLDvalue":4.2340205949,
         "discount":null
     },
     "CRHEROES-9edff2-3c":{
@@ -22676,7 +22676,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6881762926,
+        "EGLDvalue":4.6897030271,
         "discount":null
     },
     "CRHEROES-9edff2-3d":{
@@ -22732,7 +22732,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6422336445,
+        "EGLDvalue":3.6425011876,
         "discount":null
     },
     "CRHEROES-9edff2-3e":{
@@ -22788,7 +22788,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.5473398783,
+        "EGLDvalue":3.5474931805,
         "discount":null
     },
     "CRHEROES-9edff2-3f":{
@@ -22844,7 +22844,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.5326724578,
+        "EGLDvalue":3.5328081021,
         "discount":null
     },
     "CRHEROES-9edff2-40":{
@@ -22900,7 +22900,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.6362333361,
+        "EGLDvalue":3.6364936555,
         "discount":null
     },
     "CRHEROES-9edff2-41":{
@@ -22956,7 +22956,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8054642565,
+        "EGLDvalue":3.8059283099,
         "discount":null
     },
     "CRHEROES-9edff2-42":{
@@ -23012,7 +23012,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2219301063,
+        "EGLDvalue":4.2228955355,
         "discount":null
     },
     "CRHEROES-9edff2-43":{
@@ -23068,7 +23068,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4817809532,
+        "EGLDvalue":3.4818553302,
         "discount":null
     },
     "CRHEROES-9edff2-44":{
@@ -23124,7 +23124,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9356931722,
+        "EGLDvalue":3.9363140059,
         "discount":null
     },
     "CRHEROES-9edff2-45":{
@@ -23348,7 +23348,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":12,
-        "EGLDvalue":4.1490374709,
+        "EGLDvalue":4.149915146,
         "discount":null
     },
     "CRHEROES-9edff2-49":{
@@ -23404,7 +23404,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "EGLDvalue":4.1157024242,
+        "EGLDvalue":4.1165399678,
         "discount":null
     },
     "CRHEROES-9edff2-4a":{
@@ -23460,7 +23460,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2090919554,
+        "EGLDvalue":5.2112458109,
         "discount":null
     },
     "CRHEROES-9edff2-4b":{
@@ -23516,7 +23516,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4208889346,
+        "EGLDvalue":3.4208900048,
         "discount":null
     },
     "CRHEROES-9edff2-4c":{
@@ -23572,7 +23572,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.1357034522,
+        "EGLDvalue":4.1365650747,
         "discount":null
     },
     "CRHEROES-9edff2-4d":{
@@ -23628,7 +23628,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":3.77701835,
+        "EGLDvalue":3.7774481579,
         "discount":null
     },
     "CRHEROES-9edff2-4e":{
@@ -23684,7 +23684,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.7581798906,
+        "EGLDvalue":4.7597909012,
         "discount":null
     },
     "CRHEROES-9edff2-4f":{
@@ -23740,7 +23740,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":11,
-        "EGLDvalue":4.7457348065,
+        "EGLDvalue":4.7473308347,
         "discount":null
     },
     "CRHEROES-9edff2-50":{
@@ -23796,7 +23796,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4601645733,
+        "EGLDvalue":4.4614168086,
         "discount":null
     },
     "CRHEROES-9edff2-51":{
@@ -23852,7 +23852,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.8477400493,
+        "EGLDvalue":4.8494588798,
         "discount":null
     },
     "CRHEROES-9edff2-52":{
@@ -23908,7 +23908,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8152425368,
+        "EGLDvalue":3.8157183622,
         "discount":null
     },
     "CRHEROES-9edff2-53":{
@@ -23964,7 +23964,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.3359873664,
+        "EGLDvalue":5.338293989,
         "discount":null
     },
     "CRHEROES-9edff2-54":{
@@ -24020,7 +24020,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.4391120934,
+        "EGLDvalue":3.4391351021,
         "discount":null
     },
     "CRHEROES-9edff2-55":{
@@ -24076,7 +24076,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.0250310973,
+        "EGLDvalue":4.0257594833,
         "discount":null
     },
     "CRHEROES-9edff2-56":{
@@ -24132,7 +24132,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9388044432,
+        "EGLDvalue":3.9394290225,
         "discount":null
     },
     "CRHEROES-9edff2-57":{
@@ -24188,7 +24188,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.8361324994,
+        "EGLDvalue":3.8366334738,
         "discount":null
     },
     "CRHEROES-9edff2-58":{
@@ -31076,7 +31076,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6046164422,
+        "EGLDvalue":4.6060425806,
         "discount":null
     },
     "CRHEROES-9edff2-d3":{
@@ -31132,7 +31132,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.8519624886,
+        "EGLDvalue":4.8536864024,
         "discount":null
     },
     "CRHEROES-9edff2-d4":{
@@ -31188,7 +31188,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.103360141,
+        "EGLDvalue":6.1065905898,
         "discount":null
     },
     "CRHEROES-9edff2-d5":{
@@ -31244,7 +31244,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.5311168223,
+        "EGLDvalue":3.5312505938,
         "discount":null
     },
     "CRHEROES-9edff2-d6":{
@@ -31300,7 +31300,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2115365255,
+        "EGLDvalue":5.2136933239,
         "discount":null
     },
     "CRHEROES-9edff2-d7":{
@@ -31356,7 +31356,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.576896953,
+        "EGLDvalue":3.5770858385,
         "discount":null
     },
     "CRHEROES-9edff2-d8":{
@@ -31412,7 +31412,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.9509078608,
+        "EGLDvalue":5.9539547751,
         "discount":null
     },
     "CRHEROES-9edff2-d9":{
@@ -31468,7 +31468,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.1019239383,
+        "EGLDvalue":4.1027448942,
         "discount":null
     },
     "CRHEROES-9edff2-da":{
@@ -31524,7 +31524,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.1423704616,
+        "EGLDvalue":4.1432401103,
         "discount":null
     },
     "CRHEROES-9edff2-db":{
@@ -31580,7 +31580,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.0516991346,
+        "EGLDvalue":4.0524596258,
         "discount":null
     },
     "CRHEROES-9edff2-dc":{
@@ -31636,7 +31636,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2161520316,
+        "EGLDvalue":4.2171105046,
         "discount":null
     },
     "CRHEROES-9edff2-dd":{
@@ -31692,7 +31692,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.7308965527,
+        "EGLDvalue":5.7336785994,
         "discount":null
     },
     "CRHEROES-9edff2-de":{
@@ -31748,7 +31748,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.5184495045,
+        "EGLDvalue":3.5185680261,
         "discount":null
     },
     "CRHEROES-9edff2-df":{
@@ -31804,7 +31804,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.9381891427,
+        "EGLDvalue":4.9400168632,
         "discount":null
     },
     "CRHEROES-9edff2-e0":{
@@ -31860,7 +31860,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":9.1570726506,
+        "EGLDvalue":9.1639794088,
         "discount":null
     },
     "CRHEROES-9edff2-e1":{
@@ -31916,7 +31916,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6837316197,
+        "EGLDvalue":4.6852530034,
         "discount":null
     },
     "CRHEROES-9edff2-e2":{
@@ -31972,7 +31972,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":5,
-        "EGLDvalue":5.6748936743,
+        "EGLDvalue":5.6776083001,
         "discount":null
     },
     "CRHEROES-9edff2-e3":{
@@ -32028,7 +32028,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.1051380101,
+        "EGLDvalue":6.1083705993,
         "discount":null
     },
     "CRHEROES-9edff2-e4":{
@@ -32084,7 +32084,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":8.1225750353,
+        "EGLDvalue":8.1282363805,
         "discount":null
     },
     "CRHEROES-9edff2-e5":{
@@ -32140,7 +32140,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2734883119,
+        "EGLDvalue":4.274515811,
         "discount":null
     },
     "CRHEROES-9edff2-e6":{
@@ -32196,7 +32196,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4786099658,
+        "EGLDvalue":4.4798844072,
         "discount":null
     },
     "CRHEROES-9edff2-e7":{
@@ -32252,7 +32252,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2328709553,
+        "EGLDvalue":5.235053438,
         "discount":null
     },
     "CRHEROES-9edff2-e8":{
@@ -32308,7 +32308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.6015565716,
+        "EGLDvalue":5.6041829082,
         "discount":null
     },
     "CRHEROES-9edff2-e9":{
@@ -32364,7 +32364,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.4794989003,
+        "EGLDvalue":4.4807744119,
         "discount":null
     },
     "CRHEROES-9edff2-ea":{
@@ -32420,7 +32420,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":6.0546909728,
+        "EGLDvalue":6.0578628297,
         "discount":null
     },
     "CRHEROES-9edff2-eb":{
@@ -32476,7 +32476,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":4.2361530596,
+        "EGLDvalue":4.2371356115,
         "discount":null
     },
     "CRHEROES-9edff2-ec":{
@@ -32532,7 +32532,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9783620319,
+        "EGLDvalue":3.9790342339,
         "discount":null
     },
     "CRHEROES-9edff2-ed":{
@@ -32588,7 +32588,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.5110560779,
+        "EGLDvalue":4.5123695806,
         "discount":null
     },
     "CRHEROES-9edff2-ee":{
@@ -32644,7 +32644,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.455942134,
+        "EGLDvalue":4.4571892861,
         "discount":null
     },
     "CRHEROES-9edff2-ef":{
@@ -32700,7 +32700,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.4995513288,
+        "EGLDvalue":5.5020548631,
         "discount":null
     },
     "CRHEROES-9edff2-f0":{
@@ -32756,7 +32756,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.5488357974,
+        "EGLDvalue":4.5501947825,
         "discount":null
     },
     "CRHEROES-9edff2-f1":{
@@ -32812,7 +32812,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.2632655642,
+        "EGLDvalue":4.2642807564,
         "discount":null
     },
     "CRHEROES-9edff2-f2":{
@@ -32868,7 +32868,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2128699273,
+        "EGLDvalue":5.2150283311,
         "discount":null
     },
     "CRHEROES-9edff2-f3":{
@@ -32924,7 +32924,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.7826255915,
+        "EGLDvalue":4.7842660318,
         "discount":null
     },
     "CRHEROES-9edff2-f4":{
@@ -32980,7 +32980,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.3611511687,
+        "EGLDvalue":6.3646919675,
         "discount":null
     },
     "CRHEROES-9edff2-f5":{
@@ -33036,7 +33036,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.5208343582,
+        "EGLDvalue":4.5221596328,
         "discount":null
     },
     "CRHEROES-9edff2-f6":{
@@ -33092,7 +33092,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.21242546,
+        "EGLDvalue":5.2145833287,
         "discount":null
     },
     "CRHEROES-9edff2-f7":{
@@ -33148,7 +33148,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9805843683,
+        "EGLDvalue":3.9812592458,
         "discount":null
     },
     "CRHEROES-9edff2-f8":{
@@ -33204,7 +33204,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2426492357,
+        "EGLDvalue":5.2448434902,
         "discount":null
     },
     "CRHEROES-9edff2-f9":{
@@ -33260,7 +33260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.7340078238,
+        "EGLDvalue":5.736793616,
         "discount":null
     },
     "CRHEROES-9edff2-fa":{
@@ -33316,7 +33316,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6219506665,
+        "EGLDvalue":4.6233976732,
         "discount":null
     },
     "CRHEROES-9edff2-fb":{
@@ -33372,7 +33372,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.5948978783,
+        "EGLDvalue":3.5951084347,
         "discount":null
     },
     "CRHEROES-9edff2-fc":{
@@ -33428,7 +33428,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9481382562,
+        "EGLDvalue":3.9487740724,
         "discount":null
     },
     "CRHEROES-9edff2-fd":{
@@ -33484,7 +33484,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":3,
-        "EGLDvalue":4.409050835,
+        "EGLDvalue":4.4102415355,
         "discount":null
     },
     "CRHEROES-9edff2-fe":{
@@ -33540,7 +33540,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.7273922149,
+        "EGLDvalue":6.7313739246,
         "discount":null
     },
     "CRHEROES-9edff2-ff":{
@@ -33596,7 +33596,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":5.9393517113,
+        "EGLDvalue":5.9423847134,
         "discount":null
     }
 }

@@ -16,7 +16,6 @@ import {
     DropdownItem,
     Chip,
     Pagination,
-    Image,
     Avatar,
 } from "@nextui-org/react";
 import { contents, variables } from "@/app/layout";

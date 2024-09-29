@@ -350,7 +350,7 @@ def add_market_data(data_folder_path, collections):
 
     def get_character_value(floor_price, level, tokens):
         shard_conversion = 1
-        token_conversion = 400
+        token_conversion = 200
         shards = 0
         crown = 0
         for l in range(1, level+1):
@@ -403,7 +403,7 @@ def add_market_data(data_folder_path, collections):
             6: 500000
         }
         shard_conversion = 1
-        token_conversion = 100
+        token_conversion = 50
         shards = 0
         crown = 0
         for l in range(1, starLevel+1):

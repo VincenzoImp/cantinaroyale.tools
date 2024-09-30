@@ -1,0 +1,7 @@
+services:
+  updater:
+    build: .
+    environment:
+      GITHUB_TOKEN: ${GITHUB_TOKEN}  # Ensure this is set in your .env file or environment
+      GITHUB_EMAIL: ${GITHUB_EMAIL}  # Ensure this is set in your .env file or environment
+    restart: unless-stopped

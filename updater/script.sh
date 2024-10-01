@@ -47,7 +47,7 @@ task () {
 
     # Esegui lo script Python
     cd $PRIVATE_DIR
-    python3 update.py || { echo "Esecuzione di update.py fallita"; exit 1; }
+    python3 get_data.py || { echo "Esecuzione di get_data.py fallita"; exit 1; }
     cd $REPO_DIR
 
     # Commit e push delle modifiche (se ci sono cambiamenti)

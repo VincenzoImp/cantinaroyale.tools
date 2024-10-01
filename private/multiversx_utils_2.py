@@ -244,7 +244,7 @@ def get_collection_offchain_data(collection_nfts, sleep_time=0.4, whitelist=None
                                 price = response.json()
                                 price = {
                                     'currency': price['saleInfo']['paymentToken'],
-                                    'amount': float(['saleInfo']['minBidShort'])
+                                    'amount': float(price['saleInfo']['minBidShort'])
                                 }
                             except:
                                 price = {

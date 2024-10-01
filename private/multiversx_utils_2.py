@@ -11,6 +11,7 @@ import os
 import json
 import pandas as pd
 import numpy as np
+from bs4 import BeautifulSoup
 
 def clear_keys(dictionary):
     keys = {}
@@ -251,7 +252,7 @@ def get_collection_offchain_data(collection_nfts, sleep_time=0.4, whitelist=None
                                     'currency': None,
                                     'amount': None
                                 }
-                            offchain_data['price'] = response.json()
+                            offchain_data['price'] = price
                             break
                         else:
                             time.sleep(sleep_time*100)
@@ -467,11 +468,13 @@ def add_market_data(data_folder_path, collections):
     weapons = pd.concat([pd.read_json(os.path.join(data_folder_path, collection, 'nfts.json'), orient='index') for collection in collections['weapons']])
     weapons = weapons[~weapons['starLevel'].isna()]
     # get CRT-EGLD rate
-    stealth_driver = open_stealth_driver(headless=True)
     url = 'https://coindataflow.com/en/pair/crt-wegld'
-    stealth_driver.get(url)
-    crt_egld_rate = float(stealth_driver.find_element(By.ID, 'converter').get_attribute('data-rate'))
-    stealth_driver.close()
+    response = requests.get(url)
+    html = response.text
+    soup = BeautifulSoup(html, 'html.parser')
+    script_tag = soup.find('script', type='application/ld+json')
+    json_data = json.loads(script_tag.string)
+    crt_egld_rate = float(json_data['currentExchangeRate']['price'])
     market_data = {'CRT/EGLD': crt_egld_rate, 'floorPrice': {'genesis': {}, 'heroes': {}, 'weapons': {}}}
     # characters
     for name, df in [('genesis', genesis), ('heroes', heroes)]:

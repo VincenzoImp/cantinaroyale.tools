@@ -1,4 +1,4 @@
-import multiversx_utils as mu
+import multiversx_utils_2 as mu
 import json
 import os
 

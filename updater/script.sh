@@ -8,6 +8,7 @@ GIT_BRANCH="main"
 VENV_DIR="$PRIVATE_DIR/venv"
 
 task () {
+
     # Configura Git per usare il token (autenticazione)
     git config --global credential.helper store
     echo "https://$GITHUB_TOKEN@github.com" > ~/.git-credentials
@@ -72,15 +73,16 @@ task () {
 # Ciclo infinito che esegue il task a mezzanotte
 while true; do
 
-    # Calcola i secondi fino alla mezzanotte del giorno successivo
     current_time=$(date +%s)
-    next_midnight=$(date -d tomorrow +%s)  # Ottieni l'ora della prossima mezzanotte
-    seconds_until_midnight=$((next_midnight - current_time))
-
-    # Dormi fino alla prossima mezzanotte
-    echo "Sleeping until next midnight for $seconds_until_midnight seconds..."
+    # Ottieni la data di domani a mezzanotte
+    midnight=$(date -d 'tomorrow 00:00:00' +%s)
+    # Calcola la differenza in secondi tra mezzanotte e l'ora corrente
+    seconds_until_midnight=$((midnight - current_time))
+    # Esegui sleep per il numero di secondi fino a mezzanotte
+    echo "Dormo per $seconds_until_midnight secondi fino a mezzanotte..."
     sleep $seconds_until_midnight
 
     # Esegui il task
     task
+
 done

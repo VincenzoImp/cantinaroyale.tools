@@ -6913,7 +6913,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":10,
-        "characterTokens":9482,
+        "characterTokens":9483,
         "health":4073,
         "shield":2179,
         "talentPointsAvailable":20,
@@ -6940,7 +6940,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":4.6887843419,
+        "EGLDvalue":4.6890190284,
         "discount":null
     },
     "CEA-2d29f9-0175":{
@@ -19065,7 +19065,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":17,
-        "characterTokens":4248,
+        "characterTokens":4264,
         "health":6317,
         "shield":3673,
         "talentPointsAvailable":55,
@@ -19092,7 +19092,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":15.1674414147,
+        "EGLDvalue":15.1711963978,
         "discount":null
     },
     "CEA-2d29f9-024d":{
@@ -43537,7 +43537,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":15,
-        "characterTokens":2023,
+        "characterTokens":2036,
         "health":5315,
         "shield":2843,
         "talentPointsAvailable":45,
@@ -43564,7 +43564,7 @@
         "precisionWeaponsProficiency":3,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":5.8859199048,
+        "EGLDvalue":5.8889708286,
         "discount":null
     },
     "CEA-2d29f9-0400":{
@@ -47849,7 +47849,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":9,
-        "characterTokens":138,
+        "characterTokens":168,
         "health":3726,
         "shield":1930,
         "talentPointsAvailable":15,
@@ -47876,7 +47876,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":1.272036426,
+        "EGLDvalue":1.2790770194,
         "discount":null
     },
     "CEA-2d29f9-044e":{
@@ -52609,7 +52609,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":5,
-        "characterTokens":1478,
+        "characterTokens":1492,
         "health":3064,
         "shield":1587,
         "talentPointsAvailable":0,
@@ -52636,7 +52636,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":1.0942614429,
+        "EGLDvalue":1.0975470532,
         "discount":null
     },
     "CEA-2d29f9-04a3":{
@@ -62185,7 +62185,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":13,
-        "characterTokens":3159,
+        "characterTokens":3197,
         "health":4439,
         "shield":2304,
         "talentPointsAvailable":35,
@@ -62212,7 +62212,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.7918883743,
+        "EGLDvalue":3.8008064593,
         "discount":null
     },
     "CEA-2d29f9-054d":{
@@ -68177,7 +68177,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":19,
-        "characterTokens":6834,
+        "characterTokens":6967,
         "health":6985,
         "shield":4062,
         "talentPointsAvailable":65,
@@ -68204,7 +68204,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":19.4906004428,
+        "EGLDvalue":19.5218137402,
         "discount":null
     },
     "CEA-2d29f9-05b9":{
@@ -79881,7 +79881,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":7,
-        "characterTokens":7533,
+        "characterTokens":7549,
         "health":3364,
         "shield":1743,
         "talentPointsAvailable":5,
@@ -79908,7 +79908,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":2.6625536206,
+        "EGLDvalue":2.6663086038,
         "discount":null
     },
     "CEA-2d29f9-0689":{
@@ -86993,7 +86993,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":4,
-        "characterTokens":294,
+        "characterTokens":305,
         "health":2940,
         "shield":1523,
         "talentPointsAvailable":0,
@@ -87020,7 +87020,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":0.7803683209,
+        "EGLDvalue":0.7829498719,
         "discount":null
     },
     "CEA-2d29f9-0708":{
@@ -95629,7 +95629,7 @@
         "stonewall":0,
         "adrenalineRush":0,
         "overshield":0,
-        "blackWidow":11,
+        "blackWidow":12,
         "galvanized":3,
         "nanoMeds":1,
         "resilience":2,
@@ -95637,7 +95637,7 @@
         "perseverance":0,
         "escapeArtist":0,
         "scavenger":0,
-        "coolMoves":0,
+        "coolMoves":1,
         "brawler":0,
         "automaticWeaponsProficiency":10,
         "scatterWeaponsProficiency":0,
@@ -103345,7 +103345,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":18,
-        "characterTokens":320,
+        "characterTokens":323,
         "health":6645,
         "shield":3864,
         "talentPointsAvailable":60,
@@ -103372,7 +103372,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":15.8696232621,
+        "EGLDvalue":15.8703273215,
         "discount":null
     },
     "CEA-2d29f9-2f":{

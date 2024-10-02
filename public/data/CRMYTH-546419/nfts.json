@@ -5658,7 +5658,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":34788,
+        "xp":34900,
         "wear":100.0,
         "level":12,
         "starLevel":4,
@@ -5666,7 +5666,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":14.4969155895,
+        "value":14.50348681,
         "discount":null
     },
     "CRMYTH-546419-02a0":{
@@ -6834,15 +6834,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":5103,
-        "wear":33.6,
+        "xp":5111,
+        "wear":33.7,
         "level":6,
         "starLevel":2,
         "damage":1585.0,
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.4817761766,
+        "value":1.4822455495,
         "discount":null
     },
     "CRMYTH-546419-03d6":{

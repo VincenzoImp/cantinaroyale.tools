@@ -1542,7 +1542,7 @@
         "talentPointsAvailable":20,
         "talentPointsTotal":20,
         "earnRate":1.03,
-        "characterTokens":916,
+        "characterTokens":926,
         "overachiever":10,
         "hodler":1,
         "grounded":0,
@@ -1564,7 +1564,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.4744602425,
+        "EGLDvalue":5.476807107,
         "discount":null
     },
     "CRHEROES-9edff2-0118":{
@@ -1766,7 +1766,7 @@
         "talentPointsAvailable":15,
         "talentPointsTotal":15,
         "earnRate":0.88,
-        "characterTokens":1606,
+        "characterTokens":1607,
         "overachiever":1,
         "hodler":0,
         "grounded":11,
@@ -1788,7 +1788,7 @@
         "precisionWeaponsProficiency":3,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "EGLDvalue":5.3465561293,
+        "EGLDvalue":5.3467908157,
         "discount":null
     },
     "CRHEROES-9edff2-011c":{
@@ -2326,7 +2326,7 @@
         "talentPointsAvailable":15,
         "talentPointsTotal":15,
         "earnRate":0.88,
-        "characterTokens":1004,
+        "characterTokens":1006,
         "overachiever":0,
         "hodler":0,
         "grounded":0,
@@ -2348,7 +2348,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2052748886,
+        "EGLDvalue":5.2057442615,
         "discount":null
     },
     "CRHEROES-9edff2-0126":{
@@ -5238,7 +5238,7 @@
         "talentPointsAvailable":45,
         "talentPointsTotal":45,
         "earnRate":2.01,
-        "characterTokens":863,
+        "characterTokens":880,
         "overachiever":2,
         "hodler":6,
         "grounded":0,
@@ -5260,7 +5260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":8.409683627,
+        "EGLDvalue":8.4136732966,
         "discount":null
     },
     "CRHEROES-9edff2-015a":{
@@ -5406,7 +5406,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":38,
+        "characterTokens":48,
         "overachiever":5,
         "hodler":3,
         "grounded":0,
@@ -5428,7 +5428,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":6.126184504,
+        "EGLDvalue":6.1285313685,
         "discount":null
     },
     "CRHEROES-9edff2-015d":{
@@ -6358,7 +6358,7 @@
         "talentPointsAvailable":45,
         "talentPointsTotal":45,
         "earnRate":2.01,
-        "characterTokens":1745,
+        "characterTokens":1770,
         "overachiever":4,
         "hodler":5,
         "grounded":0,
@@ -6380,7 +6380,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":12.5666770727,
+        "EGLDvalue":12.5725442338,
         "discount":null
     },
     "CRHEROES-9edff2-016e":{
@@ -6414,7 +6414,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":2629,
+        "characterTokens":2639,
         "overachiever":0,
         "hodler":4,
         "grounded":7,
@@ -6436,7 +6436,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":11.2475045578,
+        "EGLDvalue":11.2498514222,
         "discount":null
     },
     "CRHEROES-9edff2-016f":{
@@ -6918,7 +6918,7 @@
         "talentPointsAvailable":45,
         "talentPointsTotal":45,
         "earnRate":2.01,
-        "characterTokens":2233,
+        "characterTokens":2245,
         "overachiever":0,
         "hodler":0,
         "grounded":1,
@@ -6940,7 +6940,7 @@
         "precisionWeaponsProficiency":13,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":12.6812040585,
+        "EGLDvalue":12.6840202959,
         "discount":null
     },
     "CRHEROES-9edff2-0178":{
@@ -7086,7 +7086,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":41,
+        "characterTokens":52,
         "overachiever":2,
         "hodler":1,
         "grounded":0,
@@ -7108,7 +7108,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.0768885634,
+        "EGLDvalue":10.0794701143,
         "discount":null
     },
     "CRHEROES-9edff2-017b":{
@@ -7758,7 +7758,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":1057,
+        "characterTokens":1067,
         "overachiever":2,
         "hodler":0,
         "grounded":3,
@@ -7780,7 +7780,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.3153299929,
+        "EGLDvalue":10.3176768573,
         "discount":null
     },
     "CRHEROES-9edff2-0187":{
@@ -7870,7 +7870,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":2813,
+        "characterTokens":2816,
         "overachiever":3,
         "hodler":1,
         "grounded":10,
@@ -7892,7 +7892,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":11.2906868639,
+        "EGLDvalue":11.2913909232,
         "discount":null
     },
     "CRHEROES-9edff2-0189":{
@@ -8318,7 +8318,7 @@
         "talentPointsAvailable":20,
         "talentPointsTotal":20,
         "earnRate":1.03,
-        "characterTokens":2994,
+        "characterTokens":3066,
         "overachiever":2,
         "hodler":0,
         "grounded":0,
@@ -8340,7 +8340,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.912138678,
+        "EGLDvalue":9.9290361022,
         "discount":null
     },
     "CRHEROES-9edff2-0192":{
@@ -8486,7 +8486,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":9552,
+        "characterTokens":9622,
         "overachiever":5,
         "hodler":5,
         "grounded":0,
@@ -8508,7 +8508,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":12.8722388258,
+        "EGLDvalue":12.8886668771,
         "discount":null
     },
     "CRHEROES-9edff2-0195":{
@@ -8654,7 +8654,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":2737,
+        "characterTokens":2992,
         "overachiever":4,
         "hodler":4,
         "grounded":0,
@@ -8676,7 +8676,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.7096032227,
+        "EGLDvalue":10.7694482666,
         "discount":null
     },
     "CRHEROES-9edff2-0198":{
@@ -8822,7 +8822,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":2410,
+        "characterTokens":2431,
         "overachiever":0,
         "hodler":1,
         "grounded":0,
@@ -8844,7 +8844,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":11.8766989204,
+        "EGLDvalue":11.8816273358,
         "discount":null
     },
     "CRHEROES-9edff2-019b":{
@@ -9158,16 +9158,16 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":10,
-        "overachiever":6,
-        "hodler":11,
+        "characterTokens":260,
+        "overachiever":8,
+        "hodler":12,
         "grounded":0,
         "stonewall":0,
         "adrenalineRush":0,
         "overshield":5,
-        "blackWidow":3,
-        "galvanized":1,
-        "nanoMeds":3,
+        "blackWidow":4,
+        "galvanized":3,
+        "nanoMeds":5,
         "resilience":1,
         "coldBlooded":15,
         "perseverance":0,
@@ -9180,7 +9180,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.6328607548,
+        "EGLDvalue":10.6915323664,
         "discount":null
     },
     "CRHEROES-9edff2-01a1":{
@@ -9942,7 +9942,7 @@
         "talentPointsAvailable":25,
         "talentPointsTotal":25,
         "earnRate":1.2,
-        "characterTokens":1023,
+        "characterTokens":1024,
         "overachiever":2,
         "hodler":0,
         "grounded":13,
@@ -9964,7 +9964,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.8368043288,
+        "EGLDvalue":9.8370390152,
         "discount":null
     },
     "CRHEROES-9edff2-01af":{
@@ -10446,7 +10446,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":1361,
+        "characterTokens":1376,
         "overachiever":3,
         "hodler":0,
         "grounded":0,
@@ -10468,7 +10468,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":10.9499221438,
+        "EGLDvalue":10.9534424405,
         "discount":null
     },
     "CRHEROES-9edff2-01b9":{
@@ -11286,7 +11286,7 @@
         "talentPointsAvailable":15,
         "talentPointsTotal":15,
         "earnRate":0.88,
-        "characterTokens":960,
+        "characterTokens":990,
         "overachiever":0,
         "hodler":0,
         "grounded":0,
@@ -11308,7 +11308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":9.1449486849,
+        "EGLDvalue":9.1519892783,
         "discount":null
     },
     "CRHEROES-9edff2-01c8":{
@@ -11653,7 +11653,7 @@
         "name":"Space Shark #462",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
         "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
-        "owner":"erd1qqqqqqqqqqqqqpgq0rkx70tmr3myr9uada9wez4kkymusw94a9rsn5y7tn",
+        "owner":"erd17duqphtx9spsd2v2l4445tqp37z9tfym5cjaxruvyqf278tdj82ssm8spe",
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
@@ -12294,7 +12294,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":2036,
+        "characterTokens":2037,
         "overachiever":2,
         "hodler":7,
         "grounded":0,
@@ -12316,7 +12316,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":11.7889261895,
+        "EGLDvalue":11.7891608759,
         "discount":null
     },
     "CRHEROES-9edff2-01da":{
@@ -13582,7 +13582,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":1905,
+        "characterTokens":1907,
         "overachiever":0,
         "hodler":0,
         "grounded":0,
@@ -13604,7 +13604,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":11.0775915706,
+        "EGLDvalue":11.0780609435,
         "discount":null
     },
     "CRHEROES-9edff2-01f1":{
@@ -13669,7 +13669,7 @@
         "name":"Space Shark #498",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
         "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
-        "owner":"erd1qqqqqqqqqqqqqpgq0rkx70tmr3myr9uada9wez4kkymusw94a9rsn5y7tn",
+        "owner":"erd17duqphtx9spsd2v2l4445tqp37z9tfym5cjaxruvyqf278tdj82ssm8spe",
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
@@ -13806,7 +13806,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":1143,
+        "characterTokens":1176,
         "overachiever":3,
         "hodler":5,
         "grounded":0,
@@ -13828,7 +13828,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":11.5793511929,
+        "EGLDvalue":11.5870958456,
         "discount":null
     },
     "CRHEROES-9edff2-01f5":{
@@ -13869,11 +13869,11 @@
         "stonewall":0,
         "adrenalineRush":11,
         "overshield":2,
-        "blackWidow":2,
+        "blackWidow":3,
         "galvanized":1,
         "nanoMeds":1,
-        "resilience":12,
-        "coldBlooded":2,
+        "resilience":13,
+        "coldBlooded":0,
         "perseverance":0,
         "escapeArtist":1,
         "scavenger":0,
@@ -16830,7 +16830,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":1155,
+        "characterTokens":1170,
         "overachiever":1,
         "hodler":0,
         "grounded":0,
@@ -16852,7 +16852,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":28.1215767358,
+        "EGLDvalue":28.1250970325,
         "discount":null
     },
     "CRHEROES-9edff2-022a":{
@@ -16942,7 +16942,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":1147,
+        "characterTokens":1162,
         "overachiever":1,
         "hodler":0,
         "grounded":0,
@@ -16964,7 +16964,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":28.8002899387,
+        "EGLDvalue":28.8038102354,
         "discount":null
     },
     "CRHEROES-9edff2-022c":{
@@ -16998,7 +16998,7 @@
         "talentPointsAvailable":60,
         "talentPointsTotal":60,
         "earnRate":2.82,
-        "characterTokens":1987,
+        "characterTokens":2003,
         "overachiever":8,
         "hodler":3,
         "grounded":0,
@@ -17020,7 +17020,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":33.8108455682,
+        "EGLDvalue":33.8146005513,
         "discount":null
     },
     "CRHEROES-9edff2-022d":{
@@ -17166,7 +17166,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":1825,
+        "characterTokens":1837,
         "overachiever":0,
         "hodler":0,
         "grounded":8,
@@ -17188,7 +17188,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":11,
-        "EGLDvalue":28.9594073493,
+        "EGLDvalue":28.9622235867,
         "discount":null
     },
     "CRHEROES-9edff2-0230":{
@@ -18286,7 +18286,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":1728,
+        "characterTokens":1780,
         "overachiever":3,
         "hodler":0,
         "grounded":0,
@@ -18308,7 +18308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":28.936642764,
+        "EGLDvalue":28.9488464592,
         "discount":null
     },
     "CRHEROES-9edff2-0244":{
@@ -19182,7 +19182,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":1093,
+        "characterTokens":1106,
         "overachiever":6,
         "hodler":0,
         "grounded":0,
@@ -19204,7 +19204,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":28.7876168706,
+        "EGLDvalue":28.7906677944,
         "discount":null
     },
     "CRHEROES-9edff2-0254":{
@@ -19294,7 +19294,7 @@
         "talentPointsAvailable":50,
         "talentPointsTotal":50,
         "earnRate":2.26,
-        "characterTokens":2802,
+        "characterTokens":2845,
         "overachiever":0,
         "hodler":8,
         "grounded":0,
@@ -19316,7 +19316,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":31.0814421972,
+        "EGLDvalue":31.0915337144,
         "discount":null
     },
     "CRHEROES-9edff2-0256":{
@@ -20078,7 +20078,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":222,
+        "characterTokens":306,
         "overachiever":11,
         "hodler":2,
         "grounded":0,
@@ -20100,7 +20100,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.1693668102,
+        "EGLDvalue":6.1890804717,
         "discount":null
     },
     "CRHEROES-9edff2-0e":{
@@ -21534,7 +21534,7 @@
         "talentPointsAvailable":50,
         "talentPointsTotal":50,
         "earnRate":2.26,
-        "characterTokens":1595,
+        "characterTokens":1608,
         "overachiever":3,
         "hodler":0,
         "grounded":5,
@@ -21556,7 +21556,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":16,
-        "EGLDvalue":9.6281756564,
+        "EGLDvalue":9.6312265802,
         "discount":null
     },
     "CRHEROES-9edff2-28":{
@@ -24166,7 +24166,7 @@
         "talentPointsAvailable":15,
         "talentPointsTotal":15,
         "earnRate":0.88,
-        "characterTokens":1114,
+        "characterTokens":1115,
         "overachiever":1,
         "hodler":1,
         "grounded":0,
@@ -24188,7 +24188,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2310903977,
+        "EGLDvalue":5.2313250841,
         "discount":null
     },
     "CRHEROES-9edff2-58":{
@@ -31390,7 +31390,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":322,
+        "characterTokens":352,
         "overachiever":2,
         "hodler":2,
         "grounded":0,
@@ -31412,7 +31412,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.756082926,
+        "EGLDvalue":6.7631235194,
         "discount":null
     },
     "CRHEROES-9edff2-d9":{
@@ -31838,7 +31838,7 @@
         "talentPointsAvailable":45,
         "talentPointsTotal":45,
         "earnRate":2.01,
-        "characterTokens":4500,
+        "characterTokens":4513,
         "overachiever":8,
         "hodler":2,
         "grounded":0,
@@ -31860,7 +31860,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "EGLDvalue":9.2632382324,
+        "EGLDvalue":9.2662891562,
         "discount":null
     },
     "CRHEROES-9edff2-e1":{
@@ -32286,7 +32286,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":483,
+        "characterTokens":493,
         "overachiever":1,
         "hodler":11,
         "grounded":0,
@@ -32308,7 +32308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.2306199727,
+        "EGLDvalue":6.2329668371,
         "discount":null
     },
     "CRHEROES-9edff2-e9":{
@@ -33070,7 +33070,7 @@
         "talentPointsAvailable":20,
         "talentPointsTotal":20,
         "earnRate":1.03,
-        "characterTokens":3358,
+        "characterTokens":3376,
         "overachiever":1,
         "hodler":12,
         "grounded":0,
@@ -33092,7 +33092,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.0475645445,
+        "EGLDvalue":6.0517889006,
         "discount":null
     },
     "CRHEROES-9edff2-f7":{
@@ -33182,7 +33182,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":231,
+        "characterTokens":259,
         "overachiever":0,
         "hodler":0,
         "grounded":11,
@@ -33204,7 +33204,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":6.1714789882,
+        "EGLDvalue":6.1780502087,
         "discount":null
     },
     "CRHEROES-9edff2-f9":{
@@ -33238,7 +33238,7 @@
         "talentPointsAvailable":40,
         "talentPointsTotal":40,
         "earnRate":1.79,
-        "characterTokens":1585,
+        "characterTokens":1595,
         "overachiever":5,
         "hodler":0,
         "grounded":0,
@@ -33260,7 +33260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.7330826022,
+        "EGLDvalue":7.7354294666,
         "discount":null
     },
     "CRHEROES-9edff2-fa":{

@@ -566,6 +566,27 @@
         "value":0.2482140256,
         "discount":20.8634359997
     },
+    "CRWEAPONS-e5ab49-0f98":{
+        "identifier":"CRWEAPONS-e5ab49-0f98",
+        "collection":"CRWEAPONS-e5ab49",
+        "name":"Railgun-X",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":0.3,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":3,
+        "damage":1100.0,
+        "reloadTime":2.0,
+        "ammo":2.0,
+        "range":10.5,
+        "value":0.2482140256,
+        "discount":20.8634359997
+    },
     "CRWEAPONS-e5ab49-0bcb":{
         "identifier":"CRWEAPONS-e5ab49-0bcb",
         "collection":"CRWEAPONS-e5ab49",
@@ -608,27 +629,6 @@
         "value":0.2482140256,
         "discount":20.8634359997
     },
-    "CRWEAPONS-e5ab49-0f98":{
-        "identifier":"CRWEAPONS-e5ab49-0f98",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Railgun-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":0.3,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1100.0,
-        "reloadTime":2.0,
-        "ammo":2.0,
-        "range":10.5,
-        "value":0.2482140256,
-        "discount":20.8634359997
-    },
     "CRWEAPONS-e5ab49-0fa3":{
         "identifier":"CRWEAPONS-e5ab49-0fa3",
         "collection":"CRWEAPONS-e5ab49",
@@ -649,27 +649,6 @@
         "range":8.0,
         "value":0.2882140256,
         "discount":21.4375321411
-    },
-    "CRWEAPONS-e5ab49-17d8":{
-        "identifier":"CRWEAPONS-e5ab49-17d8",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Railgun-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":0.1,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1100.0,
-        "reloadTime":2.0,
-        "ammo":2.0,
-        "range":10.5,
-        "value":0.0811734322,
-        "discount":23.1930167921
     },
     "CRWEAPONS-e5ab49-18cc":{
         "identifier":"CRWEAPONS-e5ab49-18cc",
@@ -694,6 +673,27 @@
     },
     "CRWEAPONS-e5ab49-17d0":{
         "identifier":"CRWEAPONS-e5ab49-17d0",
+        "collection":"CRWEAPONS-e5ab49",
+        "name":"Railgun-X",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":0.1,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1100.0,
+        "reloadTime":2.0,
+        "ammo":2.0,
+        "range":10.5,
+        "value":0.0811734322,
+        "discount":23.1930167921
+    },
+    "CRWEAPONS-e5ab49-17d8":{
+        "identifier":"CRWEAPONS-e5ab49-17d8",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -923,8 +923,8 @@
         "value":0.0945067656,
         "discount":47.0794171919
     },
-    "CRWEAPONS-e5ab49-162a":{
-        "identifier":"CRWEAPONS-e5ab49-162a",
+    "CRWEAPONS-e5ab49-1730":{
+        "identifier":"CRWEAPONS-e5ab49-1730",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -944,8 +944,8 @@
         "value":0.0811734322,
         "discount":47.8316201506
     },
-    "CRWEAPONS-e5ab49-1730":{
-        "identifier":"CRWEAPONS-e5ab49-1730",
+    "CRWEAPONS-e5ab49-162a":{
+        "identifier":"CRWEAPONS-e5ab49-162a",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -1070,8 +1070,8 @@
         "value":0.2482140256,
         "discount":57.1224667996
     },
-    "CRWEAPONS-e5ab49-1323":{
-        "identifier":"CRWEAPONS-e5ab49-1323",
+    "CRWEAPONS-e5ab49-1167":{
+        "identifier":"CRWEAPONS-e5ab49-1167",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Mortar Gun X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
@@ -1091,8 +1091,8 @@
         "value":0.0945067656,
         "discount":58.7187955308
     },
-    "CRWEAPONS-e5ab49-1167":{
-        "identifier":"CRWEAPONS-e5ab49-1167",
+    "CRWEAPONS-e5ab49-1323":{
+        "identifier":"CRWEAPONS-e5ab49-1323",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Mortar Gun X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
@@ -1973,8 +1973,8 @@
         "value":0.0825228793,
         "discount":142.3570308026
     },
-    "CRWEAPONS-e5ab49-10e8":{
-        "identifier":"CRWEAPONS-e5ab49-10e8",
+    "CRWEAPONS-e5ab49-0f99":{
+        "identifier":"CRWEAPONS-e5ab49-0f99",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -1994,8 +1994,8 @@
         "value":0.0811734322,
         "discount":146.3860335843
     },
-    "CRWEAPONS-e5ab49-0f99":{
-        "identifier":"CRWEAPONS-e5ab49-0f99",
+    "CRWEAPONS-e5ab49-10e8":{
+        "identifier":"CRWEAPONS-e5ab49-10e8",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -3338,8 +3338,8 @@
         "value":0.0948871529,
         "discount":521.791235095
     },
-    "CRWEAPONS-e5ab49-0348":{
-        "identifier":"CRWEAPONS-e5ab49-0348",
+    "CRWEAPONS-e5ab49-027c":{
+        "identifier":"CRWEAPONS-e5ab49-027c",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Mortar Gun X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
@@ -3359,8 +3359,8 @@
         "value":0.0311111111,
         "discount":523.5714285714
     },
-    "CRWEAPONS-e5ab49-027c":{
-        "identifier":"CRWEAPONS-e5ab49-027c",
+    "CRWEAPONS-e5ab49-0348":{
+        "identifier":"CRWEAPONS-e5ab49-0348",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Mortar Gun X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
@@ -4052,8 +4052,8 @@
         "value":0.0266666667,
         "discount":3650.0
     },
-    "CRWEAPONS-e5ab49-b8":{
-        "identifier":"CRWEAPONS-e5ab49-b8",
+    "CRWEAPONS-e5ab49-8d":{
+        "identifier":"CRWEAPONS-e5ab49-8d",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -4073,8 +4073,8 @@
         "value":0.0266666667,
         "discount":3650.0
     },
-    "CRWEAPONS-e5ab49-0149":{
-        "identifier":"CRWEAPONS-e5ab49-0149",
+    "CRWEAPONS-e5ab49-b8":{
+        "identifier":"CRWEAPONS-e5ab49-b8",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -4115,8 +4115,8 @@
         "value":0.0266666667,
         "discount":3650.0
     },
-    "CRWEAPONS-e5ab49-8d":{
-        "identifier":"CRWEAPONS-e5ab49-8d",
+    "CRWEAPONS-e5ab49-0149":{
+        "identifier":"CRWEAPONS-e5ab49-0149",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -4178,6 +4178,27 @@
         "value":0.0811734322,
         "discount":4827.7206716857
     },
+    "CRWEAPONS-e5ab49-fb":{
+        "identifier":"CRWEAPONS-e5ab49-fb",
+        "collection":"CRWEAPONS-e5ab49",
+        "name":"Railgun-X",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":2.1,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":1,
+        "damage":1100.0,
+        "reloadTime":2.0,
+        "ammo":2.0,
+        "range":10.0,
+        "value":0.0266666667,
+        "discount":7775.0
+    },
     "CRWEAPONS-e5ab49-e1":{
         "identifier":"CRWEAPONS-e5ab49-e1",
         "collection":"CRWEAPONS-e5ab49",
@@ -4201,27 +4222,6 @@
     },
     "CRWEAPONS-e5ab49-29":{
         "identifier":"CRWEAPONS-e5ab49-29",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Railgun-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":2.1,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":1100.0,
-        "reloadTime":2.0,
-        "ammo":2.0,
-        "range":10.0,
-        "value":0.0266666667,
-        "discount":7775.0
-    },
-    "CRWEAPONS-e5ab49-fb":{
-        "identifier":"CRWEAPONS-e5ab49-fb",
         "collection":"CRWEAPONS-e5ab49",
         "name":"Railgun-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
@@ -4671,15 +4671,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":19040,
-        "wear":8.3,
+        "xp":19044,
+        "wear":8.4,
         "level":8,
         "starLevel":5,
         "damage":2895.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":9.5852131757,
+        "value":9.5854478622,
         "discount":null
     },
     "CRWEAPONS-e5ab49-01bb":{
@@ -5238,7 +5238,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":66973,
+        "xp":67052,
         "wear":100.0,
         "level":20,
         "starLevel":6,
@@ -5246,7 +5246,7 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":31.3574321429,
+        "value":31.3620672002,
         "discount":null
     },
     "CRWEAPONS-e5ab49-026b":{
@@ -8451,15 +8451,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":2936,
-        "wear":11.5,
+        "xp":2951,
+        "wear":11.6,
         "level":6,
         "starLevel":3,
         "damage":2565.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":1.1616753877,
+        "value":1.1625554619,
         "discount":null
     },
     "CRWEAPONS-e5ab49-057a":{
@@ -9207,15 +9207,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":3636,
-        "wear":11.1,
+        "xp":3649,
+        "wear":11.3,
         "level":6,
         "starLevel":4,
         "damage":1450.0,
         "reloadTime":3.0,
         "ammo":3.0,
         "range":8.0,
-        "value":1.1838156439,
+        "value":1.1845783748,
         "discount":null
     },
     "CRWEAPONS-e5ab49-0659":{
@@ -14436,7 +14436,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":72808,
+        "xp":72954,
         "wear":100.0,
         "level":15,
         "starLevel":5,
@@ -14444,7 +14444,7 @@
         "reloadTime":2.75,
         "ammo":3.0,
         "range":10.5,
-        "value":10.2376142403,
+        "value":10.2461802956,
         "discount":null
     },
     "CRWEAPONS-e5ab49-0902":{
@@ -15843,7 +15843,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":49920,
+        "xp":49992,
         "wear":100.0,
         "level":12,
         "starLevel":5,
@@ -15851,7 +15851,7 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":11.9320776392,
+        "value":11.9363019952,
         "discount":null
     },
     "CRWEAPONS-e5ab49-09d1":{
@@ -16809,15 +16809,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":24380,
-        "wear":49.4,
+        "xp":24600,
+        "wear":50.0,
         "level":10,
         "starLevel":6,
         "damage":1982.0,
         "reloadTime":2.0,
         "ammo":2.0,
         "range":11.0,
-        "value":9.0881878215,
+        "value":9.101095576,
         "discount":null
     },
     "CRWEAPONS-e5ab49-0aad":{
@@ -34659,7 +34659,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":66866,
+        "xp":66882,
         "wear":100.0,
         "level":15,
         "starLevel":5,
@@ -34667,7 +34667,7 @@
         "reloadTime":2.75,
         "ammo":3.0,
         "range":10.5,
-        "value":9.8889875242,
+        "value":9.88992627,
         "discount":null
     },
     "CRWEAPONS-e5ab49-122a":{
@@ -36602,27 +36602,6 @@
         "value":0.0266666667,
         "discount":null
     },
-    "CRWEAPONS-e5ab49-1319":{
-        "identifier":"CRWEAPONS-e5ab49-1319",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Mortar Gun X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-57abe93a",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1200.0,
-        "reloadTime":3.0,
-        "ammo":3.0,
-        "range":8.0,
-        "value":0.0945067656,
-        "discount":null
-    },
     "CRWEAPONS-e5ab49-131c":{
         "identifier":"CRWEAPONS-e5ab49-131c",
         "collection":"CRWEAPONS-e5ab49",
@@ -38082,7 +38061,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":25152,
+        "xp":25241,
         "wear":100.0,
         "level":10,
         "starLevel":5,
@@ -38090,7 +38069,7 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":10.1667661898,
+        "value":10.1719879632,
         "discount":null
     },
     "CRWEAPONS-e5ab49-13db":{
@@ -38902,7 +38881,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":10.0,
+        "wear":10.4,
         "level":19,
         "starLevel":5,
         "damage":2406.0,
@@ -39300,7 +39279,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":107341,
+        "xp":107361,
         "wear":100.0,
         "level":19,
         "starLevel":5,
@@ -39308,7 +39287,7 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":16.7138726551,
+        "value":16.7150460873,
         "discount":null
     },
     "CRWEAPONS-e5ab49-1471":{
@@ -40298,27 +40277,6 @@
         "value":0.0266666667,
         "discount":null
     },
-    "CRWEAPONS-e5ab49-14d2":{
-        "identifier":"CRWEAPONS-e5ab49-14d2",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Railgun-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1100.0,
-        "reloadTime":2.0,
-        "ammo":2.0,
-        "range":10.5,
-        "value":0.2482140256,
-        "discount":null
-    },
     "CRWEAPONS-e5ab49-14d3":{
         "identifier":"CRWEAPONS-e5ab49-14d3",
         "collection":"CRWEAPONS-e5ab49",
@@ -40413,15 +40371,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":862,
-        "wear":10.5,
+        "xp":878,
+        "wear":10.8,
         "level":2,
         "starLevel":3,
         "damage":1750.0,
         "reloadTime":2.75,
         "ammo":3.0,
         "range":10.5,
-        "value":0.5623092515,
+        "value":0.5632479973,
         "discount":null
     },
     "CRWEAPONS-e5ab49-14dd":{
@@ -41073,27 +41031,6 @@
         "ammo":3.0,
         "range":9.0,
         "value":0.3011734322,
-        "discount":null
-    },
-    "CRWEAPONS-e5ab49-152e":{
-        "identifier":"CRWEAPONS-e5ab49-152e",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Mortar Gun X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-57abe93a",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1200.0,
-        "reloadTime":3.0,
-        "ammo":3.0,
-        "range":8.0,
-        "value":0.2882140256,
         "discount":null
     },
     "CRWEAPONS-e5ab49-1534":{
@@ -44886,15 +44823,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":449,
-        "wear":0.5,
+        "xp":514,
+        "wear":0.8,
         "level":3,
         "starLevel":3,
         "damage":2406.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":0.9453531558,
+        "value":0.9491668105,
         "discount":null
     },
     "CRWEAPONS-e5ab49-16ca":{
@@ -46335,15 +46272,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":23186,
-        "wear":67.5,
+        "xp":23200,
+        "wear":67.7,
         "level":10,
         "starLevel":4,
         "damage":2903.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":4.5340745782,
+        "value":4.5348959808,
         "discount":null
     },
     "CRWEAPONS-e5ab49-175a":{
@@ -47270,27 +47207,6 @@
         "value":0.9082140256,
         "discount":null
     },
-    "CRWEAPONS-e5ab49-17a1":{
-        "identifier":"CRWEAPONS-e5ab49-17a1",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Boomstick-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/Boomstick-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-40c00fbf",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":2200.0,
-        "reloadTime":2.1,
-        "ammo":3.0,
-        "range":9.0,
-        "value":0.1,
-        "discount":null
-    },
     "CRWEAPONS-e5ab49-17a3":{
         "identifier":"CRWEAPONS-e5ab49-17a3",
         "collection":"CRWEAPONS-e5ab49",
@@ -47721,15 +47637,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":143,
-        "wear":0.8,
+        "xp":192,
+        "wear":1.1,
         "level":2,
         "starLevel":1,
         "damage":2232.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":0.1119103372,
+        "value":0.1147852461,
         "discount":null
     },
     "CRWEAPONS-e5ab49-17ce":{
@@ -48032,19 +47948,19 @@
         "name":"Blaster-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/Blaster-X.png",
         "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-28ba06fc",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":3,
-        "wear":0.2,
+        "xp":53,
+        "wear":0.4,
         "level":1,
         "starLevel":1,
         "damage":1700.0,
         "reloadTime":2.75,
         "ammo":3.0,
         "range":10.0,
-        "value":0.0557315704,
+        "value":0.058665151,
         "discount":null
     },
     "CRWEAPONS-e5ab49-17e6":{
@@ -49769,27 +49685,6 @@
         "value":0.1678400989,
         "discount":null
     },
-    "CRWEAPONS-e5ab49-1846":{
-        "identifier":"CRWEAPONS-e5ab49-1846",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Railgun-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1100.0,
-        "reloadTime":2.0,
-        "ammo":2.0,
-        "range":10.5,
-        "value":0.2482140256,
-        "discount":null
-    },
     "CRWEAPONS-e5ab49-1848":{
         "identifier":"CRWEAPONS-e5ab49-1848",
         "collection":"CRWEAPONS-e5ab49",
@@ -49947,15 +49842,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":48,
-        "wear":0.5,
+        "xp":62,
+        "wear":0.6,
         "level":1,
         "starLevel":2,
         "damage":2300.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":0.3039896696,
+        "value":0.3048110722,
         "discount":null
     },
     "CRWEAPONS-e5ab49-1853":{
@@ -50546,27 +50441,6 @@
         "value":0.05,
         "discount":null
     },
-    "CRWEAPONS-e5ab49-187d":{
-        "identifier":"CRWEAPONS-e5ab49-187d",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Mortar Gun X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-57abe93a",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1200.0,
-        "reloadTime":3.0,
-        "ammo":3.0,
-        "range":8.0,
-        "value":0.0945067656,
-        "discount":null
-    },
     "CRWEAPONS-e5ab49-187e":{
         "identifier":"CRWEAPONS-e5ab49-187e",
         "collection":"CRWEAPONS-e5ab49",
@@ -50691,27 +50565,6 @@
         "ammo":2.0,
         "range":9.0,
         "value":0.05,
-        "discount":null
-    },
-    "CRWEAPONS-e5ab49-1887":{
-        "identifier":"CRWEAPONS-e5ab49-1887",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Mortar Gun X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/MortarGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-57abe93a",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1200.0,
-        "reloadTime":3.0,
-        "ammo":3.0,
-        "range":8.0,
-        "value":0.2882140256,
         "discount":null
     },
     "CRWEAPONS-e5ab49-1888":{
@@ -50880,27 +50733,6 @@
         "ammo":2.0,
         "range":10.5,
         "value":0.0811734322,
-        "discount":null
-    },
-    "CRWEAPONS-e5ab49-1896":{
-        "identifier":"CRWEAPONS-e5ab49-1896",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Railgun-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/RailGun-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-e635665b",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1100.0,
-        "reloadTime":2.0,
-        "ammo":2.0,
-        "range":10.5,
-        "value":0.2482140256,
         "discount":null
     },
     "CRWEAPONS-e5ab49-1897":{
@@ -51470,27 +51302,6 @@
         "value":0.3011734322,
         "discount":null
     },
-    "CRWEAPONS-e5ab49-18b8":{
-        "identifier":"CRWEAPONS-e5ab49-18b8",
-        "collection":"CRWEAPONS-e5ab49",
-        "name":"Boomstick-X",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/Boomstick-X.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-40c00fbf",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
-        "rank":null,
-        "priceCurrency":null,
-        "priceAmount":null,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":2200.0,
-        "reloadTime":2.1,
-        "ammo":3.0,
-        "range":9.0,
-        "value":0.1,
-        "discount":null
-    },
     "CRWEAPONS-e5ab49-18bb":{
         "identifier":"CRWEAPONS-e5ab49-18bb",
         "collection":"CRWEAPONS-e5ab49",
@@ -52047,7 +51858,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":88008,
+        "xp":88274,
         "wear":100.0,
         "level":17,
         "starLevel":6,
@@ -52055,7 +51866,7 @@
         "reloadTime":2.0,
         "ammo":2.0,
         "range":11.0,
-        "value":14.109773714,
+        "value":14.1253803626,
         "discount":null
     },
     "CRWEAPONS-e5ab49-1f":{
@@ -52278,15 +52089,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":2577,
-        "wear":3.4,
+        "xp":2580,
+        "wear":3.6,
         "level":6,
         "starLevel":3,
         "damage":2565.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":1.1406122791,
+        "value":1.140788294,
         "discount":null
     },
     "CRWEAPONS-e5ab49-40":{

@@ -18449,7 +18449,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":8,
-        "characterTokens":9373,
+        "characterTokens":9420,
         "health":3799,
         "shield":2092,
         "talentPointsAvailable":10,
@@ -18476,7 +18476,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":5.2591885497,
+        "EGLDvalue":5.2702188127,
         "discount":null
     },
     "CEA-2d29f9-0242":{
@@ -31441,7 +31441,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":5,
-        "characterTokens":182,
+        "characterTokens":189,
         "health":3064,
         "shield":1587,
         "talentPointsAvailable":0,
@@ -31468,7 +31468,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":0.7901078085,
+        "EGLDvalue":0.7917506136,
         "discount":null
     },
     "CEA-2d29f9-0329":{
@@ -61345,7 +61345,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":17,
-        "characterTokens":4112,
+        "characterTokens":4122,
         "health":5472,
         "shield":2840,
         "talentPointsAvailable":55,
@@ -61372,7 +61372,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":7.885524058,
+        "EGLDvalue":7.8878709224,
         "discount":null
     },
     "CEA-2d29f9-053e":{
@@ -111745,7 +111745,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":12,
-        "characterTokens":2605,
+        "characterTokens":2606,
         "health":4532,
         "shield":2424,
         "talentPointsAvailable":30,
@@ -111772,7 +111772,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "EGLDvalue":3.9326246118,
+        "EGLDvalue":3.9328592983,
         "discount":null
     },
     "CEA-2d29f9-c7":{

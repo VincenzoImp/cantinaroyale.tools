@@ -274,6 +274,23 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         if (parseFloat(displayValue)) {
             displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
         }
+        if (column === "value") {
+            displayValue = displayValue + " EGLD";
+        }
+        if (column === "discount") {
+            if (displayValue > 0) {
+                displayValue = "+" + displayValue + " %";
+            }
+            else {
+                displayValue = displayValue + " %";
+            }
+            if (!entry["priceAmount"]) {
+                displayValue = null;
+            }
+        }
+        if (column === "wear") {
+            displayValue = displayValue + " %";
+        }
         if (column === "priceAmount" && entry["priceCurrency"]) {
             displayValue = displayValue + " " + entry["priceCurrency"];
         }

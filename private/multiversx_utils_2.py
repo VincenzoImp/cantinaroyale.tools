@@ -480,10 +480,10 @@ def add_market_data(data_folder_path, collections):
     for name, df in [('genesis', genesis), ('heroes', heroes)]:
         floorPrice = get_character_floorPrice(df)
         market_data['floorPrice'][name] = floorPrice
-        df['EGLDvalue'] = df.apply(lambda x: get_character_value(floorPrice[x['rarityClass']]['floorPrice'], x['level'], x['characterTokens']), axis=1)
+        df['value'] = df.apply(lambda x: get_character_value(floorPrice[x['rarityClass']]['floorPrice'], x['level'], x['characterTokens']), axis=1)
         df['flag'] = (~df['priceAmount'].isna()) & (df['priceCurrency']=='EGLD')
-        df['discount'] = df.apply(lambda x: x['priceAmount'] - x['EGLDvalue'] if x['flag'] else np.nan, axis=1)
-        df['discount'] = df.apply(lambda x: x['discount'] / x['EGLDvalue'] * 100 if x['flag'] else np.nan, axis=1)
+        df['discount'] = df.apply(lambda x: x['priceAmount'] - x['value'] if x['flag'] else np.nan, axis=1)
+        df['discount'] = df.apply(lambda x: x['discount'] / x['value'] * 100 if x['flag'] else np.nan, axis=1)
         df = df.drop(columns=['flag'])
         df = df.sort_values('discount', ascending=True)
         for collection in df['collection'].unique():

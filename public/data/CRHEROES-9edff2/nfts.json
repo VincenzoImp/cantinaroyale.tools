@@ -53,7 +53,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6861260375,
-        "discount":-14.0007060846
+        "discount":-14.0165830589,
+        "value":9.687914596
     },
     "CRHEROES-9edff2-3d":{
         "identifier":"CRHEROES-9edff2-3d",
@@ -109,7 +110,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4980985838,
-        "discount":-2.625522353
+        "discount":-2.628894053,
+        "value":4.4982543409
     },
     "CRHEROES-9edff2-01b5":{
         "identifier":"CRHEROES-9edff2-01b5",
@@ -165,7 +167,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.6716592029,
-        "discount":-1.9795427708
+        "discount":-1.9846359409,
+        "value":8.6721098081
     },
     "CRHEROES-9edff2-21":{
         "identifier":"CRHEROES-9edff2-21",
@@ -221,7 +224,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.3802361972,
-        "discount":0.4512040434
+        "discount":0.4511968995,
+        "value":4.3802365087
     },
     "CRHEROES-9edff2-0123":{
         "identifier":"CRHEROES-9edff2-0123",
@@ -277,7 +281,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7074873728,
-        "discount":0.9030853155
+        "discount":0.893828255,
+        "value":4.7079192872
     },
     "CRHEROES-9edff2-0c":{
         "identifier":"CRHEROES-9edff2-0c",
@@ -333,7 +338,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.381417183,
-        "discount":9.5535941799
+        "discount":9.5535474451,
+        "value":4.3814190521
     },
     "CRHEROES-9edff2-01":{
         "identifier":"CRHEROES-9edff2-01",
@@ -389,7 +395,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":6.7430345628,
-        "discount":null
+        "discount":null,
+        "value":6.7461511061
     },
     "CRHEROES-9edff2-0100":{
         "identifier":"CRHEROES-9edff2-0100",
@@ -445,7 +452,8 @@
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.164528892,
-        "discount":null
+        "discount":null,
+        "value":5.1655635863
     },
     "CRHEROES-9edff2-0101":{
         "identifier":"CRHEROES-9edff2-0101",
@@ -501,7 +509,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6399349829,
-        "discount":null
+        "discount":null,
+        "value":4.6402778042
     },
     "CRHEROES-9edff2-0102":{
         "identifier":"CRHEROES-9edff2-0102",
@@ -557,7 +566,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.569548227,
-        "discount":null
+        "discount":null,
+        "value":4.5697982171
     },
     "CRHEROES-9edff2-0103":{
         "identifier":"CRHEROES-9edff2-0103",
@@ -613,7 +623,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.7049480114,
-        "discount":null
+        "discount":null,
+        "value":5.70669545
     },
     "CRHEROES-9edff2-0104":{
         "identifier":"CRHEROES-9edff2-0104",
@@ -669,7 +680,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.9758073551,
-        "discount":null
+        "discount":null,
+        "value":4.9765931496
     },
     "CRHEROES-9edff2-0105":{
         "identifier":"CRHEROES-9edff2-0105",
@@ -725,7 +737,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4708766183,
-        "discount":null
+        "discount":null,
+        "value":5.4723153465
     },
     "CRHEROES-9edff2-0106":{
         "identifier":"CRHEROES-9edff2-0106",
@@ -781,7 +794,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":5.2112959312,
-        "discount":null
+        "discount":null,
+        "value":5.2123923053
     },
     "CRHEROES-9edff2-0107":{
         "identifier":"CRHEROES-9edff2-0107",
@@ -837,7 +851,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0027338322,
-        "discount":null
+        "discount":null,
+        "value":5.0035551393
     },
     "CRHEROES-9edff2-0108":{
         "identifier":"CRHEROES-9edff2-0108",
@@ -893,7 +908,8 @@
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":5,
         "EGLDvalue":12.2983919435,
-        "discount":null
+        "discount":null,
+        "value":12.3088352999
     },
     "CRHEROES-9edff2-0109":{
         "identifier":"CRHEROES-9edff2-0109",
@@ -949,7 +965,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1978326926,
-        "discount":null
+        "discount":null,
+        "value":5.1989113104
     },
     "CRHEROES-9edff2-010a":{
         "identifier":"CRHEROES-9edff2-010a",
@@ -1005,7 +1022,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2670384627,
-        "discount":null
+        "discount":null,
+        "value":5.2682083542
     },
     "CRHEROES-9edff2-010b":{
         "identifier":"CRHEROES-9edff2-010b",
@@ -1061,7 +1079,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.9328194707,
-        "discount":null
+        "discount":null,
+        "value":4.9335485695
     },
     "CRHEROES-9edff2-010c":{
         "identifier":"CRHEROES-9edff2-010c",
@@ -1117,7 +1136,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7001652606,
-        "discount":null
+        "discount":null,
+        "value":4.7005875181
     },
     "CRHEROES-9edff2-010d":{
         "identifier":"CRHEROES-9edff2-010d",
@@ -1173,7 +1193,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":4.8900677833,
-        "discount":null
+        "discount":null,
+        "value":4.8907404981
     },
     "CRHEROES-9edff2-010e":{
         "identifier":"CRHEROES-9edff2-010e",
@@ -1229,7 +1250,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":5.6560551977,
-        "discount":null
+        "discount":null,
+        "value":5.6577381529
     },
     "CRHEROES-9edff2-010f":{
         "identifier":"CRHEROES-9edff2-010f",
@@ -1285,7 +1307,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
         "EGLDvalue":5.337897613,
-        "discount":null
+        "discount":null,
+        "value":5.3391609587
     },
     "CRHEROES-9edff2-0110":{
         "identifier":"CRHEROES-9edff2-0110",
@@ -1341,7 +1364,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
         "EGLDvalue":4.9781693268,
-        "discount":null
+        "discount":null,
+        "value":4.9789582364
     },
     "CRHEROES-9edff2-0111":{
         "identifier":"CRHEROES-9edff2-0111",
@@ -1397,7 +1421,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":5.0412339706,
-        "discount":null
+        "discount":null,
+        "value":5.0421060544
     },
     "CRHEROES-9edff2-0112":{
         "identifier":"CRHEROES-9edff2-0112",
@@ -1453,7 +1478,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.1257925565,
-        "discount":null
+        "discount":null,
+        "value":5.1267761625
     },
     "CRHEROES-9edff2-0113":{
         "identifier":"CRHEROES-9edff2-0113",
@@ -1509,7 +1535,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.74858568,
-        "discount":null
+        "discount":null,
+        "value":4.7490717978
     },
     "CRHEROES-9edff2-0114":{
         "identifier":"CRHEROES-9edff2-0114",
@@ -1565,7 +1592,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2651488854,
-        "discount":null
+        "discount":null,
+        "value":5.2663162847
     },
     "CRHEROES-9edff2-0115":{
         "identifier":"CRHEROES-9edff2-0115",
@@ -1621,7 +1649,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.8598335783,
-        "discount":null
+        "discount":null,
+        "value":8.8657419116
     },
     "CRHEROES-9edff2-0116":{
         "identifier":"CRHEROES-9edff2-0116",
@@ -1677,7 +1706,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2682194486,
-        "discount":null
+        "discount":null,
+        "value":5.2693908976
     },
     "CRHEROES-9edff2-0117":{
         "identifier":"CRHEROES-9edff2-0117",
@@ -1733,7 +1763,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4838674625,
-        "discount":null
+        "discount":null,
+        "value":5.485323324
     },
     "CRHEROES-9edff2-0118":{
         "identifier":"CRHEROES-9edff2-0118",
@@ -1789,7 +1820,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.5422081629,
-        "discount":null
+        "discount":null,
+        "value":5.5437409683
     },
     "CRHEROES-9edff2-0119":{
         "identifier":"CRHEROES-9edff2-0119",
@@ -1845,7 +1877,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.9629341257,
-        "discount":null
+        "discount":null,
+        "value":6.9663406888
     },
     "CRHEROES-9edff2-011a":{
         "identifier":"CRHEROES-9edff2-011a",
@@ -1901,7 +1934,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1794093136,
-        "discount":null
+        "discount":null,
+        "value":5.1804636332
     },
     "CRHEROES-9edff2-011b":{
         "identifier":"CRHEROES-9edff2-011b",
@@ -1957,7 +1991,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.3530142317,
-        "discount":null
+        "discount":null,
+        "value":5.3542975143
     },
     "CRHEROES-9edff2-011c":{
         "identifier":"CRHEROES-9edff2-011c",
@@ -2013,7 +2048,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0627279128,
-        "discount":null
+        "discount":null,
+        "value":5.0636283445
     },
     "CRHEROES-9edff2-011d":{
         "identifier":"CRHEROES-9edff2-011d",
@@ -2069,7 +2105,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.3795271219,
-        "discount":null
+        "discount":null,
+        "value":6.382164245
     },
     "CRHEROES-9edff2-011e":{
         "identifier":"CRHEROES-9edff2-011e",
@@ -2125,7 +2162,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.300577493,
-        "discount":null
+        "discount":null,
+        "value":9.3070671117
     },
     "CRHEROES-9edff2-011f":{
         "identifier":"CRHEROES-9edff2-011f",
@@ -2181,7 +2219,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7707882137,
-        "discount":null
+        "discount":null,
+        "value":4.7713036139
     },
     "CRHEROES-9edff2-0120":{
         "identifier":"CRHEROES-9edff2-0120",
@@ -2237,7 +2276,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.9916325654,
-        "discount":null
+        "discount":null,
+        "value":4.9924392313
     },
     "CRHEROES-9edff2-0121":{
         "identifier":"CRHEROES-9edff2-0121",
@@ -2293,7 +2333,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.9180571477,
-        "discount":null
+        "discount":null,
+        "value":4.9187667769
     },
     "CRHEROES-9edff2-0122":{
         "identifier":"CRHEROES-9edff2-0122",
@@ -2349,7 +2390,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1756301589,
-        "discount":null
+        "discount":null,
+        "value":5.1766794943
     },
     "CRHEROES-9edff2-0124":{
         "identifier":"CRHEROES-9edff2-0124",
@@ -2405,7 +2447,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.8260583509,
-        "discount":null
+        "discount":null,
+        "value":4.8266466454
     },
     "CRHEROES-9edff2-0125":{
         "identifier":"CRHEROES-9edff2-0125",
@@ -2461,7 +2504,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.211059734,
-        "discount":null
+        "discount":null,
+        "value":5.2121557966
     },
     "CRHEROES-9edff2-0126":{
         "identifier":"CRHEROES-9edff2-0126",
@@ -2517,7 +2561,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6278889273,
-        "discount":null
+        "discount":null,
+        "value":4.6282158615
     },
     "CRHEROES-9edff2-0127":{
         "identifier":"CRHEROES-9edff2-0127",
@@ -2573,7 +2618,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6264717443,
-        "discount":null
+        "discount":null,
+        "value":4.6267968094
     },
     "CRHEROES-9edff2-0128":{
         "identifier":"CRHEROES-9edff2-0128",
@@ -2629,7 +2675,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2760139551,
-        "discount":null
+        "discount":null,
+        "value":5.2771956841
     },
     "CRHEROES-9edff2-0129":{
         "identifier":"CRHEROES-9edff2-0129",
@@ -2685,7 +2732,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":3,
         "EGLDvalue":5.2098787482,
-        "discount":null
+        "discount":null,
+        "value":5.2109732532
     },
     "CRHEROES-9edff2-012a":{
         "identifier":"CRHEROES-9edff2-012a",
@@ -2741,7 +2789,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.3064833897,
-        "discount":null
+        "discount":null,
+        "value":5.307705304
     },
     "CRHEROES-9edff2-012b":{
         "identifier":"CRHEROES-9edff2-012b",
@@ -2797,7 +2846,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0655622788,
-        "discount":null
+        "discount":null,
+        "value":5.0664664487
     },
     "CRHEROES-9edff2-012c":{
         "identifier":"CRHEROES-9edff2-012c",
@@ -2853,7 +2903,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":15,
         "EGLDvalue":6.637690626,
-        "discount":null
+        "discount":null,
+        "value":6.6406682341
     },
     "CRHEROES-9edff2-012d":{
         "identifier":"CRHEROES-9edff2-012d",
@@ -2909,7 +2960,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-012e":{
         "identifier":"CRHEROES-9edff2-012e",
@@ -2965,7 +3017,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-012f":{
         "identifier":"CRHEROES-9edff2-012f",
@@ -3021,7 +3074,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0130":{
         "identifier":"CRHEROES-9edff2-0130",
@@ -3077,7 +3131,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0131":{
         "identifier":"CRHEROES-9edff2-0131",
@@ -3133,7 +3188,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.381417183,
-        "discount":null
+        "discount":null,
+        "value":4.3814190521
     },
     "CRHEROES-9edff2-0132":{
         "identifier":"CRHEROES-9edff2-0132",
@@ -3189,7 +3245,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0133":{
         "identifier":"CRHEROES-9edff2-0133",
@@ -3245,7 +3302,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0134":{
         "identifier":"CRHEROES-9edff2-0134",
@@ -3301,7 +3359,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0135":{
         "identifier":"CRHEROES-9edff2-0135",
@@ -3357,7 +3416,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0136":{
         "identifier":"CRHEROES-9edff2-0136",
@@ -3413,7 +3473,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0137":{
         "identifier":"CRHEROES-9edff2-0137",
@@ -3469,7 +3530,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0138":{
         "identifier":"CRHEROES-9edff2-0138",
@@ -3525,7 +3587,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0139":{
         "identifier":"CRHEROES-9edff2-0139",
@@ -3581,7 +3644,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-013a":{
         "identifier":"CRHEROES-9edff2-013a",
@@ -3637,7 +3701,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-013b":{
         "identifier":"CRHEROES-9edff2-013b",
@@ -3693,7 +3758,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-013c":{
         "identifier":"CRHEROES-9edff2-013c",
@@ -3749,7 +3815,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-013d":{
         "identifier":"CRHEROES-9edff2-013d",
@@ -3805,7 +3872,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-013e":{
         "identifier":"CRHEROES-9edff2-013e",
@@ -3861,7 +3929,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-013f":{
         "identifier":"CRHEROES-9edff2-013f",
@@ -3917,7 +3986,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0140":{
         "identifier":"CRHEROES-9edff2-0140",
@@ -3973,7 +4043,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0141":{
         "identifier":"CRHEROES-9edff2-0141",
@@ -4029,7 +4100,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0142":{
         "identifier":"CRHEROES-9edff2-0142",
@@ -4085,7 +4157,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0143":{
         "identifier":"CRHEROES-9edff2-0143",
@@ -4141,7 +4214,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0144":{
         "identifier":"CRHEROES-9edff2-0144",
@@ -4197,7 +4271,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0145":{
         "identifier":"CRHEROES-9edff2-0145",
@@ -4253,7 +4328,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0146":{
         "identifier":"CRHEROES-9edff2-0146",
@@ -4309,7 +4385,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0147":{
         "identifier":"CRHEROES-9edff2-0147",
@@ -4365,7 +4442,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-0148":{
         "identifier":"CRHEROES-9edff2-0148",
@@ -4421,7 +4499,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":6.0386946091,
-        "discount":null
+        "discount":null,
+        "value":6.0408822173
     },
     "CRHEROES-9edff2-0149":{
         "identifier":"CRHEROES-9edff2-0149",
@@ -4477,7 +4556,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0620193213,
-        "discount":null
+        "discount":null,
+        "value":5.0629188184
     },
     "CRHEROES-9edff2-014a":{
         "identifier":"CRHEROES-9edff2-014a",
@@ -4533,7 +4613,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.5354172525,
-        "discount":null
+        "discount":null,
+        "value":6.5382599749
     },
     "CRHEROES-9edff2-014b":{
         "identifier":"CRHEROES-9edff2-014b",
@@ -4589,7 +4670,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.3625209258,
-        "discount":null
+        "discount":null,
+        "value":6.3651356199
     },
     "CRHEROES-9edff2-014c":{
         "identifier":"CRHEROES-9edff2-014c",
@@ -4645,7 +4727,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.7228989961,
-        "discount":null
+        "discount":null,
+        "value":5.7246701098
     },
     "CRHEROES-9edff2-014d":{
         "identifier":"CRHEROES-9edff2-014d",
@@ -4701,7 +4784,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.216078682,
-        "discount":null
+        "discount":null,
+        "value":6.2185002373
     },
     "CRHEROES-9edff2-014e":{
         "identifier":"CRHEROES-9edff2-014e",
@@ -4757,7 +4841,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.3952935247,
-        "discount":null
+        "discount":null,
+        "value":5.3966325683
     },
     "CRHEROES-9edff2-014f":{
         "identifier":"CRHEROES-9edff2-014f",
@@ -4813,7 +4898,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.6581809722,
-        "discount":null
+        "discount":null,
+        "value":5.6598667311
     },
     "CRHEROES-9edff2-0150":{
         "identifier":"CRHEROES-9edff2-0150",
@@ -4869,7 +4955,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":5.4014346511,
-        "discount":null
+        "discount":null,
+        "value":5.402781794
     },
     "CRHEROES-9edff2-0151":{
         "identifier":"CRHEROES-9edff2-0151",
@@ -4925,7 +5012,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.9284493393,
-        "discount":null
+        "discount":null,
+        "value":6.9318104213
     },
     "CRHEROES-9edff2-0152":{
         "identifier":"CRHEROES-9edff2-0152",
@@ -4981,7 +5069,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.5814168927,
-        "discount":null
+        "discount":null,
+        "value":5.5830014095
     },
     "CRHEROES-9edff2-0153":{
         "identifier":"CRHEROES-9edff2-0153",
@@ -5037,7 +5126,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.2854020669,
-        "discount":null
+        "discount":null,
+        "value":8.2905527977
     },
     "CRHEROES-9edff2-0154":{
         "identifier":"CRHEROES-9edff2-0154",
@@ -5093,7 +5183,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2278297329,
-        "discount":null
+        "discount":null,
+        "value":5.228947913
     },
     "CRHEROES-9edff2-0155":{
         "identifier":"CRHEROES-9edff2-0155",
@@ -5149,7 +5240,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.9961203116,
-        "discount":null
+        "discount":null,
+        "value":4.9969328962
     },
     "CRHEROES-9edff2-0156":{
         "identifier":"CRHEROES-9edff2-0156",
@@ -5205,7 +5297,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.768426242,
-        "discount":null
+        "discount":null,
+        "value":4.7689385271
     },
     "CRHEROES-9edff2-0157":{
         "identifier":"CRHEROES-9edff2-0157",
@@ -5261,7 +5354,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.7651782891,
-        "discount":null
+        "discount":null,
+        "value":5.7670051639
     },
     "CRHEROES-9edff2-0158":{
         "identifier":"CRHEROES-9edff2-0158",
@@ -5317,7 +5411,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7455151168,
-        "discount":null
+        "discount":null,
+        "value":4.7459971849
     },
     "CRHEROES-9edff2-0159":{
         "identifier":"CRHEROES-9edff2-0159",
@@ -5373,7 +5468,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":8.4396388173,
-        "discount":null
+        "discount":null,
+        "value":8.4449929668
     },
     "CRHEROES-9edff2-015a":{
         "identifier":"CRHEROES-9edff2-015a",
@@ -5429,7 +5525,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7195334284,
-        "discount":null
+        "discount":null,
+        "value":4.71998123
     },
     "CRHEROES-9edff2-015b":{
         "identifier":"CRHEROES-9edff2-015b",
@@ -5485,7 +5582,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.6279477348,
-        "discount":null
+        "discount":null,
+        "value":5.6295936198
     },
     "CRHEROES-9edff2-015c":{
         "identifier":"CRHEROES-9edff2-015c",
@@ -5541,7 +5639,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":6.1397869968,
-        "discount":null
+        "discount":null,
+        "value":6.1421079331
     },
     "CRHEROES-9edff2-015d":{
         "identifier":"CRHEROES-9edff2-015d",
@@ -5597,7 +5696,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":17.0702833195,
-        "discount":null
+        "discount":null,
+        "value":17.0870201964
     },
     "CRHEROES-9edff2-015e":{
         "identifier":"CRHEROES-9edff2-015e",
@@ -5653,7 +5753,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.627416533,
-        "discount":null
+        "discount":null,
+        "value":4.6277428441
     },
     "CRHEROES-9edff2-015f":{
         "identifier":"CRHEROES-9edff2-015f",
@@ -5709,7 +5810,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-0160":{
         "identifier":"CRHEROES-9edff2-0160",
@@ -5765,7 +5867,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.9445845462,
-        "discount":null
+        "discount":null,
+        "value":10.9480328522
     },
     "CRHEROES-9edff2-0161":{
         "identifier":"CRHEROES-9edff2-0161",
@@ -5821,7 +5924,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7751723697,
-        "discount":null
+        "discount":null,
+        "value":9.777078369
     },
     "CRHEROES-9edff2-0162":{
         "identifier":"CRHEROES-9edff2-0162",
@@ -5877,7 +5981,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":13.33088453,
-        "discount":null
+        "discount":null,
+        "value":13.3374800634
     },
     "CRHEROES-9edff2-0163":{
         "identifier":"CRHEROES-9edff2-0163",
@@ -5933,7 +6038,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.3311809858,
-        "discount":null
+        "discount":null,
+        "value":8.3311825434
     },
     "CRHEROES-9edff2-0164":{
         "identifier":"CRHEROES-9edff2-0164",
@@ -5989,7 +6095,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2042838157,
-        "discount":null
+        "discount":null,
+        "value":9.2054368853
     },
     "CRHEROES-9edff2-0165":{
         "identifier":"CRHEROES-9edff2-0165",
@@ -6045,7 +6152,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0420163616,
-        "discount":null
+        "discount":null,
+        "value":9.042955421
     },
     "CRHEROES-9edff2-0166":{
         "identifier":"CRHEROES-9edff2-0166",
@@ -6101,7 +6209,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7599969435,
-        "discount":null
+        "discount":null,
+        "value":8.760564055
     },
     "CRHEROES-9edff2-0167":{
         "identifier":"CRHEROES-9edff2-0167",
@@ -6157,7 +6266,8 @@
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":8.8653408803,
-        "discount":null
+        "discount":null,
+        "value":8.8660469271
     },
     "CRHEROES-9edff2-0168":{
         "identifier":"CRHEROES-9edff2-0168",
@@ -6213,7 +6323,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7669054688,
-        "discount":null
+        "discount":null,
+        "value":9.7688005652
     },
     "CRHEROES-9edff2-0169":{
         "identifier":"CRHEROES-9edff2-0169",
@@ -6269,7 +6380,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":8.6681162453,
-        "discount":null
+        "discount":null,
+        "value":8.6685621779
     },
     "CRHEROES-9edff2-016a":{
         "identifier":"CRHEROES-9edff2-016a",
@@ -6325,7 +6437,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.5026596457,
-        "discount":null
+        "discount":null,
+        "value":10.5055251087
     },
     "CRHEROES-9edff2-016b":{
         "identifier":"CRHEROES-9edff2-016b",
@@ -6381,7 +6494,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.4483347809,
-        "discount":null
+        "discount":null,
+        "value":8.4484908495
     },
     "CRHEROES-9edff2-016c":{
         "identifier":"CRHEROES-9edff2-016c",
@@ -6437,7 +6551,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7676140603,
-        "discount":null
+        "discount":null,
+        "value":9.7695100912
     },
     "CRHEROES-9edff2-016d":{
         "identifier":"CRHEROES-9edff2-016d",
@@ -6493,7 +6608,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":12.5998542964,
-        "discount":null
+        "discount":null,
+        "value":12.6054856936
     },
     "CRHEROES-9edff2-016e":{
         "identifier":"CRHEROES-9edff2-016e",
@@ -6549,7 +6665,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.2686470601,
-        "discount":null
+        "discount":null,
+        "value":11.2725227635
     },
     "CRHEROES-9edff2-016f":{
         "identifier":"CRHEROES-9edff2-016f",
@@ -6605,7 +6722,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.02713594,
-        "discount":null
+        "discount":null,
+        "value":9.0280553741
     },
     "CRHEROES-9edff2-0170":{
         "identifier":"CRHEROES-9edff2-0170",
@@ -6661,7 +6779,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.5043135097,
-        "discount":null
+        "discount":null,
+        "value":8.5045434071
     },
     "CRHEROES-9edff2-0171":{
         "identifier":"CRHEROES-9edff2-0171",
@@ -6717,7 +6836,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.4322140824,
-        "discount":null
+        "discount":null,
+        "value":9.4336677632
     },
     "CRHEROES-9edff2-0172":{
         "identifier":"CRHEROES-9edff2-0172",
@@ -6773,7 +6893,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.4702418263,
-        "discount":null
+        "discount":null,
+        "value":9.4717456609
     },
     "CRHEROES-9edff2-0173":{
         "identifier":"CRHEROES-9edff2-0173",
@@ -6829,7 +6950,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.6069999864,
-        "discount":null
+        "discount":null,
+        "value":9.6086841877
     },
     "CRHEROES-9edff2-0174":{
         "identifier":"CRHEROES-9edff2-0174",
@@ -6885,7 +7007,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9250987636,
-        "discount":null
+        "discount":null,
+        "value":8.9258836236
     },
     "CRHEROES-9edff2-0175":{
         "identifier":"CRHEROES-9edff2-0175",
@@ -6941,7 +7064,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.8318596899,
-        "discount":null
+        "discount":null,
+        "value":9.8338404526
     },
     "CRHEROES-9edff2-0176":{
         "identifier":"CRHEROES-9edff2-0176",
@@ -6997,7 +7121,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.406882178,
-        "discount":null
+        "discount":null,
+        "value":8.4069835759
     },
     "CRHEROES-9edff2-0177":{
         "identifier":"CRHEROES-9edff2-0177",
@@ -7053,7 +7178,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":12.712047951,
-        "discount":null
+        "discount":null,
+        "value":12.7178273174
     },
     "CRHEROES-9edff2-0178":{
         "identifier":"CRHEROES-9edff2-0178",
@@ -7109,7 +7235,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.767141666,
-        "discount":null
+        "discount":null,
+        "value":9.7690370738
     },
     "CRHEROES-9edff2-0179":{
         "identifier":"CRHEROES-9edff2-0179",
@@ -7165,7 +7292,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":14.5468275485,
-        "discount":null
+        "discount":null,
+        "value":14.5550267569
     },
     "CRHEROES-9edff2-017a":{
         "identifier":"CRHEROES-9edff2-017a",
@@ -7221,7 +7349,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.0907317855,
-        "discount":null
+        "discount":null,
+        "value":10.0930539678
     },
     "CRHEROES-9edff2-017b":{
         "identifier":"CRHEROES-9edff2-017b",
@@ -7277,7 +7406,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7666692716,
-        "discount":null
+        "discount":null,
+        "value":9.7685640565
     },
     "CRHEROES-9edff2-017c":{
         "identifier":"CRHEROES-9edff2-017c",
@@ -7333,7 +7463,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9558043954,
-        "discount":null
+        "discount":null,
+        "value":8.9566297522
     },
     "CRHEROES-9edff2-017d":{
         "identifier":"CRHEROES-9edff2-017d",
@@ -7389,7 +7520,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":11.7580475912,
-        "discount":null
+        "discount":null,
+        "value":11.762568752
     },
     "CRHEROES-9edff2-017e":{
         "identifier":"CRHEROES-9edff2-017e",
@@ -7445,7 +7577,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9253349608,
-        "discount":null
+        "discount":null,
+        "value":8.9261201322
     },
     "CRHEROES-9edff2-017f":{
         "identifier":"CRHEROES-9edff2-017f",
@@ -7501,7 +7634,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9265159466,
-        "discount":null
+        "discount":null,
+        "value":8.9273026757
     },
     "CRHEROES-9edff2-0180":{
         "identifier":"CRHEROES-9edff2-0180",
@@ -7557,7 +7691,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9565129869,
-        "discount":null
+        "discount":null,
+        "value":8.9573392782
     },
     "CRHEROES-9edff2-0181":{
         "identifier":"CRHEROES-9edff2-0181",
@@ -7613,7 +7748,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.5819042792,
-        "discount":null
+        "discount":null,
+        "value":8.582236509
     },
     "CRHEROES-9edff2-0182":{
         "identifier":"CRHEROES-9edff2-0182",
@@ -7669,7 +7805,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":12,
         "EGLDvalue":8.9558043954,
-        "discount":null
+        "discount":null,
+        "value":8.9566297522
     },
     "CRHEROES-9edff2-0183":{
         "identifier":"CRHEROES-9edff2-0183",
@@ -7725,7 +7862,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9248625665,
-        "discount":null
+        "discount":null,
+        "value":8.9256471149
     },
     "CRHEROES-9edff2-0184":{
         "identifier":"CRHEROES-9edff2-0184",
@@ -7781,7 +7919,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9846204499,
-        "discount":null
+        "discount":null,
+        "value":8.9854838114
     },
     "CRHEROES-9edff2-0185":{
         "identifier":"CRHEROES-9edff2-0185",
@@ -7837,7 +7976,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.7409825878,
-        "discount":null
+        "discount":null,
+        "value":10.7441623685
     },
     "CRHEROES-9edff2-0186":{
         "identifier":"CRHEROES-9edff2-0186",
@@ -7893,7 +8033,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.3304719106,
-        "discount":null
+        "discount":null,
+        "value":10.3331102797
     },
     "CRHEROES-9edff2-0187":{
         "identifier":"CRHEROES-9edff2-0187",
@@ -7949,7 +8090,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0968141045,
-        "discount":null
+        "discount":null,
+        "value":9.0978254352
     },
     "CRHEROES-9edff2-0188":{
         "identifier":"CRHEROES-9edff2-0188",
@@ -8005,7 +8147,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":11.3104539587,
-        "discount":null
+        "discount":null,
+        "value":11.3143848001
     },
     "CRHEROES-9edff2-0189":{
         "identifier":"CRHEROES-9edff2-0189",
@@ -8061,7 +8204,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2635693047,
-        "discount":null
+        "discount":null,
+        "value":9.2648005644
     },
     "CRHEROES-9edff2-018a":{
         "identifier":"CRHEROES-9edff2-018a",
@@ -8117,7 +8261,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.7696212524,
-        "discount":null
+        "discount":null,
+        "value":11.7741576774
     },
     "CRHEROES-9edff2-018b":{
         "identifier":"CRHEROES-9edff2-018b",
@@ -8173,7 +8318,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9536786209,
-        "discount":null
+        "discount":null,
+        "value":8.954501174
     },
     "CRHEROES-9edff2-018c":{
         "identifier":"CRHEROES-9edff2-018c",
@@ -8229,7 +8375,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.3117535269,
-        "discount":null
+        "discount":null,
+        "value":9.3130483355
     },
     "CRHEROES-9edff2-018d":{
         "identifier":"CRHEROES-9edff2-018d",
@@ -8285,7 +8432,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6095981552,
-        "discount":null
+        "discount":null,
+        "value":9.6112857831
     },
     "CRHEROES-9edff2-018f":{
         "identifier":"CRHEROES-9edff2-018f",
@@ -8341,7 +8489,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7654882858,
-        "discount":null
+        "discount":null,
+        "value":9.7673815131
     },
     "CRHEROES-9edff2-0190":{
         "identifier":"CRHEROES-9edff2-0190",
@@ -8397,7 +8546,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0174518562,
-        "discount":null
+        "discount":null,
+        "value":9.0183585181
     },
     "CRHEROES-9edff2-0191":{
         "identifier":"CRHEROES-9edff2-0191",
@@ -8453,7 +8603,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.9393294011,
-        "discount":null
+        "discount":null,
+        "value":9.9414519028
     },
     "CRHEROES-9edff2-0192":{
         "identifier":"CRHEROES-9edff2-0192",
@@ -8509,7 +8660,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.4052287979,
-        "discount":null
+        "discount":null,
+        "value":8.4053280151
     },
     "CRHEROES-9edff2-0193":{
         "identifier":"CRHEROES-9edff2-0193",
@@ -8565,7 +8717,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0453231219,
-        "discount":null
+        "discount":null,
+        "value":9.0462665426
     },
     "CRHEROES-9edff2-0194":{
         "identifier":"CRHEROES-9edff2-0194",
@@ -8621,7 +8774,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":12.9180118811,
-        "discount":null
+        "discount":null,
+        "value":12.9240628878
     },
     "CRHEROES-9edff2-0195":{
         "identifier":"CRHEROES-9edff2-0195",
@@ -8677,7 +8831,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7255121571,
-        "discount":null
+        "discount":null,
+        "value":8.7260337875
     },
     "CRHEROES-9edff2-0196":{
         "identifier":"CRHEROES-9edff2-0196",
@@ -8733,7 +8888,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.3526156369,
-        "discount":null
+        "discount":null,
+        "value":9.3539643375
     },
     "CRHEROES-9edff2-0197":{
         "identifier":"CRHEROES-9edff2-0197",
@@ -8789,7 +8945,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.7851514581,
-        "discount":null
+        "discount":null,
+        "value":10.788389492
     },
     "CRHEROES-9edff2-0198":{
         "identifier":"CRHEROES-9edff2-0198",
@@ -8845,7 +9002,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9732829858,
-        "discount":null
+        "discount":null,
+        "value":8.9741313946
     },
     "CRHEROES-9edff2-0199":{
         "identifier":"CRHEROES-9edff2-0199",
@@ -8901,7 +9059,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.3729874007,
-        "discount":null
+        "discount":null,
+        "value":10.3756818424
     },
     "CRHEROES-9edff2-019a":{
         "identifier":"CRHEROES-9edff2-019a",
@@ -8957,7 +9116,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.9044898351,
-        "discount":null
+        "discount":null,
+        "value":11.9092041346
     },
     "CRHEROES-9edff2-019b":{
         "identifier":"CRHEROES-9edff2-019b",
@@ -9013,7 +9173,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.1275785436,
-        "discount":null
+        "discount":null,
+        "value":10.1299493221
     },
     "CRHEROES-9edff2-019c":{
         "identifier":"CRHEROES-9edff2-019c",
@@ -9069,7 +9230,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.2889012091,
-        "discount":null
+        "discount":null,
+        "value":10.2914847517
     },
     "CRHEROES-9edff2-019d":{
         "identifier":"CRHEROES-9edff2-019d",
@@ -9125,7 +9287,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7834392705,
-        "discount":null
+        "discount":null,
+        "value":9.7853561729
     },
     "CRHEROES-9edff2-019e":{
         "identifier":"CRHEROES-9edff2-019e",
@@ -9181,7 +9344,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.469769432,
-        "discount":null
+        "discount":null,
+        "value":9.4712726436
     },
     "CRHEROES-9edff2-019f":{
         "identifier":"CRHEROES-9edff2-019f",
@@ -9237,7 +9401,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.6502828754,
-        "discount":null
+        "discount":null,
+        "value":10.6533430348
     },
     "CRHEROES-9edff2-01a0":{
         "identifier":"CRHEROES-9edff2-01a0",
@@ -9293,7 +9458,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.7067339985,
-        "discount":null
+        "discount":null,
+        "value":10.7098686097
     },
     "CRHEROES-9edff2-01a1":{
         "identifier":"CRHEROES-9edff2-01a1",
@@ -9349,7 +9515,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.1771799488,
-        "discount":null
+        "discount":null,
+        "value":10.1796161453
     },
     "CRHEROES-9edff2-01a2":{
         "identifier":"CRHEROES-9edff2-01a2",
@@ -9405,7 +9572,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.609361958,
-        "discount":null
+        "discount":null,
+        "value":9.6110492745
     },
     "CRHEROES-9edff2-01a3":{
         "identifier":"CRHEROES-9edff2-01a3",
@@ -9461,7 +9629,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":8.9328932702,
-        "discount":null
+        "discount":null,
+        "value":8.9336884101
     },
     "CRHEROES-9edff2-01a4":{
         "identifier":"CRHEROES-9edff2-01a4",
@@ -9517,7 +9686,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":8.973519183,
-        "discount":null
+        "discount":null,
+        "value":8.9743679033
     },
     "CRHEROES-9edff2-01a5":{
         "identifier":"CRHEROES-9edff2-01a5",
@@ -9573,7 +9743,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.6521724528,
-        "discount":null
+        "discount":null,
+        "value":10.6552351042
     },
     "CRHEROES-9edff2-01a6":{
         "identifier":"CRHEROES-9edff2-01a6",
@@ -9629,7 +9800,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7181900449,
-        "discount":null
+        "discount":null,
+        "value":8.7187020184
     },
     "CRHEROES-9edff2-01a7":{
         "identifier":"CRHEROES-9edff2-01a7",
@@ -9685,7 +9857,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":8.9234453835,
-        "discount":null
+        "discount":null,
+        "value":8.9242280628
     },
     "CRHEROES-9edff2-01a8":{
         "identifier":"CRHEROES-9edff2-01a8",
@@ -9741,7 +9914,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.607944775,
-        "discount":null
+        "discount":null,
+        "value":9.6096302224
     },
     "CRHEROES-9edff2-01a9":{
         "identifier":"CRHEROES-9edff2-01a9",
@@ -9797,7 +9971,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.2172746599,
-        "discount":null
+        "discount":null,
+        "value":9.2184448628
     },
     "CRHEROES-9edff2-01aa":{
         "identifier":"CRHEROES-9edff2-01aa",
@@ -9853,7 +10028,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2198728287,
-        "discount":null
+        "discount":null,
+        "value":9.2210464583
     },
     "CRHEROES-9edff2-01ab":{
         "identifier":"CRHEROES-9edff2-01ab",
@@ -9909,7 +10085,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.7654882858,
-        "discount":null
+        "discount":null,
+        "value":9.7673815131
     },
     "CRHEROES-9edff2-01ac":{
         "identifier":"CRHEROES-9edff2-01ac",
@@ -9965,7 +10142,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7356686353,
-        "discount":null
+        "discount":null,
+        "value":8.7362036608
     },
     "CRHEROES-9edff2-01ad":{
         "identifier":"CRHEROES-9edff2-01ad",
@@ -10021,7 +10199,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.0444959481,
-        "discount":null
+        "discount":null,
+        "value":11.0480760245
     },
     "CRHEROES-9edff2-01ae":{
         "identifier":"CRHEROES-9edff2-01ae",
@@ -10077,7 +10256,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.8467401114,
-        "discount":null
+        "discount":null,
+        "value":9.8487404996
     },
     "CRHEROES-9edff2-01af":{
         "identifier":"CRHEROES-9edff2-01af",
@@ -10133,7 +10313,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":14,
         "EGLDvalue":9.0061143921,
-        "discount":null
+        "discount":null,
+        "value":9.0070061014
     },
     "CRHEROES-9edff2-01b0":{
         "identifier":"CRHEROES-9edff2-01b0",
@@ -10189,7 +10370,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.569267247,
-        "discount":null
+        "discount":null,
+        "value":10.5722205569
     },
     "CRHEROES-9edff2-01b1":{
         "identifier":"CRHEROES-9edff2-01b1",
@@ -10245,7 +10427,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":11,
         "EGLDvalue":9.1303541022,
-        "discount":null
+        "discount":null,
+        "value":9.131409668
     },
     "CRHEROES-9edff2-01b2":{
         "identifier":"CRHEROES-9edff2-01b2",
@@ -10301,7 +10484,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.6540620301,
-        "discount":null
+        "discount":null,
+        "value":10.6571271737
     },
     "CRHEROES-9edff2-01b3":{
         "identifier":"CRHEROES-9edff2-01b3",
@@ -10357,7 +10541,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.4369380257,
-        "discount":null
+        "discount":null,
+        "value":9.4383979368
     },
     "CRHEROES-9edff2-01b4":{
         "identifier":"CRHEROES-9edff2-01b4",
@@ -10413,7 +10598,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0070591808,
-        "discount":null
+        "discount":null,
+        "value":9.0079521361
     },
     "CRHEROES-9edff2-01b6":{
         "identifier":"CRHEROES-9edff2-01b6",
@@ -10469,7 +10655,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0075315751,
-        "discount":null
+        "discount":null,
+        "value":9.0084251535
     },
     "CRHEROES-9edff2-01b7":{
         "identifier":"CRHEROES-9edff2-01b7",
@@ -10525,7 +10712,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.5782427393,
-        "discount":null
+        "discount":null,
+        "value":10.5812078868
     },
     "CRHEROES-9edff2-01b8":{
         "identifier":"CRHEROES-9edff2-01b8",
@@ -10581,7 +10769,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.9703300375,
-        "discount":null
+        "discount":null,
+        "value":10.9738122985
     },
     "CRHEROES-9edff2-01b9":{
         "identifier":"CRHEROES-9edff2-01b9",
@@ -10637,7 +10826,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.5828490679,
-        "discount":null
+        "discount":null,
+        "value":8.5831825438
     },
     "CRHEROES-9edff2-01ba":{
         "identifier":"CRHEROES-9edff2-01ba",
@@ -10693,7 +10883,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.577416533,
-        "discount":null
+        "discount":null,
+        "value":8.5777428441
     },
     "CRHEROES-9edff2-01bb":{
         "identifier":"CRHEROES-9edff2-01bb",
@@ -10749,7 +10940,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.3373804358,
-        "discount":null
+        "discount":null,
+        "value":11.3413467898
     },
     "CRHEROES-9edff2-01bc":{
         "identifier":"CRHEROES-9edff2-01bc",
@@ -10805,7 +10997,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.0860078422,
-        "discount":null
+        "discount":null,
+        "value":10.0883237942
     },
     "CRHEROES-9edff2-01bd":{
         "identifier":"CRHEROES-9edff2-01bd",
@@ -10861,7 +11054,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.498526679,
-        "discount":null
+        "discount":null,
+        "value":8.4987489444
     },
     "CRHEROES-9edff2-01be":{
         "identifier":"CRHEROES-9edff2-01be",
@@ -10917,7 +11111,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.5793061103,
-        "discount":null
+        "discount":null,
+        "value":8.5796349135
     },
     "CRHEROES-9edff2-01bf":{
         "identifier":"CRHEROES-9edff2-01bf",
@@ -10973,7 +11168,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.4874254122,
-        "discount":null
+        "discount":null,
+        "value":8.4876330364
     },
     "CRHEROES-9edff2-01c0":{
         "identifier":"CRHEROES-9edff2-01c0",
@@ -11029,7 +11225,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.0945109402,
-        "discount":null
+        "discount":null,
+        "value":10.0968381067
     },
     "CRHEROES-9edff2-01c1":{
         "identifier":"CRHEROES-9edff2-01c1",
@@ -11085,7 +11282,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.5795423075,
-        "discount":null
+        "discount":null,
+        "value":8.5798714222
     },
     "CRHEROES-9edff2-01c2":{
         "identifier":"CRHEROES-9edff2-01c2",
@@ -11141,7 +11339,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0023352374,
-        "discount":null
+        "discount":null,
+        "value":9.0032219625
     },
     "CRHEROES-9edff2-01c3":{
         "identifier":"CRHEROES-9edff2-01c3",
@@ -11197,7 +11396,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.4426067577,
-        "discount":null
+        "discount":null,
+        "value":9.4440741452
     },
     "CRHEROES-9edff2-01c4":{
         "identifier":"CRHEROES-9edff2-01c4",
@@ -11253,7 +11453,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2475078973,
-        "discount":null
+        "discount":null,
+        "value":9.2487179741
     },
     "CRHEROES-9edff2-01c5":{
         "identifier":"CRHEROES-9edff2-01c5",
@@ -11309,7 +11510,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.605110409,
-        "discount":null
+        "discount":null,
+        "value":9.6067921182
     },
     "CRHEROES-9edff2-01c6":{
         "identifier":"CRHEROES-9edff2-01c6",
@@ -11365,7 +11567,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":13.2687646749,
-        "discount":null
+        "discount":null,
+        "value":13.2752782802
     },
     "CRHEROES-9edff2-01c7":{
         "identifier":"CRHEROES-9edff2-01c7",
@@ -11421,7 +11624,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.1572805793,
-        "discount":null
+        "discount":null,
+        "value":9.1583716577
     },
     "CRHEROES-9edff2-01c8":{
         "identifier":"CRHEROES-9edff2-01c8",
@@ -11477,7 +11681,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.4938615431,
-        "discount":null
+        "discount":null,
+        "value":9.4953965291
     },
     "CRHEROES-9edff2-01c9":{
         "identifier":"CRHEROES-9edff2-01c9",
@@ -11533,7 +11738,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6145582957,
-        "discount":null
+        "discount":null,
+        "value":9.6162524655
     },
     "CRHEROES-9edff2-01ca":{
         "identifier":"CRHEROES-9edff2-01ca",
@@ -11589,7 +11795,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2245967721,
-        "discount":null
+        "discount":null,
+        "value":9.225776632
     },
     "CRHEROES-9edff2-01cb":{
         "identifier":"CRHEROES-9edff2-01cb",
@@ -11645,7 +11852,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9295865098,
-        "discount":null
+        "discount":null,
+        "value":8.9303772885
     },
     "CRHEROES-9edff2-01cc":{
         "identifier":"CRHEROES-9edff2-01cc",
@@ -11701,7 +11909,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":12.2011534776,
-        "discount":null
+        "discount":null,
+        "value":12.2062590388
     },
     "CRHEROES-9edff2-01cd":{
         "identifier":"CRHEROES-9edff2-01cd",
@@ -11757,7 +11966,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.9573391932,
-        "discount":null
+        "discount":null,
+        "value":10.960804321
     },
     "CRHEROES-9edff2-01ce":{
         "identifier":"CRHEROES-9edff2-01ce",
@@ -11813,7 +12023,8 @@
         "explosiveWeaponsProficiency":17,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.5137021052,
-        "discount":null
+        "discount":null,
+        "value":9.5152632584
     },
     "CRHEROES-9edff2-01cf":{
         "identifier":"CRHEROES-9edff2-01cf",
@@ -11869,7 +12080,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.4733123895,
-        "discount":null
+        "discount":null,
+        "value":9.4748202738
     },
     "CRHEROES-9edff2-01d0":{
         "identifier":"CRHEROES-9edff2-01d0",
@@ -11925,7 +12137,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0136727015,
-        "discount":null
+        "discount":null,
+        "value":9.0145743792
     },
     "CRHEROES-9edff2-01d1":{
         "identifier":"CRHEROES-9edff2-01d1",
@@ -11981,7 +12194,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.0940385458,
-        "discount":null
+        "discount":null,
+        "value":10.0963650893
     },
     "CRHEROES-9edff2-01d2":{
         "identifier":"CRHEROES-9edff2-01d2",
@@ -12037,7 +12251,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6856536432,
-        "discount":null
+        "discount":null,
+        "value":9.6874415787
     },
     "CRHEROES-9edff2-01d3":{
         "identifier":"CRHEROES-9edff2-01d3",
@@ -12093,7 +12308,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.3832026863,
-        "discount":null
+        "discount":null,
+        "value":11.3872294741
     },
     "CRHEROES-9edff2-01d4":{
         "identifier":"CRHEROES-9edff2-01d4",
@@ -12149,7 +12365,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.335845638,
-        "discount":null
+        "discount":null,
+        "value":9.3371722211
     },
     "CRHEROES-9edff2-01d5":{
         "identifier":"CRHEROES-9edff2-01d5",
@@ -12205,7 +12422,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.015798476,
-        "discount":null
+        "discount":null,
+        "value":9.0167029573
     },
     "CRHEROES-9edff2-01d6":{
         "identifier":"CRHEROES-9edff2-01d6",
@@ -12261,7 +12479,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0207586165,
-        "discount":null
+        "discount":null,
+        "value":9.0216696397
     },
     "CRHEROES-9edff2-01d7":{
         "identifier":"CRHEROES-9edff2-01d7",
@@ -12317,7 +12536,8 @@
         "explosiveWeaponsProficiency":12,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.2815790969,
-        "discount":null
+        "discount":null,
+        "value":10.2841529826
     },
     "CRHEROES-9edff2-01d8":{
         "identifier":"CRHEROES-9edff2-01d8",
@@ -12373,7 +12593,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":4,
         "EGLDvalue":9.0162708703,
-        "discount":null
+        "discount":null,
+        "value":9.0171759747
     },
     "CRHEROES-9edff2-01d9":{
         "identifier":"CRHEROES-9edff2-01d9",
@@ -12429,7 +12650,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":11.8114281511,
-        "discount":null
+        "discount":null,
+        "value":11.816019714
     },
     "CRHEROES-9edff2-01da":{
         "identifier":"CRHEROES-9edff2-01da",
@@ -12485,7 +12707,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.4215264024,
-        "discount":null
+        "discount":null,
+        "value":8.4216471142
     },
     "CRHEROES-9edff2-01db":{
         "identifier":"CRHEROES-9edff2-01db",
@@ -12541,7 +12764,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01dc":{
         "identifier":"CRHEROES-9edff2-01dc",
@@ -12597,7 +12821,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01dd":{
         "identifier":"CRHEROES-9edff2-01dd",
@@ -12653,7 +12878,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01de":{
         "identifier":"CRHEROES-9edff2-01de",
@@ -12709,7 +12935,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01df":{
         "identifier":"CRHEROES-9edff2-01df",
@@ -12765,7 +12992,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e0":{
         "identifier":"CRHEROES-9edff2-01e0",
@@ -12821,7 +13049,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e1":{
         "identifier":"CRHEROES-9edff2-01e1",
@@ -12877,7 +13106,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e2":{
         "identifier":"CRHEROES-9edff2-01e2",
@@ -12933,7 +13163,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e3":{
         "identifier":"CRHEROES-9edff2-01e3",
@@ -12989,7 +13220,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e4":{
         "identifier":"CRHEROES-9edff2-01e4",
@@ -13045,7 +13277,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e5":{
         "identifier":"CRHEROES-9edff2-01e5",
@@ -13101,7 +13334,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e6":{
         "identifier":"CRHEROES-9edff2-01e6",
@@ -13157,7 +13391,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e7":{
         "identifier":"CRHEROES-9edff2-01e7",
@@ -13213,7 +13448,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e8":{
         "identifier":"CRHEROES-9edff2-01e8",
@@ -13269,7 +13505,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01e9":{
         "identifier":"CRHEROES-9edff2-01e9",
@@ -13325,7 +13562,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01ea":{
         "identifier":"CRHEROES-9edff2-01ea",
@@ -13381,7 +13619,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01eb":{
         "identifier":"CRHEROES-9edff2-01eb",
@@ -13437,7 +13676,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01ec":{
         "identifier":"CRHEROES-9edff2-01ec",
@@ -13493,7 +13733,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01ed":{
         "identifier":"CRHEROES-9edff2-01ed",
@@ -13549,7 +13790,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01ee":{
         "identifier":"CRHEROES-9edff2-01ee",
@@ -13605,7 +13847,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.33,
-        "discount":null
+        "discount":null,
+        "value":8.33
     },
     "CRHEROES-9edff2-01ef":{
         "identifier":"CRHEROES-9edff2-01ef",
@@ -13661,7 +13904,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":7,
         "EGLDvalue":11.3985555022,
-        "discount":null
+        "discount":null,
+        "value":11.4026025384
     },
     "CRHEROES-9edff2-01f0":{
         "identifier":"CRHEROES-9edff2-01f0",
@@ -13717,7 +13961,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.0957507334,
-        "discount":null
+        "discount":null,
+        "value":11.0993984085
     },
     "CRHEROES-9edff2-01f1":{
         "identifier":"CRHEROES-9edff2-01f1",
@@ -13773,7 +14018,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.0805753073,
-        "discount":null
+        "discount":null,
+        "value":10.0828840945
     },
     "CRHEROES-9edff2-01f2":{
         "identifier":"CRHEROES-9edff2-01f2",
@@ -13829,7 +14075,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.3060847949,
-        "discount":null
+        "discount":null,
+        "value":9.3073721272
     },
     "CRHEROES-9edff2-01f3":{
         "identifier":"CRHEROES-9edff2-01f3",
@@ -13885,7 +14132,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":10.2966957156,
-        "discount":null
+        "discount":null,
+        "value":10.2992895382
     },
     "CRHEROES-9edff2-01f4":{
         "identifier":"CRHEROES-9edff2-01f4",
@@ -13941,7 +14189,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.6080623898,
-        "discount":null
+        "discount":null,
+        "value":11.6123857391
     },
     "CRHEROES-9edff2-01f5":{
         "identifier":"CRHEROES-9edff2-01f5",
@@ -13997,7 +14246,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.93123989,
-        "discount":null
+        "discount":null,
+        "value":8.9320328493
     },
     "CRHEROES-9edff2-01f6":{
         "identifier":"CRHEROES-9edff2-01f6",
@@ -14053,7 +14303,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9371448192,
-        "discount":null
+        "discount":null,
+        "value":8.9379455663
     },
     "CRHEROES-9edff2-01f7":{
         "identifier":"CRHEROES-9edff2-01f7",
@@ -14109,7 +14360,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.925571158,
-        "discount":null
+        "discount":null,
+        "value":8.9263566409
     },
     "CRHEROES-9edff2-01f8":{
         "identifier":"CRHEROES-9edff2-01f8",
@@ -14165,7 +14417,8 @@
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":11,
         "EGLDvalue":10.9537962357,
-        "discount":null
+        "discount":null,
+        "value":10.9572566907
     },
     "CRHEROES-9edff2-01f9":{
         "identifier":"CRHEROES-9edff2-01f9",
@@ -14221,7 +14474,8 @@
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":13,
         "EGLDvalue":10.2286709314,
-        "discount":null
+        "discount":null,
+        "value":10.2311750379
     },
     "CRHEROES-9edff2-01fa":{
         "identifier":"CRHEROES-9edff2-01fa",
@@ -14277,7 +14531,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9239177778,
-        "discount":null
+        "discount":null,
+        "value":8.9247010802
     },
     "CRHEROES-9edff2-01fb":{
         "identifier":"CRHEROES-9edff2-01fb",
@@ -14333,7 +14588,8 @@
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":3,
         "EGLDvalue":12.3206692443,
-        "discount":null
+        "discount":null,
+        "value":12.3259324318
     },
     "CRHEROES-9edff2-01fc":{
         "identifier":"CRHEROES-9edff2-01fc",
@@ -14389,7 +14645,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.6074723807,
-        "discount":null
+        "discount":null,
+        "value":9.609157205
     },
     "CRHEROES-9edff2-01fd":{
         "identifier":"CRHEROES-9edff2-01fd",
@@ -14445,7 +14702,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.3452935247,
-        "discount":null
+        "discount":null,
+        "value":9.3466325683
     },
     "CRHEROES-9edff2-01fe":{
         "identifier":"CRHEROES-9edff2-01fe",
@@ -14501,7 +14759,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.3219100051,
-        "discount":null
+        "discount":null,
+        "value":9.3232182088
     },
     "CRHEROES-9edff2-01ff":{
         "identifier":"CRHEROES-9edff2-01ff",
@@ -14557,7 +14816,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6084171694,
-        "discount":null
+        "discount":null,
+        "value":9.6101032397
     },
     "CRHEROES-9edff2-02":{
         "identifier":"CRHEROES-9edff2-02",
@@ -14613,7 +14873,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":17.0702833195,
-        "discount":null
+        "discount":null,
+        "value":17.0870201964
     },
     "CRHEROES-9edff2-0200":{
         "identifier":"CRHEROES-9edff2-0200",
@@ -14669,7 +14930,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6048742119,
-        "discount":null
+        "discount":null,
+        "value":9.6065556095
     },
     "CRHEROES-9edff2-0201":{
         "identifier":"CRHEROES-9edff2-0201",
@@ -14725,7 +14987,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.3533242284,
-        "discount":null
+        "discount":null,
+        "value":9.3546738635
     },
     "CRHEROES-9edff2-0202":{
         "identifier":"CRHEROES-9edff2-0202",
@@ -14781,7 +15044,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6072361835,
-        "discount":null
+        "discount":null,
+        "value":9.6089206963
     },
     "CRHEROES-9edff2-0203":{
         "identifier":"CRHEROES-9edff2-0203",
@@ -14837,7 +15101,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.610779141,
-        "discount":null
+        "discount":null,
+        "value":9.6124683266
     },
     "CRHEROES-9edff2-0204":{
         "identifier":"CRHEROES-9edff2-0204",
@@ -14893,7 +15158,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6086533665,
-        "discount":null
+        "discount":null,
+        "value":9.6103397484
     },
     "CRHEROES-9edff2-0205":{
         "identifier":"CRHEROES-9edff2-0205",
@@ -14949,7 +15215,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2352256446,
-        "discount":null
+        "discount":null,
+        "value":9.2364195226
     },
     "CRHEROES-9edff2-0206":{
         "identifier":"CRHEROES-9edff2-0206",
@@ -15005,7 +15272,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.2257777579,
-        "discount":null
+        "discount":null,
+        "value":9.2269591754
     },
     "CRHEROES-9edff2-0207":{
         "identifier":"CRHEROES-9edff2-0207",
@@ -15061,7 +15329,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.3993238687,
-        "discount":null
+        "discount":null,
+        "value":8.3994152981
     },
     "CRHEROES-9edff2-0208":{
         "identifier":"CRHEROES-9edff2-0208",
@@ -15117,7 +15386,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.4002686573,
-        "discount":null
+        "discount":null,
+        "value":8.4003613328
     },
     "CRHEROES-9edff2-0209":{
         "identifier":"CRHEROES-9edff2-0209",
@@ -15173,7 +15443,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.0113107298,
-        "discount":null
+        "discount":null,
+        "value":9.0122092924
     },
     "CRHEROES-9edff2-020a":{
         "identifier":"CRHEROES-9edff2-020a",
@@ -15229,7 +15500,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.578833716,
-        "discount":null
+        "discount":null,
+        "value":8.5791618962
     },
     "CRHEROES-9edff2-020b":{
         "identifier":"CRHEROES-9edff2-020b",
@@ -15285,7 +15557,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.487189215,
-        "discount":null
+        "discount":null,
+        "value":8.4873965277
     },
     "CRHEROES-9edff2-020c":{
         "identifier":"CRHEROES-9edff2-020c",
@@ -15341,7 +15614,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7181900449,
-        "discount":null
+        "discount":null,
+        "value":8.7187020184
     },
     "CRHEROES-9edff2-020d":{
         "identifier":"CRHEROES-9edff2-020d",
@@ -15397,7 +15671,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":8.7179538477,
-        "discount":null
+        "discount":null,
+        "value":8.7184655097
     },
     "CRHEROES-9edff2-020e":{
         "identifier":"CRHEROES-9edff2-020e",
@@ -15453,7 +15728,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7269293401,
-        "discount":null
+        "discount":null,
+        "value":8.7274528396
     },
     "CRHEROES-9edff2-020f":{
         "identifier":"CRHEROES-9edff2-020f",
@@ -15509,7 +15785,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7318894806,
-        "discount":null
+        "discount":null,
+        "value":8.7324195219
     },
     "CRHEROES-9edff2-0210":{
         "identifier":"CRHEROES-9edff2-0210",
@@ -15565,7 +15842,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.719843425,
-        "discount":null
+        "discount":null,
+        "value":8.7203575792
     },
     "CRHEROES-9edff2-0211":{
         "identifier":"CRHEROES-9edff2-0211",
@@ -15621,7 +15899,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9451755229,
-        "discount":null
+        "discount":null,
+        "value":8.9459868615
     },
     "CRHEROES-9edff2-0212":{
         "identifier":"CRHEROES-9edff2-0212",
@@ -15677,7 +15956,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9387981994,
-        "discount":null
+        "discount":null,
+        "value":8.9396011271
     },
     "CRHEROES-9edff2-0213":{
         "identifier":"CRHEROES-9edff2-0213",
@@ -15733,7 +16013,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.9491908747,
-        "discount":null
+        "discount":null,
+        "value":8.9500075091
     },
     "CRHEROES-9edff2-0214":{
         "identifier":"CRHEROES-9edff2-0214",
@@ -15789,7 +16070,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":12.1824939013,
-        "discount":null
+        "discount":null,
+        "value":12.187574853
     },
     "CRHEROES-9edff2-0215":{
         "identifier":"CRHEROES-9edff2-0215",
@@ -15845,7 +16127,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":11.3425767735,
-        "discount":null
+        "discount":null,
+        "value":11.3465499808
     },
     "CRHEROES-9edff2-0216":{
         "identifier":"CRHEROES-9edff2-0216",
@@ -15901,7 +16184,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":9.6055828034,
-        "discount":null
+        "discount":null,
+        "value":9.6072651356
     },
     "CRHEROES-9edff2-0217":{
         "identifier":"CRHEROES-9edff2-0217",
@@ -15957,7 +16241,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.4277263362,
-        "discount":null
+        "discount":null,
+        "value":9.4291740982
     },
     "CRHEROES-9edff2-0218":{
         "identifier":"CRHEROES-9edff2-0218",
@@ -16013,7 +16298,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":12.6185138726,
-        "discount":null
+        "discount":null,
+        "value":12.6241698794
     },
     "CRHEROES-9edff2-0219":{
         "identifier":"CRHEROES-9edff2-0219",
@@ -16069,7 +16355,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7179538477,
-        "discount":null
+        "discount":null,
+        "value":8.7184655097
     },
     "CRHEROES-9edff2-021a":{
         "identifier":"CRHEROES-9edff2-021a",
@@ -16125,7 +16412,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7288189174,
-        "discount":null
+        "discount":null,
+        "value":8.7293449091
     },
     "CRHEROES-9edff2-021b":{
         "identifier":"CRHEROES-9edff2-021b",
@@ -16181,7 +16469,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":11.7530874507,
-        "discount":null
+        "discount":null,
+        "value":11.7576020696
     },
     "CRHEROES-9edff2-021c":{
         "identifier":"CRHEROES-9edff2-021c",
@@ -16237,7 +16526,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.7257483542,
-        "discount":null
+        "discount":null,
+        "value":8.7262702962
     },
     "CRHEROES-9edff2-021d":{
         "identifier":"CRHEROES-9edff2-021d",
@@ -16293,7 +16583,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.7844844962,
-        "discount":null
+        "discount":null,
+        "value":26.7861126249
     },
     "CRHEROES-9edff2-021e":{
         "identifier":"CRHEROES-9edff2-021e",
@@ -16349,7 +16640,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.5965891656,
-        "discount":null
+        "discount":null,
+        "value":28.600607231
     },
     "CRHEROES-9edff2-021f":{
         "identifier":"CRHEROES-9edff2-021f",
@@ -16405,7 +16697,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.6150125447,
-        "discount":null
+        "discount":null,
+        "value":28.6190549082
     },
     "CRHEROES-9edff2-0220":{
         "identifier":"CRHEROES-9edff2-0220",
@@ -16461,7 +16754,8 @@
         "explosiveWeaponsProficiency":5,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.6204450796,
-        "discount":null
+        "discount":null,
+        "value":28.6244946079
     },
     "CRHEROES-9edff2-0221":{
         "identifier":"CRHEROES-9edff2-0221",
@@ -16517,7 +16811,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":27.9510623067,
-        "discount":null
+        "discount":null,
+        "value":27.9542290039
     },
     "CRHEROES-9edff2-0222":{
         "identifier":"CRHEROES-9edff2-0222",
@@ -16573,7 +16868,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.688175343,
-        "discount":null
+        "discount":null,
+        "value":25.6883575788
     },
     "CRHEROES-9edff2-0223":{
         "identifier":"CRHEROES-9edff2-0223",
@@ -16629,7 +16925,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":31.8523309232,
-        "discount":null
+        "discount":null,
+        "value":31.8606428997
     },
     "CRHEROES-9edff2-0224":{
         "identifier":"CRHEROES-9edff2-0224",
@@ -16685,7 +16982,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.5865512698,
-        "discount":null
+        "discount":null,
+        "value":26.5879183497
     },
     "CRHEROES-9edff2-0225":{
         "identifier":"CRHEROES-9edff2-0225",
@@ -16741,7 +17039,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.1961173518,
-        "discount":null
+        "discount":null,
+        "value":26.1969694988
     },
     "CRHEROES-9edff2-0226":{
         "identifier":"CRHEROES-9edff2-0226",
@@ -16797,7 +17096,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.5722608574,
-        "discount":null
+        "discount":null,
+        "value":28.5762468368
     },
     "CRHEROES-9edff2-0227":{
         "identifier":"CRHEROES-9edff2-0227",
@@ -16853,7 +17153,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.112148775,
-        "discount":null
+        "discount":null,
+        "value":28.1155279248
     },
     "CRHEROES-9edff2-0228":{
         "identifier":"CRHEROES-9edff2-0228",
@@ -16909,7 +17210,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.656347049,
-        "discount":null
+        "discount":null,
+        "value":28.6604439275
     },
     "CRHEROES-9edff2-0229":{
         "identifier":"CRHEROES-9edff2-0229",
@@ -16965,7 +17267,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.1416734209,
-        "discount":null
+        "discount":null,
+        "value":28.14509151
     },
     "CRHEROES-9edff2-022a":{
         "identifier":"CRHEROES-9edff2-022a",
@@ -17021,7 +17324,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":27.5077202232,
-        "discount":null
+        "discount":null,
+        "value":27.5103022083
     },
     "CRHEROES-9edff2-022b":{
         "identifier":"CRHEROES-9edff2-022b",
@@ -17077,7 +17381,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.8247556295,
-        "discount":null
+        "discount":null,
+        "value":28.8290746175
     },
     "CRHEROES-9edff2-022c":{
         "identifier":"CRHEROES-9edff2-022c",
@@ -17133,7 +17438,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":33.8678013539,
-        "discount":null
+        "discount":null,
+        "value":33.8787714807
     },
     "CRHEROES-9edff2-022d":{
         "identifier":"CRHEROES-9edff2-022d",
@@ -17189,7 +17495,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.5798191667,
-        "discount":null
+        "discount":null,
+        "value":28.5838151146
     },
     "CRHEROES-9edff2-022e":{
         "identifier":"CRHEROES-9edff2-022e",
@@ -17245,7 +17552,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.873412246,
-        "discount":null
+        "discount":null,
+        "value":28.877795406
     },
     "CRHEROES-9edff2-022f":{
         "identifier":"CRHEROES-9edff2-022f",
@@ -17301,7 +17609,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":11,
         "EGLDvalue":28.9841887176,
-        "discount":null
+        "discount":null,
+        "value":28.9887179777
     },
     "CRHEROES-9edff2-0230":{
         "identifier":"CRHEROES-9edff2-0230",
@@ -17357,7 +17666,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":34.2296554145,
-        "discount":null
+        "discount":null,
+        "value":34.241102781
     },
     "CRHEROES-9edff2-0231":{
         "identifier":"CRHEROES-9edff2-0231",
@@ -17413,7 +17723,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":29.9070110512,
-        "discount":null
+        "discount":null,
+        "value":29.9127573971
     },
     "CRHEROES-9edff2-0232":{
         "identifier":"CRHEROES-9edff2-0232",
@@ -17469,7 +17780,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":28.6015493062,
-        "discount":null
+        "discount":null,
+        "value":28.6055739133
     },
     "CRHEROES-9edff2-0233":{
         "identifier":"CRHEROES-9edff2-0233",
@@ -17525,7 +17837,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":27.8735896358,
-        "discount":null
+        "discount":null,
+        "value":27.8766541563
     },
     "CRHEROES-9edff2-0234":{
         "identifier":"CRHEROES-9edff2-0234",
@@ -17581,7 +17894,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.4769557841,
-        "discount":null
+        "discount":null,
+        "value":26.4781783214
     },
     "CRHEROES-9edff2-0235":{
         "identifier":"CRHEROES-9edff2-0235",
@@ -17637,7 +17951,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":27.431192341,
-        "discount":null
+        "discount":null,
+        "value":27.4336733955
     },
     "CRHEROES-9edff2-0236":{
         "identifier":"CRHEROES-9edff2-0236",
@@ -17693,7 +18008,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.6131229674,
-        "discount":null
+        "discount":null,
+        "value":28.6171628387
     },
     "CRHEROES-9edff2-0237":{
         "identifier":"CRHEROES-9edff2-0237",
@@ -17749,7 +18065,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.9164001305,
-        "discount":null
+        "discount":null,
+        "value":28.920839986
     },
     "CRHEROES-9edff2-0238":{
         "identifier":"CRHEROES-9edff2-0238",
@@ -17805,7 +18122,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.2320193213,
-        "discount":null
+        "discount":null,
+        "value":26.2329188184
     },
     "CRHEROES-9edff2-0239":{
         "identifier":"CRHEROES-9edff2-0239",
@@ -17861,7 +18179,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.5630491679,
-        "discount":null
+        "discount":null,
+        "value":28.5670229982
     },
     "CRHEROES-9edff2-023a":{
         "identifier":"CRHEROES-9edff2-023a",
@@ -17917,7 +18236,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":28.3100820014,
-        "discount":null
+        "discount":null,
+        "value":28.3137222001
     },
     "CRHEROES-9edff2-023b":{
         "identifier":"CRHEROES-9edff2-023b",
@@ -17973,7 +18293,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":16,
         "EGLDvalue":29.4039110843,
-        "discount":null
+        "discount":null,
+        "value":29.4089939051
     },
     "CRHEROES-9edff2-023c":{
         "identifier":"CRHEROES-9edff2-023c",
@@ -18029,7 +18350,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":28.5571442387,
-        "discount":null
+        "discount":null,
+        "value":28.5611102812
     },
     "CRHEROES-9edff2-023d":{
         "identifier":"CRHEROES-9edff2-023d",
@@ -18085,7 +18407,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.8328461081,
-        "discount":null
+        "discount":null,
+        "value":25.8332191463
     },
     "CRHEROES-9edff2-023e":{
         "identifier":"CRHEROES-9edff2-023e",
@@ -18141,7 +18464,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":27.8707552698,
-        "discount":null
+        "discount":null,
+        "value":27.8738160521
     },
     "CRHEROES-9edff2-023f":{
         "identifier":"CRHEROES-9edff2-023f",
@@ -18197,7 +18521,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.1644669314,
-        "discount":null
+        "discount":null,
+        "value":26.1652773355
     },
     "CRHEROES-9edff2-0240":{
         "identifier":"CRHEROES-9edff2-0240",
@@ -18253,7 +18578,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":38.2480778261,
-        "discount":null
+        "discount":null,
+        "value":38.2648249829
     },
     "CRHEROES-9edff2-0241":{
         "identifier":"CRHEROES-9edff2-0241",
@@ -18309,7 +18635,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":31.8969721878,
-        "discount":null
+        "discount":null,
+        "value":31.9053430405
     },
     "CRHEROES-9edff2-0242":{
         "identifier":"CRHEROES-9edff2-0242",
@@ -18365,7 +18692,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.2211542516,
-        "discount":null
+        "discount":null,
+        "value":26.2220394191
     },
     "CRHEROES-9edff2-0243":{
         "identifier":"CRHEROES-9edff2-0243",
@@ -18421,7 +18749,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.970725479,
-        "discount":null
+        "discount":null,
+        "value":28.9752369828
     },
     "CRHEROES-9edff2-0244":{
         "identifier":"CRHEROES-9edff2-0244",
@@ -18477,7 +18806,8 @@
         "explosiveWeaponsProficiency":12,
         "elementalWeaponsProficiency":2,
         "EGLDvalue":26.4379832514,
-        "discount":null
+        "discount":null,
+        "value":26.4391543889
     },
     "CRHEROES-9edff2-0245":{
         "identifier":"CRHEROES-9edff2-0245",
@@ -18533,7 +18863,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.7893260544,
-        "discount":null
+        "discount":null,
+        "value":28.7935983153
     },
     "CRHEROES-9edff2-0246":{
         "identifier":"CRHEROES-9edff2-0246",
@@ -18589,7 +18920,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.5502945208,
-        "discount":null
+        "discount":null,
+        "value":28.5542515294
     },
     "CRHEROES-9edff2-0247":{
         "identifier":"CRHEROES-9edff2-0247",
@@ -18645,7 +18977,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.5543098727,
-        "discount":null
+        "discount":null,
+        "value":28.558272177
     },
     "CRHEROES-9edff2-0248":{
         "identifier":"CRHEROES-9edff2-0248",
@@ -18701,7 +19034,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.1486417212,
-        "discount":null
+        "discount":null,
+        "value":26.1494312538
     },
     "CRHEROES-9edff2-0249":{
         "identifier":"CRHEROES-9edff2-0249",
@@ -18757,7 +19091,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.480143962,
-        "discount":null
+        "discount":null,
+        "value":28.4840084509
     },
     "CRHEROES-9edff2-024a":{
         "identifier":"CRHEROES-9edff2-024a",
@@ -18813,7 +19148,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.8845135129,
-        "discount":null
+        "discount":null,
+        "value":28.888911314
     },
     "CRHEROES-9edff2-024b":{
         "identifier":"CRHEROES-9edff2-024b",
@@ -18869,7 +19205,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":29.9873180882,
-        "discount":null
+        "discount":null,
+        "value":29.9931703489
     },
     "CRHEROES-9edff2-024c":{
         "identifier":"CRHEROES-9edff2-024c",
@@ -18925,7 +19262,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.5700174681,
-        "discount":null
+        "discount":null,
+        "value":26.571362742
     },
     "CRHEROES-9edff2-024d":{
         "identifier":"CRHEROES-9edff2-024d",
@@ -18981,7 +19319,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":26.8121195648,
-        "discount":null
+        "discount":null,
+        "value":26.8137841407
     },
     "CRHEROES-9edff2-024e":{
         "identifier":"CRHEROES-9edff2-024e",
@@ -19037,7 +19376,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.55,
-        "discount":null
+        "discount":null,
+        "value":25.55
     },
     "CRHEROES-9edff2-024f":{
         "identifier":"CRHEROES-9edff2-024f",
@@ -19093,7 +19433,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.55,
-        "discount":null
+        "discount":null,
+        "value":25.55
     },
     "CRHEROES-9edff2-0250":{
         "identifier":"CRHEROES-9edff2-0250",
@@ -19149,7 +19490,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.55,
-        "discount":null
+        "discount":null,
+        "value":25.55
     },
     "CRHEROES-9edff2-0251":{
         "identifier":"CRHEROES-9edff2-0251",
@@ -19205,7 +19547,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.55,
-        "discount":null
+        "discount":null,
+        "value":25.55
     },
     "CRHEROES-9edff2-0252":{
         "identifier":"CRHEROES-9edff2-0252",
@@ -19261,7 +19604,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.5691319706,
-        "discount":null
+        "discount":null,
+        "value":25.5691572032
     },
     "CRHEROES-9edff2-0253":{
         "identifier":"CRHEROES-9edff2-0253",
@@ -19317,7 +19661,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.8115285881,
-        "discount":null
+        "discount":null,
+        "value":28.8158301314
     },
     "CRHEROES-9edff2-0254":{
         "identifier":"CRHEROES-9edff2-0254",
@@ -19373,7 +19718,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.6173745164,
-        "discount":null
+        "discount":null,
+        "value":28.621419995
     },
     "CRHEROES-9edff2-0255":{
         "identifier":"CRHEROES-9edff2-0255",
@@ -19429,7 +19775,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":31.1272056188,
-        "discount":null
+        "discount":null,
+        "value":31.1345612468
     },
     "CRHEROES-9edff2-0256":{
         "identifier":"CRHEROES-9edff2-0256",
@@ -19485,7 +19832,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":25.9563772268,
-        "discount":null
+        "discount":null,
+        "value":25.9569131869
     },
     "CRHEROES-9edff2-0257":{
         "identifier":"CRHEROES-9edff2-0257",
@@ -19541,7 +19889,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":28.9787561827,
-        "discount":null
+        "discount":null,
+        "value":28.983278278
     },
     "CRHEROES-9edff2-0258":{
         "identifier":"CRHEROES-9edff2-0258",
@@ -19597,7 +19946,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":32.8523897306,
-        "discount":null
+        "discount":null,
+        "value":32.862020658
     },
     "CRHEROES-9edff2-03":{
         "identifier":"CRHEROES-9edff2-03",
@@ -19653,7 +20003,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7041806125,
-        "discount":null
+        "discount":null,
+        "value":4.7046081656
     },
     "CRHEROES-9edff2-04":{
         "identifier":"CRHEROES-9edff2-04",
@@ -19709,7 +20060,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.2727071948,
-        "discount":null
+        "discount":null,
+        "value":5.2738845625
     },
     "CRHEROES-9edff2-05":{
         "identifier":"CRHEROES-9edff2-05",
@@ -19765,7 +20117,8 @@
         "explosiveWeaponsProficiency":5,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.3080769949,
-        "discount":null
+        "discount":null,
+        "value":8.3132576311
     },
     "CRHEROES-9edff2-06":{
         "identifier":"CRHEROES-9edff2-06",
@@ -19821,7 +20174,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.6626687184,
-        "discount":null
+        "discount":null,
+        "value":5.664360396
     },
     "CRHEROES-9edff2-07":{
         "identifier":"CRHEROES-9edff2-07",
@@ -19877,7 +20231,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4812692937,
-        "discount":null
+        "discount":null,
+        "value":5.4827217285
     },
     "CRHEROES-9edff2-08":{
         "identifier":"CRHEROES-9edff2-08",
@@ -19933,7 +20288,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.3178208538,
-        "discount":null
+        "discount":null,
+        "value":5.3190577207
     },
     "CRHEROES-9edff2-09":{
         "identifier":"CRHEROES-9edff2-09",
@@ -19989,7 +20345,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6304870962,
-        "discount":null
+        "discount":null,
+        "value":4.630817457
     },
     "CRHEROES-9edff2-0a":{
         "identifier":"CRHEROES-9edff2-0a",
@@ -20045,7 +20402,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6517448413,
-        "discount":null
+        "discount":null,
+        "value":4.6521032383
     },
     "CRHEROES-9edff2-0b":{
         "identifier":"CRHEROES-9edff2-0b",
@@ -20101,7 +20459,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.8154294784,
-        "discount":null
+        "discount":null,
+        "value":4.8160037547
     },
     "CRHEROES-9edff2-0d":{
         "identifier":"CRHEROES-9edff2-0d",
@@ -20157,7 +20516,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.2007258661,
-        "discount":null
+        "discount":null,
+        "value":6.2031271729
     },
     "CRHEROES-9edff2-0e":{
         "identifier":"CRHEROES-9edff2-0e",
@@ -20213,7 +20573,8 @@
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.7663592749,
-        "discount":null
+        "discount":null,
+        "value":5.7681877073
     },
     "CRHEROES-9edff2-0f":{
         "identifier":"CRHEROES-9edff2-0f",
@@ -20269,7 +20630,8 @@
         "explosiveWeaponsProficiency":17,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4545790138,
-        "discount":null
+        "discount":null,
+        "value":5.4559962474
     },
     "CRHEROES-9edff2-10":{
         "identifier":"CRHEROES-9edff2-10",
@@ -20325,7 +20687,8 @@
         "explosiveWeaponsProficiency":11,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2724709976,
-        "discount":null
+        "discount":null,
+        "value":5.2736480538
     },
     "CRHEROES-9edff2-11":{
         "identifier":"CRHEROES-9edff2-11",
@@ -20381,7 +20744,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6989842748,
-        "discount":null
+        "discount":null,
+        "value":4.6994049746
     },
     "CRHEROES-9edff2-12":{
         "identifier":"CRHEROES-9edff2-12",
@@ -20437,7 +20801,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.5136875968,
-        "discount":null
+        "discount":null,
+        "value":4.5138639138
     },
     "CRHEROES-9edff2-13":{
         "identifier":"CRHEROES-9edff2-13",
@@ -20493,7 +20858,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.8010214512,
-        "discount":null
+        "discount":null,
+        "value":4.8015767251
     },
     "CRHEROES-9edff2-14":{
         "identifier":"CRHEROES-9edff2-14",
@@ -20549,7 +20915,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4161381666,
-        "discount":null
+        "discount":null,
+        "value":4.4161858283
     },
     "CRHEROES-9edff2-15":{
         "identifier":"CRHEROES-9edff2-15",
@@ -20605,7 +20972,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-16":{
         "identifier":"CRHEROES-9edff2-16",
@@ -20661,7 +21029,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-17":{
         "identifier":"CRHEROES-9edff2-17",
@@ -20717,7 +21086,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-18":{
         "identifier":"CRHEROES-9edff2-18",
@@ -20773,7 +21143,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.3809447887,
-        "discount":null
+        "discount":null,
+        "value":4.3809460347
     },
     "CRHEROES-9edff2-19":{
         "identifier":"CRHEROES-9edff2-19",
@@ -20829,7 +21200,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-1a":{
         "identifier":"CRHEROES-9edff2-1a",
@@ -20885,7 +21257,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.3804723943,
-        "discount":null
+        "discount":null,
+        "value":4.3804730174
     },
     "CRHEROES-9edff2-1b":{
         "identifier":"CRHEROES-9edff2-1b",
@@ -20941,7 +21314,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-1c":{
         "identifier":"CRHEROES-9edff2-1c",
@@ -20997,7 +21371,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.2977440945,
-        "discount":null
+        "discount":null,
+        "value":5.2989544828
     },
     "CRHEROES-9edff2-1d":{
         "identifier":"CRHEROES-9edff2-1d",
@@ -21053,7 +21428,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
         "EGLDvalue":5.0513904488,
-        "discount":null
+        "discount":null,
+        "value":5.0522759278
     },
     "CRHEROES-9edff2-1e":{
         "identifier":"CRHEROES-9edff2-1e",
@@ -21109,7 +21485,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":5.481741688,
-        "discount":null
+        "discount":null,
+        "value":5.4831947458
     },
     "CRHEROES-9edff2-1f":{
         "identifier":"CRHEROES-9edff2-1f",
@@ -21165,7 +21542,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.7231351933,
-        "discount":null
+        "discount":null,
+        "value":5.7249066185
     },
     "CRHEROES-9edff2-20":{
         "identifier":"CRHEROES-9edff2-20",
@@ -21221,7 +21599,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-22":{
         "identifier":"CRHEROES-9edff2-22",
@@ -21277,7 +21656,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":5.4229285933,
-        "discount":null
+        "discount":null,
+        "value":5.4243040841
     },
     "CRHEROES-9edff2-23":{
         "identifier":"CRHEROES-9edff2-23",
@@ -21333,7 +21713,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.120832416,
-        "discount":null
+        "discount":null,
+        "value":5.1218094802
     },
     "CRHEROES-9edff2-24":{
         "identifier":"CRHEROES-9edff2-24",
@@ -21389,7 +21770,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.9084911624,
-        "discount":null
+        "discount":null,
+        "value":4.9091881753
     },
     "CRHEROES-9edff2-25":{
         "identifier":"CRHEROES-9edff2-25",
@@ -21445,7 +21827,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.3802361972,
-        "discount":null
+        "discount":null,
+        "value":4.3802365087
     },
     "CRHEROES-9edff2-26":{
         "identifier":"CRHEROES-9edff2-26",
@@ -21501,7 +21884,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.3712014136,
-        "discount":null
+        "discount":null,
+        "value":5.3725086828
     },
     "CRHEROES-9edff2-27":{
         "identifier":"CRHEROES-9edff2-27",
@@ -21557,7 +21941,8 @@
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":16,
         "EGLDvalue":9.6650297225,
-        "discount":null
+        "discount":null,
+        "value":9.6720000075
     },
     "CRHEROES-9edff2-28":{
         "identifier":"CRHEROES-9edff2-28",
@@ -21613,7 +21998,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1104397406,
-        "discount":null
+        "discount":null,
+        "value":5.1114030982
     },
     "CRHEROES-9edff2-29":{
         "identifier":"CRHEROES-9edff2-29",
@@ -21669,7 +22055,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.812122718,
-        "discount":null
+        "discount":null,
+        "value":4.8126926332
     },
     "CRHEROES-9edff2-2a":{
         "identifier":"CRHEROES-9edff2-2a",
@@ -21725,7 +22112,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.7719691995,
-        "discount":null
+        "discount":null,
+        "value":4.7724861573
     },
     "CRHEROES-9edff2-2b":{
         "identifier":"CRHEROES-9edff2-2b",
@@ -21781,7 +22169,8 @@
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0386358017,
-        "discount":null
+        "discount":null,
+        "value":5.0395044589
     },
     "CRHEROES-9edff2-2c":{
         "identifier":"CRHEROES-9edff2-2c",
@@ -21837,7 +22226,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":7.073238203,
-        "discount":null
+        "discount":null,
+        "value":7.0767902432
     },
     "CRHEROES-9edff2-2d":{
         "identifier":"CRHEROES-9edff2-2d",
@@ -21893,7 +22283,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4945556263,
-        "discount":null
+        "discount":null,
+        "value":4.4947067106
     },
     "CRHEROES-9edff2-2e":{
         "identifier":"CRHEROES-9edff2-2e",
@@ -21949,7 +22340,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.800785254,
-        "discount":null
+        "discount":null,
+        "value":4.8013402165
     },
     "CRHEROES-9edff2-2f":{
         "identifier":"CRHEROES-9edff2-2f",
@@ -22005,7 +22397,8 @@
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":3,
         "EGLDvalue":5.0842218551,
-        "discount":null
+        "discount":null,
+        "value":5.0851506345
     },
     "CRHEROES-9edff2-30":{
         "identifier":"CRHEROES-9edff2-30",
@@ -22061,7 +22454,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.5997814644,
-        "discount":null
+        "discount":null,
+        "value":4.6000713283
     },
     "CRHEROES-9edff2-31":{
         "identifier":"CRHEROES-9edff2-31",
@@ -22117,7 +22511,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4755417543,
-        "discount":null
+        "discount":null,
+        "value":4.4756677618
     },
     "CRHEROES-9edff2-32":{
         "identifier":"CRHEROES-9edff2-32",
@@ -22173,7 +22568,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2781397296,
-        "discount":null
+        "discount":null,
+        "value":5.2793242622
     },
     "CRHEROES-9edff2-33":{
         "identifier":"CRHEROES-9edff2-33",
@@ -22229,7 +22625,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1368938234,
-        "discount":null
+        "discount":null,
+        "value":5.1378920705
     },
     "CRHEROES-9edff2-34":{
         "identifier":"CRHEROES-9edff2-34",
@@ -22285,7 +22682,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-35":{
         "identifier":"CRHEROES-9edff2-35",
@@ -22341,7 +22739,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-36":{
         "identifier":"CRHEROES-9edff2-36",
@@ -22397,7 +22796,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-37":{
         "identifier":"CRHEROES-9edff2-37",
@@ -22453,7 +22853,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-38":{
         "identifier":"CRHEROES-9edff2-38",
@@ -22509,7 +22910,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-39":{
         "identifier":"CRHEROES-9edff2-39",
@@ -22565,7 +22967,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-3a":{
         "identifier":"CRHEROES-9edff2-3a",
@@ -22621,7 +23024,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-3b":{
         "identifier":"CRHEROES-9edff2-3b",
@@ -22677,7 +23081,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.0530438289,
-        "discount":null
+        "discount":null,
+        "value":5.0539314885
     },
     "CRHEROES-9edff2-3c":{
         "identifier":"CRHEROES-9edff2-3c",
@@ -22733,7 +23138,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2878238135,
-        "discount":null
+        "discount":null,
+        "value":5.2890211181
     },
     "CRHEROES-9edff2-3e":{
         "identifier":"CRHEROES-9edff2-3e",
@@ -22789,7 +23195,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4919574574,
-        "discount":null
+        "discount":null,
+        "value":4.4921051151
     },
     "CRHEROES-9edff2-3f":{
         "identifier":"CRHEROES-9edff2-3f",
@@ -22845,7 +23252,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4862887254,
-        "discount":null
+        "discount":null,
+        "value":4.4864289068
     },
     "CRHEROES-9edff2-40":{
         "identifier":"CRHEROES-9edff2-40",
@@ -22901,7 +23309,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.5458104116,
-        "discount":null
+        "discount":null,
+        "value":4.5460290946
     },
     "CRHEROES-9edff2-41":{
         "identifier":"CRHEROES-9edff2-41",
@@ -22957,7 +23366,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0750101655,
-        "discount":null
+        "discount":null,
+        "value":5.0759267959
     },
     "CRHEROES-9edff2-42":{
         "identifier":"CRHEROES-9edff2-42",
@@ -23013,7 +23423,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0409977734,
-        "discount":null
+        "discount":null,
+        "value":5.0418695458
     },
     "CRHEROES-9edff2-43":{
         "identifier":"CRHEROES-9edff2-43",
@@ -23069,7 +23480,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4133038006,
-        "discount":null
+        "discount":null,
+        "value":4.4133477241
     },
     "CRHEROES-9edff2-44":{
         "identifier":"CRHEROES-9edff2-44",
@@ -23125,7 +23537,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.8099969435,
-        "discount":null
+        "discount":null,
+        "value":4.810564055
     },
     "CRHEROES-9edff2-45":{
         "identifier":"CRHEROES-9edff2-45",
@@ -23181,7 +23594,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-46":{
         "identifier":"CRHEROES-9edff2-46",
@@ -23237,7 +23651,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-47":{
         "identifier":"CRHEROES-9edff2-47",
@@ -23293,7 +23708,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-48":{
         "identifier":"CRHEROES-9edff2-48",
@@ -23349,7 +23765,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":12,
         "EGLDvalue":5.0013166492,
-        "discount":null
+        "discount":null,
+        "value":5.0021360872
     },
     "CRHEROES-9edff2-49":{
         "identifier":"CRHEROES-9edff2-49",
@@ -23405,7 +23822,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
         "EGLDvalue":4.9836018617,
-        "discount":null
+        "discount":null,
+        "value":4.9843979361
     },
     "CRHEROES-9edff2-4a":{
         "identifier":"CRHEROES-9edff2-4a",
@@ -23461,7 +23879,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.5646468938,
-        "discount":null
+        "discount":null,
+        "value":5.5662092931
     },
     "CRHEROES-9edff2-4b":{
         "identifier":"CRHEROES-9edff2-4b",
@@ -23517,7 +23936,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.3804723943,
-        "discount":null
+        "discount":null,
+        "value":4.3804730174
     },
     "CRHEROES-9edff2-4c":{
         "identifier":"CRHEROES-9edff2-4c",
@@ -23573,7 +23993,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0029700294,
-        "discount":null
+        "discount":null,
+        "value":5.003791648
     },
     "CRHEROES-9edff2-4d":{
         "identifier":"CRHEROES-9edff2-4d",
@@ -23629,7 +24050,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":4.6784351212,
-        "discount":null
+        "discount":null,
+        "value":4.6788287193
     },
     "CRHEROES-9edff2-4e":{
         "identifier":"CRHEROES-9edff2-4e",
@@ -23685,7 +24107,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4307230998,
-        "discount":null
+        "discount":null,
+        "value":5.4321088706
     },
     "CRHEROES-9edff2-4f":{
         "identifier":"CRHEROES-9edff2-4f",
@@ -23741,7 +24164,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":11,
         "EGLDvalue":5.4241095792,
-        "discount":null
+        "discount":null,
+        "value":5.4254866275
     },
     "CRHEROES-9edff2-50":{
         "identifier":"CRHEROES-9edff2-50",
@@ -23797,7 +24221,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1900381861,
-        "discount":null
+        "discount":null,
+        "value":5.1911065239
     },
     "CRHEROES-9edff2-51":{
         "identifier":"CRHEROES-9edff2-51",
@@ -23853,7 +24278,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.481741688,
-        "discount":null
+        "discount":null,
+        "value":5.4831947458
     },
     "CRHEROES-9edff2-52":{
         "identifier":"CRHEROES-9edff2-52",
@@ -23909,7 +24335,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.6911897682,
-        "discount":null
+        "discount":null,
+        "value":4.6916001881
     },
     "CRHEROES-9edff2-53":{
         "identifier":"CRHEROES-9edff2-53",
@@ -23965,7 +24392,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.1846644587,
-        "discount":null
+        "discount":null,
+        "value":6.1870445826
     },
     "CRHEROES-9edff2-54":{
         "identifier":"CRHEROES-9edff2-54",
@@ -24021,7 +24449,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.3974785904,
-        "discount":null
+        "discount":null,
+        "value":4.3975016424
     },
     "CRHEROES-9edff2-55":{
         "identifier":"CRHEROES-9edff2-55",
@@ -24077,7 +24506,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0688690392,
-        "discount":null
+        "discount":null,
+        "value":5.0697775702
     },
     "CRHEROES-9edff2-56":{
         "identifier":"CRHEROES-9edff2-56",
@@ -24133,7 +24563,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.5436253459,
-        "discount":null
+        "discount":null,
+        "value":5.5451600204
     },
     "CRHEROES-9edff2-57":{
         "identifier":"CRHEROES-9edff2-57",
@@ -24189,7 +24620,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2368052253,
-        "discount":null
+        "discount":null,
+        "value":5.2379352429
     },
     "CRHEROES-9edff2-58":{
         "identifier":"CRHEROES-9edff2-58",
@@ -24245,7 +24677,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-59":{
         "identifier":"CRHEROES-9edff2-59",
@@ -24301,7 +24734,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-5a":{
         "identifier":"CRHEROES-9edff2-5a",
@@ -24357,7 +24791,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-5b":{
         "identifier":"CRHEROES-9edff2-5b",
@@ -24413,7 +24848,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-5c":{
         "identifier":"CRHEROES-9edff2-5c",
@@ -24469,7 +24905,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-5d":{
         "identifier":"CRHEROES-9edff2-5d",
@@ -24525,7 +24962,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-5e":{
         "identifier":"CRHEROES-9edff2-5e",
@@ -24581,7 +25019,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-5f":{
         "identifier":"CRHEROES-9edff2-5f",
@@ -24637,7 +25076,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-60":{
         "identifier":"CRHEROES-9edff2-60",
@@ -24693,7 +25133,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-61":{
         "identifier":"CRHEROES-9edff2-61",
@@ -24749,7 +25190,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-62":{
         "identifier":"CRHEROES-9edff2-62",
@@ -24805,7 +25247,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-63":{
         "identifier":"CRHEROES-9edff2-63",
@@ -24861,7 +25304,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-64":{
         "identifier":"CRHEROES-9edff2-64",
@@ -24917,7 +25361,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-65":{
         "identifier":"CRHEROES-9edff2-65",
@@ -24973,7 +25418,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-66":{
         "identifier":"CRHEROES-9edff2-66",
@@ -25029,7 +25475,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-67":{
         "identifier":"CRHEROES-9edff2-67",
@@ -25085,7 +25532,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-68":{
         "identifier":"CRHEROES-9edff2-68",
@@ -25141,7 +25589,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-69":{
         "identifier":"CRHEROES-9edff2-69",
@@ -25197,7 +25646,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-6a":{
         "identifier":"CRHEROES-9edff2-6a",
@@ -25253,7 +25703,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-6b":{
         "identifier":"CRHEROES-9edff2-6b",
@@ -25309,7 +25760,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-6c":{
         "identifier":"CRHEROES-9edff2-6c",
@@ -25365,7 +25817,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-6d":{
         "identifier":"CRHEROES-9edff2-6d",
@@ -25421,7 +25874,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-6e":{
         "identifier":"CRHEROES-9edff2-6e",
@@ -25477,7 +25931,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-6f":{
         "identifier":"CRHEROES-9edff2-6f",
@@ -25533,7 +25988,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-70":{
         "identifier":"CRHEROES-9edff2-70",
@@ -25589,7 +26045,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-71":{
         "identifier":"CRHEROES-9edff2-71",
@@ -25645,7 +26102,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-72":{
         "identifier":"CRHEROES-9edff2-72",
@@ -25701,7 +26159,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-73":{
         "identifier":"CRHEROES-9edff2-73",
@@ -25757,7 +26216,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-74":{
         "identifier":"CRHEROES-9edff2-74",
@@ -25813,7 +26273,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-75":{
         "identifier":"CRHEROES-9edff2-75",
@@ -25869,7 +26330,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-76":{
         "identifier":"CRHEROES-9edff2-76",
@@ -25925,7 +26387,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-77":{
         "identifier":"CRHEROES-9edff2-77",
@@ -25981,7 +26444,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-78":{
         "identifier":"CRHEROES-9edff2-78",
@@ -26037,7 +26501,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-79":{
         "identifier":"CRHEROES-9edff2-79",
@@ -26093,7 +26558,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-7a":{
         "identifier":"CRHEROES-9edff2-7a",
@@ -26149,7 +26615,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-7b":{
         "identifier":"CRHEROES-9edff2-7b",
@@ -26205,7 +26672,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-7c":{
         "identifier":"CRHEROES-9edff2-7c",
@@ -26261,7 +26729,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-7d":{
         "identifier":"CRHEROES-9edff2-7d",
@@ -26317,7 +26786,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-7e":{
         "identifier":"CRHEROES-9edff2-7e",
@@ -26373,7 +26843,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-7f":{
         "identifier":"CRHEROES-9edff2-7f",
@@ -26429,7 +26900,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-80":{
         "identifier":"CRHEROES-9edff2-80",
@@ -26485,7 +26957,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-81":{
         "identifier":"CRHEROES-9edff2-81",
@@ -26541,7 +27014,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-82":{
         "identifier":"CRHEROES-9edff2-82",
@@ -26597,7 +27071,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-83":{
         "identifier":"CRHEROES-9edff2-83",
@@ -26653,7 +27128,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-84":{
         "identifier":"CRHEROES-9edff2-84",
@@ -26709,7 +27185,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-85":{
         "identifier":"CRHEROES-9edff2-85",
@@ -26765,7 +27242,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-86":{
         "identifier":"CRHEROES-9edff2-86",
@@ -26821,7 +27299,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-87":{
         "identifier":"CRHEROES-9edff2-87",
@@ -26877,7 +27356,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-88":{
         "identifier":"CRHEROES-9edff2-88",
@@ -26933,7 +27413,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-89":{
         "identifier":"CRHEROES-9edff2-89",
@@ -26989,7 +27470,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-8a":{
         "identifier":"CRHEROES-9edff2-8a",
@@ -27045,7 +27527,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-8b":{
         "identifier":"CRHEROES-9edff2-8b",
@@ -27101,7 +27584,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-8c":{
         "identifier":"CRHEROES-9edff2-8c",
@@ -27157,7 +27641,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-8d":{
         "identifier":"CRHEROES-9edff2-8d",
@@ -27213,7 +27698,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-8e":{
         "identifier":"CRHEROES-9edff2-8e",
@@ -27269,7 +27755,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-8f":{
         "identifier":"CRHEROES-9edff2-8f",
@@ -27325,7 +27812,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-90":{
         "identifier":"CRHEROES-9edff2-90",
@@ -27381,7 +27869,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-91":{
         "identifier":"CRHEROES-9edff2-91",
@@ -27437,7 +27926,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-92":{
         "identifier":"CRHEROES-9edff2-92",
@@ -27493,7 +27983,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-93":{
         "identifier":"CRHEROES-9edff2-93",
@@ -27549,7 +28040,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-94":{
         "identifier":"CRHEROES-9edff2-94",
@@ -27605,7 +28097,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-95":{
         "identifier":"CRHEROES-9edff2-95",
@@ -27661,7 +28154,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-96":{
         "identifier":"CRHEROES-9edff2-96",
@@ -27717,7 +28211,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-97":{
         "identifier":"CRHEROES-9edff2-97",
@@ -27773,7 +28268,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-98":{
         "identifier":"CRHEROES-9edff2-98",
@@ -27829,7 +28325,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-99":{
         "identifier":"CRHEROES-9edff2-99",
@@ -27885,7 +28382,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-9a":{
         "identifier":"CRHEROES-9edff2-9a",
@@ -27941,7 +28439,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-9b":{
         "identifier":"CRHEROES-9edff2-9b",
@@ -27997,7 +28496,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-9c":{
         "identifier":"CRHEROES-9edff2-9c",
@@ -28053,7 +28553,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-9d":{
         "identifier":"CRHEROES-9edff2-9d",
@@ -28109,7 +28610,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-9e":{
         "identifier":"CRHEROES-9edff2-9e",
@@ -28165,7 +28667,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-9f":{
         "identifier":"CRHEROES-9edff2-9f",
@@ -28221,7 +28724,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a0":{
         "identifier":"CRHEROES-9edff2-a0",
@@ -28277,7 +28781,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a1":{
         "identifier":"CRHEROES-9edff2-a1",
@@ -28333,7 +28838,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a2":{
         "identifier":"CRHEROES-9edff2-a2",
@@ -28389,7 +28895,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a3":{
         "identifier":"CRHEROES-9edff2-a3",
@@ -28445,7 +28952,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a4":{
         "identifier":"CRHEROES-9edff2-a4",
@@ -28501,7 +29009,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a5":{
         "identifier":"CRHEROES-9edff2-a5",
@@ -28557,7 +29066,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a6":{
         "identifier":"CRHEROES-9edff2-a6",
@@ -28613,7 +29123,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a7":{
         "identifier":"CRHEROES-9edff2-a7",
@@ -28669,7 +29180,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a8":{
         "identifier":"CRHEROES-9edff2-a8",
@@ -28725,7 +29237,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-a9":{
         "identifier":"CRHEROES-9edff2-a9",
@@ -28781,7 +29294,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-aa":{
         "identifier":"CRHEROES-9edff2-aa",
@@ -28837,7 +29351,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ab":{
         "identifier":"CRHEROES-9edff2-ab",
@@ -28893,7 +29408,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ac":{
         "identifier":"CRHEROES-9edff2-ac",
@@ -28949,7 +29465,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ad":{
         "identifier":"CRHEROES-9edff2-ad",
@@ -29005,7 +29522,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ae":{
         "identifier":"CRHEROES-9edff2-ae",
@@ -29061,7 +29579,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-af":{
         "identifier":"CRHEROES-9edff2-af",
@@ -29117,7 +29636,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b0":{
         "identifier":"CRHEROES-9edff2-b0",
@@ -29173,7 +29693,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b1":{
         "identifier":"CRHEROES-9edff2-b1",
@@ -29229,7 +29750,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b2":{
         "identifier":"CRHEROES-9edff2-b2",
@@ -29285,7 +29807,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b3":{
         "identifier":"CRHEROES-9edff2-b3",
@@ -29341,7 +29864,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b4":{
         "identifier":"CRHEROES-9edff2-b4",
@@ -29397,7 +29921,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b5":{
         "identifier":"CRHEROES-9edff2-b5",
@@ -29453,7 +29978,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b6":{
         "identifier":"CRHEROES-9edff2-b6",
@@ -29509,7 +30035,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b7":{
         "identifier":"CRHEROES-9edff2-b7",
@@ -29565,7 +30092,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b8":{
         "identifier":"CRHEROES-9edff2-b8",
@@ -29621,7 +30149,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-b9":{
         "identifier":"CRHEROES-9edff2-b9",
@@ -29677,7 +30206,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ba":{
         "identifier":"CRHEROES-9edff2-ba",
@@ -29733,7 +30263,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-bb":{
         "identifier":"CRHEROES-9edff2-bb",
@@ -29789,7 +30320,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-bc":{
         "identifier":"CRHEROES-9edff2-bc",
@@ -29845,7 +30377,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-bd":{
         "identifier":"CRHEROES-9edff2-bd",
@@ -29901,7 +30434,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-be":{
         "identifier":"CRHEROES-9edff2-be",
@@ -29957,7 +30491,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-bf":{
         "identifier":"CRHEROES-9edff2-bf",
@@ -30013,7 +30548,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c0":{
         "identifier":"CRHEROES-9edff2-c0",
@@ -30069,7 +30605,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c1":{
         "identifier":"CRHEROES-9edff2-c1",
@@ -30125,7 +30662,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c2":{
         "identifier":"CRHEROES-9edff2-c2",
@@ -30181,7 +30719,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c3":{
         "identifier":"CRHEROES-9edff2-c3",
@@ -30237,7 +30776,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c4":{
         "identifier":"CRHEROES-9edff2-c4",
@@ -30293,7 +30833,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c5":{
         "identifier":"CRHEROES-9edff2-c5",
@@ -30349,7 +30890,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c6":{
         "identifier":"CRHEROES-9edff2-c6",
@@ -30405,7 +30947,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c7":{
         "identifier":"CRHEROES-9edff2-c7",
@@ -30461,7 +31004,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c8":{
         "identifier":"CRHEROES-9edff2-c8",
@@ -30517,7 +31061,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-c9":{
         "identifier":"CRHEROES-9edff2-c9",
@@ -30573,7 +31118,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ca":{
         "identifier":"CRHEROES-9edff2-ca",
@@ -30629,7 +31175,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-cb":{
         "identifier":"CRHEROES-9edff2-cb",
@@ -30685,7 +31232,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-cc":{
         "identifier":"CRHEROES-9edff2-cc",
@@ -30741,7 +31289,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-cd":{
         "identifier":"CRHEROES-9edff2-cd",
@@ -30797,7 +31346,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-ce":{
         "identifier":"CRHEROES-9edff2-ce",
@@ -30853,7 +31403,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-cf":{
         "identifier":"CRHEROES-9edff2-cf",
@@ -30909,7 +31460,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-d0":{
         "identifier":"CRHEROES-9edff2-d0",
@@ -30965,7 +31517,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-d1":{
         "identifier":"CRHEROES-9edff2-d1",
@@ -31021,7 +31574,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.38,
-        "discount":null
+        "discount":null,
+        "value":4.38
     },
     "CRHEROES-9edff2-d2":{
         "identifier":"CRHEROES-9edff2-d2",
@@ -31077,7 +31631,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2457807177,
-        "discount":null
+        "discount":null,
+        "value":5.2469225728
     },
     "CRHEROES-9edff2-d3":{
         "identifier":"CRHEROES-9edff2-d3",
@@ -31133,7 +31688,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.7599819514,
-        "discount":null
+        "discount":null,
+        "value":5.7618019729
     },
     "CRHEROES-9edff2-d4":{
         "identifier":"CRHEROES-9edff2-d4",
@@ -31189,7 +31745,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":7.1053610178,
-        "discount":null
+        "discount":null,
+        "value":7.1089554239
     },
     "CRHEROES-9edff2-d5":{
         "identifier":"CRHEROES-9edff2-d5",
@@ -31245,7 +31802,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4390492919,
-        "discount":null
+        "discount":null,
+        "value":4.4391271704
     },
     "CRHEROES-9edff2-d6":{
         "identifier":"CRHEROES-9edff2-d6",
@@ -31301,7 +31859,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.2644991013,
-        "discount":null
+        "discount":null,
+        "value":6.266984517
     },
     "CRHEROES-9edff2-d7":{
         "identifier":"CRHEROES-9edff2-d7",
@@ -31357,7 +31916,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4633776001,
-        "discount":null
+        "discount":null,
+        "value":4.4634875646
     },
     "CRHEROES-9edff2-d8":{
         "identifier":"CRHEROES-9edff2-d8",
@@ -31413,7 +31973,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.7784641379,
-        "discount":null
+        "discount":null,
+        "value":6.7816274084
     },
     "CRHEROES-9edff2-d9":{
         "identifier":"CRHEROES-9edff2-d9",
@@ -31469,7 +32030,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.9857276362,
-        "discount":null
+        "discount":null,
+        "value":4.9865265142
     },
     "CRHEROES-9edff2-da":{
         "identifier":"CRHEROES-9edff2-da",
@@ -31525,7 +32087,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.079970306,
-        "discount":null
+        "discount":null,
+        "value":5.0808934782
     },
     "CRHEROES-9edff2-db":{
         "identifier":"CRHEROES-9edff2-db",
@@ -31581,7 +32144,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2918391653,
-        "discount":null
+        "discount":null,
+        "value":5.2930417657
     },
     "CRHEROES-9edff2-dc":{
         "identifier":"CRHEROES-9edff2-dc",
@@ -31637,7 +32201,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.1468141045,
-        "discount":null
+        "discount":null,
+        "value":5.1478254352
     },
     "CRHEROES-9edff2-dd":{
         "identifier":"CRHEROES-9edff2-dd",
@@ -31693,7 +32258,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.3448061383,
-        "discount":null
+        "discount":null,
+        "value":6.3473974688
     },
     "CRHEROES-9edff2-de":{
         "identifier":"CRHEROES-9edff2-de",
@@ -31749,7 +32315,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.4484971786,
-        "discount":null
+        "discount":null,
+        "value":4.4485875177
     },
     "CRHEROES-9edff2-df":{
         "identifier":"CRHEROES-9edff2-df",
@@ -31805,7 +32372,8 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.1305753073,
-        "discount":null
+        "discount":null,
+        "value":6.1328840945
     },
     "CRHEROES-9edff2-e0":{
         "identifier":"CRHEROES-9edff2-e0",
@@ -31861,7 +32429,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":9.297743127,
-        "discount":null
+        "discount":null,
+        "value":9.3042290075
     },
     "CRHEROES-9edff2-e1":{
         "identifier":"CRHEROES-9edff2-e1",
@@ -31917,7 +32486,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.304121418,
-        "discount":null
+        "discount":null,
+        "value":5.3053402172
     },
     "CRHEROES-9edff2-e2":{
         "identifier":"CRHEROES-9edff2-e2",
@@ -31973,7 +32543,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":6.7964151226,
-        "discount":null
+        "discount":null,
+        "value":6.7996020682
     },
     "CRHEROES-9edff2-e3":{
         "identifier":"CRHEROES-9edff2-e3",
@@ -32029,7 +32600,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":7.0330846845,
-        "discount":null
+        "discount":null,
+        "value":7.0365837673
     },
     "CRHEROES-9edff2-e4":{
         "identifier":"CRHEROES-9edff2-e4",
@@ -32085,7 +32657,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.5863172583,
-        "discount":null
+        "discount":null,
+        "value":8.5918648582
     },
     "CRHEROES-9edff2-e5":{
         "identifier":"CRHEROES-9edff2-e5",
@@ -32141,7 +32714,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0674518562,
-        "discount":null
+        "discount":null,
+        "value":5.0683585181
     },
     "CRHEROES-9edff2-e6":{
         "identifier":"CRHEROES-9edff2-e6",
@@ -32197,7 +32771,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2880600106,
-        "discount":null
+        "discount":null,
+        "value":5.2892576268
     },
     "CRHEROES-9edff2-e7":{
         "identifier":"CRHEROES-9edff2-e7",
@@ -32253,7 +32828,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.9498844741,
-        "discount":null
+        "discount":null,
+        "value":5.951954953
     },
     "CRHEROES-9edff2-e8":{
         "identifier":"CRHEROES-9edff2-e8",
@@ -32309,7 +32885,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.2448947364,
-        "discount":null
+        "discount":null,
+        "value":6.2473542964
     },
     "CRHEROES-9edff2-e9":{
         "identifier":"CRHEROES-9edff2-e9",
@@ -32365,7 +32942,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2944373342,
-        "discount":null
+        "discount":null,
+        "value":5.2956433612
     },
     "CRHEROES-9edff2-ea":{
         "identifier":"CRHEROES-9edff2-ea",
@@ -32421,7 +32999,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":6.1197102376,
-        "discount":null
+        "discount":null,
+        "value":6.1220046951
     },
     "CRHEROES-9edff2-eb":{
         "identifier":"CRHEROES-9edff2-eb",
@@ -32477,7 +33056,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
         "EGLDvalue":5.0476112941,
-        "discount":null
+        "discount":null,
+        "value":5.0484917888
     },
     "CRHEROES-9edff2-ec":{
         "identifier":"CRHEROES-9edff2-ec",
@@ -32533,7 +33113,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.8326718716,
-        "discount":null
+        "discount":null,
+        "value":4.8332688885
     },
     "CRHEROES-9edff2-ed":{
         "identifier":"CRHEROES-9edff2-ed",
@@ -32589,7 +33170,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.3135693047,
-        "discount":null
+        "discount":null,
+        "value":5.3148005644
     },
     "CRHEROES-9edff2-ee":{
         "identifier":"CRHEROES-9edff2-ee",
@@ -32645,7 +33227,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.6548742119,
-        "discount":null
+        "discount":null,
+        "value":5.6565556095
     },
     "CRHEROES-9edff2-ef":{
         "identifier":"CRHEROES-9edff2-ef",
@@ -32701,7 +33284,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.2836310719,
-        "discount":null
+        "discount":null,
+        "value":6.2861417202
     },
     "CRHEROES-9edff2-f0":{
         "identifier":"CRHEROES-9edff2-f0",
@@ -32757,7 +33341,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4822140824,
-        "discount":null
+        "discount":null,
+        "value":5.4836677632
     },
     "CRHEROES-9edff2-f1":{
         "identifier":"CRHEROES-9edff2-f1",
@@ -32813,7 +33398,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.0627279128,
-        "discount":null
+        "discount":null,
+        "value":5.0636283445
     },
     "CRHEROES-9edff2-f2":{
         "identifier":"CRHEROES-9edff2-f2",
@@ -32869,7 +33455,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.1397869968,
-        "discount":null
+        "discount":null,
+        "value":6.1421079331
     },
     "CRHEROES-9edff2-f3":{
         "identifier":"CRHEROES-9edff2-f3",
@@ -32925,7 +33512,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.4833950682,
-        "discount":null
+        "discount":null,
+        "value":5.4848503066
     },
     "CRHEROES-9edff2-f4":{
         "identifier":"CRHEROES-9edff2-f4",
@@ -32981,7 +33569,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":8.2431227739,
-        "discount":null
+        "discount":null,
+        "value":8.2482177437
     },
     "CRHEROES-9edff2-f5":{
         "identifier":"CRHEROES-9edff2-f5",
@@ -33037,7 +33626,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.5651192882,
-        "discount":null
+        "discount":null,
+        "value":5.5666823105
     },
     "CRHEROES-9edff2-f6":{
         "identifier":"CRHEROES-9edff2-f6",
@@ -33093,7 +33683,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.062550523,
-        "discount":null
+        "discount":null,
+        "value":6.0647695941
     },
     "CRHEROES-9edff2-f7":{
         "identifier":"CRHEROES-9edff2-f7",
@@ -33149,7 +33740,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.8338528574,
-        "discount":null
+        "discount":null,
+        "value":4.8344514319
     },
     "CRHEROES-9edff2-f8":{
         "identifier":"CRHEROES-9edff2-f8",
@@ -33205,7 +33797,8 @@
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.1896245992,
-        "discount":null
+        "discount":null,
+        "value":6.1920112649
     },
     "CRHEROES-9edff2-f9":{
         "identifier":"CRHEROES-9edff2-f9",
@@ -33261,7 +33854,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":7.757029003,
-        "discount":null
+        "discount":null,
+        "value":7.7614828767
     },
     "CRHEROES-9edff2-fa":{
         "identifier":"CRHEROES-9edff2-fa",
@@ -33317,7 +33911,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":5.2757777579,
-        "discount":null
+        "discount":null,
+        "value":5.2769591754
     },
     "CRHEROES-9edff2-fb":{
         "identifier":"CRHEROES-9edff2-fb",
@@ -33373,7 +33968,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.5243164694,
-        "discount":null
+        "discount":null,
+        "value":4.5245068045
     },
     "CRHEROES-9edff2-fc":{
         "identifier":"CRHEROES-9edff2-fc",
@@ -33429,7 +34025,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":4.7611041298,
-        "discount":null
+        "discount":null,
+        "value":4.7616067579
     },
     "CRHEROES-9edff2-fd":{
         "identifier":"CRHEROES-9edff2-fd",
@@ -33485,7 +34082,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":3,
         "EGLDvalue":5.1394919923,
-        "discount":null
+        "discount":null,
+        "value":5.140493666
     },
     "CRHEROES-9edff2-fe":{
         "identifier":"CRHEROES-9edff2-fe",
@@ -33541,7 +34139,8 @@
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
         "EGLDvalue":6.9728544068,
-        "discount":null
+        "discount":null,
+        "value":6.9762740534
     },
     "CRHEROES-9edff2-ff":{
         "identifier":"CRHEROES-9edff2-ff",
@@ -33597,6 +34196,7 @@
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
         "EGLDvalue":6.8592435692,
-        "discount":null
+        "discount":null,
+        "value":6.8625133775
     }
 }

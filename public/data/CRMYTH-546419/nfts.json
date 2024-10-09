@@ -17,8 +17,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":19.7682606604,
-        "discount":-24.1207901003
+        "value":22.7820637292,
+        "discount":-34.1587304018
     },
     "CRMYTH-546419-99":{
         "identifier":"CRMYTH-546419-99",
@@ -38,29 +38,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":18.4842842678,
-        "discount":-18.8499820569
-    },
-    "CRMYTH-546419-0292":{
-        "identifier":"CRMYTH-546419-0292",
-        "collection":"CRMYTH-546419",
-        "name":"Hellfire Launcher",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":12.0,
-        "xp":31615,
-        "wear":100.0,
-        "level":12,
-        "starLevel":4,
-        "damage":2092.0,
-        "reloadTime":2.7,
-        "ammo":2.0,
-        "range":9.3,
-        "value":14.6433334396,
-        "discount":-18.0514460764
+        "value":18.5012430722,
+        "discount":-18.9243666415
     },
     "CRMYTH-546419-0465":{
         "identifier":"CRMYTH-546419-0465",
@@ -80,8 +59,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.021553542,
-        "discount":-0.7133264961
+        "value":3.0215918395,
+        "discount":-0.7145849163
     },
     "CRMYTH-546419-03b3":{
         "identifier":"CRMYTH-546419-03b3",
@@ -101,8 +80,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
-        "discount":-0.2751488831
+        "value":2.988236669,
+        "discount":-0.2756364351
     },
     "CRMYTH-546419-03cd":{
         "identifier":"CRMYTH-546419-03cd",
@@ -122,29 +101,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
-        "discount":-0.2733195708
-    },
-    "CRMYTH-546419-0468":{
-        "identifier":"CRMYTH-546419-0468",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":3.0,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":3,
-        "damage":1400.0,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":3.0082220596,
-        "discount":-0.2733195708
+        "value":3.008236669,
+        "discount":-0.2738038902
     },
     "CRMYTH-546419-03d1":{
         "identifier":"CRMYTH-546419-03d1",
@@ -164,8 +122,29 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
-        "discount":-0.2733195708
+        "value":3.008236669,
+        "discount":-0.2738038902
+    },
+    "CRMYTH-546419-0468":{
+        "identifier":"CRMYTH-546419-0468",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":3.0,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":3,
+        "damage":1400.0,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":3.008236669,
+        "discount":-0.2738038902
     },
     "CRMYTH-546419-045f":{
         "identifier":"CRMYTH-546419-045f",
@@ -185,8 +164,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
-        "discount":0.552241631
+        "value":0.9945100003,
+        "discount":0.5520306142
     },
     "CRMYTH-546419-03eb":{
         "identifier":"CRMYTH-546419-03eb",
@@ -206,8 +185,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.1403888916,
-        "discount":5.0825268421
+        "value":3.1406738794,
+        "discount":5.0729915541
     },
     "CRMYTH-546419-ba":{
         "identifier":"CRMYTH-546419-ba",
@@ -227,8 +206,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.0504825991,
-        "discount":9.4734935163
+        "value":1.0517608175,
+        "discount":9.3404489704
     },
     "CRMYTH-546419-0440":{
         "identifier":"CRMYTH-546419-0440",
@@ -248,8 +227,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.0067804228,
-        "discount":9.7519451374
+        "value":3.0068280077,
+        "discount":9.7502082449
     },
     "CRMYTH-546419-0443":{
         "identifier":"CRMYTH-546419-0443",
@@ -269,29 +248,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":9.8709477881
-    },
-    "CRMYTH-546419-03ec":{
-        "identifier":"CRMYTH-546419-03ec",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.1,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400.0,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011745799,
-        "discount":9.8709477881
+        "value":1.001176667,
+        "discount":9.8707187506
     },
     "CRMYTH-546419-03ea":{
         "identifier":"CRMYTH-546419-03ea",
@@ -311,8 +269,29 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":9.8709477881
+        "value":1.001176667,
+        "discount":9.8707187506
+    },
+    "CRMYTH-546419-03ec":{
+        "identifier":"CRMYTH-546419-03ec",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.1,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400.0,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.001176667,
+        "discount":9.8707187506
     },
     "CRMYTH-546419-03fe":{
         "identifier":"CRMYTH-546419-03fe",
@@ -332,8 +311,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9887506206,
-        "discount":10.4140297707
+        "value":2.9887661692,
+        "discount":10.4134553593
     },
     "CRMYTH-546419-0441":{
         "identifier":"CRMYTH-546419-0441",
@@ -353,8 +332,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9962110542,
-        "discount":10.4183692161
+        "value":0.9962161675,
+        "discount":10.4178024704
     },
     "CRMYTH-546419-0442":{
         "identifier":"CRMYTH-546419-0442",
@@ -374,8 +353,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
-        "discount":10.4335599616
+        "value":2.988236669,
+        "discount":10.4330200551
     },
     "CRMYTH-546419-0444":{
         "identifier":"CRMYTH-546419-0444",
@@ -395,8 +374,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
-        "discount":10.6074657941
+        "value":0.9945100003,
+        "discount":10.6072336756
     },
     "CRMYTH-546419-03c6":{
         "identifier":"CRMYTH-546419-03c6",
@@ -416,8 +395,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.174571019,
-        "discount":19.1924521666
+        "value":1.174893052,
+        "discount":19.1597820419
     },
     "CRMYTH-546419-013e":{
         "identifier":"CRMYTH-546419-013e",
@@ -437,8 +416,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.9977092414,
-        "discount":25.0286410429
+        "value":9.9995886369,
+        "discount":25.0051422508
     },
     "CRMYTH-546419-023b":{
         "identifier":"CRMYTH-546419-023b",
@@ -458,8 +437,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":34.8416177399
+        "value":1.001176667,
+        "discount":34.8413366484
     },
     "CRMYTH-546419-03ac":{
         "identifier":"CRMYTH-546419-03ac",
@@ -479,92 +458,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":34.8416177399
-    },
-    "CRMYTH-546419-023c":{
-        "identifier":"CRMYTH-546419-023c",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.45,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400.0,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011745799,
-        "discount":44.8298857206
-    },
-    "CRMYTH-546419-046b":{
-        "identifier":"CRMYTH-546419-046b",
-        "collection":"CRMYTH-546419",
-        "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.5,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":130.0,
-        "reloadTime":0.1,
-        "ammo":65.0,
-        "range":9.5,
-        "value":0.9945079133,
-        "discount":50.8283624465
-    },
-    "CRMYTH-546419-0469":{
-        "identifier":"CRMYTH-546419-0469",
-        "collection":"CRMYTH-546419",
-        "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.5,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":130.0,
-        "reloadTime":0.1,
-        "ammo":65.0,
-        "range":9.5,
-        "value":0.9945079133,
-        "discount":50.8283624465
-    },
-    "CRMYTH-546419-2f":{
-        "identifier":"CRMYTH-546419-2f",
-        "collection":"CRMYTH-546419",
-        "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":6.2,
-        "xp":9871,
-        "wear":100.0,
-        "level":7,
-        "starLevel":3,
-        "damage":178.0,
-        "reloadTime":0.1,
-        "ammo":65.0,
-        "range":9.5,
-        "value":3.697961992,
-        "discount":67.659916823
+        "value":1.001176667,
+        "discount":34.8413366484
     },
     "CRMYTH-546419-0342":{
         "identifier":"CRMYTH-546419-0342",
@@ -584,8 +479,113 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.5462846776,
-        "discount":74.6120904636
+        "value":1.8799963944,
+        "discount":43.6172967129
+    },
+    "CRMYTH-546419-023c":{
+        "identifier":"CRMYTH-546419-023c",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.45,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400.0,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.001176667,
+        "discount":44.8295838076
+    },
+    "CRMYTH-546419-0297":{
+        "identifier":"CRMYTH-546419-0297",
+        "collection":"CRMYTH-546419",
+        "name":"Hellfire Launcher",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":82.0,
+        "xp":121200,
+        "wear":100.0,
+        "level":20,
+        "starLevel":5,
+        "damage":3048.0,
+        "reloadTime":2.7,
+        "ammo":2.0,
+        "range":9.3,
+        "value":54.6789097726,
+        "discount":49.9664136338
+    },
+    "CRMYTH-546419-0469":{
+        "identifier":"CRMYTH-546419-0469",
+        "collection":"CRMYTH-546419",
+        "name":"Dragonbreath",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.5,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":130.0,
+        "reloadTime":0.1,
+        "ammo":65.0,
+        "range":9.5,
+        "value":0.9945100003,
+        "discount":50.8280459213
+    },
+    "CRMYTH-546419-046b":{
+        "identifier":"CRMYTH-546419-046b",
+        "collection":"CRMYTH-546419",
+        "name":"Dragonbreath",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.5,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":130.0,
+        "reloadTime":0.1,
+        "ammo":65.0,
+        "range":9.5,
+        "value":0.9945100003,
+        "discount":50.8280459213
+    },
+    "CRMYTH-546419-2f":{
+        "identifier":"CRMYTH-546419-2f",
+        "collection":"CRMYTH-546419",
+        "name":"Dragonbreath",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":6.2,
+        "xp":9871,
+        "wear":100.0,
+        "level":7,
+        "starLevel":3,
+        "damage":178.0,
+        "reloadTime":0.1,
+        "ammo":65.0,
+        "range":9.5,
+        "value":3.699237706,
+        "discount":67.6020978563
     },
     "CRMYTH-546419-026e":{
         "identifier":"CRMYTH-546419-026e",
@@ -605,8 +605,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
-        "discount":101.104483262
+        "value":0.9945100003,
+        "discount":101.1040612284
     },
     "CRMYTH-546419-03dc":{
         "identifier":"CRMYTH-546419-03dc",
@@ -626,29 +626,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.0208185041,
-        "discount":108.656092293
-    },
-    "CRMYTH-546419-03d5":{
-        "identifier":"CRMYTH-546419-03d5",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":2.15,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400.0,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011745799,
-        "discount":114.7477615858
+        "value":1.0208673412,
+        "discount":108.6461104195
     },
     "CRMYTH-546419-0309":{
         "identifier":"CRMYTH-546419-0309",
@@ -668,8 +647,50 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3507758455,
-        "discount":166.5135012524
+        "value":1.6841401717,
+        "discount":113.7589293667
+    },
+    "CRMYTH-546419-03d5":{
+        "identifier":"CRMYTH-546419-03d5",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":2.15,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400.0,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.001176667,
+        "discount":114.7473139216
+    },
+    "CRMYTH-546419-0387":{
+        "identifier":"CRMYTH-546419-0387",
+        "collection":"CRMYTH-546419",
+        "name":"Hellfire Launcher",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":3.75,
+        "xp":264,
+        "wear":4.9,
+        "level":3,
+        "starLevel":2,
+        "damage":1390.0,
+        "reloadTime":2.7,
+        "ammo":2.0,
+        "range":9.3,
+        "value":1.6942006746,
+        "discount":121.3433187888
     },
     "CRMYTH-546419-03ca":{
         "identifier":"CRMYTH-546419-03ca",
@@ -692,47 +713,26 @@
         "value":0.3311111111,
         "discount":174.8322147651
     },
-    "CRMYTH-546419-0387":{
-        "identifier":"CRMYTH-546419-0387",
+    "CRMYTH-546419-03d0":{
+        "identifier":"CRMYTH-546419-03d0",
         "collection":"CRMYTH-546419",
-        "name":"Hellfire Launcher",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
+        "name":"Dragonbreath",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
-        "priceAmount":3.75,
-        "xp":264,
-        "wear":4.9,
-        "level":3,
-        "starLevel":2,
-        "damage":1390.0,
-        "reloadTime":2.7,
-        "ammo":2.0,
-        "range":9.3,
-        "value":1.3608185041,
-        "discount":175.5694450641
-    },
-    "CRMYTH-546419-0261":{
-        "identifier":"CRMYTH-546419-0261",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":2.8,
+        "priceAmount":0.92,
         "xp":0,
         "wear":0.0,
         "level":1,
-        "starLevel":2,
-        "damage":1400.0,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011745799,
-        "discount":179.6715034605
+        "starLevel":1,
+        "damage":130.0,
+        "reloadTime":0.1,
+        "ammo":65.0,
+        "range":9.0,
+        "value":0.3311111111,
+        "discount":177.8523489933
     },
     "CRMYTH-546419-0228":{
         "identifier":"CRMYTH-546419-0228",
@@ -752,8 +752,29 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":179.6715034605
+        "value":1.001176667,
+        "discount":179.670920456
+    },
+    "CRMYTH-546419-0261":{
+        "identifier":"CRMYTH-546419-0261",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":2.8,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400.0,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.001176667,
+        "discount":179.670920456
     },
     "CRMYTH-546419-022c":{
         "identifier":"CRMYTH-546419-022c",
@@ -773,29 +794,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":179.6715034605
-    },
-    "CRMYTH-546419-03d0":{
-        "identifier":"CRMYTH-546419-03d0",
-        "collection":"CRMYTH-546419",
-        "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":0.934,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":130.0,
-        "reloadTime":0.1,
-        "ammo":65.0,
-        "range":9.0,
-        "value":0.3311111111,
-        "discount":182.0805369128
+        "value":1.001176667,
+        "discount":179.670920456
     },
     "CRMYTH-546419-76":{
         "identifier":"CRMYTH-546419-76",
@@ -815,8 +815,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.0877677101,
-        "discount":191.1488442195
+        "value":3.0879591976,
+        "discount":191.1307897789
     },
     "CRMYTH-546419-0236":{
         "identifier":"CRMYTH-546419-0236",
@@ -836,8 +836,29 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
-        "discount":199.648039422
+        "value":1.001176667,
+        "discount":199.6474147743
+    },
+    "CRMYTH-546419-02bf":{
+        "identifier":"CRMYTH-546419-02bf",
+        "collection":"CRMYTH-546419",
+        "name":"Hellfire Launcher",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":5.0,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1300.0,
+        "reloadTime":2.7,
+        "ammo":2.0,
+        "range":9.3,
+        "value":1.6678433337,
+        "discount":199.7883493647
     },
     "CRMYTH-546419-4b":{
         "identifier":"CRMYTH-546419-4b",
@@ -857,8 +878,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9912172385,
-        "discount":200.5465428701
+        "value":2.9912371699,
+        "discount":200.5445402493
     },
     "CRMYTH-546419-73":{
         "identifier":"CRMYTH-546419-73",
@@ -878,8 +899,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
-        "discount":200.6512024767
+        "value":0.9945100003,
+        "discount":200.6505715364
     },
     "CRMYTH-546419-da":{
         "identifier":"CRMYTH-546419-da",
@@ -899,8 +920,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.333636458,
-        "discount":212.9154428366
+        "value":0.3336409452,
+        "discount":212.9112344022
     },
     "CRMYTH-546419-03cf":{
         "identifier":"CRMYTH-546419-03cf",
@@ -923,8 +944,8 @@
         "value":0.3333333333,
         "discount":213.2
     },
-    "CRMYTH-546419-03ee":{
-        "identifier":"CRMYTH-546419-03ee",
+    "CRMYTH-546419-03ed":{
+        "identifier":"CRMYTH-546419-03ed",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
@@ -944,8 +965,8 @@
         "value":0.3333333333,
         "discount":215.0
     },
-    "CRMYTH-546419-03ed":{
-        "identifier":"CRMYTH-546419-03ed",
+    "CRMYTH-546419-03ee":{
+        "identifier":"CRMYTH-546419-03ee",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
@@ -986,27 +1007,6 @@
         "value":0.3333333333,
         "discount":215.0
     },
-    "CRMYTH-546419-03d7":{
-        "identifier":"CRMYTH-546419-03d7",
-        "collection":"CRMYTH-546419",
-        "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.07,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":130.0,
-        "reloadTime":0.1,
-        "ammo":65.0,
-        "range":9.0,
-        "value":0.3311111111,
-        "discount":223.1543624161
-    },
     "CRMYTH-546419-01b4":{
         "identifier":"CRMYTH-546419-01b4",
         "collection":"CRMYTH-546419",
@@ -1028,26 +1028,26 @@
         "value":0.3311111111,
         "discount":223.1543624161
     },
-    "CRMYTH-546419-02bf":{
-        "identifier":"CRMYTH-546419-02bf",
+    "CRMYTH-546419-03d7":{
+        "identifier":"CRMYTH-546419-03d7",
         "collection":"CRMYTH-546419",
-        "name":"Hellfire Launcher",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
+        "name":"Dragonbreath",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
-        "priceAmount":5.0,
+        "priceAmount":1.07,
         "xp":0,
         "wear":0.0,
         "level":1,
-        "starLevel":2,
-        "damage":1300.0,
-        "reloadTime":2.7,
-        "ammo":2.0,
-        "range":9.3,
-        "value":1.3345079133,
-        "discount":274.6699401514
+        "starLevel":1,
+        "damage":130.0,
+        "reloadTime":0.1,
+        "ammo":65.0,
+        "range":9.0,
+        "value":0.3311111111,
+        "discount":223.1543624161
     },
     "CRMYTH-546419-e4":{
         "identifier":"CRMYTH-546419-e4",
@@ -1067,8 +1067,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.485392187,
-        "discount":291.436049194
+        "value":0.4856663221,
+        "discount":291.2151025781
     },
     "CRMYTH-546419-010c":{
         "identifier":"CRMYTH-546419-010c",
@@ -1088,8 +1088,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3621200217,
-        "discount":314.2273031493
+        "value":0.36217512,
+        "discount":314.1642860394
     },
     "CRMYTH-546419-70":{
         "identifier":"CRMYTH-546419-70",
@@ -1130,8 +1130,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0036999268,
-        "discount":398.1568560826
+        "value":1.0037065011,
+        "discount":398.153593178
     },
     "CRMYTH-546419-3b":{
         "identifier":"CRMYTH-546419-3b",
@@ -1151,8 +1151,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3313460271,
-        "discount":654.4982572684
+        "value":0.3313464445,
+        "discount":654.4973067941
     },
     "CRMYTH-546419-38":{
         "identifier":"CRMYTH-546419-38",
@@ -1193,7 +1193,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9896315556,
+        "value":2.9896486694,
         "discount":null
     },
     "CRMYTH-546419-0101":{
@@ -1214,7 +1214,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.703864057,
+        "value":0.7045263847,
         "discount":null
     },
     "CRMYTH-546419-0103":{
@@ -1235,7 +1235,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3395093577,
+        "value":0.3395242802,
         "discount":null
     },
     "CRMYTH-546419-0104":{
@@ -1256,7 +1256,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.2935031899,
+        "value":1.2952132206,
         "discount":null
     },
     "CRMYTH-546419-0107":{
@@ -1277,7 +1277,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4508595366,
+        "value":0.4510723121,
         "discount":null
     },
     "CRMYTH-546419-0108":{
@@ -1298,7 +1298,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":8.5240760745,
+        "value":8.533927091,
         "discount":null
     },
     "CRMYTH-546419-0109":{
@@ -1332,7 +1332,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":25062,
+        "xp":25076,
         "wear":100.0,
         "level":11,
         "starLevel":1,
@@ -1340,7 +1340,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":2.3746453013,
+        "value":2.3791000311,
         "discount":null
     },
     "CRMYTH-546419-010e":{
@@ -1382,7 +1382,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3863750976,
+        "value":0.3864732936,
         "discount":null
     },
     "CRMYTH-546419-0118":{
@@ -1466,7 +1466,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.0928849351,
+        "value":1.0942384964,
         "discount":null
     },
     "CRMYTH-546419-0120":{
@@ -1487,7 +1487,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.6578578892,
+        "value":1.6602153252,
         "discount":null
     },
     "CRMYTH-546419-0121":{
@@ -1508,7 +1508,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9948015583,
+        "value":0.9948041671,
         "discount":null
     },
     "CRMYTH-546419-0123":{
@@ -1542,15 +1542,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":4518,
-        "wear":31.3,
+        "xp":4523,
+        "wear":31.4,
         "level":5,
         "starLevel":1,
         "damage":146.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.6424922548,
+        "value":0.6433397006,
         "discount":null
     },
     "CRMYTH-546419-0128":{
@@ -1655,7 +1655,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3399791897,
+        "value":0.339994947,
         "discount":null
     },
     "CRMYTH-546419-012f":{
@@ -1676,7 +1676,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4520341166,
+        "value":0.4522489791,
         "discount":null
     },
     "CRMYTH-546419-0130":{
@@ -1991,7 +1991,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.3381312765,
+        "value":1.3387439323,
         "discount":null
     },
     "CRMYTH-546419-0142":{
@@ -2075,7 +2075,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7193097833,
+        "value":0.7199995558,
         "discount":null
     },
     "CRMYTH-546419-0147":{
@@ -2117,7 +2117,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7396300164,
+        "value":0.740355895,
         "discount":null
     },
     "CRMYTH-546419-0149":{
@@ -2495,7 +2495,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3322269621,
+        "value":0.3322289448,
         "discount":null
     },
     "CRMYTH-546419-015d":{
@@ -2663,7 +2663,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.333225355,
+        "value":0.3332291117,
         "discount":null
     },
     "CRMYTH-546419-0166":{
@@ -3272,7 +3272,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3321682331,
+        "value":0.3321701114,
         "discount":null
     },
     "CRMYTH-546419-0183":{
@@ -3377,7 +3377,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3314634851,
+        "value":0.3314641112,
         "discount":null
     },
     "CRMYTH-546419-0188":{
@@ -4301,7 +4301,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-01b7":{
@@ -4322,7 +4322,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":84.202257307,
+        "value":84.2079472523,
         "discount":null
     },
     "CRMYTH-546419-01bc":{
@@ -4343,7 +4343,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-01c1":{
@@ -4364,7 +4364,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0094553686,
+        "value":3.0094721694,
         "discount":null
     },
     "CRMYTH-546419-01c2":{
@@ -4385,7 +4385,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0173250542,
+        "value":3.0173558383,
         "discount":null
     },
     "CRMYTH-546419-01c3":{
@@ -4406,7 +4406,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0183234472,
+        "value":3.0183560053,
         "discount":null
     },
     "CRMYTH-546419-01c4":{
@@ -4427,7 +4427,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-01ca":{
@@ -4448,7 +4448,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1637951735,
+        "value":1.1640862137,
         "discount":null
     },
     "CRMYTH-546419-01cc":{
@@ -4469,7 +4469,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":5.6035151795,
+        "value":5.6081412471,
         "discount":null
     },
     "CRMYTH-546419-01cf":{
@@ -4490,7 +4490,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-01d0":{
@@ -4511,7 +4511,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0687716558,
+        "value":1.0688938531,
         "discount":null
     },
     "CRMYTH-546419-01d4":{
@@ -4532,7 +4532,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.8972402579,
+        "value":10.9006113778,
         "discount":null
     },
     "CRMYTH-546419-01d6":{
@@ -4553,7 +4553,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":9.6403222576,
+        "value":9.6414600171,
         "discount":null
     },
     "CRMYTH-546419-01d7":{
@@ -4567,14 +4567,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":86.9,
+        "wear":89.0,
         "level":20,
         "starLevel":5,
         "damage":3015.0,
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":36.6617422624,
+        "value":36.6789097726,
         "discount":null
     },
     "CRMYTH-546419-01da":{
@@ -4595,7 +4595,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0019380569,
+        "value":1.0019415006,
         "discount":null
     },
     "CRMYTH-546419-01db":{
@@ -4608,7 +4608,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":70216,
+        "xp":70419,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -4616,7 +4616,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":14.6773321694,
+        "value":14.6993631326,
         "discount":null
     },
     "CRMYTH-546419-01df":{
@@ -4637,7 +4637,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":6.3923043423,
+        "value":6.3983319735,
         "discount":null
     },
     "CRMYTH-546419-01e1":{
@@ -4650,7 +4650,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":61245,
+        "xp":61259,
         "wear":100.0,
         "level":15,
         "starLevel":4,
@@ -4658,7 +4658,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":13.9466847139,
+        "value":13.9562979198,
         "discount":null
     },
     "CRMYTH-546419-01e5":{
@@ -4679,7 +4679,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.5554588565,
+        "value":1.5564458261,
         "discount":null
     },
     "CRMYTH-546419-01e6":{
@@ -4700,7 +4700,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0046983198,
+        "value":1.004706668,
         "discount":null
     },
     "CRMYTH-546419-01e7":{
@@ -4721,7 +4721,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0305390786,
+        "value":1.0305933421,
         "discount":null
     },
     "CRMYTH-546419-01ee":{
@@ -4742,7 +4742,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.1428662875,
+        "value":10.1448969946,
         "discount":null
     },
     "CRMYTH-546419-01f1":{
@@ -4763,7 +4763,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.4257852305,
+        "value":1.4265417889,
         "discount":null
     },
     "CRMYTH-546419-01f2":{
@@ -4784,7 +4784,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-01f8":{
@@ -4797,7 +4797,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":110517,
+        "xp":110711,
         "wear":100.0,
         "level":18,
         "starLevel":5,
@@ -4805,7 +4805,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":35.5880000047,
+        "value":35.6146733011,
         "discount":null
     },
     "CRMYTH-546419-01fc":{
@@ -4826,7 +4826,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.4028684661,
+        "value":0.40299202,
         "discount":null
     },
     "CRMYTH-546419-01fe":{
@@ -4847,7 +4847,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.3377967371,
+        "value":0.3378046679,
         "discount":null
     },
     "CRMYTH-546419-02":{
@@ -4868,7 +4868,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0202":{
@@ -4881,7 +4881,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":51728,
+        "xp":51961,
         "wear":100.0,
         "level":10,
         "starLevel":1,
@@ -4889,7 +4889,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.7961124724,
+        "value":3.8159734976,
         "discount":null
     },
     "CRMYTH-546419-0203":{
@@ -4910,7 +4910,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.4785114147,
+        "value":0.478769375,
         "discount":null
     },
     "CRMYTH-546419-0204":{
@@ -4931,7 +4931,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.6790709405,
+        "value":0.6796852659,
         "discount":null
     },
     "CRMYTH-546419-0205":{
@@ -4965,15 +4965,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":13775,
-        "wear":54.0,
+        "xp":13964,
+        "wear":54.6,
         "level":9,
         "starLevel":3,
         "damage":1808.0,
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":4.1187286696,
+        "value":4.1318359909,
         "discount":null
     },
     "CRMYTH-546419-0223":{
@@ -4994,7 +4994,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":18.0979438883,
+        "value":18.1141096108,
         "discount":null
     },
     "CRMYTH-546419-0227":{
@@ -5015,7 +5015,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.2214670488,
+        "value":3.2218605636,
         "discount":null
     },
     "CRMYTH-546419-022a":{
@@ -5036,7 +5036,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1259736992,
+        "value":1.1261975362,
         "discount":null
     },
     "CRMYTH-546419-022e":{
@@ -5057,7 +5057,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0081633306,
+        "value":1.0081778357,
         "discount":null
     },
     "CRMYTH-546419-0234":{
@@ -5070,7 +5070,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":8416,
+        "xp":8420,
         "wear":100.0,
         "level":7,
         "starLevel":2,
@@ -5078,7 +5078,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.6254638213,
+        "value":1.6268105129,
         "discount":null
     },
     "CRMYTH-546419-0237":{
@@ -5099,7 +5099,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.195332645,
+        "value":1.1956797227,
         "discount":null
     },
     "CRMYTH-546419-0238":{
@@ -5120,7 +5120,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.6301621411,
+        "value":1.6312818475,
         "discount":null
     },
     "CRMYTH-546419-023d":{
@@ -5133,15 +5133,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":23912,
-        "wear":72.7,
+        "xp":24251,
+        "wear":74.2,
         "level":10,
         "starLevel":2,
         "damage":1733.0,
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":2.83034793,
+        "value":2.8535446976,
         "discount":null
     },
     "CRMYTH-546419-0246":{
@@ -5154,7 +5154,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":88307,
+        "xp":88402,
         "wear":100.0,
         "level":14,
         "starLevel":5,
@@ -5162,7 +5162,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":33.4561374026,
+        "value":33.4731981876,
         "discount":null
     },
     "CRMYTH-546419-024d":{
@@ -5183,7 +5183,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.2983219434,
+        "value":10.3006288726,
         "discount":null
     },
     "CRMYTH-546419-0258":{
@@ -5204,7 +5204,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.2333303063,
+        "value":1.2337449003,
         "discount":null
     },
     "CRMYTH-546419-0262":{
@@ -5218,14 +5218,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":48.3,
+        "wear":50.5,
         "level":18,
         "starLevel":4,
         "damage":2573.0,
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":18.0979438883,
+        "value":18.1141096108,
         "discount":null
     },
     "CRMYTH-546419-026a":{
@@ -5246,7 +5246,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.08727129,
+        "value":1.0874263584,
         "discount":null
     },
     "CRMYTH-546419-026d":{
@@ -5267,7 +5267,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.0986403769,
+        "value":1.1000041647,
         "discount":null
     },
     "CRMYTH-546419-0271":{
@@ -5288,7 +5288,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.0270437778,
+        "value":1.0271036763,
         "discount":null
     },
     "CRMYTH-546419-0275":{
@@ -5309,7 +5309,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":7.3003399577,
+        "value":7.3080165731,
         "discount":null
     },
     "CRMYTH-546419-0276":{
@@ -5330,7 +5330,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0277":{
@@ -5351,7 +5351,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0278":{
@@ -5372,7 +5372,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0279":{
@@ -5393,7 +5393,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-027a":{
@@ -5414,7 +5414,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-027b":{
@@ -5435,7 +5435,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-027e":{
@@ -5456,7 +5456,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0098077425,
+        "value":3.0098251695,
         "discount":null
     },
     "CRMYTH-546419-0280":{
@@ -5477,7 +5477,7 @@
         "reloadTime":0.15,
         "ammo":80.0,
         "range":10.0,
-        "value":402.3345079133,
+        "value":402.3345100003,
         "discount":null
     },
     "CRMYTH-546419-0281":{
@@ -5498,7 +5498,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":111.1461711146,
+        "value":138.1517614028,
         "discount":null
     },
     "CRMYTH-546419-0283":{
@@ -5519,7 +5519,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":18.1691875218,
+        "value":21.1801492703,
         "discount":null
     },
     "CRMYTH-546419-0285":{
@@ -5532,7 +5532,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":74756,
+        "xp":75175,
         "wear":100.0,
         "level":11,
         "starLevel":4,
@@ -5540,7 +5540,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":17.0113453399,
+        "value":20.0449009451,
         "discount":null
     },
     "CRMYTH-546419-0286":{
@@ -5553,7 +5553,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":75411,
+        "xp":76454,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -5561,7 +5561,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":17.9824293104,
+        "value":21.054422401,
         "discount":null
     },
     "CRMYTH-546419-0287":{
@@ -5582,28 +5582,28 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.5781282495,
+        "value":5.5791554992,
         "discount":null
     },
-    "CRMYTH-546419-0297":{
-        "identifier":"CRMYTH-546419-0297",
+    "CRMYTH-546419-0292":{
+        "identifier":"CRMYTH-546419-0292",
         "collection":"CRMYTH-546419",
         "name":"Hellfire Launcher",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/HellfireLauncher.png",
         "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-1fed3205",
-        "owner":"erd1nfluw5gs55dgk9w8twzrz6lnp0yc3ukw8qsr9ll6gnmshpug638qv00nsu",
+        "owner":"erd158jvvn3e54zq4ctgu853vheawekvcgpacjstevgfqz9l3p6mzzpsuaqm0n",
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":121200,
+        "xp":31615,
         "wear":100.0,
-        "level":20,
-        "starLevel":5,
-        "damage":3048.0,
+        "level":12,
+        "starLevel":4,
+        "damage":2092.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":45.6617422624,
+        "value":17.6480302585,
         "discount":null
     },
     "CRMYTH-546419-029a":{
@@ -5624,7 +5624,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6158198104,
+        "value":1.9496550811,
         "discount":null
     },
     "CRMYTH-546419-029b":{
@@ -5637,15 +5637,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":30991,
-        "wear":95.8,
+        "xp":31001,
+        "wear":95.9,
         "level":12,
         "starLevel":2,
         "damage":1795.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":3.8918621009,
+        "value":4.230329901,
         "discount":null
     },
     "CRMYTH-546419-029d":{
@@ -5666,7 +5666,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.3432709892,
+        "value":5.3438809318,
         "discount":null
     },
     "CRMYTH-546419-029f":{
@@ -5679,7 +5679,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":36130,
+        "xp":36394,
         "wear":100.0,
         "level":12,
         "starLevel":4,
@@ -5687,7 +5687,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":14.9084948625,
+        "value":17.9291948391,
         "discount":null
     },
     "CRMYTH-546419-02a0":{
@@ -5708,7 +5708,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3436696369,
+        "value":1.6770213363,
         "discount":null
     },
     "CRMYTH-546419-02a1":{
@@ -5729,7 +5729,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":125.5098743591,
+        "value":152.5409868581,
         "discount":null
     },
     "CRMYTH-546419-02a6":{
@@ -5750,7 +5750,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.4230125122,
+        "value":1.7565051924,
         "discount":null
     },
     "CRMYTH-546419-02b6":{
@@ -5771,7 +5771,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.2292780055,
+        "value":5.2296853991,
         "discount":null
     },
     "CRMYTH-546419-02b7":{
@@ -5784,7 +5784,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":82915,
+        "xp":83179,
         "wear":100.0,
         "level":17,
         "starLevel":4,
@@ -5792,7 +5792,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":18.6333815165,
+        "value":21.6607000747,
         "discount":null
     },
     "CRMYTH-546419-02bb":{
@@ -5813,7 +5813,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":21.5442842678,
+        "value":24.5612430722,
         "discount":null
     },
     "CRMYTH-546419-02bc":{
@@ -5827,14 +5827,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":34.9,
+        "wear":41.3,
         "level":20,
         "starLevel":6,
         "damage":3637.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":118.2490322355,
+        "value":145.2672432745,
         "discount":null
     },
     "CRMYTH-546419-02c1":{
@@ -5855,7 +5855,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.993388534,
+        "value":2.3278946894,
         "discount":null
     },
     "CRMYTH-546419-02c2":{
@@ -5868,7 +5868,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":14486,
+        "xp":14585,
         "wear":100.0,
         "level":9,
         "starLevel":2,
@@ -5876,7 +5876,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.4867708404,
+        "value":2.827978166,
         "discount":null
     },
     "CRMYTH-546419-02c3":{
@@ -5897,7 +5897,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.8032240408,
+        "value":2.1373923015,
         "discount":null
     },
     "CRMYTH-546419-02c9":{
@@ -5910,15 +5910,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":3344,
-        "wear":22.8,
+        "xp":3474,
+        "wear":23.5,
         "level":6,
         "starLevel":2,
         "damage":1525.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6121786125,
+        "value":1.9536557489,
         "discount":null
     },
     "CRMYTH-546419-02cc":{
@@ -5931,15 +5931,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":39280,
-        "wear":71.3,
+        "xp":39418,
+        "wear":73.1,
         "level":13,
         "starLevel":3,
         "damage":1924.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":7.2303297677,
+        "value":8.244188596,
         "discount":null
     },
     "CRMYTH-546419-02ce":{
@@ -5960,7 +5960,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3356824932,
+        "value":1.6690200007,
         "discount":null
     },
     "CRMYTH-546419-02d1":{
@@ -5981,7 +5981,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.0127815585,
+        "value":6.014581124,
         "discount":null
     },
     "CRMYTH-546419-02d3":{
@@ -6002,7 +6002,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":15.7083838058,
+        "value":18.7149730642,
         "discount":null
     },
     "CRMYTH-546419-02d4":{
@@ -6023,7 +6023,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.0082220596,
+        "value":5.008236669,
         "discount":null
     },
     "CRMYTH-546419-02d6":{
@@ -6036,7 +6036,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":73897,
+        "xp":74664,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -6044,7 +6044,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":17.8935136084,
+        "value":20.9491107042,
         "discount":null
     },
     "CRMYTH-546419-02de":{
@@ -6065,7 +6065,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.4858525393,
+        "value":1.8194568771,
         "discount":null
     },
     "CRMYTH-546419-02ee":{
@@ -6086,7 +6086,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.471816309,
+        "value":1.8053957064,
         "discount":null
     },
     "CRMYTH-546419-02ef":{
@@ -6107,7 +6107,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3345079133,
+        "value":1.6678433337,
         "discount":null
     },
     "CRMYTH-546419-02fa":{
@@ -6128,7 +6128,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.558382851,
+        "value":1.8921160646,
         "discount":null
     },
     "CRMYTH-546419-03":{
@@ -6149,7 +6149,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4116359188,
+        "value":27.4126871698,
         "discount":null
     },
     "CRMYTH-546419-0317":{
@@ -6170,7 +6170,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6317940976,
+        "value":1.9656577523,
         "discount":null
     },
     "CRMYTH-546419-0335":{
@@ -6183,15 +6183,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":55162,
-        "wear":37.2,
+        "xp":55990,
+        "wear":37.7,
         "level":14,
         "starLevel":4,
         "damage":2236.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":16.3921067924,
+        "value":19.448624941,
         "discount":null
     },
     "CRMYTH-546419-033c":{
@@ -6212,7 +6212,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.5889806586,
+        "value":1.92276824,
         "discount":null
     },
     "CRMYTH-546419-033d":{
@@ -6233,7 +6233,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3345079133,
+        "value":1.6678433337,
         "discount":null
     },
     "CRMYTH-546419-033e":{
@@ -6254,7 +6254,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3345079133,
+        "value":1.6678433337,
         "discount":null
     },
     "CRMYTH-546419-033f":{
@@ -6275,7 +6275,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3345079133,
+        "value":1.6678433337,
         "discount":null
     },
     "CRMYTH-546419-0340":{
@@ -6296,7 +6296,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3345079133,
+        "value":1.6678433337,
         "discount":null
     },
     "CRMYTH-546419-0343":{
@@ -6317,7 +6317,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3479568537,
+        "value":1.6813161709,
         "discount":null
     },
     "CRMYTH-546419-0372":{
@@ -6338,7 +6338,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3468410027,
+        "value":1.6801983372,
         "discount":null
     },
     "CRMYTH-546419-0374":{
@@ -6359,7 +6359,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.5391784689,
+        "value":1.8728775591,
         "discount":null
     },
     "CRMYTH-546419-0375":{
@@ -6380,7 +6380,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.4010603226,
+        "value":5.4017729484,
         "discount":null
     },
     "CRMYTH-546419-0390":{
@@ -6393,15 +6393,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":28863,
-        "wear":5.6,
+        "xp":29165,
+        "wear":11.2,
         "level":10,
         "starLevel":4,
         "damage":1948.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":14.1692729734,
+        "value":17.1908951276,
         "discount":null
     },
     "CRMYTH-546419-039e":{
@@ -6422,7 +6422,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.4042192331,
+        "value":1.7376785203,
         "discount":null
     },
     "CRMYTH-546419-03a5":{
@@ -6443,7 +6443,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.0082220596,
+        "value":5.008236669,
         "discount":null
     },
     "CRMYTH-546419-03a6":{
@@ -6464,7 +6464,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.3934718266,
+        "value":1.7269120173,
         "discount":null
     },
     "CRMYTH-546419-03a8":{
@@ -6498,7 +6498,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":15361,
+        "xp":15617,
         "wear":100.0,
         "level":9,
         "starLevel":1,
@@ -6506,7 +6506,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.5369841331,
+        "value":1.5541841831,
         "discount":null
     },
     "CRMYTH-546419-03b2":{
@@ -6527,7 +6527,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1543059866,
+        "value":1.1557647356,
         "discount":null
     },
     "CRMYTH-546419-03b6":{
@@ -6541,14 +6541,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":157808,
-        "wear":52.9,
+        "wear":54.6,
         "level":20,
         "starLevel":5,
         "damage":358.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":38.6316933957,
+        "value":38.6526810562,
         "discount":null
     },
     "CRMYTH-546419-03b7":{
@@ -6569,7 +6569,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.9510784176,
+        "value":9.9528749568,
         "discount":null
     },
     "CRMYTH-546419-03b9":{
@@ -6590,7 +6590,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1423875285,
+        "value":1.1426523761,
         "discount":null
     },
     "CRMYTH-546419-03ba":{
@@ -6611,7 +6611,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-03bc":{
@@ -6667,14 +6667,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":43.8,
+        "wear":44.7,
         "level":20,
         "starLevel":2,
         "damage":2103.0,
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.49612649,
+        "value":10.5129997251,
         "discount":null
     },
     "CRMYTH-546419-03c7":{
@@ -6695,7 +6695,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3315222141,
+        "value":0.3315229446,
         "discount":null
     },
     "CRMYTH-546419-03cb":{
@@ -6716,7 +6716,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.020966252,
+        "value":1.021003506,
         "discount":null
     },
     "CRMYTH-546419-03d2":{
@@ -6737,7 +6737,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.4052300814,
+        "value":1.4059501163,
         "discount":null
     },
     "CRMYTH-546419-03d6":{
@@ -6750,15 +6750,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":7803,
-        "wear":14.9,
+        "xp":7825,
+        "wear":15.3,
         "level":8,
         "starLevel":3,
         "damage":186.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.6481598023,
+        "value":3.6506413588,
         "discount":null
     },
     "CRMYTH-546419-03db":{
@@ -6779,7 +6779,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-03e2":{
@@ -6800,7 +6800,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-03e4":{
@@ -6842,7 +6842,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-03e7":{
@@ -6863,7 +6863,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.4794313931,
+        "value":3.48031881,
         "discount":null
     },
     "CRMYTH-546419-03e8":{
@@ -6905,7 +6905,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-03f0":{
@@ -6926,7 +6926,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.3806689052,
+        "value":0.3807530136,
         "discount":null
     },
     "CRMYTH-546419-03f1":{
@@ -6968,7 +6968,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0707097128,
+        "value":3.0708353536,
         "discount":null
     },
     "CRMYTH-546419-03f7":{
@@ -6989,7 +6989,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4486865637,
+        "value":0.4488954782,
         "discount":null
     },
     "CRMYTH-546419-03fb":{
@@ -7002,15 +7002,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":15415,
-        "wear":92.9,
+        "xp":15525,
+        "wear":96.3,
         "level":8,
         "starLevel":4,
         "damage":200.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.0963152279,
+        "value":10.1048415003,
         "discount":null
     },
     "CRMYTH-546419-03ff":{
@@ -7031,7 +7031,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0037586558,
+        "value":1.0037653344,
         "discount":null
     },
     "CRMYTH-546419-04":{
@@ -7052,7 +7052,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0402":{
@@ -7073,7 +7073,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0404":{
@@ -7094,7 +7094,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0034062818,
+        "value":1.0034123343,
         "discount":null
     },
     "CRMYTH-546419-0405":{
@@ -7199,7 +7199,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-040a":{
@@ -7220,7 +7220,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-040b":{
@@ -7241,7 +7241,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-040c":{
@@ -7262,7 +7262,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-040d":{
@@ -7283,7 +7283,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-040e":{
@@ -7367,7 +7367,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0412":{
@@ -7388,7 +7388,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0413":{
@@ -7409,7 +7409,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0414":{
@@ -7430,7 +7430,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0415":{
@@ -7451,7 +7451,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0416":{
@@ -7472,7 +7472,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0417":{
@@ -7493,7 +7493,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0418":{
@@ -7514,7 +7514,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0419":{
@@ -7535,7 +7535,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-041a":{
@@ -7556,7 +7556,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-041b":{
@@ -7577,7 +7577,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-041c":{
@@ -7598,7 +7598,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-041d":{
@@ -7619,7 +7619,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-041e":{
@@ -7640,7 +7640,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-041f":{
@@ -7661,7 +7661,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0420":{
@@ -7682,7 +7682,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0421":{
@@ -7703,7 +7703,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0422":{
@@ -7724,7 +7724,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0423":{
@@ -7745,7 +7745,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-0424":{
@@ -7766,7 +7766,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-0425":{
@@ -7787,7 +7787,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-0426":{
@@ -7808,7 +7808,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-0427":{
@@ -7829,7 +7829,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-0428":{
@@ -7850,7 +7850,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-0429":{
@@ -7871,7 +7871,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-042a":{
@@ -7892,7 +7892,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-042b":{
@@ -8018,7 +8018,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0431":{
@@ -8039,7 +8039,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0432":{
@@ -8060,7 +8060,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0433":{
@@ -8081,7 +8081,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0434":{
@@ -8102,7 +8102,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0435":{
@@ -8123,7 +8123,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0436":{
@@ -8144,7 +8144,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0437":{
@@ -8207,7 +8207,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-043a":{
@@ -8228,7 +8228,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-043b":{
@@ -8291,7 +8291,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-043e":{
@@ -8312,7 +8312,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-043f":{
@@ -8333,7 +8333,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0445":{
@@ -8354,7 +8354,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0446":{
@@ -8375,7 +8375,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0447":{
@@ -8396,7 +8396,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0448":{
@@ -8417,7 +8417,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.0833648862,
+        "value":1.0835248592,
         "discount":null
     },
     "CRMYTH-546419-0449":{
@@ -8438,7 +8438,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-044a":{
@@ -8459,7 +8459,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-044b":{
@@ -8480,7 +8480,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-044c":{
@@ -8501,7 +8501,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-044d":{
@@ -8522,7 +8522,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0082220596,
+        "value":3.008236669,
         "discount":null
     },
     "CRMYTH-546419-044f":{
@@ -8543,7 +8543,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.0143564634,
+        "value":3.0144175099,
         "discount":null
     },
     "CRMYTH-546419-0451":{
@@ -8564,7 +8564,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0452":{
@@ -8585,7 +8585,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0453":{
@@ -8606,7 +8606,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011745799,
+        "value":1.001176667,
         "discount":null
     },
     "CRMYTH-546419-0455":{
@@ -8627,7 +8627,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0459":{
@@ -8669,7 +8669,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-045c":{
@@ -8690,7 +8690,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-045d":{
@@ -8711,7 +8711,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-0460":{
@@ -8732,7 +8732,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.021377355,
+        "value":3.0214153395,
         "discount":null
     },
     "CRMYTH-546419-0462":{
@@ -8774,7 +8774,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9894553686,
+        "value":2.9894721694,
         "discount":null
     },
     "CRMYTH-546419-046d":{
@@ -8795,7 +8795,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0042872168,
+        "value":1.0042948346,
         "discount":null
     },
     "CRMYTH-546419-046f":{
@@ -8808,15 +8808,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":118751,
-        "wear":21.6,
+        "xp":119148,
+        "wear":23.0,
         "level":19,
         "starLevel":5,
         "damage":2930.0,
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":36.2923955984,
+        "value":36.3322636733,
         "discount":null
     },
     "CRMYTH-546419-05":{
@@ -8837,7 +8837,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.4141779242,
+        "value":9.4150204694,
         "discount":null
     },
     "CRMYTH-546419-06":{
@@ -8858,7 +8858,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4363020977,
+        "value":27.4373971769,
         "discount":null
     },
     "CRMYTH-546419-07":{
@@ -8879,7 +8879,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":81.6435654827,
+        "value":81.6456685063,
         "discount":null
     },
     "CRMYTH-546419-08":{
@@ -8900,7 +8900,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4162167806,
+        "value":27.4172761711,
         "discount":null
     },
     "CRMYTH-546419-09":{
@@ -8921,7 +8921,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3312872981,
+        "value":0.3312876112,
         "discount":null
     },
     "CRMYTH-546419-0a":{
@@ -8963,7 +8963,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4116359188,
+        "value":27.4126871698,
         "discount":null
     },
     "CRMYTH-546419-0c":{
@@ -8984,7 +8984,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0d":{
@@ -9005,7 +9005,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4160405936,
+        "value":27.417099671,
         "discount":null
     },
     "CRMYTH-546419-0e":{
@@ -9026,7 +9026,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-0f":{
@@ -9047,7 +9047,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9909823225,
+        "value":2.9910018365,
         "discount":null
     },
     "CRMYTH-546419-10":{
@@ -9068,7 +9068,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4128104988,
+        "value":27.4138638368,
         "discount":null
     },
     "CRMYTH-546419-11":{
@@ -9089,7 +9089,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":82.5348367457,
+        "value":82.5385234287,
         "discount":null
     },
     "CRMYTH-546419-12":{
@@ -9110,7 +9110,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4116359188,
+        "value":27.4126871698,
         "discount":null
     },
     "CRMYTH-546419-13":{
@@ -9131,7 +9131,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4120470218,
+        "value":27.4130990032,
         "discount":null
     },
     "CRMYTH-546419-14":{
@@ -9152,7 +9152,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.420050824,
+        "value":9.4209038044,
         "discount":null
     },
     "CRMYTH-546419-15":{
@@ -9173,7 +9173,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":28.2913962985,
+        "value":28.2940107556,
         "discount":null
     },
     "CRMYTH-546419-16":{
@@ -9194,7 +9194,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":81.6423909027,
+        "value":81.6444918393,
         "discount":null
     },
     "CRMYTH-546419-17":{
@@ -9215,7 +9215,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.0347354255,
+        "value":3.0348326824,
         "discount":null
     },
     "CRMYTH-546419-18":{
@@ -9236,7 +9236,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.4147064852,
+        "value":9.4155499696,
         "discount":null
     },
     "CRMYTH-546419-19":{
@@ -9257,7 +9257,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":28.2885185776,
+        "value":28.2911279214,
         "discount":null
     },
     "CRMYTH-546419-1a":{
@@ -9278,7 +9278,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":83.7970403558,
+        "value":83.802969791,
         "discount":null
     },
     "CRMYTH-546419-1b":{
@@ -9299,7 +9299,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":27.4225595123,
+        "value":27.4236301729,
         "discount":null
     },
     "CRMYTH-546419-1c":{
@@ -9320,7 +9320,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":82.5419429544,
+        "value":82.5456422641,
         "discount":null
     },
     "CRMYTH-546419-21":{
@@ -9341,7 +9341,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-22":{
@@ -9362,7 +9362,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-23":{
@@ -9383,7 +9383,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-24":{
@@ -9396,15 +9396,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":12355,
-        "wear":45.6,
+        "xp":12365,
+        "wear":45.8,
         "level":9,
         "starLevel":1,
         "damage":162.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.358222545,
+        "value":1.360635906,
         "discount":null
     },
     "CRMYTH-546419-25":{
@@ -9425,7 +9425,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3671707155,
+        "value":0.3672347881,
         "discount":null
     },
     "CRMYTH-546419-26":{
@@ -9446,7 +9446,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.8442076457,
+        "value":11.8493680001,
         "discount":null
     },
     "CRMYTH-546419-27":{
@@ -9467,7 +9467,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.1969180003,
+        "value":10.1991513607,
         "discount":null
     },
     "CRMYTH-546419-28":{
@@ -9488,7 +9488,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":14.7538770881,
+        "value":14.7642075017,
         "discount":null
     },
     "CRMYTH-546419-29":{
@@ -9509,7 +9509,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":18.4842842678,
+        "value":18.5012430722,
         "discount":null
     },
     "CRMYTH-546419-2a":{
@@ -9530,7 +9530,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3590073848,
+        "value":0.3590569524,
         "discount":null
     },
     "CRMYTH-546419-2b":{
@@ -9551,7 +9551,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":6.0912273612,
+        "value":6.0967555595,
         "discount":null
     },
     "CRMYTH-546419-2c":{
@@ -9572,7 +9572,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9946253713,
+        "value":0.994627667,
         "discount":null
     },
     "CRMYTH-546419-2d":{
@@ -9593,7 +9593,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.8309188891,
+        "value":9.8325019223,
         "discount":null
     },
     "CRMYTH-546419-2e":{
@@ -9614,7 +9614,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.9552855425,
+        "value":10.9588664117,
         "discount":null
     },
     "CRMYTH-546419-32":{
@@ -9635,7 +9635,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.3725524203,
+        "value":1.37440291,
         "discount":null
     },
     "CRMYTH-546419-33":{
@@ -9656,7 +9656,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":18.4842842678,
+        "value":18.5012430722,
         "discount":null
     },
     "CRMYTH-546419-34":{
@@ -9677,7 +9677,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.5470071061,
+        "value":4.5497914497,
         "discount":null
     },
     "CRMYTH-546419-36":{
@@ -9690,7 +9690,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":68855,
+        "xp":69198,
         "wear":100.0,
         "level":15,
         "starLevel":4,
@@ -9698,7 +9698,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":14.3336123834,
+        "value":14.3633758869,
         "discount":null
     },
     "CRMYTH-546419-37":{
@@ -9719,7 +9719,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.0836585312,
+        "value":1.0838190259,
         "discount":null
     },
     "CRMYTH-546419-3d":{
@@ -9740,7 +9740,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":18.4842842678,
+        "value":18.5012430722,
         "discount":null
     },
     "CRMYTH-546419-3f":{
@@ -9761,7 +9761,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9982059892,
+        "value":2.9982383386,
         "discount":null
     },
     "CRMYTH-546419-40":{
@@ -9782,7 +9782,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.6428920467,
+        "value":3.647599927,
         "discount":null
     },
     "CRMYTH-546419-42":{
@@ -9803,7 +9803,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.6566773579,
+        "value":1.6578560237,
         "discount":null
     },
     "CRMYTH-546419-44":{
@@ -9824,7 +9824,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.395721209,
+        "value":4.3982367396,
         "discount":null
     },
     "CRMYTH-546419-4a":{
@@ -9837,7 +9837,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":86177,
+        "xp":86218,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -9845,7 +9845,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":15.5547056953,
+        "value":15.5688712322,
         "discount":null
     },
     "CRMYTH-546419-4c":{
@@ -9866,7 +9866,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":36.4817422624,
+        "value":36.4989097726,
         "discount":null
     },
     "CRMYTH-546419-4d":{
@@ -9887,7 +9887,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.8436651256,
+        "value":4.8505066049,
         "discount":null
     },
     "CRMYTH-546419-4e":{
@@ -9908,7 +9908,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.7275632576,
+        "value":1.7288678774,
         "discount":null
     },
     "CRMYTH-546419-4f":{
@@ -9929,7 +9929,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.5498493118,
+        "value":1.5508381597,
         "discount":null
     },
     "CRMYTH-546419-57":{
@@ -9950,7 +9950,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3952431762,
+        "value":0.3953571295,
         "discount":null
     },
     "CRMYTH-546419-5b":{
@@ -9963,7 +9963,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":14761,
+        "xp":14837,
         "wear":100.0,
         "level":8,
         "starLevel":2,
@@ -9971,7 +9971,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.0630820192,
+        "value":2.0694541416,
         "discount":null
     },
     "CRMYTH-546419-62":{
@@ -9992,7 +9992,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.2422268239,
+        "value":1.2426690714,
         "discount":null
     },
     "CRMYTH-546419-69":{
@@ -10013,7 +10013,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.37744829,
+        "value":0.3775306244,
         "discount":null
     },
     "CRMYTH-546419-6b":{
@@ -10034,7 +10034,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3788286207,
+        "value":3.3795372811,
         "discount":null
     },
     "CRMYTH-546419-6d":{
@@ -10055,7 +10055,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.5801676266,
+        "value":5.5847877462,
         "discount":null
     },
     "CRMYTH-546419-6e":{
@@ -10076,7 +10076,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-6f":{
@@ -10097,7 +10097,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-71":{
@@ -10118,7 +10118,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-75":{
@@ -10139,7 +10139,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":2.0265585343,
+        "value":2.0295710976,
         "discount":null
     },
     "CRMYTH-546419-77":{
@@ -10160,7 +10160,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.50349077,
+        "value":2.5061741,
         "discount":null
     },
     "CRMYTH-546419-7f":{
@@ -10181,7 +10181,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":22.814784342,
+        "value":22.8394378149,
         "discount":null
     },
     "CRMYTH-546419-80":{
@@ -10202,7 +10202,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.0687447987,
+        "value":11.0831173212,
         "discount":null
     },
     "CRMYTH-546419-81":{
@@ -10223,7 +10223,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.0068410027,
+        "value":1.0068650039,
         "discount":null
     },
     "CRMYTH-546419-82":{
@@ -10244,7 +10244,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":28.889844781,
+        "value":28.893522594,
         "discount":null
     },
     "CRMYTH-546419-88":{
@@ -10265,7 +10265,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-89":{
@@ -10286,7 +10286,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-8a":{
@@ -10328,7 +10328,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-8c":{
@@ -10349,7 +10349,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-8d":{
@@ -10370,7 +10370,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.8350354717,
+        "value":3.8365547454,
         "discount":null
     },
     "CRMYTH-546419-8f":{
@@ -10391,7 +10391,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.960421881,
+        "value":3.962163948,
         "discount":null
     },
     "CRMYTH-546419-91":{
@@ -10412,7 +10412,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.332872981,
+        "value":0.3328761116,
         "discount":null
     },
     "CRMYTH-546419-92":{
@@ -10433,7 +10433,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-94":{
@@ -10454,7 +10454,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.4362247052,
+        "value":3.4405653677,
         "discount":null
     },
     "CRMYTH-546419-97":{
@@ -10475,7 +10475,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":9.6493236628,
+        "value":9.6611740805,
         "discount":null
     },
     "CRMYTH-546419-9e":{
@@ -10496,7 +10496,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":16.5321323975,
+        "value":16.545622512,
         "discount":null
     },
     "CRMYTH-546419-a0":{
@@ -10517,7 +10517,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4409343361,
+        "value":0.441129476,
         "discount":null
     },
     "CRMYTH-546419-a5":{
@@ -10538,7 +10538,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.5133927567,
+        "value":5.517894227,
         "discount":null
     },
     "CRMYTH-546419-a9":{
@@ -10559,7 +10559,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9882220596,
+        "value":2.988236669,
         "discount":null
     },
     "CRMYTH-546419-ab":{
@@ -10580,7 +10580,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.0306636127,
+        "value":2.0325067977,
         "discount":null
     },
     "CRMYTH-546419-b0":{
@@ -10601,7 +10601,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-b1":{
@@ -10643,7 +10643,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-b4":{
@@ -10656,7 +10656,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":43381,
+        "xp":43398,
         "wear":100.0,
         "level":13,
         "starLevel":4,
@@ -10664,7 +10664,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":12.4522876838,
+        "value":12.4595286749,
         "discount":null
     },
     "CRMYTH-546419-bb":{
@@ -10727,7 +10727,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9960348672,
+        "value":0.9960396674,
         "discount":null
     },
     "CRMYTH-546419-bf":{
@@ -10740,7 +10740,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":26479,
+        "xp":26609,
         "wear":100.0,
         "level":9,
         "starLevel":2,
@@ -10748,7 +10748,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.851107705,
+        "value":2.8620570353,
         "discount":null
     },
     "CRMYTH-546419-c1":{
@@ -10769,7 +10769,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.0623458565,
+        "value":1.0636451543,
         "discount":null
     },
     "CRMYTH-546419-c2":{
@@ -10790,7 +10790,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4111000054,
+        "value":0.4112421341,
         "discount":null
     },
     "CRMYTH-546419-c4":{
@@ -10853,7 +10853,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3324031491,
+        "value":0.3324054448,
         "discount":null
     },
     "CRMYTH-546419-c8":{
@@ -10874,7 +10874,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.4017134177,
+        "value":2.4042159042,
         "discount":null
     },
     "CRMYTH-546419-c9":{
@@ -10887,15 +10887,15 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":110412,
-        "wear":25.2,
+        "xp":111235,
+        "wear":34.4,
         "level":19,
         "starLevel":4,
         "damage":310.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":17.6251964953,
+        "value":17.6890486729,
         "discount":null
     },
     "CRMYTH-546419-cb":{
@@ -10979,7 +10979,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4358249133,
+        "value":0.4360109745,
         "discount":null
     },
     "CRMYTH-546419-d3":{
@@ -11000,7 +11000,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":0.9945079133,
+        "value":0.9945100003,
         "discount":null
     },
     "CRMYTH-546419-d5":{
@@ -11021,7 +11021,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4530912385,
+        "value":0.4533079794,
         "discount":null
     },
     "CRMYTH-546419-d6":{
@@ -11063,7 +11063,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.5480428651,
+        "value":5.5526059036,
         "discount":null
     },
     "CRMYTH-546419-db":{
@@ -11147,7 +11147,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":36.4817422624,
+        "value":36.4989097726,
         "discount":null
     },
     "CRMYTH-546419-e2":{
@@ -11168,7 +11168,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4528563225,
+        "value":0.453072646,
         "discount":null
     },
     "CRMYTH-546419-e9":{
@@ -11189,7 +11189,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4371169512,
+        "value":0.4373053082,
         "discount":null
     },
     "CRMYTH-546419-ea":{
@@ -11210,7 +11210,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3375713008,
+        "value":0.3375827796,
         "discount":null
     },
     "CRMYTH-546419-ee":{
@@ -11231,7 +11231,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3593597588,
+        "value":0.3594099526,
         "discount":null
     },
     "CRMYTH-546419-ef":{
@@ -11252,7 +11252,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3387458808,
+        "value":0.3387594466,
         "discount":null
     },
     "CRMYTH-546419-f6":{
@@ -11294,7 +11294,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.508531412,
+        "value":0.508846662,
         "discount":null
     },
     "CRMYTH-546419-fd":{

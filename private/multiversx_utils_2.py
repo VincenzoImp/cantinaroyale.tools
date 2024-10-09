@@ -360,6 +360,24 @@ def add_market_data(data_folder_path, collections):
         tokens = tokens * token_conversion /100 * crt_egld_rate
         return floor_price + shards + tokens + crown
 
+    def get_character_progress(level, tokens):
+        shard_conversion = 1
+        token_conversion = 200
+        def foo(level, tokens):
+            shards = 0
+            crown = 0
+            for l in range(1, level+1):
+                shards += characters_upgrade['nft'][str(l)]['shards']
+                tokens += characters_upgrade['nft'][str(l)]['tokens']
+                crown += characters_upgrade['nft'][str(l)]['crown']
+            shards = shards * shard_conversion /100 * crt_egld_rate
+            crown = crown /100 * crt_egld_rate
+            tokens = tokens * token_conversion /100 * crt_egld_rate
+            return shards + tokens + crown
+        progress_value = foo(level, tokens) 
+        progress_value_total = foo(20, 0)
+        return (progress_value / progress_value_total) * 100
+    
     def get_character_floorPrice(df):
         rarities = df.value_counts('rarityClass').reset_index()
         rarities['percent'] = rarities['count'] / rarities['count'].sum()
@@ -390,7 +408,7 @@ def add_market_data(data_folder_path, collections):
         rarities = rarities.set_index('rarityClass')
         rarities = rarities.to_dict(orient='index')
         return rarities
-
+    
     def get_weapon_value(floor_price, starLevel, level, tokens):
         shards_fusion = {
             1: 0,
@@ -416,6 +434,24 @@ def add_market_data(data_folder_path, collections):
         floor_price = floor_price * (3 ** (starLevel-1))
         return floor_price + shards + tokens + crown
 
+    def get_weapon_progress(level, tokens):
+        shard_conversion = 1
+        token_conversion = 50
+        def foo(level, tokens):
+            shards = 0
+            crown = 0
+            for l in range(1, level+1):
+                shards += weapons_upgrade['nft'][str(l)]['shards']
+                # tokens += weapons_upgrade['nft'][str(l)]['tokens']
+                crown += weapons_upgrade['nft'][str(l)]['crown']
+            shards = shards * shard_conversion /100 * crt_egld_rate
+            crown = crown /100 * crt_egld_rate
+            tokens = tokens * token_conversion /100 * crt_egld_rate
+            return shards + tokens + crown
+        progress_value = foo(level, tokens) 
+        progress_value_total = foo(20, 121200)
+        return (progress_value / progress_value_total) * 100
+    
     def get_weapon_floorPrice(df):
         def foo(starlevel):
             starlevel = int(starlevel)
@@ -484,6 +520,7 @@ def add_market_data(data_folder_path, collections):
         df['flag'] = (~df['priceAmount'].isna()) & (df['priceCurrency']=='EGLD')
         df['discount'] = df.apply(lambda x: x['priceAmount'] - x['value'] if x['flag'] else np.nan, axis=1)
         df['discount'] = df.apply(lambda x: x['discount'] / x['value'] * 100 if x['flag'] else np.nan, axis=1)
+        df['progress'] = df.apply(lambda x: get_character_progress(x['level'], x['characterTokens']), axis=1)
         df = df.drop(columns=['flag'])
         df = df.sort_values('discount', ascending=True)
         for collection in df['collection'].unique():
@@ -500,6 +537,7 @@ def add_market_data(data_folder_path, collections):
     weapons['value'] = weapons.apply(lambda x: get_weapon_value(market_data['floorPrice']['weapons'][x['name']]['floorPrice'], x['starLevel'], x['level'], x['xp']), axis=1)
     weapons['discount'] = weapons.apply(lambda x: x['priceAmount'] - x['value'] if x['priceCurrency']=='EGLD' else np.nan, axis=1)
     weapons['discount'] = weapons.apply(lambda x: x['discount'] / x['value'] * 100 if x['priceCurrency']=='EGLD' else np.nan, axis=1)
+    weapons['progress'] = weapons.apply(lambda x: get_weapon_progress(x['level'], x['xp']), axis=1)
     weapons = weapons.sort_values('discount', ascending=True)
     for collection in weapons['collection'].unique():
         collection_df = weapons[weapons['collection']==collection]

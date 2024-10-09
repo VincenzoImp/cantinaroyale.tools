@@ -69,7 +69,8 @@
                     "perk1",
                     "perk2",
                     "level",
-                    "characterTokens"
+                    "characterTokens",
+                    "progress"
                 ],
                 "filterable": [
                     "collection",
@@ -84,7 +85,8 @@
                     "discount",
                     "rank",
                     "level",
-                    "characterTokens"
+                    "characterTokens",
+                    "progress"
                 ]
             },
             "weapons": {
@@ -105,7 +107,8 @@
                     "xp",
                     "wear",
                     "level",
-                    "starLevel"
+                    "starLevel",
+                    "progress"
                 ],
                 "filterable": [
                     "collection",
@@ -119,7 +122,8 @@
                     "xp",
                     "wear",
                     "level",
-                    "starLevel"
+                    "starLevel",
+                    "progress"
                 ]
             }
         }
@@ -349,7 +353,8 @@
                             "xp": "XP",
                             "wear": "Wear",
                             "level": "Level",
-                            "starLevel": "Star Level"
+                            "starLevel": "Star Level",
+                            "progress": "Progress"
                         }
                     },
                     "characters": {
@@ -367,7 +372,8 @@
                             "perk1": "Perk 1",
                             "perk2": "Perk 2",
                             "level": "Level",
-                            "characterTokens": "Character Tokens"
+                            "characterTokens": "Character Tokens",
+                            "progress": "Progress"
                         }
                     }
                 }

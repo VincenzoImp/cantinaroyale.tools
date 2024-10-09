@@ -277,6 +277,9 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         if (column === "value") {
             displayValue = displayValue + " EGLD";
         }
+        if (column === "progress") {    
+            displayValue = displayValue + " %";
+        }
         if (column === "discount") {
             if (displayValue > 0) {
                 displayValue = "+" + displayValue + " %";

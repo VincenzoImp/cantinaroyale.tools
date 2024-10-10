@@ -17,8 +17,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":22.8471279355,
-        "discount":-34.3462336169,
+        "value":22.8526299838,
+        "discount":-34.3620405589,
         "progress":81.2950752749
     },
     "CRMYTH-546419-99":{
@@ -39,8 +39,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5411826246,
-        "discount":-23.2390368169,
+        "value":19.5479425823,
+        "discount":-23.2655818543,
         "progress":100.0
     },
     "CRMYTH-546419-011d":{
@@ -61,8 +61,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.1361744003,
-        "discount":-8.3767421862,
+        "value":1.136713944,
+        "discount":-8.4202313646,
         "progress":8.0229350421
     },
     "CRMYTH-546419-03eb":{
@@ -83,8 +83,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.46201724,
-        "discount":-4.6798507577,
+        "value":3.4621308391,
+        "discount":-4.6829783932,
         "progress":1.6026077168
     },
     "CRMYTH-546419-0440":{
@@ -105,8 +105,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.327052311,
-        "discount":-0.8131014638,
+        "value":3.3270712789,
+        "discount":-0.8136669347,
         "progress":0.1954550515
     },
     "CRMYTH-546419-0465":{
@@ -127,8 +127,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0217723644,
-        "discount":-0.7205163641,
+        "value":3.0217876302,
+        "discount":-0.7210179148,
         "progress":0.1404060022
     },
     "CRMYTH-546419-0468":{
@@ -149,8 +149,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
-        "discount":-0.276086787,
+        "value":3.0083113576,
+        "discount":-0.2762798316,
         "progress":0.0
     },
     "CRMYTH-546419-03cd":{
@@ -171,8 +171,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
-        "discount":-0.276086787,
+        "value":3.0083113576,
+        "discount":-0.2762798316,
         "progress":0.0
     },
     "CRMYTH-546419-03d1":{
@@ -193,8 +193,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
-        "discount":-0.276086787,
+        "value":3.0083113576,
+        "discount":-0.2762798316,
         "progress":0.0
     },
     "CRMYTH-546419-03fe":{
@@ -215,8 +215,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3088394613,
-        "discount":-0.2671468769,
+        "value":3.3088456591,
+        "discount":-0.2673336874,
         "progress":0.0055667578
     },
     "CRMYTH-546419-0441":{
@@ -237,8 +237,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1029069369,
-        "discount":-0.2635704641,
+        "value":1.1029089751,
+        "discount":-0.2637547803,
         "progress":0.0179373307
     },
     "CRMYTH-546419-0442":{
@@ -259,8 +259,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
-        "discount":-0.251050999,
+        "value":3.3083113576,
+        "discount":-0.2512265823,
         "progress":0.0
     },
     "CRMYTH-546419-0444":{
@@ -281,8 +281,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
-        "discount":-0.1077478579,
+        "value":1.1011873368,
+        "discount":-0.1078233243,
         "progress":0.0
     },
     "CRMYTH-546419-ba":{
@@ -303,8 +303,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.0933415745,
-        "discount":5.1821340047,
+        "value":1.0938510858,
+        "discount":5.1331406011,
         "progress":7.5763573611
     },
     "CRMYTH-546419-03c6":{
@@ -325,8 +325,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.2830777015,
-        "discount":9.1126436363,
+        "value":1.2832060672,
+        "discount":9.1017285343,
         "progress":1.8964088227
     },
     "CRMYTH-546419-03ec":{
@@ -347,30 +347,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":9.8696391381,
-        "progress":0.0
-    },
-    "CRMYTH-546419-03ea":{
-        "identifier":"CRMYTH-546419-03ea",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.1,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011865049,
-        "discount":9.8696391381,
+        "value":1.0011873368,
+        "discount":9.8695478434,
         "progress":0.0
     },
     "CRMYTH-546419-0443":{
@@ -391,8 +369,30 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":9.8696391381,
+        "value":1.0011873368,
+        "discount":9.8695478434,
+        "progress":0.0
+    },
+    "CRMYTH-546419-03ea":{
+        "identifier":"CRMYTH-546419-03ea",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.1,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.0011873368,
+        "discount":9.8695478434,
         "progress":0.0
     },
     "CRMYTH-546419-013e":{
@@ -413,8 +413,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.9684476357,
-        "discount":13.9632554684,
+        "value":10.9691967825,
+        "discount":13.955472291,
         "progress":10.6201368185
     },
     "CRMYTH-546419-0342":{
@@ -435,31 +435,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.8817799997,
-        "discount":32.8529371373,
+        "value":1.8819308273,
+        "discount":32.8422896163,
         "progress":2.2304142905
-    },
-    "CRMYTH-546419-023b":{
-        "identifier":"CRMYTH-546419-023b",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.35,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011865049,
-        "discount":34.8400116694,
-        "progress":0.0
     },
     "CRMYTH-546419-03ac":{
         "identifier":"CRMYTH-546419-03ac",
@@ -479,30 +457,30 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":34.8400116694,
+        "value":1.0011873368,
+        "discount":34.839899626,
         "progress":0.0
     },
-    "CRMYTH-546419-046b":{
-        "identifier":"CRMYTH-546419-046b",
+    "CRMYTH-546419-023b":{
+        "identifier":"CRMYTH-546419-023b",
         "collection":"CRMYTH-546419",
-        "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
-        "priceAmount":1.5,
+        "priceAmount":1.35,
         "xp":0,
         "wear":0.0,
         "level":1,
         "starLevel":2,
-        "damage":130,
-        "reloadTime":0.1,
-        "ammo":65.0,
-        "range":9.5,
-        "value":1.1011865049,
-        "discount":36.2167074665,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.0011873368,
+        "discount":34.839899626,
         "progress":0.0
     },
     "CRMYTH-546419-0469":{
@@ -523,8 +501,30 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
-        "discount":36.2167074665,
+        "value":1.1011873368,
+        "discount":36.2166045578,
+        "progress":0.0
+    },
+    "CRMYTH-546419-046b":{
+        "identifier":"CRMYTH-546419-046b",
+        "collection":"CRMYTH-546419",
+        "name":"Dragonbreath",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.5,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":130,
+        "reloadTime":0.1,
+        "ammo":65.0,
+        "range":9.5,
+        "value":1.1011873368,
+        "discount":36.2166045578,
         "progress":0.0
     },
     "CRMYTH-546419-023c":{
@@ -545,8 +545,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":44.828160682,
+        "value":1.0011873368,
+        "discount":44.828040339,
         "progress":0.0
     },
     "CRMYTH-546419-0297":{
@@ -567,8 +567,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":54.7598331116,
-        "discount":49.7447953007,
+        "value":54.7666762617,
+        "discount":49.7260845413,
         "progress":100.0
     },
     "CRMYTH-546419-2f":{
@@ -589,8 +589,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.025251102,
-        "discount":54.0276579756,
+        "value":4.025759615,
+        "discount":54.0082020031,
         "progress":7.4749186635
     },
     "CRMYTH-546419-026e":{
@@ -611,8 +611,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
-        "discount":81.622276622,
+        "value":1.1011873368,
+        "discount":81.6221394103,
         "progress":0.0
     },
     "CRMYTH-546419-03b3":{
@@ -633,8 +633,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
-        "discount":84.9889599656,
+        "value":3.3083113576,
+        "discount":84.9886343384,
         "progress":0.0
     },
     "CRMYTH-546419-03dc":{
@@ -655,8 +655,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.127764214,
-        "discount":88.8692666095,
+        "value":1.127783681,
+        "discount":88.8660064823,
         "progress":0.2771008325
     },
     "CRMYTH-546419-0309":{
@@ -677,8 +677,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.684286264,
-        "discount":113.7403882562,
+        "value":1.684298618,
+        "discount":113.738820505,
         "progress":0.1713324344
     },
     "CRMYTH-546419-03d5":{
@@ -699,8 +699,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":114.7452037699,
+        "value":1.0011873368,
+        "discount":114.7450253302,
         "progress":0.0
     },
     "CRMYTH-546419-0387":{
@@ -721,8 +721,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6944308806,
-        "discount":121.3132469943,
+        "value":1.6944503476,
+        "discount":121.3107043968,
         "progress":0.2771008325
     },
     "CRMYTH-546419-03ca":{
@@ -787,8 +787,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.4088618218,
-        "discount":163.7243886618,
+        "value":3.4089381508,
+        "discount":163.7184836545,
         "progress":1.0484060517
     },
     "CRMYTH-546419-4b":{
@@ -809,8 +809,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3113311215,
-        "discount":171.4920275293,
+        "value":3.3113390664,
+        "discount":171.4913761409,
         "progress":0.0315449608
     },
     "CRMYTH-546419-73":{
@@ -831,30 +831,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
-        "discount":171.5253035499,
-        "progress":0.0
-    },
-    "CRMYTH-546419-0261":{
-        "identifier":"CRMYTH-546419-0261",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":2.8,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011865049,
-        "discount":179.6681723514,
+        "value":1.1011873368,
+        "discount":171.5250984185,
         "progress":0.0
     },
     "CRMYTH-546419-0228":{
@@ -875,8 +853,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":179.6681723514,
+        "value":1.0011873368,
+        "discount":179.6679399649,
         "progress":0.0
     },
     "CRMYTH-546419-022c":{
@@ -897,8 +875,30 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":179.6681723514,
+        "value":1.0011873368,
+        "discount":179.6679399649,
+        "progress":0.0
+    },
+    "CRMYTH-546419-0261":{
+        "identifier":"CRMYTH-546419-0261",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":2.8,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.0011873368,
+        "discount":179.6679399649,
         "progress":0.0
     },
     "CRMYTH-546419-da":{
@@ -919,16 +919,16 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3692176521,
-        "discount":180.0516156292,
+        "value":0.3692194408,
+        "discount":180.0502589562,
         "progress":0.0265967317
     },
-    "CRMYTH-546419-03d7":{
-        "identifier":"CRMYTH-546419-03d7",
+    "CRMYTH-546419-01b4":{
+        "identifier":"CRMYTH-546419-01b4",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
@@ -945,12 +945,12 @@
         "discount":191.8181818182,
         "progress":0.0
     },
-    "CRMYTH-546419-01b4":{
-        "identifier":"CRMYTH-546419-01b4",
+    "CRMYTH-546419-03d7":{
+        "identifier":"CRMYTH-546419-03d7",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
@@ -985,8 +985,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
-        "discount":199.6444703765,
+        "value":1.0011873368,
+        "discount":199.644221391,
         "progress":0.0
     },
     "CRMYTH-546419-02bf":{
@@ -1007,8 +1007,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6678531715,
-        "discount":199.7865810569,
+        "value":1.6678540035,
+        "discount":199.7864315238,
         "progress":0.0
     },
     "CRMYTH-546419-03cf":{
@@ -1031,6 +1031,28 @@
         "range":8.5,
         "value":0.3333333333,
         "discount":210.2,
+        "progress":0.0
+    },
+    "CRMYTH-546419-03ef":{
+        "identifier":"CRMYTH-546419-03ef",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.05,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":1,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":0.3333333333,
+        "discount":215.0,
         "progress":0.0
     },
     "CRMYTH-546419-03ed":{
@@ -1077,28 +1099,6 @@
         "discount":215.0,
         "progress":0.0
     },
-    "CRMYTH-546419-03ef":{
-        "identifier":"CRMYTH-546419-03ef",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.05,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":0.3333333333,
-        "discount":215.0,
-        "progress":0.0
-    },
     "CRMYTH-546419-e4":{
         "identifier":"CRMYTH-546419-e4",
         "collection":"CRMYTH-546419",
@@ -1117,8 +1117,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.5225140814,
-        "discount":263.6265638967,
+        "value":0.5226233545,
+        "discount":263.5505347594,
         "progress":1.6248747479
     },
     "CRMYTH-546419-010c":{
@@ -1139,8 +1139,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3979903952,
-        "discount":276.8935175146,
+        "value":0.398012358,
+        "discount":276.8727201055,
         "progress":0.3265831241
     },
     "CRMYTH-546419-70":{
@@ -1183,8 +1183,8 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0037374903,
-        "discount":398.1382132393,
+        "value":1.0037401109,
+        "discount":398.1369127035,
         "progress":0.0265967317
     },
     "CRMYTH-546419-3b":{
@@ -1205,8 +1205,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3669039676,
-        "discount":581.3772050696,
+        "value":0.366904134,
+        "discount":581.376896077,
         "progress":0.0024741146
     },
     "CRMYTH-546419-38":{
@@ -1249,7 +1249,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3097293399,
+        "value":3.3097361617,
         "discount":null,
         "progress":0.0148446875
     },
@@ -1271,7 +1271,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7432039873,
+        "value":0.7434679981,
         "discount":null,
         "progress":3.9258013039
     },
@@ -1293,7 +1293,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3751501765,
+        "value":0.3751561247,
         "discount":null,
         "progress":0.0884495961
     },
@@ -1315,7 +1315,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.3388294321,
+        "value":1.3395110684,
         "discount":null,
         "progress":10.1358288902
     },
@@ -1337,7 +1337,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4876308382,
+        "value":0.4877156528,
         "discount":null,
         "progress":1.2611799052
     },
@@ -1359,7 +1359,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":8.9003623131,
+        "value":8.9042890318,
         "discount":null,
         "progress":58.3031285179
     },
@@ -1403,7 +1403,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":2.4334988255,
+        "value":2.434947994,
         "discount":null,
         "progress":21.5489194305
     },
@@ -1447,7 +1447,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4224917208,
+        "value":0.4225308628,
         "discount":null,
         "progress":0.5820354541
     },
@@ -1535,7 +1535,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.7068832429,
+        "value":1.7078229417,
         "discount":null,
         "progress":13.973180598
     },
@@ -1557,7 +1557,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1014831311,
+        "value":1.101484171,
         "discount":null,
         "progress":0.0030926432
     },
@@ -1601,7 +1601,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.681505734,
+        "value":0.6817264848,
         "discount":null,
         "progress":3.282531514
     },
@@ -1711,7 +1711,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3756247784,
+        "value":0.3756310595,
         "discount":null,
         "progress":0.0933978253
     },
@@ -1733,7 +1733,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4888173431,
+        "value":0.4889029895,
         "discount":null,
         "progress":1.2735504781
     },
@@ -2063,7 +2063,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.4482985047,
+        "value":1.4485427157,
         "discount":null,
         "progress":3.6190110964
     },
@@ -2151,7 +2151,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7588065263,
+        "value":0.7590814769,
         "discount":null,
         "progress":4.0884743372
     },
@@ -2195,7 +2195,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7793330606,
+        "value":0.7796224034,
         "discount":null,
         "progress":4.3024852481
     },
@@ -2591,7 +2591,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3677938463,
+        "value":0.3677946366,
         "discount":null,
         "progress":0.0117520442
     },
@@ -2767,7 +2767,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3688023754,
+        "value":0.3688038729,
         "discount":null,
         "progress":0.0222670312
     },
@@ -3405,7 +3405,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.367734521,
+        "value":0.3677352698,
         "discount":null,
         "progress":0.0111335156
     },
@@ -3515,7 +3515,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3670226181,
+        "value":0.3670228677,
         "discount":null,
         "progress":0.0037111719
     },
@@ -4483,7 +4483,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -4505,7 +4505,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":84.2347682279,
+        "value":84.2370362999,
         "discount":null,
         "progress":25.7839850563
     },
@@ -4527,7 +4527,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -4549,7 +4549,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0095513642,
+        "value":3.0095580612,
         "discount":null,
         "progress":0.0129891015
     },
@@ -4571,7 +4571,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0175009468,
+        "value":3.0175132177,
         "discount":null,
         "progress":0.0958719398
     },
@@ -4593,7 +4593,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.018509476,
+        "value":3.018522454,
         "discount":null,
         "progress":0.1063869268
     },
@@ -4615,7 +4615,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -4637,7 +4637,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1654581042,
+        "value":1.1655741158,
         "discount":null,
         "progress":1.7127058154
     },
@@ -4659,7 +4659,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":5.6299473703,
+        "value":5.6317913695,
         "discount":null,
         "progress":27.3333993097
     },
@@ -4681,7 +4681,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -4703,7 +4703,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0694698602,
+        "value":1.0695185693,
         "discount":null,
         "progress":0.7119264693
     },
@@ -4725,7 +4725,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.9165019918,
+        "value":10.9178457556,
         "discount":null,
         "progress":19.4620037854
     },
@@ -4747,7 +4747,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":9.64682313,
+        "value":9.6472766529,
         "discount":null,
         "progress":6.2242537452
     },
@@ -4769,7 +4769,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":36.7598331116,
+        "value":36.7666762617,
         "discount":null,
         "progress":100.0
     },
@@ -4791,7 +4791,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.001957733,
+        "value":1.0019591057,
         "discount":null,
         "progress":0.0080408724
     },
@@ -4813,7 +4813,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":14.7513450578,
+        "value":14.7553776388,
         "discount":null,
         "progress":59.4443138662
     },
@@ -4835,7 +4835,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":6.4267447159,
+        "value":6.4291473931,
         "discount":null,
         "progress":35.6408575281
     },
@@ -4857,7 +4857,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":14.0100761401,
+        "value":14.0135889771,
         "discount":null,
         "progress":51.7157984586
     },
@@ -4879,7 +4879,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.5610981532,
+        "value":1.5614915696,
         "discount":null,
         "progress":5.8376733427
     },
@@ -4901,7 +4901,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0047460195,
+        "value":1.0047493472,
         "discount":null,
         "progress":0.0371117186
     },
@@ -4923,7 +4923,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0308491266,
+        "value":1.0308707566,
         "discount":null,
         "progress":0.309264322
     },
@@ -4945,7 +4945,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.1544692388,
+        "value":10.1552787,
         "discount":null,
         "progress":11.5170033524
     },
@@ -4967,7 +4967,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.4301080155,
+        "value":1.4304095876,
         "discount":null,
         "progress":4.4719620966
     },
@@ -4989,7 +4989,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5011,7 +5011,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":35.7028352479,
+        "value":35.7089372792,
         "discount":null,
         "progress":88.9796751488
     },
@@ -5033,7 +5033,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.4035744217,
+        "value":0.4036236715,
         "discount":null,
         "progress":0.7323379146
     },
@@ -5055,7 +5055,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.3378420518,
+        "value":0.3378452131,
         "discount":null,
         "progress":0.0470081769
     },
@@ -5077,7 +5077,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -5099,7 +5099,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.8450911232,
+        "value":3.8475534077,
         "discount":null,
         "progress":36.6138030852
     },
@@ -5121,7 +5121,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.4799853353,
+        "value":0.480088161,
         "discount":null,
         "progress":1.5290028081
     },
@@ -5143,7 +5143,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.6825810419,
+        "value":0.6828259185,
         "discount":null,
         "progress":3.6412781276
     },
@@ -5187,7 +5187,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":4.1418922872,
+        "value":4.14269293,
         "discount":null,
         "progress":11.8188453307
     },
@@ -5209,7 +5209,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":18.1903107739,
+        "value":18.1967546008,
         "discount":null,
         "progress":95.2991823051
     },
@@ -5231,7 +5231,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.2237154933,
+        "value":3.2238723524,
         "discount":null,
         "progress":2.2458775066
     },
@@ -5253,7 +5253,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1272526473,
+        "value":1.1273418711,
         "discount":null,
         "progress":1.3143733686
     },
@@ -5275,7 +5275,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0082462088,
+        "value":1.0082519907,
         "discount":null,
         "progress":0.0736049086
     },
@@ -5297,7 +5297,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.6381023192,
+        "value":1.6385497275,
         "discount":null,
         "progress":6.6405235226
     },
@@ -5319,7 +5319,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1973157599,
+        "value":1.1974541087,
         "discount":null,
         "progress":2.0448556973
     },
@@ -5341,7 +5341,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.6365598629,
+        "value":1.6370061897,
         "discount":null,
         "progress":6.6244417779
     },
@@ -5363,7 +5363,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":2.875152297,
+        "value":2.8764670683,
         "discount":null,
         "progress":19.5380828086
     },
@@ -5385,7 +5385,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":33.5356841023,
+        "value":33.5402666261,
         "discount":null,
         "progress":66.3848237812
     },
@@ -5407,7 +5407,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.3115031584,
+        "value":10.3124227246,
         "discount":null,
         "progress":13.1542486733
     },
@@ -5429,7 +5429,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.2356991925,
+        "value":1.235864454,
         "discount":null,
         "progress":2.44504373
     },
@@ -5451,7 +5451,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":18.1903107739,
+        "value":18.1967546008,
         "discount":null,
         "progress":95.2991823051
     },
@@ -5473,7 +5473,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0881573119,
+        "value":1.0882191238,
         "discount":null,
         "progress":0.9067629922
     },
@@ -5495,7 +5495,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.1419882742,
+        "value":1.1425318943,
         "discount":null,
         "progress":8.0835508492
     },
@@ -5517,7 +5517,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1340526898,
+        "value":1.134076566,
         "discount":null,
         "progress":0.3426648688
     },
@@ -5539,7 +5539,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":7.6655666945,
+        "value":7.6686276309,
         "discount":null,
         "progress":45.4290733204
     },
@@ -5561,7 +5561,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5583,7 +5583,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5605,7 +5605,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5627,7 +5627,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5649,7 +5649,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5671,7 +5671,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -5693,7 +5693,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0099073157,
+        "value":3.0099142622,
         "discount":null,
         "progress":0.0167002734
     },
@@ -5715,7 +5715,7 @@
         "reloadTime":0.15,
         "ammo":80.0,
         "range":10.0,
-        "value":402.3345198382,
+        "value":402.3345206701,
         "discount":null,
         "progress":0.0
     },
@@ -5737,7 +5737,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":138.1781126203,
+        "value":138.180340968,
         "discount":null,
         "progress":25.1932902013
     },
@@ -5759,7 +5759,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":21.236210273,
+        "value":21.2405828194,
         "discount":null,
         "progress":64.4995484741
     },
@@ -5781,7 +5781,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":20.1146665444,
+        "value":20.1182527154,
         "discount":null,
         "progress":52.8062644581
     },
@@ -5803,7 +5803,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":21.16602851,
+        "value":21.1703518481,
         "discount":null,
         "progress":63.7678290882
     },
@@ -5825,7 +5825,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.6563744942,
+        "value":5.6568347141,
         "discount":null,
         "progress":6.7568069077
     },
@@ -5847,7 +5847,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":17.6701698854,
+        "value":17.6720420868,
         "discount":null,
         "progress":27.3197916796
     },
@@ -5869,7 +5869,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.952021088,
+        "value":1.9522211655,
         "discount":null,
         "progress":2.9627522051
     },
@@ -5891,7 +5891,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":4.2601290122,
+        "value":4.2619474297,
         "discount":null,
         "progress":27.0272276309
     },
@@ -5913,7 +5913,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.3467560483,
+        "value":5.3469991779,
         "discount":null,
         "progress":3.5287059144
     },
@@ -5935,7 +5935,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":17.9694657389,
+        "value":17.9715477929,
         "discount":null,
         "progress":30.4402686888
     },
@@ -5957,7 +5957,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6771079095,
+        "value":1.6771152304,
         "discount":null,
         "progress":0.0964904685
     },
@@ -5979,7 +5979,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":152.6876433782,
+        "value":152.7000451474,
         "discount":null,
         "progress":100.0
     },
@@ -6001,7 +6001,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.7572563135,
+        "value":1.7573198308,
         "discount":null,
         "progress":0.9321226666
     },
@@ -6023,7 +6023,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.2316057507,
+        "value":5.2317681421,
         "discount":null,
         "progress":2.3281418162
     },
@@ -6045,7 +6045,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":21.7352542215,
+        "value":21.7399766747,
         "discount":null,
         "progress":69.7026114279
     },
@@ -6067,7 +6067,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":24.6411826246,
+        "value":24.6479425823,
         "discount":null,
         "progress":100.0
     },
@@ -6089,7 +6089,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":145.3530855468,
+        "value":145.3603446584,
         "discount":null,
         "progress":100.0
     },
@@ -6111,7 +6111,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.3334230785,
+        "value":2.3338905777,
         "discount":null,
         "progress":6.9392728577
     },
@@ -6133,7 +6133,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.8470610369,
+        "value":2.8478886756,
         "discount":null,
         "progress":12.294493858
     },
@@ -6155,7 +6155,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.14132794,
+        "value":2.1416607509,
         "discount":null,
         "progress":4.9364771083
     },
@@ -6177,7 +6177,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.9560552045,
+        "value":1.9562581106,
         "discount":null,
         "progress":3.0048121529
     },
@@ -6199,7 +6199,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":8.277660379,
+        "value":8.279958525,
         "discount":null,
         "progress":34.0864950456
     },
@@ -6221,7 +6221,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6690396764,
+        "value":1.6690413403,
         "discount":null,
         "progress":0.0123705729
     },
@@ -6243,7 +6243,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":6.0230638244,
+        "value":6.0237811501,
         "discount":null,
         "progress":10.5799324567
     },
@@ -6265,7 +6265,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":18.7460331765,
+        "value":18.7486597242,
         "discount":null,
         "progress":38.5368086396
     },
@@ -6287,7 +6287,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.0083055341,
+        "value":5.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -6309,7 +6309,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":21.0344451199,
+        "value":21.0386761977,
         "discount":null,
         "progress":62.3959325556
     },
@@ -6331,7 +6331,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.8207343241,
+        "value":1.8208423493,
         "discount":null,
         "progress":1.5939483157
     },
@@ -6353,7 +6353,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.8065555909,
+        "value":1.8066536746,
         "discount":null,
         "progress":1.4461199698
     },
@@ -6375,7 +6375,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6678531715,
+        "value":1.6678540035,
         "discount":null,
         "progress":0.0
     },
@@ -6397,7 +6397,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.8940009998,
+        "value":1.8941603963,
         "discount":null,
         "progress":2.3578311912
     },
@@ -6419,7 +6419,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2976425032,
+        "value":30.2980615428,
         "discount":null,
         "progress":4.4744362111
     },
@@ -6441,7 +6441,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.9681575542,
+        "value":1.9683689459,
         "discount":null,
         "progress":3.1309919962
     },
@@ -6463,7 +6463,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":19.7082293011,
+        "value":19.7115304968,
         "discount":null,
         "progress":48.5687247176
     },
@@ -6485,7 +6485,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.9249094517,
+        "value":1.9250905198,
         "discount":null,
         "progress":2.6800846147
     },
@@ -6507,7 +6507,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6678531715,
+        "value":1.6678540035,
         "discount":null,
         "progress":0.0
     },
@@ -6529,7 +6529,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6678531715,
+        "value":1.6678540035,
         "discount":null,
         "progress":0.0
     },
@@ -6551,7 +6551,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6678531715,
+        "value":1.6678540035,
         "discount":null,
         "progress":0.0
     },
@@ -6573,7 +6573,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6678531715,
+        "value":1.6678540035,
         "discount":null,
         "progress":0.0
     },
@@ -6595,7 +6595,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6814386523,
+        "value":1.6814490097,
         "discount":null,
         "progress":0.1416430595
     },
@@ -6617,7 +6617,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.6803114727,
+        "value":1.6803210398,
         "discount":null,
         "progress":0.1298910153
     },
@@ -6639,7 +6639,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.8746016452,
+        "value":1.8747474397,
         "discount":null,
         "progress":2.1555723246
     },
@@ -6661,7 +6661,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.405132088,
+        "value":5.4054161481,
         "discount":null,
         "progress":4.1373381001
     },
@@ -6683,7 +6683,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":17.2202472385,
+        "value":17.2218039747,
         "discount":null,
         "progress":22.628870443
     },
@@ -6705,7 +6705,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.7382722356,
+        "value":1.7383224421,
         "discount":null,
         "progress":0.7341935005
     },
@@ -6727,7 +6727,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.0083055341,
+        "value":5.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -6749,7 +6749,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":1.727415716,
+        "value":1.7274583105,
         "discount":null,
         "progress":0.6210027586
     },
@@ -6793,7 +6793,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.5722817189,
+        "value":1.573150413,
         "discount":null,
         "progress":12.9173522026
     },
@@ -6815,7 +6815,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.1626409124,
+        "value":1.1632223851,
         "discount":null,
         "progress":8.6464119153
     },
@@ -6837,7 +6837,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":41.6316116262,
+        "value":41.6399775284,
         "discount":null,
         "progress":100.0
     },
@@ -6859,7 +6859,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.9218179943,
+        "value":10.9225344465,
         "discount":null,
         "progress":10.1339733043
     },
@@ -6881,7 +6881,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.250567468,
+        "value":1.2506730391,
         "discount":null,
         "progress":1.5574551257
     },
@@ -6903,7 +6903,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -6969,7 +6969,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":10.5925359249,
+        "value":10.5992617738,
         "discount":null,
         "progress":100.0
     },
@@ -6991,7 +6991,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3670819434,
+        "value":0.3670822345,
         "discount":null,
         "progress":0.0043297005
     },
@@ -7013,7 +7013,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0211791119,
+        "value":1.0211939618,
         "discount":null,
         "progress":0.208444153
     },
@@ -7035,7 +7035,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.4093441803,
+        "value":1.4096311937,
         "discount":null,
         "progress":4.2554770711
     },
@@ -7057,7 +7057,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.9762484508,
+        "value":3.9767226054,
         "discount":null,
         "progress":6.9640140035
     },
@@ -7079,7 +7079,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7101,7 +7101,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7145,7 +7145,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7167,7 +7167,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.8045018709,
+        "value":3.8048556046,
         "discount":null,
         "progress":5.1733735789
     },
@@ -7211,7 +7211,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7233,7 +7233,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":0.3811494796,
+        "value":0.3811830061,
         "discount":null,
         "progress":0.4985340871
     },
@@ -7277,7 +7277,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0714275932,
+        "value":3.071477675,
         "discount":null,
         "progress":0.6581144773
     },
@@ -7299,7 +7299,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4854358042,
+        "value":0.4855190797,
         "discount":null,
         "progress":1.2382943454
     },
@@ -7321,7 +7321,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.0884032781,
+        "value":11.0892365323,
         "discount":null,
         "progress":11.8708017368
     },
@@ -7343,7 +7343,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0037968156,
+        "value":1.0037994777,
         "discount":null,
         "progress":0.0272152603
     },
@@ -7365,7 +7365,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -7387,7 +7387,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7409,7 +7409,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0034408641,
+        "value":1.0034432767,
         "discount":null,
         "progress":0.0235040885
     },
@@ -7519,7 +7519,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7541,7 +7541,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7563,7 +7563,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7585,7 +7585,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7607,7 +7607,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7695,7 +7695,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7717,7 +7717,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7739,7 +7739,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7761,7 +7761,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7783,7 +7783,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7805,7 +7805,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7827,7 +7827,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7849,7 +7849,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7871,7 +7871,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7893,7 +7893,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7915,7 +7915,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7937,7 +7937,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7959,7 +7959,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -7981,7 +7981,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8003,7 +8003,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8025,7 +8025,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8047,7 +8047,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8069,7 +8069,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8091,7 +8091,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8113,7 +8113,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8135,7 +8135,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8157,7 +8157,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8179,7 +8179,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8201,7 +8201,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8223,7 +8223,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8245,7 +8245,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8377,7 +8377,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8399,7 +8399,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8421,7 +8421,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8443,7 +8443,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8465,7 +8465,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8487,7 +8487,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8509,7 +8509,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8575,7 +8575,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8597,7 +8597,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8663,7 +8663,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8685,7 +8685,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8707,7 +8707,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8729,7 +8729,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8751,7 +8751,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8773,7 +8773,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8795,7 +8795,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1909455983,
+        "value":1.1910093652,
         "discount":null,
         "progress":0.9358338385
     },
@@ -8817,7 +8817,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8839,7 +8839,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8861,7 +8861,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8883,7 +8883,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -8905,7 +8905,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0083055341,
+        "value":3.0083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8927,7 +8927,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3347052675,
+        "value":3.3347296012,
         "discount":null,
         "progress":0.2752452466
     },
@@ -8949,7 +8949,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8971,7 +8971,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -8993,7 +8993,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0011865049,
+        "value":1.0011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9015,7 +9015,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9059,7 +9059,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9081,7 +9081,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9103,7 +9103,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -9125,7 +9125,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9147,7 +9147,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":3.0215943886,
+        "value":3.0216095296,
         "discount":null,
         "progress":0.1385504163
     },
@@ -9191,7 +9191,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3095513642,
+        "value":3.3095580612,
         "discount":null,
         "progress":0.0129891015
     },
@@ -9213,7 +9213,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":8.5,
-        "value":1.0043307428,
+        "value":1.0043337793,
         "discount":null,
         "progress":0.0327820181
     },
@@ -9235,7 +9235,7 @@
         "reloadTime":null,
         "ammo":null,
         "range":9.7,
-        "value":36.4505706172,
+        "value":36.4571969265,
         "discount":null,
         "progress":96.7756101785
     },
@@ -9257,7 +9257,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.3789920161,
+        "value":10.3793278635,
         "discount":null,
         "progress":4.4744362111
     },
@@ -9279,7 +9279,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3225591054,
+        "value":30.3229956155,
         "discount":null,
         "progress":4.7342182416
     },
@@ -9301,7 +9301,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":90.2955816326,
+        "value":90.2964199199,
         "discount":null,
         "progress":4.523299974
     },
@@ -9323,7 +9323,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3022698722,
+        "value":30.3026921563,
         "discount":null,
         "progress":4.5226814454
     },
@@ -9345,7 +9345,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3668446424,
+        "value":0.3668447672,
         "discount":null,
         "progress":0.0018555859
     },
@@ -9389,7 +9389,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2976425032,
+        "value":30.2980615428,
         "discount":null,
         "progress":4.4744362111
     },
@@ -9411,7 +9411,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9433,7 +9433,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3020918964,
+        "value":30.3025140558,
         "discount":null,
         "progress":4.5208258594
     },
@@ -9455,7 +9455,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9477,7 +9477,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3110938205,
+        "value":3.311101599,
         "discount":null,
         "progress":0.0290708463
     },
@@ -9499,7 +9499,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.298829008,
+        "value":30.2992488796,
         "discount":null,
         "progress":4.486806784
     },
@@ -9521,7 +9521,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":91.1959015281,
+        "value":91.1973710787,
         "discount":null,
         "progress":13.9100906763
     },
@@ -9543,7 +9543,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2976425032,
+        "value":30.2980615428,
         "discount":null,
         "progress":4.4744362111
     },
@@ -9565,7 +9565,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2980577799,
+        "value":30.2984771107,
         "discount":null,
         "progress":4.4787659116
     },
@@ -9587,7 +9587,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.3849245405,
+        "value":10.3852645475,
         "discount":null,
         "progress":4.5362890755
     },
@@ -9609,7 +9609,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":31.186334651,
+        "value":31.1873768011,
         "discount":null,
         "progress":13.7399952992
     },
@@ -9631,7 +9631,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":90.2943951277,
+        "value":90.2952325831,
         "discount":null,
         "progress":4.5109294011
     },
@@ -9653,7 +9653,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.355291127,
+        "value":3.3553298946,
         "discount":null,
         "progress":0.4898746861
     },
@@ -9675,7 +9675,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.3795259433,
+        "value":10.3798621651,
         "discount":null,
         "progress":4.4800029689
     },
@@ -9697,7 +9697,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":31.1834277141,
+        "value":31.184467826,
         "discount":null,
         "progress":13.7096873956
     },
@@ -9719,7 +9719,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":92.4709196618,
+        "value":92.473283197,
         "discount":null,
         "progress":27.2035082945
     },
@@ -9741,7 +9741,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3086769985,
+        "value":30.309103775,
         "discount":null,
         "progress":4.5894825389
     },
@@ -9763,7 +9763,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":91.2030798826,
+        "value":91.2045544663,
         "discount":null,
         "progress":13.9849326422
     },
@@ -9785,7 +9785,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9807,7 +9807,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9829,7 +9829,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -9851,7 +9851,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.4047991029,
+        "value":1.4055269941,
         "discount":null,
         "progress":10.8236327424
     },
@@ -9873,7 +9873,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4030923662,
+        "value":0.4031179062,
         "discount":null,
         "progress":0.3797765875
     },
@@ -9895,7 +9895,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":12.8361842773,
+        "value":12.8382429958,
         "discount":null,
         "progress":30.0932741195
     },
@@ -9917,7 +9917,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.1696788617,
+        "value":11.1705691026,
         "discount":null,
         "progress":12.7181859792
     },
@@ -9939,7 +9939,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":15.7729024818,
+        "value":15.7770202933,
         "discount":null,
         "progress":60.7116790579
     },
@@ -9961,7 +9961,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5411826246,
+        "value":19.5479425823,
         "discount":null,
         "progress":100.0
     },
@@ -9983,7 +9983,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3948461573,
+        "value":0.3948659155,
         "discount":null,
         "progress":0.2938011059
     },
@@ -10005,7 +10005,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":6.4434073529,
+        "value":6.4456113668,
         "discount":null,
         "progress":32.6867647241
     },
@@ -10027,7 +10027,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1013051554,
+        "value":1.1013060705,
         "discount":null,
         "progress":0.0012370573
     },
@@ -10049,7 +10049,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.7999639441,
+        "value":10.8005949578,
         "discount":null,
         "progress":8.8635154694
     },
@@ -10071,7 +10071,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.9357457312,
+        "value":11.9371731033,
         "discount":null,
         "progress":20.70524636
     },
@@ -10093,7 +10093,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.4186812099,
+        "value":1.4194188346,
         "discount":null,
         "progress":10.9683684451
     },
@@ -10115,7 +10115,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5411826246,
+        "value":19.5479425823,
         "discount":null,
         "progress":100.0
     },
@@ -10137,7 +10137,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.8829161475,
+        "value":4.8840260161,
         "discount":null,
         "progress":16.4169872707
     },
@@ -10159,7 +10159,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":15.3831949571,
+        "value":15.3870395235,
         "discount":null,
         "progress":56.648564395
     },
@@ -10181,7 +10181,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1912422245,
+        "value":1.1913061994,
         "discount":null,
         "progress":0.9389264817
     },
@@ -10203,7 +10203,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5411826246,
+        "value":19.5479425823,
         "discount":null,
         "progress":100.0
     },
@@ -10225,7 +10225,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3183908255,
+        "value":3.3184037203,
         "discount":null,
         "progress":0.1051498695
     },
@@ -10247,7 +10247,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.7766956622,
+        "value":3.7785724391,
         "discount":null,
         "progress":27.8950233185
     },
@@ -10269,7 +10269,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.7700786255,
+        "value":1.7705484541,
         "discount":null,
         "progress":6.9739104618
     },
@@ -10291,7 +10291,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.7300943202,
+        "value":4.7310970371,
         "discount":null,
         "progress":14.8236574836
     },
@@ -10313,7 +10313,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":16.5888025558,
+        "value":16.5934924392,
         "discount":null,
         "progress":69.2183034996
     },
@@ -10335,7 +10335,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":39.4598331116,
+        "value":39.4666762617,
         "discount":null,
         "progress":100.0
     },
@@ -10357,7 +10357,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.9894222901,
+        "value":4.9921493757,
         "discount":null,
         "progress":40.5389858604
     },
@@ -10379,7 +10379,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.8416841944,
+        "value":1.8422042296,
         "discount":null,
         "progress":7.7204745352
     },
@@ -10401,7 +10401,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.6621660075,
+        "value":1.6625601727,
         "discount":null,
         "progress":5.8488068582
     },
@@ -10423,7 +10423,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4314498326,
+        "value":0.4314952556,
         "discount":null,
         "progress":0.6754332793
     },
@@ -10445,7 +10445,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.18897417,
+        "value":2.189737709,
         "discount":null,
         "progress":11.3413412175
     },
@@ -10467,7 +10467,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.351420382,
+        "value":1.3515966665,
         "discount":null,
         "progress":2.6089538207
     },
@@ -10489,7 +10489,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4134742838,
+        "value":0.4135071032,
         "discount":null,
         "progress":0.4880191002
     },
@@ -10511,7 +10511,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.7028777287,
+        "value":3.7031602082,
         "discount":null,
         "progress":4.1138340117
     },
@@ -10533,7 +10533,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.9265658314,
+        "value":5.9284074596,
         "discount":null,
         "progress":27.298143177
     },
@@ -10555,7 +10555,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -10577,7 +10577,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -10599,7 +10599,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -10621,7 +10621,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":2.0793271217,
+        "value":2.0805279611,
         "discount":null,
         "progress":17.8563034254
     },
@@ -10643,7 +10643,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.6254893117,
+        "value":2.6265589153,
         "discount":null,
         "progress":15.8924749805
     },
@@ -10665,9 +10665,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":23.9156481056,
+        "value":23.9254752392,
         "discount":null,
-        "progress":100.0
+        "progress":97.6248500068
     },
     "CRMYTH-546419-80":{
         "identifier":"CRMYTH-546419-80",
@@ -10687,7 +10687,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.4708657893,
+        "value":11.4765948279,
         "discount":null,
         "progress":85.1033561364
     },
@@ -10709,7 +10709,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.113644806,
+        "value":1.1136543731,
         "discount":null,
         "progress":0.1298910153
     },
@@ -10731,7 +10731,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":31.7908588824,
+        "value":31.7923248974,
         "discount":null,
         "progress":20.0428021822
     },
@@ -10753,7 +10753,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -10775,7 +10775,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -10819,7 +10819,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -10841,7 +10841,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -10863,7 +10863,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.1637162203,
+        "value":4.1643218188,
         "discount":null,
         "progress":8.9185645187
     },
@@ -10885,7 +10885,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.2903756152,
+        "value":4.2910700215,
         "discount":null,
         "progress":10.2391231738
     },
@@ -10907,7 +10907,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.368446424,
+        "value":0.3684476719,
         "discount":null,
         "progress":0.0185558593
     },
@@ -10929,7 +10929,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -10951,7 +10951,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.5676928292,
+        "value":3.569423063,
         "discount":null,
         "progress":25.7159469055
     },
@@ -10973,7 +10973,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.0370339788,
+        "value":10.0417576799,
         "discount":null,
         "progress":70.1541373381
     },
@@ -10995,7 +10995,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":17.5692115302,
+        "value":17.5745888317,
         "discount":null,
         "progress":79.4401078714
     },
@@ -11017,7 +11017,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.477604872,
+        "value":0.4776826569,
         "discount":null,
         "progress":1.1566485644
     },
@@ -11039,7 +11039,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.8591130295,
+        "value":5.8609073629,
         "discount":null,
         "progress":26.5948761087
     },
@@ -11061,7 +11061,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083055341,
+        "value":3.3083113576,
         "discount":null,
         "progress":0.0
     },
@@ -11083,7 +11083,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.1478617762,
+        "value":2.1485964891,
         "discount":null,
         "progress":10.9127008672
     },
@@ -11105,7 +11105,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -11149,7 +11149,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -11171,7 +11171,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":13.4494886447,
+        "value":13.4519773844,
         "discount":null,
         "progress":36.4876232418
     },
@@ -11237,7 +11237,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1027289612,
+        "value":1.1027308746,
         "discount":null,
         "progress":0.0160817447
     },
@@ -11259,7 +11259,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.9920599914,
+        "value":2.9933866176,
         "discount":null,
         "progress":19.7143634722
     },
@@ -11281,7 +11281,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.1053252737,
+        "value":1.1058431874,
         "discount":null,
         "progress":7.7013001472
     },
@@ -11303,7 +11303,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4474676483,
+        "value":0.4475243023,
         "discount":null,
         "progress":0.8424360132
     },
@@ -11369,7 +11369,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.367971822,
+        "value":0.3679727371,
         "discount":null,
         "progress":0.0136076302
     },
@@ -11391,7 +11391,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.5226786647,
+        "value":2.5236761822,
         "discount":null,
         "progress":14.8205648404
     },
@@ -11413,7 +11413,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":18.7488939974,
+        "value":18.7550984385,
         "discount":null,
         "progress":91.7395499586
     },
@@ -11501,7 +11501,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4724435759,
+        "value":0.4725177418,
         "discount":null,
         "progress":1.1028365724
     },
@@ -11523,7 +11523,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011865049,
+        "value":1.1011873368,
         "discount":null,
         "progress":0.0
     },
@@ -11545,7 +11545,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4898851974,
+        "value":0.4899715927,
         "discount":null,
         "progress":1.2846839937
     },
@@ -11589,7 +11589,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.8941149232,
+        "value":5.8959337983,
         "discount":null,
         "progress":26.9598080087
     },
@@ -11677,7 +11677,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":39.4598331116,
+        "value":39.4666762617,
         "discount":null,
         "progress":100.0
     },
@@ -11699,7 +11699,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4896478965,
+        "value":0.4897341253,
         "discount":null,
         "progress":1.2822098791
     },
@@ -11721,7 +11721,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4737487312,
+        "value":0.4738238123,
         "discount":null,
         "progress":1.1164442025
     },
@@ -11743,7 +11743,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3731924435,
+        "value":0.373197019,
         "discount":null,
         "progress":0.0680381508
     },
@@ -11765,7 +11765,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3952021088,
+        "value":0.3952221165,
         "discount":null,
         "progress":0.2975122778
     },
@@ -11787,7 +11787,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3743789483,
+        "value":0.3743843558,
         "discount":null,
         "progress":0.0804087237
     },
@@ -11831,7 +11831,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.5458882273,
+        "value":0.5460138893,
         "discount":null,
         "progress":1.8685750337
     },

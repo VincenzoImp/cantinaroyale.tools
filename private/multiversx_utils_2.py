@@ -363,7 +363,10 @@ def add_market_data(data_folder_path, collections):
     def get_character_progress(level, tokens):
         shard_conversion = 1
         token_conversion = 200
+        max_level = 20
         def foo(level, tokens):
+            if level == max_level:
+                tokens = 0
             shards = 0
             crown = 0
             for l in range(1, level+1):
@@ -375,8 +378,8 @@ def add_market_data(data_folder_path, collections):
             tokens = tokens * token_conversion /100 * crt_egld_rate
             return shards + tokens + crown
         progress_value = foo(level, tokens) 
-        progress_value_total = foo(20, 0)
-        return min(100, (progress_value / progress_value_total) * 100)
+        progress_value_total = foo(max_level, 0)
+        return (progress_value / progress_value_total) * 100
     
     def get_character_floorPrice(df):
         rarities = df.value_counts('rarityClass').reset_index()
@@ -437,6 +440,8 @@ def add_market_data(data_folder_path, collections):
     def get_weapon_progress(level, tokens):
         shard_conversion = 1
         token_conversion = 50
+        max_tokens = 121200
+        max_level = 20
         def foo(level, tokens):
             shards = 0
             crown = 0
@@ -446,11 +451,11 @@ def add_market_data(data_folder_path, collections):
                 crown += weapons_upgrade['nft'][str(l)]['crown']
             shards = shards * shard_conversion /100 * crt_egld_rate
             crown = crown /100 * crt_egld_rate
-            tokens = tokens * token_conversion /100 * crt_egld_rate
+            tokens = min(tokens, max_tokens) * token_conversion /100 * crt_egld_rate
             return shards + tokens + crown
         progress_value = foo(level, tokens) 
-        progress_value_total = foo(20, 121200)
-        return min(100, (progress_value / progress_value_total) * 100)
+        progress_value_total = foo(max_level, max_tokens)
+        return (progress_value / progress_value_total) * 100
     
     def get_weapon_floorPrice(df):
         def foo(starlevel):

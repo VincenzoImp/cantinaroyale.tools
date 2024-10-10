@@ -450,7 +450,6 @@ def add_market_data(data_folder_path, collections):
                 shards += weapons_upgrade['nft'][str(l)]['shards']
                 # tokens += weapons_upgrade['nft'][str(l)]['tokens']
                 crown += weapons_upgrade['nft'][str(l)]['crown']
-            
             shards = shards * shard_conversion /100 * crt_egld_rate
             crown = crown /100 * crt_egld_rate
             tokens = min(tokens, max_tokens) * token_conversion /100 * crt_egld_rate

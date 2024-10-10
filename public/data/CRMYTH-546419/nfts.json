@@ -351,8 +351,8 @@
         "discount":9.8695478434,
         "progress":0.0
     },
-    "CRMYTH-546419-0443":{
-        "identifier":"CRMYTH-546419-0443",
+    "CRMYTH-546419-03ea":{
+        "identifier":"CRMYTH-546419-03ea",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
@@ -373,8 +373,8 @@
         "discount":9.8695478434,
         "progress":0.0
     },
-    "CRMYTH-546419-03ea":{
-        "identifier":"CRMYTH-546419-03ea",
+    "CRMYTH-546419-0443":{
+        "identifier":"CRMYTH-546419-0443",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
@@ -439,28 +439,6 @@
         "discount":32.8422896163,
         "progress":2.2304142905
     },
-    "CRMYTH-546419-03ac":{
-        "identifier":"CRMYTH-546419-03ac",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.35,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011873368,
-        "discount":34.839899626,
-        "progress":0.0
-    },
     "CRMYTH-546419-023b":{
         "identifier":"CRMYTH-546419-023b",
         "collection":"CRMYTH-546419",
@@ -483,8 +461,30 @@
         "discount":34.839899626,
         "progress":0.0
     },
-    "CRMYTH-546419-0469":{
-        "identifier":"CRMYTH-546419-0469",
+    "CRMYTH-546419-03ac":{
+        "identifier":"CRMYTH-546419-03ac",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.35,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.0011873368,
+        "discount":34.839899626,
+        "progress":0.0
+    },
+    "CRMYTH-546419-046b":{
+        "identifier":"CRMYTH-546419-046b",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
@@ -505,8 +505,8 @@
         "discount":36.2166045578,
         "progress":0.0
     },
-    "CRMYTH-546419-046b":{
-        "identifier":"CRMYTH-546419-046b",
+    "CRMYTH-546419-0469":{
+        "identifier":"CRMYTH-546419-0469",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
@@ -835,28 +835,6 @@
         "discount":171.5250984185,
         "progress":0.0
     },
-    "CRMYTH-546419-0228":{
-        "identifier":"CRMYTH-546419-0228",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":2.8,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":1.0011873368,
-        "discount":179.6679399649,
-        "progress":0.0
-    },
     "CRMYTH-546419-022c":{
         "identifier":"CRMYTH-546419-022c",
         "collection":"CRMYTH-546419",
@@ -901,6 +879,28 @@
         "discount":179.6679399649,
         "progress":0.0
     },
+    "CRMYTH-546419-0228":{
+        "identifier":"CRMYTH-546419-0228",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":2.8,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":1.0011873368,
+        "discount":179.6679399649,
+        "progress":0.0
+    },
     "CRMYTH-546419-da":{
         "identifier":"CRMYTH-546419-da",
         "collection":"CRMYTH-546419",
@@ -923,12 +923,12 @@
         "discount":180.0502589562,
         "progress":0.0265967317
     },
-    "CRMYTH-546419-01b4":{
-        "identifier":"CRMYTH-546419-01b4",
+    "CRMYTH-546419-03d7":{
+        "identifier":"CRMYTH-546419-03d7",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
@@ -945,12 +945,12 @@
         "discount":191.8181818182,
         "progress":0.0
     },
-    "CRMYTH-546419-03d7":{
-        "identifier":"CRMYTH-546419-03d7",
+    "CRMYTH-546419-01b4":{
+        "identifier":"CRMYTH-546419-01b4",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
@@ -1033,6 +1033,28 @@
         "discount":210.2,
         "progress":0.0
     },
+    "CRMYTH-546419-03ee":{
+        "identifier":"CRMYTH-546419-03ee",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.05,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":1,
+        "damage":1400,
+        "reloadTime":null,
+        "ammo":null,
+        "range":8.5,
+        "value":0.3333333333,
+        "discount":215.0,
+        "progress":0.0
+    },
     "CRMYTH-546419-03ef":{
         "identifier":"CRMYTH-546419-03ef",
         "collection":"CRMYTH-546419",
@@ -1057,28 +1079,6 @@
     },
     "CRMYTH-546419-03ed":{
         "identifier":"CRMYTH-546419-03ed",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.05,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":1,
-        "damage":1400,
-        "reloadTime":null,
-        "ammo":null,
-        "range":8.5,
-        "value":0.3333333333,
-        "discount":215.0,
-        "progress":0.0
-    },
-    "CRMYTH-546419-03ee":{
-        "identifier":"CRMYTH-546419-03ee",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",

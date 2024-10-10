@@ -376,7 +376,7 @@ def add_market_data(data_folder_path, collections):
             return shards + tokens + crown
         progress_value = foo(level, tokens) 
         progress_value_total = foo(20, 0)
-        return (progress_value / progress_value_total) * 100
+        return min(100, (progress_value / progress_value_total) * 100)
     
     def get_character_floorPrice(df):
         rarities = df.value_counts('rarityClass').reset_index()
@@ -450,7 +450,7 @@ def add_market_data(data_folder_path, collections):
             return shards + tokens + crown
         progress_value = foo(level, tokens) 
         progress_value_total = foo(20, 121200)
-        return (progress_value / progress_value_total) * 100
+        return min(100, (progress_value / progress_value_total) * 100)
     
     def get_weapon_floorPrice(df):
         def foo(starlevel):

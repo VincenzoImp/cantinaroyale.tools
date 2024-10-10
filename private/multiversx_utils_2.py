@@ -364,9 +364,10 @@ def add_market_data(data_folder_path, collections):
         shard_conversion = 1
         token_conversion = 200
         max_level = 20
+        max_tokens = 0
+        for l in range(1, max_level+1):
+            max_tokens += characters_upgrade['nft'][str(l)]['tokens']
         def foo(level, tokens):
-            if level == max_level:
-                tokens = 0
             shards = 0
             crown = 0
             for l in range(1, level+1):
@@ -375,7 +376,7 @@ def add_market_data(data_folder_path, collections):
                 crown += characters_upgrade['nft'][str(l)]['crown']
             shards = shards * shard_conversion /100 * crt_egld_rate
             crown = crown /100 * crt_egld_rate
-            tokens = tokens * token_conversion /100 * crt_egld_rate
+            tokens = min(tokens, max_tokens) * token_conversion /100 * crt_egld_rate
             return shards + tokens + crown
         progress_value = foo(level, tokens) 
         progress_value_total = foo(max_level, 0)
@@ -440,8 +441,8 @@ def add_market_data(data_folder_path, collections):
     def get_weapon_progress(level, tokens):
         shard_conversion = 1
         token_conversion = 50
-        max_tokens = 121200
         max_level = 20
+        max_tokens = weapons_upgrade['nft'][str(max_level)]['tokens']
         def foo(level, tokens):
             shards = 0
             crown = 0
@@ -449,6 +450,7 @@ def add_market_data(data_folder_path, collections):
                 shards += weapons_upgrade['nft'][str(l)]['shards']
                 # tokens += weapons_upgrade['nft'][str(l)]['tokens']
                 crown += weapons_upgrade['nft'][str(l)]['crown']
+            
             shards = shards * shard_conversion /100 * crt_egld_rate
             crown = crown /100 * crt_egld_rate
             tokens = min(tokens, max_tokens) * token_conversion /100 * crt_egld_rate

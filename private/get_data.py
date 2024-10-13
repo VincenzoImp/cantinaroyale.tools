@@ -4,7 +4,6 @@ import os
 
 data_folder_path = '../public/data'
 collections = ['CRMYTH-546419', 'CRWEAPONS-e5ab49', 'GSPACEAPE-08bc2b', 'CEA-2d29f9', 'CRHEROES-9edff2']
-# collections = ['CRMYTH-546419', 'CRWEAPONS-e5ab49']
 operations = {
     'info': True,
     'nfts_raw': True,

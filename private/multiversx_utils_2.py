@@ -97,24 +97,27 @@ def get_collection_nfts(collection_name, sleep_time=0.4):
         step = 100
         for index in range(start, stop, step):
             while True:
-                url = f'https://api.elrond.com/collections/{collection_name}/nfts?from={index}&size={step}&withOwner=true&sort=nonce&order={order}'
-                headers = {'User-Agent': user_agent.random}
-                response = requests.get(url, headers=headers)
-                if response.status_code == 200:
-                    for nft in response.json():
-                        if 'owner' not in nft:
-                            nft = get_nft(nft['identifier'], sleep_time)
-                        collection_nfts[nft['identifier']] = nft
-                    new_length = len(collection_nfts)
-                    bar.update(new_length - length)
-                    if new_length == length:
-                        collection_nfts = clear_keys(collection_nfts)
-                        collection_nfts = dict(sorted(collection_nfts.items()))
-                        return collection_nfts
-                    length = new_length
-                    break
-                if response.status_code == 429:
-                    time.sleep(sleep_time)
+                try:
+                    url = f'https://api.elrond.com/collections/{collection_name}/nfts?from={index}&size={step}&withOwner=true&sort=nonce&order={order}'
+                    headers = {'User-Agent': user_agent.random}
+                    response = requests.get(url, headers=headers)
+                    if response.status_code == 200:
+                        for nft in response.json():
+                            if 'owner' not in nft:
+                                nft = get_nft(nft['identifier'], sleep_time)
+                            collection_nfts[nft['identifier']] = nft
+                        new_length = len(collection_nfts)
+                        bar.update(new_length - length)
+                        if new_length == length:
+                            collection_nfts = clear_keys(collection_nfts)
+                            collection_nfts = dict(sorted(collection_nfts.items()))
+                            return collection_nfts
+                        length = new_length
+                        break
+                    if response.status_code == 429:
+                        time.sleep(sleep_time)
+                except:
+                    time.sleep(sleep_time*100)
     collection_nfts = clear_keys(collection_nfts)
     collection_nfts = dict(sorted(collection_nfts.items()))
     return collection_nfts

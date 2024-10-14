@@ -16,6 +16,9 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         const component = Object.entries(about.keys).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)).map(([key, value]: [string, any]) => {
             const displayKey: any = value;
             var displayValue: any = nft[key];
+            if (parseFloat(displayValue)) {
+                displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
+            }
             if (key === "collection") {
                 displayValue = <a href={"/collection/" + displayValue} className="underline hover:text-blue-500 dark:hover:text-blue-500">{displayValue}</a>;
             }
@@ -23,8 +26,23 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 displayValue = displayValue.slice(0, 6) + "..." + displayValue.slice(-6);
                 displayValue = <a href={"https://explorer.multiversx.com/accounts/" + nft[key]} className="underline hover:text-blue-500 dark:hover:text-blue-500">{displayValue}</a>;
             }
-            if (parseFloat(displayValue)) {
-                displayValue = parseFloat(displayValue);
+            if (key === "discount") {
+                if (nft.discount) {
+                    if (displayValue > 0) {
+                        displayValue = "+" + displayValue + " %";
+                    }
+                    else {
+                        displayValue = displayValue + " %";
+                    }
+                } else {
+                    displayValue = about.notForSale;
+                }
+            }
+            if (key === "progress") {
+                displayValue = displayValue + " %";
+            }
+            if (key === "value") {
+                displayValue = displayValue + " EGLD";
             }
             if (key === "price") {
                 if (nft.priceCurrency) {
@@ -58,7 +76,10 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             const displayKey: any = value;
             var displayValue: any = nft[key];
             if (parseFloat(displayValue)) {
-                displayValue = parseFloat(displayValue);
+                displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
+            }
+            if (key === "wear") {
+                displayValue = displayValue + " %";
             }
             return (
                 <div key={key} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
@@ -128,7 +149,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             const displayKey: any = value;
             var displayValue: any = nft[key];
             if (parseFloat(displayValue)) {
-                displayValue = parseFloat(displayValue);
+                displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
             }
             if (displayValue === null) {
                 return null;

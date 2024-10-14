@@ -241,7 +241,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         totalPages > 1 ? (
         <div className="flex w-full justify-center">
             <Pagination 
-                className=" mb-2"
+                classNames={{ 
+                    base : "mb-2",
+                    prev: "dark:bg-gray-900 bg-gray-100 dark:text-white", 
+                    next: "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                    item: "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                    forwardIcon: "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                    ellipsis: "dark:bg-gray-900 bg-gray-100 dark:text-white", 
+                    chevronNext : "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                }}  
                 isCompact
                 showControls
                 showShadow
@@ -265,8 +273,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
 
     function renderCell(entry: { [key: string]: any }, column: string) {
         var displayValue: any = entry[column];
+        if (column === "identifier") {
+            displayValue = <a className="underline hover:text-blue-500 dark:hover:text-blue-500" href={"/nft/"+displayValue}>{displayValue}</a>;
+        }
         if (column === "thumbnailUrl") {
-            displayValue = <Avatar src={entry[column]} alt={entry["name"]} size="lg" radius="sm"/>
+            if (type === "weapons") {
+                displayValue = <Avatar src={entry["url"]} alt={entry["name"]} style={{ backgroundColor: 'transparent' }} size="lg" radius="sm"/>
+            } else {
+                displayValue = <Avatar src={entry[column]} alt={entry["name"]} size="lg" radius="sm"/>
+            }
         }
         if (column === "owner") {
             displayValue = displayValue.slice(0, 6) + "..." + displayValue.slice(-6);
@@ -277,7 +292,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
         if (column === "value") {
             displayValue = displayValue + " EGLD";
         }
-        if (column === "progress") {    
+        if (column === "progress") {
             displayValue = displayValue + " %";
         }
         if (column === "discount") {
@@ -358,7 +373,6 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: { 
                 {tableBody}
             </Table>
             </div>
-            
             {tableBottom}
         </div>
     );

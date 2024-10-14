@@ -180,8 +180,11 @@
                                 "collection": "Collection",
                                 "owner": "Owner",
                                 "rank": "Rank",
-                                "price": "Price"
-                            }
+                                "price": "Price",
+                                "discount": "Discount",
+                                "value": "Value",
+                                "progress": "Progress"
+                          }
                         },
                         "stats": {
                             "title": "Stats",
@@ -205,7 +208,10 @@
                                 "collection": "Collection",
                                 "owner": "Owner",
                                 "rank": "Rank",
-                                "price": "Price"
+                                "price": "Price",
+                                "discount": "Discount",
+                                "value": "Value",
+                                "progress": "Progress"
                             }
                         },
                         "stats": {                            

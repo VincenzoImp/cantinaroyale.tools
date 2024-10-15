@@ -23,6 +23,9 @@ task () {
     else
         # Altrimenti aggiorna la repo esistente
         cd $REPO_DIR
+        git checkout $GIT_BRANCH
+        git reset --hard origin/$GIT_BRANCH
+        git clean -fd
         git pull origin $GIT_BRANCH || { echo "Aggiornamento fallito"; exit 1; }
     fi
 

@@ -18,16 +18,8 @@ task () {
     git config --global user.name "VincenzoImp"
 
     # Se la directory della repo non esiste, clonala
-    if [ ! -d "$REPO_DIR" ]; then
-        git clone -b $GIT_BRANCH $GIT_REPO_URL $REPO_DIR || { echo "Clonazione fallita"; exit 1; }
-    else
-        # Altrimenti aggiorna la repo esistente
-        cd $REPO_DIR
-        git checkout $GIT_BRANCH
-        git reset --hard origin/$GIT_BRANCH
-        git clean -fd
-        git pull origin $GIT_BRANCH || { echo "Aggiornamento fallito"; exit 1; }
-    fi
+    rm -rf $REPO_DIR
+    git clone -b $GIT_BRANCH $GIT_REPO_URL $REPO_DIR || { echo "Clonazione fallita"; exit 1; }
 
     # Verifica se la directory private esiste
     if [ ! -d "$PRIVATE_DIR" ]; then

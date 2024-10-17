@@ -1,30 +1,30 @@
 {
-    "CRT/EGLD": 0.00011816254003996,
+    "CRT/EGLD": 0.00011874415187351,
     "floorPrice": {
         "genesis": {
             "Bronze": {
                 "count": 5686,
-                "percent": 0.3498646320452867,
-                "floorPrice": 0.593
+                "percent": 0.3498431058881437,
+                "floorPrice": 0.591
             },
             "Epic": {
                 "count": 2034,
-                "percent": 0.12515382722126508,
+                "percent": 0.12514612686888574,
                 "floorPrice": 2.68
             },
             "Gold": {
                 "count": 2848,
-                "percent": 0.1752399704651735,
-                "floorPrice": 1.45
+                "percent": 0.17522918845751553,
+                "floorPrice": 1.5
             },
             "Legendary": {
-                "count": 808,
-                "percent": 0.04971695791287226,
+                "count": 809,
+                "percent": 0.04977542607518612,
                 "floorPrice": 8.0
             },
             "Silver": {
                 "count": 4876,
-                "percent": 0.3000246123554024,
+                "percent": 0.30000615271026887,
                 "floorPrice": 0.65
             }
         },
@@ -47,29 +47,29 @@
         },
         "weapons": {
             "Boomstick-X": {
-                "count1*": 15660,
+                "count1*": 15663,
                 "floorPrice": 0.08148148148148149,
-                "percent1*": 0.21739432220448393
+                "percent1*": 0.21723994452149792
             },
             "Tesla Gun X": {
-                "count1*": 14982,
+                "count1*": 14994,
                 "floorPrice": 0.06666666666666667,
-                "percent1*": 0.20798223085999862
+                "percent1*": 0.2079611650485437
             },
             "Blaster-X": {
-                "count1*": 14795,
-                "floorPrice": 0.11098765432098766,
-                "percent1*": 0.2053862705629208
+                "count1*": 14849,
+                "floorPrice": 0.06,
+                "percent1*": 0.2059500693481276
             },
             "Mortar Gun X": {
-                "count1*": 14653,
-                "floorPrice": 0.04,
-                "percent1*": 0.2034150065940168
+                "count1*": 14648,
+                "floorPrice": 0.03333333333333333,
+                "percent1*": 0.2031622746185853
             },
             "Railgun-X": {
-                "count1*": 11945,
+                "count1*": 11946,
                 "floorPrice": 0.026666666666666665,
-                "percent1*": 0.16582216977857986
+                "percent1*": 0.1656865464632455
             },
             "Dragonbreath": {
                 "count1*": 3844,

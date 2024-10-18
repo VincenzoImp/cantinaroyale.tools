@@ -75,6 +75,9 @@ def get_collection_txs(collection_name, collection_folder_path):
         json.dump(collection_txs, f, indent=4)
     return
 
+import time
+time.sleep(120)
+
 # for collection_name in collections:
 #     collection_folder_path = os.path.join(data_folder_path, collection_name)
 #     if not os.path.exists(collection_folder_path):

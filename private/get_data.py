@@ -75,18 +75,18 @@ def get_collection_txs(collection_name, collection_folder_path):
         json.dump(collection_txs, f, indent=4)
     return
 
-for collection_name in collections:
-    collection_folder_path = os.path.join(data_folder_path, collection_name)
-    if not os.path.exists(collection_folder_path):
-        os.makedirs(collection_folder_path)
-    if operations['info']:
-        get_collection_info(collection_name, collection_folder_path)
-    if operations['nfts_raw']:
-        get_collection_nfts_raw(collection_name, collection_folder_path, params[collection_name]['sleep_time'], params[collection_name]['whitelist'])
-    if operations['nfts_processed']:
-        get_collection_nfts_processed(collection_name, collection_folder_path)
-    if operations['txs']:
-        get_collection_txs(collection_name, collection_folder_path)
+# for collection_name in collections:
+#     collection_folder_path = os.path.join(data_folder_path, collection_name)
+#     if not os.path.exists(collection_folder_path):
+#         os.makedirs(collection_folder_path)
+#     if operations['info']:
+#         get_collection_info(collection_name, collection_folder_path)
+#     if operations['nfts_raw']:
+#         get_collection_nfts_raw(collection_name, collection_folder_path, params[collection_name]['sleep_time'], params[collection_name]['whitelist'])
+#     if operations['nfts_processed']:
+#         get_collection_nfts_processed(collection_name, collection_folder_path)
+#     if operations['txs']:
+#         get_collection_txs(collection_name, collection_folder_path)
 
 if operations['market_data']:
     data_folder_path = '../public/data'

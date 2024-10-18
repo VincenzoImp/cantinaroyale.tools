@@ -5,6 +5,7 @@ PRIVATE_DIR="$REPO_DIR/private"
 GIT_REPO_URL="https://$GITHUB_TOKEN@github.com/VincenzoImp/cantinaroyale.tools.git"
 GIT_BRANCH="main"
 VENV_DIR="$PRIVATE_DIR/venv"
+
 task () {
     # Configura Git per usare il token (autenticazione)
     git config --global credential.helper store
@@ -50,6 +51,7 @@ task () {
     # Disattiva l'ambiente virtuale
     deactivate
 }
+
 # Ciclo infinito che esegue il task a mezzanotte
 while true; do
     current_time=$(date +%s)

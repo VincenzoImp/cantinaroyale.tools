@@ -17,8 +17,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.9915886195,
-        "discount":-40.0992303665,
+        "value":5.0015593137,
+        "discount":-40.2186435778,
         "progress":40.5389858604
     },
     "CRMYTH-546419-011d":{
@@ -39,8 +39,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.1366030005,
-        "discount":-21.0806236129,
+        "value":1.1385756653,
+        "discount":-21.2173571462,
         "progress":8.0229350421
     },
     "CRMYTH-546419-03b2":{
@@ -61,8 +61,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.2366217132,
-        "discount":-19.1345268071,
+        "value":1.2388506373,
+        "discount":-19.2800189262,
         "progress":9.0651558074
     },
     "CRMYTH-546419-0342":{
@@ -83,8 +83,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.7152331468,
-        "discount":-7.9268753407,
+        "value":2.7157845986,
+        "discount":-7.9455711896,
         "progress":2.2304142905
     },
     "CRMYTH-546419-03eb":{
@@ -105,8 +105,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.4621074804,
-        "discount":-4.6823352908,
+        "value":3.4625228182,
+        "discount":-4.693768872,
         "progress":1.6026077168
     },
     "CRMYTH-546419-0440":{
@@ -127,8 +127,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3270673786,
-        "discount":-0.8135506604,
+        "value":3.3271367283,
+        "discount":-0.8156180693,
         "progress":0.1954550515
     },
     "CRMYTH-546419-03fe":{
@@ -149,8 +149,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3088443847,
-        "discount":-0.2672952746,
+        "value":3.308867045,
+        "discount":-0.2679782804,
         "progress":0.0055667578
     },
     "CRMYTH-546419-0442":{
@@ -171,52 +171,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
-        "discount":-0.251190478,
-        "progress":0.0
-    },
-    "CRMYTH-546419-03ec":{
-        "identifier":"CRMYTH-546419-03ec",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.1,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400.0,
-        "reloadTime":3.0,
-        "ammo":2.0,
-        "range":8.5,
-        "value":1.1011871657,
-        "discount":-0.1078078066,
-        "progress":0.0
-    },
-    "CRMYTH-546419-03ea":{
-        "identifier":"CRMYTH-546419-03ea",
-        "collection":"CRMYTH-546419",
-        "name":"Skybreaker",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.1,
-        "xp":0,
-        "wear":0.0,
-        "level":1,
-        "starLevel":2,
-        "damage":1400.0,
-        "reloadTime":3.0,
-        "ammo":2.0,
-        "range":8.5,
-        "value":1.1011871657,
-        "discount":-0.1078078066,
+        "value":3.3083314517,
+        "discount":-0.251832436,
         "progress":0.0
     },
     "CRMYTH-546419-0443":{
@@ -237,8 +193,52 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":-0.1078078066,
+        "value":1.1011902074,
+        "discount":-0.1080837239,
+        "progress":0.0
+    },
+    "CRMYTH-546419-03ea":{
+        "identifier":"CRMYTH-546419-03ea",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.1,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400.0,
+        "reloadTime":3.0,
+        "ammo":2.0,
+        "range":8.5,
+        "value":1.1011902074,
+        "discount":-0.1080837239,
+        "progress":0.0
+    },
+    "CRMYTH-546419-03ec":{
+        "identifier":"CRMYTH-546419-03ec",
+        "collection":"CRMYTH-546419",
+        "name":"Skybreaker",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-e1ba131f",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.1,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":2,
+        "damage":1400.0,
+        "reloadTime":3.0,
+        "ammo":2.0,
+        "range":8.5,
+        "value":1.1011902074,
+        "discount":-0.1080837239,
         "progress":0.0
     },
     "CRMYTH-546419-ba":{
@@ -259,8 +259,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.0937463177,
-        "discount":5.143211128,
+        "value":1.0956091787,
+        "discount":4.9644364359,
         "progress":7.5763573611
     },
     "CRMYTH-546419-03c6":{
@@ -281,8 +281,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.2831796721,
-        "discount":9.1039727707,
+        "value":1.2836489993,
+        "discount":9.0640822203,
         "progress":1.8964088227
     },
     "CRMYTH-546419-023b":{
@@ -303,8 +303,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":22.5949631465,
+        "value":1.1011902074,
+        "discount":22.5946245206,
         "progress":0.0
     },
     "CRMYTH-546419-03ac":{
@@ -325,8 +325,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":22.5949631465,
+        "value":1.1011902074,
+        "discount":22.5946245206,
         "progress":0.0
     },
     "CRMYTH-546419-023c":{
@@ -347,8 +347,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":31.6760715277,
+        "value":1.1011902074,
+        "discount":31.6757078185,
         "progress":0.0
     },
     "CRMYTH-546419-0309":{
@@ -369,8 +369,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5176294111,
-        "discount":42.9916565223,
+        "value":2.5176745796,
+        "discount":42.9890911679,
         "progress":0.1713324344
     },
     "CRMYTH-546419-0387":{
@@ -391,8 +391,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5277796781,
-        "discount":48.3515368263,
+        "value":2.5278508528,
+        "discount":48.3473598089,
         "progress":0.2771008325
     },
     "CRMYTH-546419-c1":{
@@ -413,8 +413,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.1057366915,
-        "discount":52.8392801761,
+        "value":1.1076302733,
+        "discount":52.5779893096,
         "progress":7.7013001472
     },
     "CRMYTH-546419-2f":{
@@ -435,8 +435,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.0256550521,
-        "discount":54.0122022306,
+        "value":4.0275142632,
+        "discount":53.9411059729,
         "progress":7.4749186635
     },
     "CRMYTH-546419-03b3":{
@@ -457,8 +457,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
-        "discount":84.9887012953,
+        "value":3.3083314517,
+        "discount":84.9875107551,
         "progress":0.0
     },
     "CRMYTH-546419-03dc":{
@@ -479,8 +479,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1277796781,
-        "discount":88.8666768359,
+        "value":1.1278508528,
+        "discount":88.8547581232,
         "progress":0.2771008325
     },
     "CRMYTH-546419-03d5":{
@@ -501,8 +501,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":95.2438301963,
+        "value":1.1011902074,
+        "discount":95.2432909032,
         "progress":0.0
     },
     "CRMYTH-546419-02bf":{
@@ -523,8 +523,8 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5011871657,
-        "discount":99.9050718198,
+        "value":2.5011902074,
+        "discount":99.9048287187,
         "progress":0.0
     },
     "CRMYTH-546419-03d0":{
@@ -567,8 +567,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.369219073,
-        "discount":142.132670117,
+        "value":0.3692256125,
+        "discount":142.1283815732,
         "progress":0.0265967317
     },
     "CRMYTH-546419-03cf":{
@@ -633,8 +633,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":154.2710346742,
+        "value":1.1011902074,
+        "discount":154.2703323391,
         "progress":0.0
     },
     "CRMYTH-546419-0228":{
@@ -655,8 +655,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":154.2710346742,
+        "value":1.1011902074,
+        "discount":154.2703323391,
         "progress":0.0
     },
     "CRMYTH-546419-0261":{
@@ -677,8 +677,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":154.2710346742,
+        "value":1.1011902074,
+        "discount":154.2703323391,
         "progress":0.0
     },
     "CRMYTH-546419-76":{
@@ -699,8 +699,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.4089224557,
-        "discount":163.7196978484,
+        "value":3.4092015274,
+        "discount":163.6981101772,
         "progress":1.0484060517
     },
     "CRMYTH-546419-4b":{
@@ -721,8 +721,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3113374327,
-        "discount":171.4915100822,
+        "value":3.3113664805,
+        "discount":171.4891285185,
         "progress":0.0315449608
     },
     "CRMYTH-546419-73":{
@@ -743,8 +743,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
-        "discount":171.5251405985,
+        "value":1.1011902074,
+        "discount":171.524390605,
         "progress":0.0
     },
     "CRMYTH-546419-0236":{
@@ -765,12 +765,12 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
-        "discount":172.4332514367,
+        "value":1.1011902074,
+        "discount":172.4324989348,
         "progress":0.0
     },
-    "CRMYTH-546419-03ee":{
-        "identifier":"CRMYTH-546419-03ee",
+    "CRMYTH-546419-03ef":{
+        "identifier":"CRMYTH-546419-03ef",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
@@ -791,8 +791,8 @@
         "discount":186.3636363636,
         "progress":0.0
     },
-    "CRMYTH-546419-03ef":{
-        "identifier":"CRMYTH-546419-03ef",
+    "CRMYTH-546419-03ee":{
+        "identifier":"CRMYTH-546419-03ee",
         "collection":"CRMYTH-546419",
         "name":"Skybreaker",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Skybreaker.png",
@@ -835,12 +835,12 @@
         "discount":186.3636363636,
         "progress":0.0
     },
-    "CRMYTH-546419-01b4":{
-        "identifier":"CRMYTH-546419-01b4",
+    "CRMYTH-546419-03d7":{
+        "identifier":"CRMYTH-546419-03d7",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
@@ -857,12 +857,12 @@
         "discount":191.8181818182,
         "progress":0.0
     },
-    "CRMYTH-546419-03d7":{
-        "identifier":"CRMYTH-546419-03d7",
+    "CRMYTH-546419-01b4":{
+        "identifier":"CRMYTH-546419-01b4",
         "collection":"CRMYTH-546419",
         "name":"Dragonbreath",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeidroww6cwsaxizl4rziempfznsjmvfvblhfvu55fuca4qoqk57x7i\/Dragonbreath.png",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-c43c72bb",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeicqb2biuys7hxhdylxr2zi5zpttaaycaumqu3gahhgt4s7tbxvj7y\/Dragonbreath.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRMYTH-546419-9c167a03",
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
@@ -897,8 +897,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.5226008852,
-        "discount":263.5661656328,
+        "value":0.5230004065,
+        "discount":263.2884365653,
         "progress":1.6248747479
     },
     "CRMYTH-546419-010c":{
@@ -919,8 +919,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3980078419,
-        "discount":276.8769963795,
+        "value":0.3980881416,
+        "discount":276.8009752809,
         "progress":0.3265831241
     },
     "CRMYTH-546419-70":{
@@ -963,8 +963,8 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.103739572,
-        "discount":353.0054123839,
+        "value":1.1037491533,
+        "discount":353.0014800229,
         "progress":0.0265967317
     },
     "CRMYTH-546419-3b":{
@@ -985,8 +985,8 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3669040998,
-        "discount":581.3769596135,
+        "value":0.3669047081,
+        "discount":581.3758298852,
         "progress":0.0024741146
     },
     "CRMYTH-546419-38":{
@@ -1029,7 +1029,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.309734759,
+        "value":3.3097597005,
         "discount":null,
         "progress":0.0148446875
     },
@@ -1051,7 +1051,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7466190584,
+        "value":0.7475925398,
         "discount":null,
         "progress":3.9592018506
     },
@@ -1073,7 +1073,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3753329765,
+        "value":0.3753551806,
         "discount":null,
         "progress":0.090305182
     },
@@ -1095,7 +1095,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.3393709071,
+        "value":1.3418630864,
         "discount":null,
         "progress":10.1358288902
     },
@@ -1117,7 +1117,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4876982128,
+        "value":0.4880083094,
         "discount":null,
         "progress":1.2611799052
     },
@@ -1139,7 +1139,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":8.9034816014,
+        "value":8.9178383608,
         "discount":null,
         "progress":58.3031285179
     },
@@ -1175,7 +1175,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":29835,
+        "xp":29864,
         "wear":100.0,
         "level":12,
         "starLevel":1,
@@ -1183,9 +1183,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":2.882805072,
+        "value":2.8909775065,
         "discount":null,
-        "progress":26.2188106931
+        "progress":26.2367480238
     },
     "CRMYTH-546419-010e":{
         "identifier":"CRMYTH-546419-010e",
@@ -1227,7 +1227,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4225228142,
+        "value":0.4226659241,
         "discount":null,
         "progress":0.5820354541
     },
@@ -1315,7 +1315,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.7076297164,
+        "value":1.7110654168,
         "discount":null,
         "progress":13.973180598
     },
@@ -1337,7 +1337,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1014839572,
+        "value":1.1014877592,
         "discount":null,
         "progress":0.0030926432
     },
@@ -1373,17 +1373,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":4571,
-        "wear":32.0,
+        "xp":4581,
+        "wear":32.1,
         "level":5,
         "starLevel":1,
         "damage":146.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.6845302907,
+        "value":0.6859397973,
         "discount":null,
-        "progress":3.3122208889
+        "progress":3.3184061754
     },
     "CRMYTH-546419-0128":{
         "identifier":"CRMYTH-546419-0128",
@@ -1491,7 +1491,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3756297679,
+        "value":0.3756527324,
         "discount":null,
         "progress":0.0933978253
     },
@@ -1513,7 +1513,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4888853785,
+        "value":0.4891985168,
         "discount":null,
         "progress":1.2735504781
     },
@@ -1843,7 +1843,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.4484924999,
+        "value":1.4493853774,
         "discount":null,
         "progress":3.6190110964
     },
@@ -1931,7 +1931,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7590249403,
+        "value":0.7600302069,
         "discount":null,
         "progress":4.0884743372
     },
@@ -1975,7 +1975,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.7795629074,
+        "value":0.7806207947,
         "discount":null,
         "progress":4.3024852481
     },
@@ -2371,7 +2371,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3677944741,
+        "value":0.3677973637,
         "discount":null,
         "progress":0.0117520442
     },
@@ -2547,7 +2547,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.368803565,
+        "value":0.36880904,
         "discount":null,
         "progress":0.0222670312
     },
@@ -3185,7 +3185,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3677351158,
+        "value":0.3677378533,
         "discount":null,
         "progress":0.0111335156
     },
@@ -3295,7 +3295,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3670228164,
+        "value":0.3670237289,
         "discount":null,
         "progress":0.0037111719
     },
@@ -4263,7 +4263,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -4285,7 +4285,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":9.7,
-        "value":92.3365699282,
+        "value":92.3448623898,
         "discount":null,
         "progress":25.7839850563
     },
@@ -4307,7 +4307,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -4329,7 +4329,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3095566841,
+        "value":3.3095811694,
         "discount":null,
         "progress":0.0129891015
     },
@@ -4351,7 +4351,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3175106945,
+        "value":3.3175555589,
         "discount":null,
         "progress":0.0958719398
     },
@@ -4373,7 +4373,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3185197854,
+        "value":3.3185672352,
         "discount":null,
         "progress":0.1063869268
     },
@@ -4395,7 +4395,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -4417,7 +4417,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.2706550736,
+        "value":1.2710923114,
         "discount":null,
         "progress":1.7658992788
     },
@@ -4439,7 +4439,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":5.9314121976,
+        "value":5.9381541761,
         "discount":null,
         "progress":27.3333993097
     },
@@ -4461,7 +4461,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -4483,7 +4483,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1695085535,
+        "value":1.1696866423,
         "discount":null,
         "progress":0.7119264693
     },
@@ -4505,7 +4505,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":11.8175694445,
+        "value":11.8224824763,
         "discount":null,
         "progress":19.4620037854
     },
@@ -4527,7 +4527,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":10.5471833974,
+        "value":10.5488415552,
         "discount":null,
         "progress":6.2242537452
     },
@@ -4549,7 +4549,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":9.7,
-        "value":39.4652691409,
+        "value":39.490288875,
         "discount":null,
         "progress":100.0
     },
@@ -4571,7 +4571,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1019588235,
+        "value":1.1019638422,
         "discount":null,
         "progress":0.0080408724
     },
@@ -4585,7 +4585,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":74118,
+        "xp":74276,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -4593,9 +4593,9 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":15.8697815872,
+        "value":15.8944794874,
         "discount":null,
-        "progress":61.6870987295
+        "progress":61.7848262553
     },
     "CRMYTH-546419-01df":{
         "identifier":"CRMYTH-546419-01df",
@@ -4615,7 +4615,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":6.7321554822,
+        "value":6.7409490563,
         "discount":null,
         "progress":35.6773507181
     },
@@ -4629,7 +4629,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":68300,
+        "xp":68561,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -4637,9 +4637,9 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":15.5244350765,
+        "value":15.5543777275,
         "discount":null,
-        "progress":58.0884990784
+        "progress":58.2499350545
     },
     "CRMYTH-546419-01e5":{
         "identifier":"CRMYTH-546419-01e5",
@@ -4659,7 +4659,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.7343620075,
+        "value":1.7359873154,
         "discount":null,
         "progress":6.5978450462
     },
@@ -4681,7 +4681,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1086663098,
+        "value":1.1086885139,
         "discount":null,
         "progress":0.0779346092
     },
@@ -4703,7 +4703,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.130866309,
+        "value":1.130945392,
         "discount":null,
         "progress":0.309264322
     },
@@ -4717,17 +4717,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":13957,
-        "wear":11.0,
+        "xp":14085,
+        "wear":13.3,
         "level":9,
         "starLevel":4,
         "damage":1952.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":11.0830700077,
+        "value":11.0937184954,
         "discount":null,
-        "progress":11.8083303438
+        "progress":11.8875020102
     },
     "CRMYTH-546419-01f1":{
         "identifier":"CRMYTH-546419-01f1",
@@ -4747,7 +4747,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.5303475769,
+        "value":1.5314501765,
         "discount":null,
         "progress":4.4719620966
     },
@@ -4769,7 +4769,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -4783,7 +4783,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":118185,
+        "xp":119094,
         "wear":100.0,
         "level":19,
         "starLevel":5,
@@ -4791,9 +4791,9 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":9.7,
-        "value":39.0583680871,
+        "value":39.1364402199,
         "discount":null,
-        "progress":95.759986145
+        "progress":96.3222286824
     },
     "CRMYTH-546419-01fc":{
         "identifier":"CRMYTH-546419-01fc",
@@ -4813,7 +4813,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":0.440508375,
+        "value":0.4406975659,
         "discount":null,
         "progress":0.7694496332
     },
@@ -4835,7 +4835,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":0.3711778964,
+        "value":0.3711894547,
         "discount":null,
         "progress":0.0470081769
     },
@@ -4857,7 +4857,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -4871,7 +4871,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":52643,
+        "xp":53216,
         "wear":100.0,
         "level":10,
         "starLevel":1,
@@ -4879,9 +4879,9 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.9208627858,
+        "value":3.9640684835,
         "discount":null,
-        "progress":37.0356396205
+        "progress":37.3900565335
     },
     "CRMYTH-546419-0203":{
         "identifier":"CRMYTH-546419-0203",
@@ -4901,7 +4901,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":0.5134003508,
+        "value":0.5137762993,
         "discount":null,
         "progress":1.5290028081
     },
@@ -4923,7 +4923,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":0.7161088991,
+        "value":0.71700421,
         "discount":null,
         "progress":3.6412781276
     },
@@ -4959,17 +4959,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":17376,
-        "wear":68.5,
+        "xp":17405,
+        "wear":68.8,
         "level":9,
         "starLevel":3,
         "damage":1808.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":4.6444651886,
+        "value":4.6496356626,
         "discount":null,
-        "progress":13.9230797778
+        "progress":13.9410171085
     },
     "CRMYTH-546419-0223":{
         "identifier":"CRMYTH-546419-0223",
@@ -4989,7 +4989,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":19.0954295907,
+        "value":19.1189893309,
         "discount":null,
         "progress":95.2991823051
     },
@@ -5011,7 +5011,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.5238400983,
+        "value":3.5244136022,
         "discount":null,
         "progress":2.2458775066
     },
@@ -5033,7 +5033,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.2273235245,
+        "value":1.2276497419,
         "discount":null,
         "progress":1.3143733686
     },
@@ -5055,7 +5055,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1082508018,
+        "value":1.1082719413,
         "discount":null,
         "progress":0.0736049086
     },
@@ -5069,7 +5069,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":9251,
+        "xp":9322,
         "wear":100.0,
         "level":8,
         "starLevel":2,
@@ -5077,9 +5077,9 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.8541470296,
+        "value":1.8603044766,
         "discount":null,
-        "progress":7.8460358499
+        "progress":7.8899513836
     },
     "CRMYTH-546419-0237":{
         "identifier":"CRMYTH-546419-0237",
@@ -5099,7 +5099,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.2974256608,
+        "value":1.2979314879,
         "discount":null,
         "progress":2.0448556973
     },
@@ -5121,7 +5121,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.7369144139,
+        "value":1.7385462613,
         "discount":null,
         "progress":6.6244417779
     },
@@ -5135,17 +5135,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":40835,
-        "wear":92.4,
+        "xp":41004,
+        "wear":92.8,
         "level":12,
         "starLevel":2,
         "damage":1807.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":4.2702667222,
+        "value":4.2884465599,
         "discount":null,
-        "progress":33.0226257778
+        "progress":33.1271571186
     },
     "CRMYTH-546419-0246":{
         "identifier":"CRMYTH-546419-0246",
@@ -5165,7 +5165,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":9.7,
-        "value":36.2706655212,
+        "value":36.2875003162,
         "discount":null,
         "progress":66.7114069053
     },
@@ -5179,17 +5179,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":17307,
-        "wear":51.8,
+        "xp":17315,
+        "wear":52.0,
         "level":10,
         "starLevel":4,
         "damage":2021.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":11.406572669,
+        "value":11.4109087631,
         "discount":null,
-        "progress":15.1793114539
+        "progress":15.1842596831
     },
     "CRMYTH-546419-0258":{
         "identifier":"CRMYTH-546419-0258",
@@ -5209,7 +5209,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.3358304722,
+        "value":1.3364346967,
         "discount":null,
         "progress":2.44504373
     },
@@ -5224,14 +5224,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":59.9,
+        "wear":61.6,
         "level":19,
         "starLevel":4,
         "damage":2642.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":19.3186167478,
+        "value":19.342748319,
         "discount":null,
         "progress":97.6248500068
     },
@@ -5253,7 +5253,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1882064137,
+        "value":1.1884324086,
         "discount":null,
         "progress":0.9067629922
     },
@@ -5275,7 +5275,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.1424201126,
+        "value":1.1444076815,
         "discount":null,
         "progress":8.0835508492
     },
@@ -5297,7 +5297,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5319,7 +5319,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1340716564,
+        "value":1.1341589519,
         "discount":null,
         "progress":0.3426648688
     },
@@ -5341,7 +5341,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":14.309905177,
+        "value":14.3212038574,
         "discount":null,
         "progress":45.4327844922
     },
@@ -5363,7 +5363,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5385,7 +5385,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5407,7 +5407,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5429,7 +5429,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5451,7 +5451,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5473,7 +5473,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -5495,7 +5495,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3099128338,
+        "value":3.3099382317,
         "discount":null,
         "progress":0.0167002734
     },
@@ -5517,7 +5517,7 @@
         "reloadTime":0.15,
         "ammo":80.0,
         "range":10.0,
-        "value":442.5678538324,
+        "value":442.5678568741,
         "discount":null,
         "progress":0.0
     },
@@ -5539,7 +5539,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":205.6830881121,
+        "value":205.6912435472,
         "discount":null,
         "progress":25.226690748
     },
@@ -5561,7 +5561,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":28.8353099153,
+        "value":28.8515417024,
         "discount":null,
         "progress":65.4959981197
     },
@@ -5575,7 +5575,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":84345,
+        "xp":84879,
         "wear":100.0,
         "level":17,
         "starLevel":4,
@@ -5583,9 +5583,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":29.2893414485,
+        "value":29.3385150534,
         "discount":null,
-        "progress":70.2271237181
+        "progress":70.557418014
     },
     "CRMYTH-546419-0287":{
         "identifier":"CRMYTH-546419-0287",
@@ -5605,7 +5605,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":8.1577491724,
+        "value":8.1594344009,
         "discount":null,
         "progress":6.7673218947
     },
@@ -5627,7 +5627,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":77.2652691409,
+        "value":77.290288875,
         "discount":null,
         "progress":100.0
     },
@@ -5649,7 +5649,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.7887780637,
+        "value":2.7895179461,
         "discount":null,
         "progress":2.9967712805
     },
@@ -5671,7 +5671,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":5.1016736961,
+        "value":5.1083394811,
         "discount":null,
         "progress":27.0977398963
     },
@@ -5693,7 +5693,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":7.8469491844,
+        "value":7.8478381078,
         "discount":null,
         "progress":3.5287059144
     },
@@ -5707,7 +5707,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":38278,
+        "xp":38396,
         "wear":100.0,
         "level":12,
         "starLevel":4,
@@ -5715,9 +5715,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":25.5671613786,
+        "value":25.5820420198,
         "discount":null,
-        "progress":31.4410480349
+        "progress":31.5140344149
     },
     "CRMYTH-546419-02a0":{
         "identifier":"CRMYTH-546419-02a0",
@@ -5737,7 +5737,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5104470584,
+        "value":2.510473825,
         "discount":null,
         "progress":0.0964904685
     },
@@ -5759,7 +5759,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":220.1974950371,
+        "value":220.2428380395,
         "discount":null,
         "progress":100.0
     },
@@ -5781,7 +5781,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.665134753,
+        "value":2.6655578471,
         "discount":null,
         "progress":1.7083761149
     },
@@ -5803,7 +5803,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":7.7317347504,
+        "value":7.7323284813,
         "discount":null,
         "progress":2.3281418162
     },
@@ -5817,7 +5817,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":86216,
+        "xp":86384,
         "wear":100.0,
         "level":17,
         "starLevel":4,
@@ -5825,9 +5825,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":29.4004008025,
+        "value":29.428078159,
         "discount":null,
-        "progress":71.3843908111
+        "progress":71.4883036233
     },
     "CRMYTH-546419-02bb":{
         "identifier":"CRMYTH-546419-02bb",
@@ -5847,7 +5847,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":32.1465525679,
+        "value":32.1712681367,
         "discount":null,
         "progress":100.0
     },
@@ -5869,7 +5869,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":212.8588520056,
+        "value":212.8853925668,
         "discount":null,
         "progress":100.0
     },
@@ -5891,7 +5891,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":3.1671277817,
+        "value":3.1688370392,
         "discount":null,
         "progress":6.9392728577
     },
@@ -5905,7 +5905,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":16649,
+        "xp":16672,
         "wear":100.0,
         "level":9,
         "starLevel":2,
@@ -5913,9 +5913,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":3.79418872,
+        "value":3.7988733177,
         "discount":null,
-        "progress":13.4734094536
+        "progress":13.4876356124
     },
     "CRMYTH-546419-02c3":{
         "identifier":"CRMYTH-546419-02c3",
@@ -5927,17 +5927,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":7585,
-        "wear":36.9,
+        "xp":7696,
+        "wear":37.9,
         "level":8,
         "starLevel":2,
         "damage":1615.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":3.1552561244,
+        "value":3.1635406163,
         "discount":null,
-        "progress":6.8155671289
+        "progress":6.8842238084
     },
     "CRMYTH-546419-02c9":{
         "identifier":"CRMYTH-546419-02c9",
@@ -5957,7 +5957,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.7895497214,
+        "value":2.7902915809,
         "discount":null,
         "progress":3.0048121529
     },
@@ -5971,17 +5971,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":40456,
-        "wear":85.9,
+        "xp":40545,
+        "wear":86.8,
         "level":13,
         "starLevel":3,
         "damage":1924.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":10.8347485341,
+        "value":10.8485889633,
         "discount":null,
-        "progress":34.6623452132
+        "progress":34.7173942625
     },
     "CRMYTH-546419-02ce":{
         "identifier":"CRMYTH-546419-02ce",
@@ -6001,7 +6001,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5023743315,
+        "value":2.5023804148,
         "discount":null,
         "progress":0.0123705729
     },
@@ -6023,7 +6023,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":8.5236336502,
+        "value":8.5262563165,
         "discount":null,
         "progress":10.5799324567
     },
@@ -6045,7 +6045,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":26.2497816731,
+        "value":26.2593890418,
         "discount":null,
         "progress":38.5541274416
     },
@@ -6067,7 +6067,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":7.5083101601,
+        "value":7.5083314517,
         "discount":null,
         "progress":0.0
     },
@@ -6081,7 +6081,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":82383,
+        "xp":82619,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -6089,9 +6089,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":28.9603778249,
+        "value":28.9909744974,
         "discount":null,
-        "progress":66.7992379727
+        "progress":66.9452107327
     },
     "CRMYTH-546419-02de":{
         "identifier":"CRMYTH-546419-02de",
@@ -6111,7 +6111,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.6571807426,
+        "value":2.6575834576,
         "discount":null,
         "progress":1.6254932766
     },
@@ -6126,14 +6126,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":63.3,
+        "wear":73.2,
         "level":18,
         "starLevel":5,
         "damage":2864.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":76.8141461637,
+        "value":76.8380100693,
         "discount":null,
         "progress":95.2991823051
     },
@@ -6155,7 +6155,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.6399668395,
+        "value":2.6403254505,
         "discount":null,
         "progress":1.4461199698
     },
@@ -6177,7 +6177,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5011871657,
+        "value":2.5011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6199,7 +6199,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.7274609538,
+        "value":2.7280437347,
         "discount":null,
         "progress":2.3578311912
     },
@@ -6221,7 +6221,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2979753779,
+        "value":30.2995074591,
         "discount":null,
         "progress":4.4744362111
     },
@@ -6243,7 +6243,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.8016588119,
+        "value":2.8024316962,
         "discount":null,
         "progress":3.1309919962
     },
@@ -6257,17 +6257,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":56799,
-        "wear":42.1,
+        "xp":56837,
+        "wear":42.7,
         "level":15,
         "starLevel":4,
         "damage":2308.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":27.2357821697,
+        "value":27.2501771782,
         "discount":null,
-        "progress":48.8285067481
+        "progress":48.8520108366
     },
     "CRMYTH-546419-033c":{
         "identifier":"CRMYTH-546419-033c",
@@ -6287,7 +6287,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.758386621,
+        "value":2.759048637,
         "discount":null,
         "progress":2.6800846147
     },
@@ -6309,7 +6309,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5011871657,
+        "value":2.5011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6331,7 +6331,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5011871657,
+        "value":2.5011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6353,7 +6353,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5011871657,
+        "value":2.5011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6375,7 +6375,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5011871657,
+        "value":2.5011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6397,7 +6397,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5147802133,
+        "value":2.5148180819,
         "discount":null,
         "progress":0.1416430595
     },
@@ -6419,7 +6419,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5136524059,
+        "value":2.5136873849,
         "discount":null,
         "progress":0.1298910153
     },
@@ -6433,17 +6433,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":3972,
-        "wear":20.1,
+        "xp":4019,
+        "wear":20.3,
         "level":4,
         "starLevel":2,
         "damage":1435.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.7603454445,
+        "value":2.7638094666,
         "discount":null,
-        "progress":2.70049606
+        "progress":2.7295669062
     },
     "CRMYTH-546419-0375":{
         "identifier":"CRMYTH-546419-0375",
@@ -6463,7 +6463,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":7.9053577383,
+        "value":7.9063963111,
         "discount":null,
         "progress":4.1373381001
     },
@@ -6477,17 +6477,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":30916,
-        "wear":34.8,
+        "xp":31025,
+        "wear":35.8,
         "level":10,
         "starLevel":4,
         "damage":1948.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":24.8143795896,
+        "value":24.8267959245,
         "discount":null,
-        "progress":23.5968677709
+        "progress":23.6642873931
     },
     "CRMYTH-546419-039e":{
         "identifier":"CRMYTH-546419-039e",
@@ -6507,7 +6507,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5716454518,
+        "value":2.5718290156,
         "discount":null,
         "progress":0.7341935005
     },
@@ -6529,7 +6529,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":7.5083101601,
+        "value":7.5083314517,
         "discount":null,
         "progress":0.0
     },
@@ -6551,7 +6551,7 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":2.5624449174,
+        "value":2.5626049084,
         "discount":null,
         "progress":0.6383215607
     },
@@ -6587,7 +6587,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":20534,
+        "xp":20930,
         "wear":100.0,
         "level":10,
         "starLevel":1,
@@ -6595,9 +6595,9 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":2.0149275655,
+        "value":2.0427167042,
         "discount":null,
-        "progress":17.1753033883
+        "progress":17.4202407313
     },
     "CRMYTH-546419-03b6":{
         "identifier":"CRMYTH-546419-03b6",
@@ -6610,14 +6610,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":157808,
-        "wear":72.0,
+        "wear":75.5,
         "level":20,
         "starLevel":5,
         "damage":358.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":41.6382572921,
+        "value":41.6688444699,
         "discount":null,
         "progress":100.0
     },
@@ -6639,7 +6639,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.2506513311,
+        "value":1.251037317,
         "discount":null,
         "progress":1.5574551257
     },
@@ -6661,7 +6661,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6720,14 +6720,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":59.2,
+        "wear":59.8,
         "level":20,
         "starLevel":2,
         "damage":2103.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":10.697878773,
+        "value":10.722469634,
         "discount":null,
         "progress":100.0
     },
@@ -6749,7 +6749,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3670821747,
+        "value":0.3670832393,
         "discount":null,
         "progress":0.0043297005
     },
@@ -6771,7 +6771,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1220812826,
+        "value":1.1221378573,
         "discount":null,
         "progress":0.2177220827
     },
@@ -6793,7 +6793,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -6815,7 +6815,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -6829,17 +6829,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":6063,
-        "wear":37.3,
+        "xp":6096,
+        "wear":37.6,
         "level":7,
         "starLevel":2,
         "damage":1622.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.5924957029,
+        "value":1.5957213753,
         "discount":null,
-        "progress":5.1195615869
+        "progress":5.1399730322
     },
     "CRMYTH-546419-03d6":{
         "identifier":"CRMYTH-546419-03d6",
@@ -6851,17 +6851,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":8366,
-        "wear":19.8,
+        "xp":8381,
+        "wear":20.0,
         "level":8,
         "starLevel":3,
         "damage":186.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.0087379405,
+        "value":4.0114464635,
         "discount":null,
-        "progress":7.2986379999
+        "progress":7.3079159296
     },
     "CRMYTH-546419-03db":{
         "identifier":"CRMYTH-546419-03db",
@@ -6881,7 +6881,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6903,7 +6903,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6947,7 +6947,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -6969,7 +6969,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.8406352732,
+        "value":3.8420204425,
         "discount":null,
         "progress":5.5469648799
     },
@@ -7013,7 +7013,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7035,7 +7035,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":0.4164089107,
+        "value":0.416536356,
         "discount":null,
         "progress":0.5183270037
     },
@@ -7079,7 +7079,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3714673769,
+        "value":3.3716504845,
         "discount":null,
         "progress":0.6581144773
     },
@@ -7101,7 +7101,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4855019562,
+        "value":0.4858064258,
         "discount":null,
         "progress":1.2382943454
     },
@@ -7115,7 +7115,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":17520,
+        "xp":17688,
         "wear":100.0,
         "level":9,
         "starLevel":4,
@@ -7123,9 +7123,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.2945635824,
+        "value":11.3081343555,
         "discount":null,
-        "progress":14.0121479026
+        "progress":14.1160607148
     },
     "CRMYTH-546419-03ff":{
         "identifier":"CRMYTH-546419-03ff",
@@ -7145,7 +7145,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1066481281,
+        "value":1.1066651613,
         "discount":null,
         "progress":0.0569046353
     },
@@ -7167,7 +7167,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -7189,7 +7189,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7211,7 +7211,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1034427806,
+        "value":1.1034516014,
         "discount":null,
         "progress":0.0235040885
     },
@@ -7321,7 +7321,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7343,7 +7343,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7365,7 +7365,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7387,7 +7387,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7409,7 +7409,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7497,7 +7497,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7519,7 +7519,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7541,7 +7541,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7563,7 +7563,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7585,7 +7585,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7607,7 +7607,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7629,7 +7629,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7651,7 +7651,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7673,7 +7673,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7695,7 +7695,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7717,7 +7717,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7739,7 +7739,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7761,7 +7761,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7783,7 +7783,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7805,7 +7805,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7827,7 +7827,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7849,7 +7849,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7871,7 +7871,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -7893,7 +7893,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -7915,7 +7915,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -7937,7 +7937,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -7959,7 +7959,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -7981,7 +7981,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8003,7 +8003,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8025,7 +8025,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8047,7 +8047,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8179,7 +8179,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8201,7 +8201,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8223,7 +8223,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8245,7 +8245,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8267,7 +8267,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8289,7 +8289,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8311,7 +8311,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8377,7 +8377,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8399,7 +8399,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8465,7 +8465,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8487,7 +8487,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8509,7 +8509,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8531,7 +8531,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8553,7 +8553,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8575,7 +8575,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1976443812,
+        "value":1.1978945573,
         "discount":null,
         "progress":1.0051090466
     },
@@ -8597,7 +8597,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8619,7 +8619,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8641,7 +8641,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8663,7 +8663,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8685,7 +8685,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8707,7 +8707,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -8729,7 +8729,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8773,7 +8773,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8795,7 +8795,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8817,7 +8817,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -8839,7 +8839,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3217844911,
+        "value":3.3218403055,
         "discount":null,
         "progress":0.1404060022
     },
@@ -8883,7 +8883,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3217844911,
+        "value":3.3218403055,
         "discount":null,
         "progress":0.1404060022
     },
@@ -8905,7 +8905,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":3.3294417101,
+        "value":3.3295171431,
         "discount":null,
         "progress":0.2201961973
     },
@@ -8927,7 +8927,7 @@
         "reloadTime":3.0,
         "ammo":2.0,
         "range":8.5,
-        "value":1.1043331549,
+        "value":1.104344257,
         "discount":null,
         "progress":0.0327820181
     },
@@ -8942,14 +8942,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":34.5,
+        "wear":34.6,
         "level":20,
         "starLevel":5,
         "damage":3015.0,
         "reloadTime":3.0,
         "ammo":2.0,
         "range":9.7,
-        "value":39.4652691409,
+        "value":39.490288875,
         "discount":null,
         "progress":100.0
     },
@@ -8963,17 +8963,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":91589,
-        "wear":4.2,
+        "xp":91963,
+        "wear":6.0,
         "level":17,
         "starLevel":5,
         "damage":2772.0,
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.3,
-        "value":74.8380494487,
+        "value":74.879107247,
         "discount":null,
-        "progress":74.7077452157
+        "progress":74.9390749286
     },
     "CRMYTH-546419-05":{
         "identifier":"CRMYTH-546419-05",
@@ -8993,7 +8993,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.379258805,
+        "value":10.3804867207,
         "discount":null,
         "progress":4.4744362111
     },
@@ -9015,7 +9015,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3229058582,
+        "value":30.3245018142,
         "discount":null,
         "progress":4.7342182416
     },
@@ -9037,7 +9037,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":90.2962475473,
+        "value":90.2993124701,
         "discount":null,
         "progress":4.523299974
     },
@@ -9059,7 +9059,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3026053243,
+        "value":30.3041492679,
         "discount":null,
         "progress":4.5226814454
     },
@@ -9081,7 +9081,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3668447415,
+        "value":0.3668451978,
         "discount":null,
         "progress":0.0018555859
     },
@@ -9125,7 +9125,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2979753779,
+        "value":30.2995074591,
         "discount":null,
         "progress":4.4744362111
     },
@@ -9147,7 +9147,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -9169,7 +9169,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3024272494,
+        "value":30.3039707368,
         "discount":null,
         "progress":4.5208258594
     },
@@ -9191,7 +9191,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -9213,7 +9213,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3110999996,
+        "value":3.311128439,
         "discount":null,
         "progress":0.0290708463
     },
@@ -9235,7 +9235,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2991625437,
+        "value":30.3006976665,
         "discount":null,
         "progress":4.486806784
     },
@@ -9257,7 +9257,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":91.1970689028,
+        "value":91.2024418327,
         "discount":null,
         "progress":13.9100906763
     },
@@ -9279,7 +9279,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2979753779,
+        "value":30.2995074591,
         "discount":null,
         "progress":4.4744362111
     },
@@ -9301,7 +9301,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.2983908859,
+        "value":30.2999240317,
         "discount":null,
         "progress":4.4787659116
     },
@@ -9323,7 +9323,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.3851946336,
+        "value":10.3864377577,
         "discount":null,
         "progress":4.5362890755
     },
@@ -9345,7 +9345,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":31.1871625093,
+        "value":31.1909727894,
         "discount":null,
         "progress":13.7399952992
     },
@@ -9367,7 +9367,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":90.2950603816,
+        "value":90.2981222627,
         "discount":null,
         "progress":4.5109294011
     },
@@ -9389,7 +9389,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.355321923,
+        "value":3.3554636641,
         "discount":null,
         "progress":0.4898746861
     },
@@ -9411,7 +9411,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.3797930296,
+        "value":10.3810223141,
         "discount":null,
         "progress":4.4800029689
     },
@@ -9433,7 +9433,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":31.1842539533,
+        "value":31.1880567813,
         "discount":null,
         "progress":13.7096873956
     },
@@ -9455,7 +9455,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":92.4746373026,
+        "value":92.4832835085,
         "discount":null,
         "progress":27.2226826824
     },
@@ -9477,7 +9477,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":30.3142989067,
+        "value":30.3158728106,
         "discount":null,
         "progress":4.6445315883
     },
@@ -9499,7 +9499,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":91.2042512555,
+        "value":91.2096425874,
         "discount":null,
         "progress":13.9849326422
     },
@@ -9521,7 +9521,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -9543,7 +9543,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -9565,7 +9565,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -9587,7 +9587,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.406267696,
+        "value":1.4089312725,
         "discount":null,
         "progress":10.8329106721
     },
@@ -9609,7 +9609,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4031126546,
+        "value":0.4032060333,
         "discount":null,
         "progress":0.3797765875
     },
@@ -9623,17 +9623,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":36282,
-        "wear":69.9,
+        "xp":36335,
+        "wear":70.4,
         "level":12,
         "starLevel":4,
         "damage":240.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":12.8486822388,
+        "value":12.8593911489,
         "discount":null,
-        "progress":30.2064648614
+        "progress":30.2392468795
     },
     "CRMYTH-546419-27":{
         "identifier":"CRMYTH-546419-27",
@@ -9653,7 +9653,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.1703860471,
+        "value":11.1736409212,
         "discount":null,
         "progress":12.7181859792
     },
@@ -9675,7 +9675,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":15.7761735694,
+        "value":15.7912289968,
         "discount":null,
         "progress":60.7116790579
     },
@@ -9690,14 +9690,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":15.5,
+        "wear":17.6,
         "level":20,
         "starLevel":5,
         "damage":358.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":39.4652691409,
+        "value":39.490288875,
         "discount":null,
         "progress":100.0
     },
@@ -9719,7 +9719,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3948618527,
+        "value":0.394934092,
         "discount":null,
         "progress":0.2938011059
     },
@@ -9741,7 +9741,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":6.4451581671,
+        "value":6.4532164213,
         "discount":null,
         "progress":32.6867647241
     },
@@ -9763,7 +9763,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1013058823,
+        "value":1.1013092281,
         "discount":null,
         "progress":0.0012370573
     },
@@ -9785,7 +9785,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.8004652058,
+        "value":10.8027723004,
         "discount":null,
         "progress":8.8635154694
     },
@@ -9807,7 +9807,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":11.9368796003,
+        "value":11.9420983184,
         "discount":null,
         "progress":20.70524636
     },
@@ -9829,7 +9829,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":1.4192671607,
+        "value":1.4219640433,
         "discount":null,
         "progress":10.9683684451
     },
@@ -9851,7 +9851,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5465525679,
+        "value":19.5712681367,
         "discount":null,
         "progress":100.0
     },
@@ -9873,7 +9873,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.8837977997,
+        "value":4.8878556704,
         "discount":null,
         "progress":16.4169872707
     },
@@ -9887,7 +9887,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":73462,
+        "xp":74056,
         "wear":100.0,
         "level":15,
         "starLevel":4,
@@ -9895,9 +9895,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":15.6248692972,
+        "value":15.6748862251,
         "discount":null,
-        "progress":59.1350495441
+        "progress":59.5024555587
     },
     "CRMYTH-546419-37":{
         "identifier":"CRMYTH-546419-37",
@@ -9917,7 +9917,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1912930446,
+        "value":1.1915269478,
         "discount":null,
         "progress":0.9389264817
     },
@@ -9939,7 +9939,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5465525679,
+        "value":19.5712681367,
         "discount":null,
         "progress":100.0
     },
@@ -9961,7 +9961,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3184010688,
+        "value":3.3184482144,
         "discount":null,
         "progress":0.1051498695
     },
@@ -9983,7 +9983,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.7818667411,
+        "value":3.7887379899,
         "discount":null,
         "progress":27.9333720945
     },
@@ -10005,7 +10005,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.7704518457,
+        "value":1.7721696199,
         "discount":null,
         "progress":6.9739104618
     },
@@ -10027,7 +10027,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.7308908537,
+        "value":4.7345569594,
         "discount":null,
         "progress":14.8236574836
     },
@@ -10041,7 +10041,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":86700,
+        "xp":86758,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -10049,9 +10049,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":16.6166275476,
+        "value":16.6372879154,
         "discount":null,
-        "progress":69.4694261291
+        "progress":69.5053007905
     },
     "CRMYTH-546419-4c":{
         "identifier":"CRMYTH-546419-4c",
@@ -10071,7 +10071,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":39.4652691409,
+        "value":39.490288875,
         "discount":null,
         "progress":100.0
     },
@@ -10085,7 +10085,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":9053,
+        "xp":9060,
         "wear":100.0,
         "level":8,
         "starLevel":2,
@@ -10093,9 +10093,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.8423940889,
+        "value":1.8447127599,
         "discount":null,
-        "progress":7.7235671784
+        "progress":7.7278968789
     },
     "CRMYTH-546419-4f":{
         "identifier":"CRMYTH-546419-4f",
@@ -10115,7 +10115,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.6624791226,
+        "value":1.6639202583,
         "discount":null,
         "progress":5.8488068582
     },
@@ -10137,7 +10137,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4314859155,
+        "value":0.4316519898,
         "discount":null,
         "progress":0.6754332793
     },
@@ -10151,7 +10151,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":15430,
+        "xp":15519,
         "wear":100.0,
         "level":8,
         "starLevel":2,
@@ -10159,9 +10159,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.2209218818,
+        "value":2.2290902344,
         "discount":null,
-        "progress":11.6679243416
+        "progress":11.7229733909
     },
     "CRMYTH-546419-62":{
         "identifier":"CRMYTH-546419-62",
@@ -10181,7 +10181,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.3532224501,
+        "value":1.3538712349,
         "discount":null,
         "progress":2.6262726227
     },
@@ -10203,7 +10203,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4135003547,
+        "value":0.4136203479,
         "discount":null,
         "progress":0.4880191002
     },
@@ -10225,7 +10225,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.7031021234,
+        "value":3.7041349171,
         "discount":null,
         "progress":4.1138340117
     },
@@ -10247,7 +10247,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.9280287753,
+        "value":5.934762085,
         "discount":null,
         "progress":27.298143177
     },
@@ -10269,7 +10269,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10291,7 +10291,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10313,7 +10313,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -10335,7 +10335,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":2.0820024292,
+        "value":2.0863973152,
         "discount":null,
         "progress":17.8742407561
     },
@@ -10357,7 +10357,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.6263389784,
+        "value":2.6302496331,
         "discount":null,
         "progress":15.8924749805
     },
@@ -10379,7 +10379,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":23.9234545376,
+        "value":23.9593842288,
         "discount":null,
         "progress":97.6248500068
     },
@@ -10401,7 +10401,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1136524059,
+        "value":1.1136873849,
         "discount":null,
         "progress":0.1298910153
     },
@@ -10423,7 +10423,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":31.7977812022,
+        "value":31.8031559571,
         "discount":null,
         "progress":20.1027994606
     },
@@ -10445,7 +10445,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10467,7 +10467,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10511,7 +10511,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10533,7 +10533,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.3083101601,
+        "value":3.3083314517,
         "discount":null,
         "progress":0.0
     },
@@ -10555,7 +10555,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.1641972928,
+        "value":4.1664114649,
         "discount":null,
         "progress":8.9185645187
     },
@@ -10569,17 +10569,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":11431,
-        "wear":28.4,
+        "xp":11544,
+        "wear":29.4,
         "level":9,
         "starLevel":3,
         "damage":194.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":4.2915801755,
+        "value":4.3008453888,
         "discount":null,
-        "progress":10.2459269889
+        "progress":10.3158207257
     },
     "CRMYTH-546419-91":{
         "identifier":"CRMYTH-546419-91",
@@ -10599,7 +10599,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3684474153,
+        "value":0.3684519777,
         "discount":null,
         "progress":0.0185558593
     },
@@ -10621,7 +10621,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10643,7 +10643,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":3.6180378705,
+        "value":3.6244893709,
         "discount":null,
         "progress":26.2262330369
     },
@@ -10657,7 +10657,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":84477,
+        "xp":84488,
         "wear":100.0,
         "level":17,
         "starLevel":3,
@@ -10665,9 +10665,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":10.0556259418,
+        "value":10.0735892406,
         "discount":null,
-        "progress":70.3087694991
+        "progress":70.3155733142
     },
     "CRMYTH-546419-99":{
         "identifier":"CRMYTH-546419-99",
@@ -10687,7 +10687,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":19.5465525679,
+        "value":19.5712681367,
         "discount":null,
         "progress":100.0
     },
@@ -10709,7 +10709,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":17.7218788417,
+        "value":17.7419193881,
         "discount":null,
         "progress":80.9864294815
     },
@@ -10731,7 +10731,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4776666624,
+        "value":0.477951057,
         "discount":null,
         "progress":1.1566485644
     },
@@ -10745,7 +10745,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":30479,
+        "xp":30492,
         "wear":100.0,
         "level":12,
         "starLevel":3,
@@ -10753,9 +10753,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.8626753019,
+        "value":5.8700148033,
         "discount":null,
-        "progress":26.6171431399
+        "progress":26.6251840123
     },
     "CRMYTH-546419-ab":{
         "identifier":"CRMYTH-546419-ab",
@@ -10775,7 +10775,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.175809584,
+        "value":2.178565931,
         "discount":null,
         "progress":11.1978425721
     },
@@ -10797,7 +10797,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10841,7 +10841,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -10855,7 +10855,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":44712,
+        "xp":44718,
         "wear":100.0,
         "level":13,
         "starLevel":4,
@@ -10863,9 +10863,9 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":13.5289282018,
+        "value":13.5385829923,
         "discount":null,
-        "progress":37.2948031223
+        "progress":37.2985142942
     },
     "CRMYTH-546419-bb":{
         "identifier":"CRMYTH-546419-bb",
@@ -10929,7 +10929,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1027304812,
+        "value":1.102737477,
         "discount":null,
         "progress":0.0160817447
     },
@@ -10943,17 +10943,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":28105,
-        "wear":18.5,
+        "xp":28313,
+        "wear":21.9,
         "level":9,
         "starLevel":3,
         "damage":194.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.2813202442,
+        "value":5.2987747696,
         "discount":null,
-        "progress":20.5592736
+        "progress":20.6879275579
     },
     "CRMYTH-546419-c2":{
         "identifier":"CRMYTH-546419-c2",
@@ -10973,7 +10973,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4475126528,
+        "value":0.4477197895,
         "discount":null,
         "progress":0.8424360132
     },
@@ -11039,7 +11039,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.367972549,
+        "value":0.3679758948,
         "discount":null,
         "progress":0.0136076302
     },
@@ -11061,7 +11061,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":2.5234710679,
+        "value":2.5271181633,
         "discount":null,
         "progress":14.8205648404
     },
@@ -11076,14 +11076,14 @@
         "priceCurrency":null,
         "priceAmount":null,
         "xp":121200,
-        "wear":83.1,
+        "wear":94.4,
         "level":19,
         "starLevel":5,
         "damage":346.0,
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":39.2373333208,
+        "value":39.2617690574,
         "discount":null,
         "progress":97.6248500068
     },
@@ -11171,7 +11171,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4725024914,
+        "value":0.4727736549,
         "discount":null,
         "progress":1.1028365724
     },
@@ -11193,7 +11193,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":1.1011871657,
+        "value":1.1011902074,
         "discount":null,
         "progress":0.0
     },
@@ -11215,7 +11215,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4899538277,
+        "value":0.4902697035,
         "discount":null,
         "progress":1.2846839937
     },
@@ -11259,7 +11259,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":5.9115271717,
+        "value":5.9182182024,
         "discount":null,
         "progress":27.126192214
     },
@@ -11347,7 +11347,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.5,
-        "value":39.4652691409,
+        "value":39.490288875,
         "discount":null,
         "progress":100.0
     },
@@ -11369,7 +11369,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4897163945,
+        "value":0.490031662,
         "discount":null,
         "progress":1.2822098791
     },
@@ -11391,7 +11391,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.4738083738,
+        "value":0.474082883,
         "discount":null,
         "progress":1.1164442025
     },
@@ -11413,7 +11413,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3731960782,
+        "value":0.3732128073,
         "discount":null,
         "progress":0.0680381508
     },
@@ -11435,7 +11435,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3952180025,
+        "value":0.3952911542,
         "discount":null,
         "progress":0.2975122778
     },
@@ -11457,7 +11457,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.3743832439,
+        "value":0.3744030147,
         "discount":null,
         "progress":0.0804087237
     },
@@ -11501,7 +11501,7 @@
         "reloadTime":0.1,
         "ammo":65.0,
         "range":9.0,
-        "value":0.5459880501,
+        "value":0.546447492,
         "discount":null,
         "progress":1.8685750337
     },

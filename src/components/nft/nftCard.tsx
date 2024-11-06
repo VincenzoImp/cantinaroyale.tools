@@ -2,8 +2,8 @@
 
 import { contents, variables } from "@/app/layout";
 import { useState } from "react";
-import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
-import { ScrollShadow } from "@nextui-org/react";
+import {Popover, PopoverTrigger, PopoverContent} from "@heroui/react";
+import { ScrollShadow } from "@heroui/react";
 
 export default function NftCard({ nft, type }: { [key: string]: any, type: string }) {
 

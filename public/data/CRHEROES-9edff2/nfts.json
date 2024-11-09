@@ -10347,7 +10347,7 @@
         "talentPointsAvailable":30,
         "talentPointsTotal":30,
         "earnRate":1.38,
-        "characterTokens":615,
+        "characterTokens":655,
         "overachiever":0,
         "hodler":7,
         "grounded":0,
@@ -10369,9 +10369,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":20,
-        "value":3.123399818,
+        "value":3.1289047749,
         "discount":null,
-        "progress":14.925303672
+        "progress":14.9997673012
     },
     "CRHEROES-9edff2-01ab":{
         "identifier":"CRHEROES-9edff2-01ab",

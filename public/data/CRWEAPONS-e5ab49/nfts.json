@@ -7841,7 +7841,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":97313,
+        "xp":97392,
         "wear":100.0,
         "level":20,
         "starLevel":6,
@@ -7849,9 +7849,9 @@
         "reloadTime":2.7,
         "ammo":2.0,
         "range":9.0,
-        "value":7.0724697343,
+        "value":7.0751878068,
         "discount":null,
-        "progress":85.2252062793
+        "progress":85.2740700422
     },
     "CRWEAPONS-e5ab49-0269":{
         "identifier":"CRWEAPONS-e5ab49-0269",
@@ -36045,7 +36045,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":28243,
+        "xp":28282,
         "wear":100.0,
         "level":11,
         "starLevel":5,
@@ -36053,9 +36053,9 @@
         "reloadTime":3.0,
         "ammo":3.0,
         "range":9.5,
-        "value":2.0343489357,
+        "value":2.035690769,
         "discount":null,
-        "progress":23.4898623155
+        "progress":23.5139849326
     },
     "CRWEAPONS-e5ab49-1156":{
         "identifier":"CRWEAPONS-e5ab49-1156",
@@ -45395,7 +45395,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":67511,
+        "xp":67558,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -45403,9 +45403,9 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":3.522958026,
+        "value":3.5245751071,
         "discount":null,
-        "progress":57.6004799782
+        "progress":57.6295508245
     },
     "CRWEAPONS-e5ab49-1763":{
         "identifier":"CRWEAPONS-e5ab49-1763",
@@ -52633,17 +52633,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":12234,
-        "wear":13.8,
+        "xp":12246,
+        "wear":13.9,
         "level":9,
         "starLevel":4,
         "damage":1600.0,
         "reloadTime":3.0,
         "ammo":3.0,
         "range":8.5,
-        "value":0.8364641062,
+        "value":0.836876978,
         "discount":null,
-        "progress":10.7426054901
+        "progress":10.7500278338
     },
     "CRWEAPONS-e5ab49-1b14":{
         "identifier":"CRWEAPONS-e5ab49-1b14",
@@ -63862,6 +63862,28 @@
         "ammo":3.0,
         "range":10.0,
         "value":0.0092592593,
+        "discount":null,
+        "progress":0.0
+    },
+    "CRWEAPONS-e5ab49-1e47":{
+        "identifier":"CRWEAPONS-e5ab49-1e47",
+        "collection":"CRWEAPONS-e5ab49",
+        "name":"Blaster-X",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/Blaster-X.png",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-28ba06fc",
+        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
+        "rank":null,
+        "priceCurrency":null,
+        "priceAmount":null,
+        "xp":0,
+        "wear":0.0,
+        "level":1,
+        "starLevel":3,
+        "damage":1700.0,
+        "reloadTime":2.75,
+        "ammo":3.0,
+        "range":10.5,
+        "value":0.0881501707,
         "discount":null,
         "progress":0.0
     },

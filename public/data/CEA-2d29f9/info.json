@@ -1,6 +1,7 @@
 {
     "collection": "CEA-2d29f9",
     "type": "NonFungibleESDT",
+    "subType": "NonFungibleESDT",
     "name": "GenCantinaElrondApes",
     "ticker": "CEA-2d29f9",
     "owner": "erd1qqqqqqqqqqqqqpgqmrzzclpr9qpzh6rz3l75q7mtnz9t6qcua9rsvjufnz",

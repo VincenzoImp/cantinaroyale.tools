@@ -1,6 +1,7 @@
 {
     "collection": "CRHEROES-9edff2",
     "type": "NonFungibleESDT",
+    "subType": "NonFungibleESDT",
     "name": "CantinaRoyaleHeroes",
     "ticker": "CRHEROES",
     "owner": "erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
@@ -16,8 +17,8 @@
         "website": "https://cantinaroyale.io",
         "description": "The Cantina Royale Heroes collection is the 2nd generation of characters in the Cantina Royale universe. With unique stats and ultimates, they bring an extra level of competitiveness to the arena.",
         "status": "active",
-        "pngUrl": "https://media.elrond.com/tokens/asset/CRHEROES-9edff2/logo.png",
-        "svgUrl": "https://media.elrond.com/tokens/asset/CRHEROES-9edff2/logo.svg",
+        "pngUrl": "https://tools.multiversx.com/assets-cdn/tokens/CRHEROES-9edff2/icon.png",
+        "svgUrl": "https://tools.multiversx.com/assets-cdn/tokens/CRHEROES-9edff2/icon.svg",
         "social": {
             "blog": "https://blog.cantinaroyale.io",
             "twitter": "https://twitter.com/CantinaRoyale",
@@ -27,7 +28,7 @@
         }
     },
     "isVerified": true,
-    "holderCount": 110,
+    "holderCount": 92,
     "nftCount": 600,
     "canTransfer": true,
     "roles": [

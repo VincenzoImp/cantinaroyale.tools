@@ -1,6 +1,7 @@
 {
     "collection": "CRMYTH-546419",
     "type": "NonFungibleESDT",
+    "subType": "NonFungibleESDT",
     "name": "CRMYTH",
     "ticker": "CRMYTH",
     "owner": "erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
@@ -16,8 +17,8 @@
         "website": "https://cantinaroyale.io",
         "description": "Mythical Weapons are NFT weapons of fable and myth in Cantina Royale. Available in limited supply, they unlock unique play modes for competitive players.",
         "status": "active",
-        "pngUrl": "https://media.elrond.com/tokens/asset/CRMYTH-546419/logo.png",
-        "svgUrl": "https://media.elrond.com/tokens/asset/CRMYTH-546419/logo.svg",
+        "pngUrl": "https://tools.multiversx.com/assets-cdn/tokens/CRMYTH-546419/icon.png",
+        "svgUrl": "https://tools.multiversx.com/assets-cdn/tokens/CRMYTH-546419/icon.svg",
         "social": {
             "blog": "https://blog.cantinaroyale.io",
             "twitter": "https://twitter.com/CantinaRoyale",
@@ -27,8 +28,8 @@
         }
     },
     "isVerified": true,
-    "holderCount": 15,
-    "nftCount": 551,
+    "holderCount": 25,
+    "nftCount": 540,
     "canTransfer": true,
     "roles": [
         {
@@ -56,5 +57,5 @@
             ]
         }
     ],
-    "totalNfts": 513
+    "totalNfts": 540
 }

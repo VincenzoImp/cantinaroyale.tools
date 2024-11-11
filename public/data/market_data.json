@@ -1,5 +1,5 @@
 {
-    "CRT/EGLD": 6.8852899850657e-05,
+    "CRT/EGLD": 6.8827455888604e-05,
     "floorPrice": {
         "genesis": {
             "Bronze": {
@@ -32,7 +32,7 @@
             "Epic": {
                 "count": 190,
                 "percent": 0.31666666666666665,
-                "floorPrice": 2.12
+                "floorPrice": 1.8599999999999999
             },
             "Gold": {
                 "count": 350,
@@ -42,7 +42,7 @@
             "Legendary": {
                 "count": 60,
                 "percent": 0.1,
-                "floorPrice": 4.28
+                "floorPrice": 4.06
             }
         },
         "weapons": {

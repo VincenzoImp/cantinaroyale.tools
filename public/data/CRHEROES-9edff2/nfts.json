@@ -52,8 +52,8 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":7.6844070009,
-        "discount":-47.1657344602,
+        "value":7.6833073907,
+        "discount":-47.1581729903,
         "progress":49.0166146973
     },
     "CRHEROES-9edff2-01a1":{
@@ -109,8 +109,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.3195016786,
-        "discount":-43.603739951,
+        "value":5.0784520991,
+        "discount":-40.9268820215,
         "progress":46.7864290036
     },
     "CRHEROES-9edff2-019a":{
@@ -166,8 +166,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":16,
         "elementalWeaponsProficiency":0,
-        "value":5.0150187297,
-        "discount":-36.3910650806,
+        "value":4.7740615274,
+        "discount":-33.1805846725,
         "progress":42.6685903104
     },
     "CRHEROES-9edff2-1e":{
@@ -179,7 +179,7 @@
         "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
         "rank":null,
         "priceCurrency":"EGLD",
-        "priceAmount":2.1,
+        "priceAmount":2.5,
         "background":null,
         "body":"Prisoner",
         "earrings":null,
@@ -201,7 +201,7 @@
         "talentPointsAvailable":20,
         "talentPointsTotal":20,
         "earnRate":1.03,
-        "characterTokens":946,
+        "characterTokens":949,
         "overachiever":2,
         "hodler":0,
         "grounded":0,
@@ -223,66 +223,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.7460627128,
-        "discount":-23.5268739409,
-        "progress":8.7373760879
-    },
-    "CRHEROES-9edff2-01f5":{
-        "identifier":"CRHEROES-9edff2-01f5",
-        "collection":"CRHEROES-9edff2",
-        "name":"Space Shark #501",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":1.86,
-        "background":null,
-        "body":"Hawaii",
-        "earrings":null,
-        "eyes":"Angry",
-        "face":null,
-        "head":null,
-        "headgear":"Sunglasses",
-        "legAccessories":null,
-        "legs":"Hawaii",
-        "mouth":"Cigar",
-        "perk1":"Resilience",
-        "perk2":"Adrenaline Rush",
-        "rarityClass":"Epic",
-        "skin":"Maui",
-        "species":"Space Shark",
-        "level":9,
-        "health":1101,
-        "shield":603,
-        "talentPointsAvailable":15,
-        "talentPointsTotal":15,
-        "earnRate":0.88,
-        "characterTokens":35,
-        "overachiever":0,
-        "hodler":3,
-        "grounded":0,
-        "stonewall":0,
-        "adrenalineRush":10,
-        "overshield":5,
-        "blackWidow":3,
-        "galvanized":0,
-        "nanoMeds":1,
-        "resilience":13,
-        "coldBlooded":0,
-        "perseverance":0,
-        "escapeArtist":0,
-        "scavenger":0,
-        "coolMoves":0,
-        "brawler":0,
-        "automaticWeaponsProficiency":0,
-        "scatterWeaponsProficiency":0,
-        "precisionWeaponsProficiency":0,
-        "explosiveWeaponsProficiency":0,
-        "elementalWeaponsProficiency":0,
-        "value":2.2106646982,
-        "discount":-15.8624100003,
-        "progress":4.7424023828
+        "value":3.1462795298,
+        "discount":-20.5410715642,
+        "progress":8.7429608601
     },
     "CRHEROES-9edff2-e7":{
         "identifier":"CRHEROES-9edff2-e7",
@@ -337,9 +280,66 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.2085684579,
-        "discount":-9.6170133808,
+        "value":3.6082321289,
+        "discount":-19.6282307685,
         "progress":14.9923209382
+    },
+    "CRHEROES-9edff2-01f5":{
+        "identifier":"CRHEROES-9edff2-01f5",
+        "collection":"CRHEROES-9edff2",
+        "name":"Space Shark #501",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":1.62,
+        "background":null,
+        "body":"Hawaii",
+        "earrings":null,
+        "eyes":"Angry",
+        "face":null,
+        "head":null,
+        "headgear":"Sunglasses",
+        "legAccessories":null,
+        "legs":"Hawaii",
+        "mouth":"Cigar",
+        "perk1":"Resilience",
+        "perk2":"Adrenaline Rush",
+        "rarityClass":"Epic",
+        "skin":"Maui",
+        "species":"Space Shark",
+        "level":9,
+        "health":1101,
+        "shield":603,
+        "talentPointsAvailable":15,
+        "talentPointsTotal":15,
+        "earnRate":0.88,
+        "characterTokens":35,
+        "overachiever":0,
+        "hodler":3,
+        "grounded":0,
+        "stonewall":0,
+        "adrenalineRush":10,
+        "overshield":5,
+        "blackWidow":3,
+        "galvanized":0,
+        "nanoMeds":1,
+        "resilience":13,
+        "coldBlooded":0,
+        "perseverance":0,
+        "escapeArtist":0,
+        "scavenger":0,
+        "coolMoves":0,
+        "brawler":0,
+        "automaticWeaponsProficiency":0,
+        "scatterWeaponsProficiency":0,
+        "precisionWeaponsProficiency":0,
+        "explosiveWeaponsProficiency":0,
+        "elementalWeaponsProficiency":0,
+        "value":1.9705583099,
+        "discount":-17.7897963285,
+        "progress":4.7424023828
     },
     "CRHEROES-9edff2-018f":{
         "identifier":"CRHEROES-9edff2-018f",
@@ -394,8 +394,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":3.2864035072,
-        "discount":-5.6719604516,
+        "value":3.0459707501,
+        "discount":1.7737941143,
         "progress":19.2907339321
     },
     "CRHEROES-9edff2-db":{
@@ -451,66 +451,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.6991238857,
-        "discount":18.149449047,
+        "value":3.0989421172,
+        "discount":2.9060847011,
         "progress":8.1025736492
-    },
-    "CRHEROES-9edff2-01aa":{
-        "identifier":"CRHEROES-9edff2-01aa",
-        "collection":"CRHEROES-9edff2",
-        "name":"Space Shark #426",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":3.1,
-        "background":null,
-        "body":"Hawaii",
-        "earrings":null,
-        "eyes":"Angry",
-        "face":null,
-        "head":null,
-        "headgear":"Sunglasses",
-        "legAccessories":null,
-        "legs":"Hawaii",
-        "mouth":"Cigar",
-        "perk1":"Stonewall",
-        "perk2":"Brawler",
-        "rarityClass":"Epic",
-        "skin":"Maui",
-        "species":"Space Shark",
-        "level":10,
-        "health":1318,
-        "shield":722,
-        "talentPointsAvailable":20,
-        "talentPointsTotal":20,
-        "earnRate":1.03,
-        "characterTokens":20,
-        "overachiever":1,
-        "hodler":0,
-        "grounded":0,
-        "stonewall":10,
-        "adrenalineRush":2,
-        "overshield":4,
-        "blackWidow":1,
-        "galvanized":0,
-        "nanoMeds":0,
-        "resilience":0,
-        "coldBlooded":4,
-        "perseverance":1,
-        "escapeArtist":3,
-        "scavenger":0,
-        "coolMoves":4,
-        "brawler":10,
-        "automaticWeaponsProficiency":0,
-        "scatterWeaponsProficiency":0,
-        "precisionWeaponsProficiency":0,
-        "explosiveWeaponsProficiency":0,
-        "elementalWeaponsProficiency":0,
-        "value":2.3785983318,
-        "discount":30.3288562234,
-        "progress":7.0135430726
     },
     "CRHEROES-9edff2-011d":{
         "identifier":"CRHEROES-9edff2-011d",
@@ -565,8 +508,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.4863472061,
-        "discount":37.6799187312,
+        "value":3.8859266017,
+        "discount":23.5226624698,
         "progress":18.7490110299
     },
     "CRHEROES-9edff2-06":{
@@ -622,8 +565,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.4557887908,
-        "discount":41.7910727965,
+        "value":3.8553774575,
+        "discount":27.0952080316,
         "progress":18.335737888
     },
     "CRHEROES-9edff2-21":{
@@ -679,9 +622,66 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1001376505,
-        "discount":52.3709647893,
+        "value":2.5001376088,
+        "discount":27.9929548194,
         "progress":0.0018615907
+    },
+    "CRHEROES-9edff2-01aa":{
+        "identifier":"CRHEROES-9edff2-01aa",
+        "collection":"CRHEROES-9edff2",
+        "name":"Space Shark #426",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":3.1,
+        "background":null,
+        "body":"Hawaii",
+        "earrings":null,
+        "eyes":"Angry",
+        "face":null,
+        "head":null,
+        "headgear":"Sunglasses",
+        "legAccessories":null,
+        "legs":"Hawaii",
+        "mouth":"Cigar",
+        "perk1":"Stonewall",
+        "perk2":"Brawler",
+        "rarityClass":"Epic",
+        "skin":"Maui",
+        "species":"Space Shark",
+        "level":10,
+        "health":1318,
+        "shield":722,
+        "talentPointsAvailable":20,
+        "talentPointsTotal":20,
+        "earnRate":1.03,
+        "characterTokens":20,
+        "overachiever":1,
+        "hodler":0,
+        "grounded":0,
+        "stonewall":10,
+        "adrenalineRush":2,
+        "overshield":4,
+        "blackWidow":1,
+        "galvanized":0,
+        "nanoMeds":0,
+        "resilience":0,
+        "coldBlooded":4,
+        "perseverance":1,
+        "escapeArtist":3,
+        "scavenger":0,
+        "coolMoves":4,
+        "brawler":10,
+        "automaticWeaponsProficiency":0,
+        "scatterWeaponsProficiency":0,
+        "precisionWeaponsProficiency":0,
+        "explosiveWeaponsProficiency":0,
+        "elementalWeaponsProficiency":0,
+        "value":2.1384409941,
+        "discount":44.9654214728,
+        "progress":7.0135430726
     },
     "CRHEROES-9edff2-23":{
         "identifier":"CRHEROES-9edff2-23",
@@ -736,66 +736,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.5317408541,
-        "discount":69.4486224012,
+        "value":2.9316098681,
+        "discount":46.33597897,
         "progress":5.8388793224
-    },
-    "CRHEROES-9edff2-01a2":{
-        "identifier":"CRHEROES-9edff2-01a2",
-        "collection":"CRHEROES-9edff2",
-        "name":"Space Shark #418",
-        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
-        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
-        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
-        "rank":null,
-        "priceCurrency":"EGLD",
-        "priceAmount":5.35,
-        "background":null,
-        "body":"Hawaii",
-        "earrings":null,
-        "eyes":"Angry",
-        "face":null,
-        "head":null,
-        "headgear":"Sunglasses",
-        "legAccessories":null,
-        "legs":"Hawaii",
-        "mouth":"Cigar",
-        "perk1":"Cold Blooded",
-        "perk2":"Overshield",
-        "rarityClass":"Epic",
-        "skin":"Maui",
-        "species":"Space Shark",
-        "level":12,
-        "health":1793,
-        "shield":983,
-        "talentPointsAvailable":30,
-        "talentPointsTotal":30,
-        "earnRate":1.38,
-        "characterTokens":131,
-        "overachiever":0,
-        "hodler":0,
-        "grounded":0,
-        "stonewall":0,
-        "adrenalineRush":0,
-        "overshield":10,
-        "blackWidow":0,
-        "galvanized":0,
-        "nanoMeds":0,
-        "resilience":0,
-        "coldBlooded":10,
-        "perseverance":0,
-        "escapeArtist":0,
-        "scavenger":0,
-        "coolMoves":0,
-        "brawler":0,
-        "automaticWeaponsProficiency":0,
-        "scatterWeaponsProficiency":0,
-        "precisionWeaponsProficiency":0,
-        "explosiveWeaponsProficiency":0,
-        "elementalWeaponsProficiency":0,
-        "value":2.8969901878,
-        "discount":84.6744259765,
-        "progress":14.024293759
     },
     "CRHEROES-9edff2-3d":{
         "identifier":"CRHEROES-9edff2-3d",
@@ -850,8 +793,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1688252597,
-        "discount":101.9526460427,
+        "value":2.5688043788,
+        "discount":70.5073393751,
         "progress":0.9307953646
     },
     "CRHEROES-9edff2-0c":{
@@ -907,9 +850,66 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1008259031,
-        "discount":128.481569695,
+        "value":2.5008256525,
+        "discount":91.9366108195,
         "progress":0.0111695444
+    },
+    "CRHEROES-9edff2-01a2":{
+        "identifier":"CRHEROES-9edff2-01a2",
+        "collection":"CRHEROES-9edff2",
+        "name":"Space Shark #418",
+        "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeihcobogsxwt2fjbstjhjax5zquerzhwhhbpstmstgizvbzoiyc534\/epic_shark.jpg",
+        "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRHEROES-9edff2-9e7fa44d",
+        "owner":"erd1qqqqqqqqqqqqqpgq6wegs2xkypfpync8mn2sa5cmpqjlvrhwz5nqgepyg8",
+        "rank":null,
+        "priceCurrency":"EGLD",
+        "priceAmount":5.35,
+        "background":null,
+        "body":"Hawaii",
+        "earrings":null,
+        "eyes":"Angry",
+        "face":null,
+        "head":null,
+        "headgear":"Sunglasses",
+        "legAccessories":null,
+        "legs":"Hawaii",
+        "mouth":"Cigar",
+        "perk1":"Cold Blooded",
+        "perk2":"Overshield",
+        "rarityClass":"Epic",
+        "skin":"Maui",
+        "species":"Space Shark",
+        "level":12,
+        "health":1793,
+        "shield":983,
+        "talentPointsAvailable":30,
+        "talentPointsTotal":30,
+        "earnRate":1.38,
+        "characterTokens":131,
+        "overachiever":0,
+        "hodler":0,
+        "grounded":0,
+        "stonewall":0,
+        "adrenalineRush":0,
+        "overshield":10,
+        "blackWidow":0,
+        "galvanized":0,
+        "nanoMeds":0,
+        "resilience":0,
+        "coldBlooded":10,
+        "perseverance":0,
+        "escapeArtist":0,
+        "scavenger":0,
+        "coolMoves":0,
+        "brawler":0,
+        "automaticWeaponsProficiency":0,
+        "scatterWeaponsProficiency":0,
+        "precisionWeaponsProficiency":0,
+        "explosiveWeaponsProficiency":0,
+        "elementalWeaponsProficiency":0,
+        "value":2.656675575,
+        "discount":101.3795003929,
+        "progress":14.024293759
     },
     "CRHEROES-9edff2-022b":{
         "identifier":"CRHEROES-9edff2-022b",
@@ -964,8 +964,8 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":7.1790919442,
-        "discount":164.6574267014,
+        "value":7.1781456417,
+        "discount":164.6923167679,
         "progress":42.1827151301
     },
     "CRHEROES-9edff2-018e":{
@@ -1021,8 +1021,8 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.6503204571,
-        "discount":182.9846473819,
+        "value":2.4100806815,
+        "discount":211.1929014516,
         "progress":10.6883231722
     },
     "CRHEROES-9edff2-01":{
@@ -1078,7 +1078,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "value":3.4913026248,
+        "value":3.8908805169,
         "discount":null,
         "progress":18.8160282962
     },
@@ -1135,7 +1135,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":2,
-        "value":2.5572062002,
+        "value":2.9570674882,
         "discount":null,
         "progress":6.1832736073
     },
@@ -1192,7 +1192,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2521726492,
+        "value":2.6521264815,
         "discount":null,
         "progress":2.0579885512
     },
@@ -1249,7 +1249,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2108774934,
+        "value":2.6108438542,
         "discount":null,
         "progress":1.4995113324
     },
@@ -1306,7 +1306,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8722882391,
+        "value":3.2720539342,
         "discount":null,
         "progress":10.4444547866
     },
@@ -1363,7 +1363,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.4543812622,
+        "value":2.8542737463,
         "discount":null,
         "progress":4.7926653325
     },
@@ -1420,7 +1420,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9755261286,
+        "value":3.3752605024,
         "discount":null,
         "progress":11.8406478336
     },
@@ -1477,7 +1477,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.6073109892,
+        "value":3.007157076,
         "discount":null,
         "progress":6.8608926328
     },
@@ -1534,7 +1534,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5907929269,
+        "value":2.990644025,
         "discount":null,
         "progress":6.6375017452
     },
@@ -1569,7 +1569,7 @@
         "talentPointsAvailable":60,
         "talentPointsTotal":60,
         "earnRate":2.82,
-        "characterTokens":1105,
+        "characterTokens":1106,
         "overachiever":4,
         "hodler":0,
         "grounded":0,
@@ -1591,9 +1591,9 @@
         "precisionWeaponsProficiency":6,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":6,
-        "value":6.8238216993,
+        "value":7.222526146,
         "discount":null,
-        "progress":63.885139852
+        "progress":63.8870014427
     },
     "CRHEROES-9edff2-0109":{
         "identifier":"CRHEROES-9edff2-0109",
@@ -1648,7 +1648,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.5887281691,
+        "value":2.9885798937,
         "discount":null,
         "progress":6.6095778843
     },
@@ -1705,7 +1705,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6169465256,
+        "value":3.016789689,
         "discount":null,
         "progress":6.9912039838
     },
@@ -1762,7 +1762,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6521850585,
+        "value":3.0520175309,
         "discount":null,
         "progress":7.4677712105
     },
@@ -1819,7 +1819,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.286585279,
+        "value":2.6865286709,
         "discount":null,
         "progress":2.5233862335
     },
@@ -1876,7 +1876,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.640897716,
+        "value":3.0407336128,
         "discount":null,
         "progress":7.3151207707
     },
@@ -1933,7 +1933,7 @@
         "precisionWeaponsProficiency":5,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":10,
-        "value":2.843656931,
+        "value":3.2434313127,
         "discount":null,
         "progress":10.0572439149
     },
@@ -1990,7 +1990,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "value":2.6582416814,
+        "value":3.0580723162,
         "discount":null,
         "progress":7.5496812026
     },
@@ -2047,7 +2047,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "value":2.4720005287,
+        "value":2.8718876673,
         "discount":null,
         "progress":5.0309489459
     },
@@ -2104,7 +2104,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.4967776222,
+        "value":2.8966572436,
         "discount":null,
         "progress":5.3660352771
     },
@@ -2161,7 +2161,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.2710617937,
+        "value":3.6707065049,
         "discount":null,
         "progress":15.8374831293
     },
@@ -2218,7 +2218,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.5130203834,
+        "value":2.912895077,
         "discount":null,
         "progress":5.5857029832
     },
@@ -2275,7 +2275,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6158453214,
+        "value":3.0156888189,
         "discount":null,
         "progress":6.976311258
     },
@@ -2332,7 +2332,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":6.1452046387,
+        "value":6.5439773625,
         "discount":null,
         "progress":54.7074975567
     },
@@ -2389,7 +2389,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6176347782,
+        "value":3.0174777328,
         "discount":null,
         "progress":7.0005119375
     },
@@ -2446,7 +2446,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.2123160453,
+        "value":4.611675189,
         "discount":null,
         "progress":28.5670405361
     },
@@ -2503,7 +2503,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9720848656,
+        "value":3.3718202835,
         "discount":null,
         "progress":11.7941080653
     },
@@ -2560,7 +2560,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.9054930376,
+        "value":4.3049452684,
         "discount":null,
         "progress":24.4175548006
     },
@@ -2617,7 +2617,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5709712521,
+        "value":2.970828364,
         "discount":null,
         "progress":6.3694326802
     },
@@ -2674,7 +2674,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.7931391904,
+        "value":3.1929288986,
         "discount":null,
         "progress":9.3740401173
     },
@@ -2731,7 +2731,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5482589164,
+        "value":2.948122919,
         "discount":null,
         "progress":6.0622702099
     },
@@ -2788,7 +2788,7 @@
         "precisionWeaponsProficiency":16,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.1089715287,
+        "value":5.5080586357,
         "discount":null,
         "progress":40.6934425467
     },
@@ -2845,7 +2845,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4459845805,
+        "value":2.8458796121,
         "discount":null,
         "progress":4.679108298
     },
@@ -2902,7 +2902,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4697981203,
+        "value":2.8696859272,
         "discount":null,
         "progress":5.0011634942
     },
@@ -2959,7 +2959,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6375941035,
+        "value":3.0374310026,
         "discount":null,
         "progress":7.2704425932
     },
@@ -3016,7 +3016,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5815703421,
+        "value":2.9814242383,
         "discount":null,
         "progress":6.5127751664
     },
@@ -3073,7 +3073,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4463975321,
+        "value":2.8462924384,
         "discount":null,
         "progress":4.6846930702
     },
@@ -3130,7 +3130,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3691755907,
+        "value":2.7690939254,
         "discount":null,
         "progress":3.6403406711
     },
@@ -3187,7 +3187,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.6121287574,
+        "value":3.0119733825,
         "discount":null,
         "progress":6.9260483083
     },
@@ -3244,7 +3244,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2444642201,
+        "value":2.644420391,
         "discount":null,
         "progress":1.9537394704
     },
@@ -3301,7 +3301,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2450148222,
+        "value":2.6449708261,
         "discount":null,
         "progress":1.9611858333
     },
@@ -3358,7 +3358,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6221772453,
+        "value":3.0220188218,
         "discount":null,
         "progress":7.0619444315
     },
@@ -3415,7 +3415,7 @@
         "precisionWeaponsProficiency":20,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.616258273,
+        "value":3.0161016452,
         "discount":null,
         "progress":6.9818960302
     },
@@ -3472,7 +3472,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6458531347,
+        "value":3.0456875281,
         "discount":null,
         "progress":7.382138037
     },
@@ -3529,7 +3529,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5127450824,
+        "value":2.9126198595,
         "discount":null,
         "progress":5.5819798017
     },
@@ -3586,7 +3586,7 @@
         "precisionWeaponsProficiency":11,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":15,
-        "value":3.4162830917,
+        "value":3.8158837441,
         "discount":null,
         "progress":17.8014613487
     },
@@ -3643,7 +3643,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -3700,7 +3700,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -3757,7 +3757,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -3814,7 +3814,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -3871,7 +3871,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1085343322,
+        "value":2.508531743,
         "discount":null,
         "progress":0.1154186252
     },
@@ -3928,7 +3928,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -3985,7 +3985,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4042,7 +4042,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4099,7 +4099,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4156,7 +4156,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4213,7 +4213,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4270,7 +4270,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4327,7 +4327,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4384,7 +4384,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4441,7 +4441,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4498,7 +4498,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4555,7 +4555,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4612,7 +4612,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4669,7 +4669,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4726,7 +4726,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4783,7 +4783,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4840,7 +4840,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4897,7 +4897,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -4954,7 +4954,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -5011,7 +5011,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -5068,7 +5068,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -5125,7 +5125,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -5182,7 +5182,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.8370051257,
+        "value":6.2358713543,
         "discount":null,
         "progress":50.5393959138
     },
@@ -5239,7 +5239,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5002188851,
+        "value":2.9000974626,
         "discount":null,
         "progress":5.4125750454
     },
@@ -5296,7 +5296,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.3561298147,
+        "value":3.755748717,
         "discount":null,
         "progress":16.9879462
     },
@@ -5353,7 +5353,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.2585355965,
+        "value":3.6581841079,
         "discount":null,
         "progress":15.668078373
     },
@@ -5410,7 +5410,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8899075055,
+        "value":3.2896678552,
         "discount":null,
         "progress":10.6827384
     },
@@ -5467,7 +5467,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.4962580435,
+        "value":3.8958344322,
         "discount":null,
         "progress":18.8830455624
     },
@@ -5524,7 +5524,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8431063289,
+        "value":3.2428808776,
         "discount":null,
         "progress":10.049797552
     },
@@ -5581,7 +5581,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8448957857,
+        "value":3.2446697915,
         "discount":null,
         "progress":10.0739982315
     },
@@ -5638,7 +5638,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.8524665643,
+        "value":3.2522382731,
         "discount":null,
         "progress":10.1763857216
     },
@@ -5695,7 +5695,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.8684650479,
+        "value":4.2679285126,
         "discount":null,
         "progress":23.9167868944
     },
@@ -5752,7 +5752,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8208069448,
+        "value":3.2205882589,
         "discount":null,
         "progress":9.7482198539
     },
@@ -5809,7 +5809,7 @@
         "precisionWeaponsProficiency":20,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.3201274254,
+        "value":5.7191504697,
         "discount":null,
         "progress":43.5491227254
     },
@@ -5866,7 +5866,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5940965394,
+        "value":2.9939466352,
         "discount":null,
         "progress":6.6821799227
     },
@@ -5923,7 +5923,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5622992694,
+        "value":2.9621590122,
         "discount":null,
         "progress":6.2521524643
     },
@@ -5980,7 +5980,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3263662791,
+        "value":2.7262976018,
         "discount":null,
         "progress":3.0613859543
     },
@@ -6037,7 +6037,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9269354953,
+        "value":3.326684611,
         "discount":null,
         "progress":11.1835063061
     },
@@ -6094,7 +6094,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3130141788,
+        "value":2.7129495523,
         "discount":null,
         "progress":2.8808116536
     },
@@ -6151,7 +6151,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":5.264103664,
+        "value":5.6631437054,
         "discount":null,
         "progress":42.7914552986
     },
@@ -6208,7 +6208,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.3609165595,
+        "value":2.7608373999,
         "discount":null,
         "progress":3.5286452273
     },
@@ -6243,7 +6243,7 @@
         "talentPointsAvailable":0,
         "talentPointsTotal":0,
         "earnRate":0.27,
-        "characterTokens":6735,
+        "characterTokens":6744,
         "overachiever":10,
         "hodler":10,
         "grounded":0,
@@ -6265,9 +6265,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.0630718589,
+        "value":3.464018151,
         "discount":null,
-        "progress":13.0246195374
+        "progress":13.041373854
     },
     "CRHEROES-9edff2-015c":{
         "identifier":"CRHEROES-9edff2-015c",
@@ -6322,7 +6322,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":19,
-        "value":4.5030339423,
+        "value":4.9023048849,
         "discount":null,
         "progress":32.4987201564
     },
@@ -6379,7 +6379,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "value":9.4956182807,
+        "value":9.8933745213,
         "discount":null,
         "progress":100.0
     },
@@ -6436,7 +6436,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3269168812,
+        "value":2.7268480368,
         "discount":null,
         "progress":3.0688323172
     },
@@ -6493,7 +6493,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -6550,7 +6550,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":4.1530511773,
+        "value":3.9123554876,
         "discount":null,
         "progress":31.0113091637
     },
@@ -6607,7 +6607,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6383758853,
+        "value":3.3978363432,
         "discount":null,
         "progress":24.0508214269
     },
@@ -6664,7 +6664,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.4317178753,
+        "value":6.1903308601,
         "discount":null,
         "progress":61.8280820962
     },
@@ -6721,7 +6721,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.8606882526,
+        "value":1.6206880438,
         "discount":null,
         "progress":0.0093079536
     },
@@ -6778,7 +6778,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "value":3.3813823656,
+        "value":3.1409207928,
         "discount":null,
         "progress":20.5752315353
     },
@@ -6835,7 +6835,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2848583281,
+        "value":2.0447294302,
         "discount":null,
         "progress":5.7457997859
     },
@@ -6892,7 +6892,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2097011445,
+        "value":1.9695950486,
         "discount":null,
         "progress":4.7293712477
     },
@@ -6949,7 +6949,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":1,
-        "value":2.2958703697,
+        "value":2.0557381308,
         "discount":null,
         "progress":5.8947270443
     },
@@ -7006,7 +7006,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.3816576666,
+        "value":3.1411960103,
         "discount":null,
         "progress":20.5789547168
     },
@@ -7063,7 +7063,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.0570467185,
+        "value":1.8169869364,
         "discount":null,
         "progress":2.664867129
     },
@@ -7120,7 +7120,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":3.1718782751,
+        "value":2.9314802638,
         "discount":null,
         "progress":17.7418904454
     },
@@ -7177,7 +7177,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2070857846,
+        "value":1.9669804822,
         "discount":null,
         "progress":4.6940010239
     },
@@ -7234,7 +7234,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.2240478219,
+        "value":2.9836339829,
         "discount":null,
         "progress":18.4474333318
     },
@@ -7291,7 +7291,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.6294906483,
+        "value":5.3883470211,
         "discount":null,
         "progress":50.9787313259
     },
@@ -7348,7 +7348,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.7674164687,
+        "value":5.5262309962,
         "discount":null,
         "progress":52.8440452367
     },
@@ -7405,7 +7405,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2723321308,
+        "value":2.0322070332,
         "discount":null,
         "progress":5.5763950296
     },
@@ -7462,7 +7462,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1265602308,
+        "value":1.886479359,
         "discount":null,
         "progress":3.6049704472
     },
@@ -7519,7 +7519,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.7185951147,
+        "value":2.4783346252,
         "discount":null,
         "progress":11.6116721739
     },
@@ -7576,7 +7576,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.5245078824,
+        "value":2.2843062771,
         "discount":null,
         "progress":8.9868292456
     },
@@ -7633,7 +7633,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.6046204847,
+        "value":2.364394574,
         "discount":null,
         "progress":10.07027505
     },
@@ -7690,7 +7690,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.2081869888,
+        "value":1.9680813522,
         "discount":null,
         "progress":4.7088937497
     },
@@ -7747,7 +7747,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.2907016967,
+        "value":4.0499642452,
         "discount":null,
         "progress":32.872899893
     },
@@ -7804,7 +7804,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.2605252096,
+        "value":3.0201003037,
         "discount":null,
         "progress":18.940754875
     },
@@ -7861,7 +7861,7 @@
         "precisionWeaponsProficiency":17,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.4910142258,
+        "value":5.249912611,
         "discount":null,
         "progress":49.1059710523
     },
@@ -7918,7 +7918,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6096069267,
+        "value":3.3690761128,
         "discount":null,
         "progress":23.6617489645
     },
@@ -7975,7 +7975,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.6597737626,
+        "value":5.4186209478,
         "discount":null,
         "progress":51.3882812864
     },
@@ -8032,7 +8032,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.3787670057,
+        "value":3.1383062264,
         "discount":null,
         "progress":20.5398613115
     },
@@ -8089,7 +8089,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9704955652,
+        "value":2.7301586515,
         "discount":null,
         "progress":15.0183832085
     },
@@ -8146,7 +8146,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2288345667,
+        "value":1.9887226659,
         "discount":null,
         "progress":4.9881323591
     },
@@ -8203,7 +8203,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.1180879454,
+        "value":3.8774028632,
         "discount":null,
         "progress":30.5384651184
     },
@@ -8260,7 +8260,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2085999404,
+        "value":1.9684941785,
         "discount":null,
         "progress":4.7144785219
     },
@@ -8317,7 +8317,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2145189127,
+        "value":1.9744113551,
         "discount":null,
         "progress":4.7945269233
     },
@@ -8374,7 +8374,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2280086636,
+        "value":1.9878970133,
         "discount":null,
         "progress":4.9769628147
     },
@@ -8431,7 +8431,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0068042789,
+        "value":1.7667597399,
         "discount":null,
         "progress":1.9853865128
     },
@@ -8488,7 +8488,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":15,
-        "value":2.4676582179,
+        "value":2.2274738602,
         "discount":null,
         "progress":8.2179922744
     },
@@ -8545,7 +8545,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2068104836,
+        "value":1.9667052646,
         "discount":null,
         "progress":4.6902778424
     },
@@ -8602,7 +8602,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "value":2.2414984145,
+        "value":2.0013826715,
         "discount":null,
         "progress":5.1593987062
     },
@@ -8659,7 +8659,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.1056993986,
+        "value":3.865018075,
         "discount":null,
         "progress":30.3709219528
     },
@@ -8716,7 +8716,7 @@
         "precisionWeaponsProficiency":6,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":1,
-        "value":3.7939209722,
+        "value":3.5533342392,
         "discount":null,
         "progress":26.154418951
     },
@@ -8773,7 +8773,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.308671868,
+        "value":2.0685357452,
         "discount":null,
         "progress":6.0678549821
     },
@@ -8830,7 +8830,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":4.1061123502,
+        "value":3.8654309013,
         "discount":null,
         "progress":30.376506725
     },
@@ -8887,7 +8887,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6720692392,
+        "value":2.4318228652,
         "discount":null,
         "progress":10.9824545074
     },
@@ -8944,7 +8944,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.8490432267,
+        "value":5.6078329894,
         "discount":null,
         "progress":53.9479685391
     },
@@ -9001,7 +9001,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.344736304,
+        "value":2.1045892397,
         "discount":null,
         "progress":6.5555917532
     },
@@ -9058,7 +9058,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4365492005,
+        "value":2.196374281,
         "discount":null,
         "progress":7.7972727696
     },
@@ -9115,7 +9115,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6057216888,
+        "value":2.365495444,
         "discount":null,
         "progress":10.0851677759
     },
@@ -9172,7 +9172,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2704050236,
+        "value":2.0302805106,
         "discount":null,
         "progress":5.5503327593
     },
@@ -9229,7 +9229,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.0653367731,
+        "value":2.8249710855,
         "discount":null,
         "progress":16.3010192209
     },
@@ -9286,7 +9286,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2168589715,
+        "value":1.9767507039,
         "discount":null,
         "progress":4.8261739657
     },
@@ -9343,7 +9343,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3061941586,
+        "value":2.0660587876,
         "discount":null,
         "progress":6.034346349
     },
@@ -9400,7 +9400,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":8.090406634,
+        "value":7.8485163886,
         "discount":null,
         "progress":84.260250384
     },
@@ -9457,7 +9457,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0906334452,
+        "value":1.8505634733,
         "discount":null,
         "progress":3.1190952669
     },
@@ -9514,7 +9514,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.607373495,
+        "value":2.3671467491,
         "discount":null,
         "progress":10.1075068646
     },
@@ -9571,7 +9571,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":4.1066629523,
+        "value":3.8659813364,
         "discount":null,
         "progress":30.3839530879
     },
@@ -9628,7 +9628,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":8,
-        "value":2.2465914837,
+        "value":2.0064741956,
         "discount":null,
         "progress":5.2282775632
     },
@@ -9685,7 +9685,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.108452409,
+        "value":3.8677702502,
         "discount":null,
         "progress":30.4081537674
     },
@@ -9742,7 +9742,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.0660250257,
+        "value":2.8256591293,
         "discount":null,
         "progress":16.3103271746
     },
@@ -9799,7 +9799,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.7415071477,
+        "value":4.5006329262,
         "discount":null,
         "progress":38.9696095313
     },
@@ -9856,7 +9856,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8895570598,
+        "value":2.6492447021,
         "discount":null,
         "progress":13.9237678596
     },
@@ -9913,7 +9913,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.004357593,
+        "value":2.7640104059,
         "discount":null,
         "progress":15.4763345279
     },
@@ -9970,7 +9970,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6111210825,
+        "value":3.3705898092,
         "discount":null,
         "progress":23.6822264625
     },
@@ -10027,7 +10027,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6346593213,
+        "value":3.3941209067,
         "discount":null,
         "progress":24.0005584772
     },
@@ -10084,7 +10084,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":20,
-        "value":2.220162584,
+        "value":1.9800533141,
         "discount":null,
         "progress":4.8708521432
     },
@@ -10141,7 +10141,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.2548505149,
+        "value":2.014730721,
         "discount":null,
         "progress":5.3399730069
     },
@@ -10198,7 +10198,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.611534034,
+        "value":3.3710026354,
         "discount":null,
         "progress":23.6878112347
     },
@@ -10255,7 +10255,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2127294559,
+        "value":1.9726224412,
         "discount":null,
         "progress":4.7703262438
     },
@@ -10312,7 +10312,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.2076363867,
+        "value":1.9675309172,
         "discount":null,
         "progress":4.7014473868
     },
@@ -10369,7 +10369,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6050334362,
+        "value":2.3648074002,
         "discount":null,
         "progress":10.0758598222
     },
@@ -10398,26 +10398,26 @@
         "rarityClass":"Epic",
         "skin":"Maui",
         "species":"Space Shark",
-        "level":12,
-        "health":1793,
-        "shield":983,
-        "talentPointsAvailable":30,
-        "talentPointsTotal":30,
-        "earnRate":1.38,
-        "characterTokens":860,
+        "level":13,
+        "health":2051,
+        "shield":1125,
+        "talentPointsAvailable":35,
+        "talentPointsTotal":35,
+        "earnRate":1.57,
+        "characterTokens":0,
         "overachiever":0,
-        "hodler":7,
+        "hodler":9,
         "grounded":0,
         "stonewall":0,
-        "adrenalineRush":1,
+        "adrenalineRush":0,
         "overshield":10,
-        "blackWidow":7,
+        "blackWidow":9,
         "galvanized":0,
         "nanoMeds":0,
         "resilience":0,
-        "coldBlooded":4,
+        "coldBlooded":5,
         "perseverance":0,
-        "escapeArtist":1,
+        "escapeArtist":2,
         "scavenger":0,
         "coolMoves":0,
         "brawler":0,
@@ -10426,9 +10426,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":20,
-        "value":2.9973374165,
+        "value":2.9689098459,
         "discount":null,
-        "progress":15.3813934007
+        "progress":18.2482431237
     },
     "CRHEROES-9edff2-01ab":{
         "identifier":"CRHEROES-9edff2-01ab",
@@ -10483,7 +10483,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6166271032,
+        "value":3.3760941595,
         "discount":null,
         "progress":23.7566900917
     },
@@ -10540,7 +10540,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2083246393,
+        "value":1.968218961,
         "discount":null,
         "progress":4.7107553404
     },
@@ -10597,7 +10597,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.0146057782,
+        "value":4.7736487012,
         "discount":null,
         "progress":42.6630055382
     },
@@ -10654,7 +10654,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "value":3.0563894893,
+        "value":2.8160265162,
         "discount":null,
         "progress":16.1800158235
     },
@@ -10711,7 +10711,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":14,
-        "value":2.2541622623,
+        "value":2.0140426772,
         "discount":null,
         "progress":5.3306650533
     },
@@ -10768,7 +10768,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":4.9717964667,
+        "value":4.7308523776,
         "discount":null,
         "progress":42.0840508214
     },
@@ -10825,7 +10825,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.3893350723,
+        "value":2.1491744772,
         "discount":null,
         "progress":7.1587471494
     },
@@ -10882,7 +10882,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.8536612976,
+        "value":3.61305644,
         "discount":null,
         "progress":26.9623493275
     },
@@ -10939,7 +10939,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9168118626,
+        "value":2.6764912361,
         "discount":null,
         "progress":14.292362824
     },
@@ -10996,7 +10996,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2545752138,
+        "value":2.0144555035,
         "discount":null,
         "progress":5.3362498255
     },
@@ -11053,7 +11053,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0591114763,
+        "value":1.8190510678,
         "discount":null,
         "progress":2.6927909899
     },
@@ -11110,7 +11110,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.2560893696,
+        "value":2.0159691999,
         "discount":null,
         "progress":5.3567273235
     },
@@ -11167,7 +11167,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6298415531,
+        "value":3.3893046002,
         "discount":null,
         "progress":23.9354028017
     },
@@ -11224,7 +11224,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.1143713814,
+        "value":3.8736874268,
         "discount":null,
         "progress":30.4882021688
     },
@@ -11281,7 +11281,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.007354881,
+        "value":1.767310175,
         "discount":null,
         "progress":1.9928328757
     },
@@ -11338,7 +11338,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0041889191,
+        "value":1.7641451735,
         "discount":null,
         "progress":1.9500162889
     },
@@ -11395,7 +11395,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.1120313225,
+        "value":3.8713480779,
         "discount":null,
         "progress":30.4565551264
     },
@@ -11452,7 +11452,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.2109710226,
+        "value":2.970561151,
         "discount":null,
         "progress":18.2705822125
     },
@@ -11509,7 +11509,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":1.9604160539,
+        "value":1.7203855886,
         "discount":null,
         "progress":1.358030437
     },
@@ -11566,7 +11566,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0103831924,
+        "value":1.7703375676,
         "discount":null,
         "progress":2.0337878717
     },
@@ -11623,7 +11623,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.9517440712,
+        "value":1.7117162369,
         "discount":null,
         "progress":1.2407502211
     },
@@ -11680,7 +11680,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6089186741,
+        "value":3.3683880691,
         "discount":null,
         "progress":23.6524410108
     },
@@ -11737,7 +11737,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0054277737,
+        "value":1.7653836524,
         "discount":null,
         "progress":1.9667706055
     },
@@ -11794,7 +11794,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2518222035,
+        "value":2.0117033284,
         "discount":null,
         "progress":5.2990180109
     },
@@ -11851,7 +11851,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9433784129,
+        "value":2.7030497263,
         "discount":null,
         "progress":14.6516498348
     },
@@ -11908,7 +11908,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6065475919,
+        "value":2.3663210966,
         "discount":null,
         "progress":10.0963373202
     },
@@ -11965,7 +11965,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6035192805,
+        "value":2.3632937039,
         "discount":null,
         "progress":10.0553823242
     },
@@ -12022,7 +12022,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.7360321503,
+        "value":5.4948561995,
         "discount":null,
         "progress":52.4196025504
     },
@@ -12079,7 +12079,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3886468197,
+        "value":2.1484864334,
         "discount":null,
         "progress":7.1494391958
     },
@@ -12136,7 +12136,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.3962486217,
+        "value":3.1557825386,
         "discount":null,
         "progress":20.7762833341
     },
@@ -12193,7 +12193,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6833565817,
+        "value":2.4431067833,
         "discount":null,
         "progress":11.1351049472
     },
@@ -12250,7 +12250,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.210558071,
+        "value":2.9701483247,
         "discount":null,
         "progress":18.2649974403
     },
@@ -12307,7 +12307,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2094258435,
+        "value":1.969319831,
         "discount":null,
         "progress":4.7256480663
     },
@@ -12364,7 +12364,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":4.3277296864,
+        "value":4.086981001,
         "discount":null,
         "progress":33.3736677991
     },
@@ -12421,7 +12421,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.6535174424,
+        "value":3.4129733065,
         "discount":null,
         "progress":24.2555964071
     },
@@ -12456,7 +12456,7 @@
         "talentPointsAvailable":50,
         "talentPointsTotal":50,
         "earnRate":2.26,
-        "characterTokens":2716,
+        "characterTokens":2719,
         "overachiever":0,
         "hodler":7,
         "grounded":0,
@@ -12478,9 +12478,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":20,
         "elementalWeaponsProficiency":0,
-        "value":5.0925159722,
+        "value":4.8519480842,
         "discount":null,
-        "progress":43.716665891
+        "progress":43.7222506632
     },
     "CRHEROES-9edff2-01cf":{
         "identifier":"CRHEROES-9edff2-01cf",
@@ -12535,7 +12535,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.5359328755,
+        "value":2.2957278039,
         "discount":null,
         "progress":9.1413412761
     },
@@ -12592,7 +12592,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.2602188851,
+        "value":2.0200974626,
         "discount":null,
         "progress":5.4125750454
     },
@@ -12649,7 +12649,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.1286870354,
+        "value":3.8879987376,
         "discount":null,
         "progress":30.6818076046
     },
@@ -12706,7 +12706,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.6728951423,
+        "value":2.4326485177,
         "discount":null,
         "progress":10.9936240518
     },
@@ -12763,7 +12763,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.7234749297,
+        "value":4.4826061789,
         "discount":null,
         "progress":38.7257411458
     },
@@ -12820,7 +12820,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":3.2097321679,
+        "value":2.9693226722,
         "discount":null,
         "progress":18.2538278959
     },
@@ -12877,7 +12877,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2596682831,
+        "value":2.0195470275,
         "discount":null,
         "progress":5.4051286825
     },
@@ -12934,7 +12934,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2708179751,
+        "value":2.0306933369,
         "discount":null,
         "progress":5.5559175315
     },
@@ -12991,7 +12991,7 @@
         "precisionWeaponsProficiency":3,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":1,
-        "value":3.7860748926,
+        "value":3.54549054,
         "discount":null,
         "progress":26.0483082794
     },
@@ -13048,7 +13048,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "value":2.280315861,
+        "value":2.0401883412,
         "discount":null,
         "progress":5.6843672919
     },
@@ -13105,7 +13105,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":4.168880987,
+        "value":3.9281804948,
         "discount":null,
         "progress":31.2253920975
     },
@@ -13162,7 +13162,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.206122231,
+        "value":1.9660172209,
         "discount":null,
         "progress":4.6809698888
     },
@@ -13219,7 +13219,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13276,7 +13276,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13333,7 +13333,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13390,7 +13390,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13447,7 +13447,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13504,7 +13504,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13561,7 +13561,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13618,7 +13618,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13675,7 +13675,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13732,7 +13732,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13789,7 +13789,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13846,7 +13846,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13903,7 +13903,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -13960,7 +13960,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14017,7 +14017,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14074,7 +14074,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14131,7 +14131,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14188,7 +14188,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14245,7 +14245,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14302,7 +14302,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.86,
+        "value":1.62,
         "discount":null,
         "progress":0.0
     },
@@ -14359,7 +14359,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":4.7237502307,
+        "value":4.4828813964,
         "discount":null,
         "progress":38.7294643273
     },
@@ -14416,7 +14416,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.8870037467,
+        "value":4.6460853829,
         "discount":null,
         "progress":40.9373109322
     },
@@ -14451,7 +14451,7 @@
         "talentPointsAvailable":35,
         "talentPointsTotal":35,
         "earnRate":1.57,
-        "characterTokens":669,
+        "characterTokens":678,
         "overachiever":6,
         "hodler":2,
         "grounded":10,
@@ -14473,9 +14473,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.3014074138,
+        "value":3.0622085835,
         "discount":null,
-        "progress":19.4936473216
+        "progress":19.5104016382
     },
     "CRHEROES-9edff2-01f2":{
         "identifier":"CRHEROES-9edff2-01f2",
@@ -14530,7 +14530,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5550662977,
+        "value":2.3148554212,
         "discount":null,
         "progress":9.4001023875
     },
@@ -14587,7 +14587,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":3.6118093351,
+        "value":3.371277853,
         "discount":null,
         "progress":23.6915344162
     },
@@ -14644,7 +14644,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.1290999869,
+        "value":3.8884115638,
         "discount":null,
         "progress":30.6873923768
     },
@@ -14701,7 +14701,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2138306601,
+        "value":1.9737233113,
         "discount":null,
         "progress":4.7852189696
     },
@@ -14758,7 +14758,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2081869888,
+        "value":1.9680813522,
         "discount":null,
         "progress":4.7088937497
     },
@@ -14815,7 +14815,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":11,
-        "value":5.1917619966,
+        "value":4.9507511721,
         "discount":null,
         "progress":45.0588728068
     },
@@ -14872,7 +14872,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":4,
         "elementalWeaponsProficiency":14,
-        "value":4.2060466273,
+        "value":3.9653348593,
         "discount":null,
         "progress":31.7280215945
     },
@@ -14929,7 +14929,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2066728331,
+        "value":1.9665676559,
         "discount":null,
         "progress":4.6884162517
     },
@@ -14986,7 +14986,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":4.8100571064,
+        "value":4.5691620874,
         "discount":null,
         "progress":39.8966817145
     },
@@ -15043,7 +15043,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.6044828341,
+        "value":2.3642569652,
         "discount":null,
         "progress":10.0684134593
     },
@@ -15100,7 +15100,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6031063289,
+        "value":2.3628808776,
         "discount":null,
         "progress":10.049797552
     },
@@ -15157,7 +15157,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6053087373,
+        "value":2.3650826178,
         "discount":null,
         "progress":10.0795830037
     },
@@ -15214,7 +15214,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6051710867,
+        "value":2.364945009,
         "discount":null,
         "progress":10.0777214129
     },
@@ -15271,7 +15271,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "value":9.4956182807,
+        "value":9.8933745213,
         "discount":null,
         "progress":100.0
     },
@@ -15328,7 +15328,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6029686784,
+        "value":2.3627432689,
         "discount":null,
         "progress":10.0479359613
     },
@@ -15385,7 +15385,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.6077864466,
+        "value":2.3675595754,
         "discount":null,
         "progress":10.1130916368
     },
@@ -15442,7 +15442,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6044828341,
+        "value":2.3642569652,
         "discount":null,
         "progress":10.0684134593
     },
@@ -15499,7 +15499,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6079240971,
+        "value":2.3676971841,
         "discount":null,
         "progress":10.1149532275
     },
@@ -15556,7 +15556,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6051710867,
+        "value":2.364945009,
         "discount":null,
         "progress":10.0777214129
     },
@@ -15613,7 +15613,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6029686784,
+        "value":2.3627432689,
         "discount":null,
         "progress":10.0479359613
     },
@@ -15670,7 +15670,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6062722909,
+        "value":2.3660458791,
         "discount":null,
         "progress":10.0926141388
     },
@@ -15727,7 +15727,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2474173868,
+        "value":2.0072998481,
         "discount":null,
         "progress":5.2394471076
     },
@@ -15784,7 +15784,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2084622898,
+        "value":1.9683565697,
         "discount":null,
         "progress":4.7126169312
     },
@@ -15841,7 +15841,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2573282242,
+        "value":2.0172076787,
         "discount":null,
         "progress":5.3734816401
     },
@@ -15898,7 +15898,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.209563494,
+        "value":1.9694574398,
         "discount":null,
         "progress":4.727509657
     },
@@ -15955,7 +15955,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2088752414,
+        "value":1.968769396,
         "discount":null,
         "progress":4.7182017034
     },
@@ -16012,7 +16012,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.0907710958,
+        "value":1.850701082,
         "discount":null,
         "progress":3.1209568576
     },
@@ -16069,7 +16069,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1147222861,
+        "value":1.8746450058,
         "discount":null,
         "progress":3.4448736445
     },
@@ -16126,7 +16126,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1149975872,
+        "value":1.8749202234,
         "discount":null,
         "progress":3.448596826
     },
@@ -16183,7 +16183,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2079116878,
+        "value":1.9678061347,
         "discount":null,
         "progress":4.7051705683
     },
@@ -16240,7 +16240,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.117062345,
+        "value":1.8769843547,
         "discount":null,
         "progress":3.4765206869
     },
@@ -16297,7 +16297,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2185107778,
+        "value":1.978402009,
         "discount":null,
         "progress":4.8485130544
     },
@@ -16354,7 +16354,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2161707189,
+        "value":1.9760626602,
         "discount":null,
         "progress":4.816866012
     },
@@ -16411,7 +16411,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2251180027,
+        "value":1.9850072294,
         "discount":null,
         "progress":4.9378694094
     },
@@ -16446,7 +16446,7 @@
         "talentPointsAvailable":45,
         "talentPointsTotal":45,
         "earnRate":2.01,
-        "characterTokens":1452,
+        "characterTokens":1453,
         "overachiever":4,
         "hodler":0,
         "grounded":0,
@@ -16468,9 +16468,9 @@
         "precisionWeaponsProficiency":14,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.3046043992,
+        "value":4.0640003385,
         "discount":null,
-        "progress":33.0609205566
+        "progress":33.0627821473
     },
     "CRHEROES-9edff2-0215":{
         "identifier":"CRHEROES-9edff2-0215",
@@ -16525,7 +16525,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":3.9205594501,
+        "value":3.6799342961,
         "discount":null,
         "progress":27.8670824219
     },
@@ -16582,7 +16582,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.6035192805,
+        "value":2.3632937039,
         "discount":null,
         "progress":10.0553823242
     },
@@ -16639,7 +16639,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":12,
-        "value":2.5563051523,
+        "value":2.3160939001,
         "discount":null,
         "progress":9.4168567041
     },
@@ -16696,7 +16696,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.1865312769,
+        "value":4.9455220393,
         "discount":null,
         "progress":44.9881323591
     },
@@ -16753,7 +16753,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.0860909781,
+        "value":1.8460223843,
         "discount":null,
         "progress":3.0576627728
     },
@@ -16810,7 +16810,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2094258435,
+        "value":1.969319831,
         "discount":null,
         "progress":4.7256480663
     },
@@ -16867,7 +16867,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.5399867873,
+        "value":4.2991737051,
         "discount":null,
         "progress":36.2442407037
     },
@@ -16924,7 +16924,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1160987913,
+        "value":1.8760210934,
         "discount":null,
         "progress":3.4634895518
     },
@@ -16981,7 +16981,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "value":5.6047829539,
+        "value":5.6043142816,
         "discount":null,
         "progress":20.8917019593
     },
@@ -17038,7 +17038,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3873261566,
+        "value":6.3866200683,
         "discount":null,
         "progress":31.4748452553
     },
@@ -17095,7 +17095,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3219421599,
+        "value":6.3212559084,
         "discount":null,
         "progress":30.5905896589
     },
@@ -17152,7 +17152,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":8,
         "elementalWeaponsProficiency":1,
-        "value":6.3988888003,
+        "value":6.3981792039,
         "discount":null,
         "progress":31.6312188765
     },
@@ -17209,7 +17209,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.8466349165,
+        "value":5.8460928686,
         "discount":null,
         "progress":24.1625168707
     },
@@ -17266,7 +17266,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.4114906013,
+        "value":4.4113839624,
         "discount":null,
         "progress":4.7535719272
     },
@@ -17323,7 +17323,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":9.232424742,
+        "value":9.2308554781,
         "discount":null,
         "progress":69.9520640387
     },
@@ -17380,7 +17380,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3940710321,
+        "value":6.3933628974,
         "discount":null,
         "progress":31.566063201
     },
@@ -17437,7 +17437,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.4365429958,
+        "value":4.4364287563,
         "discount":null,
         "progress":5.0923814399
     },
@@ -17494,7 +17494,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3494722638,
+        "value":6.34877766,
         "discount":null,
         "progress":30.9629078047
     },
@@ -17551,7 +17551,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.0821549551,
+        "value":6.0815414528,
         "discount":null,
         "progress":27.3476986085
     },
@@ -17608,7 +17608,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.318776198,
+        "value":6.318090907,
         "discount":null,
         "progress":30.5477730721
     },
@@ -17665,7 +17665,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3095536132,
+        "value":6.3088711203,
         "discount":null,
         "progress":30.4230464932
     },
@@ -17722,7 +17722,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":5.4170276454,
+        "value":5.4166159363,
         "discount":null,
         "progress":18.3524922046
     },
@@ -17779,7 +17779,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":10.6397636522,
+        "value":10.6377674153,
         "discount":null,
         "progress":88.9849676549
     },
@@ -17836,7 +17836,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3052864471,
+        "value":6.3046052488,
         "discount":null,
         "progress":30.3653371806
     },
@@ -17893,7 +17893,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":7.5631368933,
+        "value":7.5620740753,
         "discount":null,
         "progress":47.3765532648
     },
@@ -17950,7 +17950,7 @@
         "precisionWeaponsProficiency":4,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":12,
-        "value":7.3050421694,
+        "value":7.3040576549,
         "discount":null,
         "progress":43.8860706474
     },
@@ -18007,7 +18007,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":10.9719143555,
+        "value":10.9698173472,
         "discount":null,
         "progress":93.4769860846
     },
@@ -18064,7 +18064,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":6.32992589,
+        "value":6.3292372164,
         "discount":null,
         "progress":30.6985619212
     },
@@ -18121,7 +18121,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.0536612976,
+        "value":6.05305644,
         "discount":null,
         "progress":26.9623493275
     },
@@ -18178,7 +18178,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.6006224149,
+        "value":4.6004583953,
         "discount":null,
         "progress":7.3113975892
     },
@@ -18235,7 +18235,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":5.2112401189,
+        "value":5.2108908438,
         "discount":null,
         "progress":15.5694140643
     },
@@ -18292,7 +18292,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3079018069,
+        "value":6.3072198152,
         "discount":null,
         "progress":30.4007074045
     },
@@ -18349,7 +18349,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.6750157422,
+        "value":6.6742223716,
         "discount":null,
         "progress":35.3655698795
     },
@@ -18406,7 +18406,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.4574658747,
+        "value":4.4573452874,
         "discount":null,
         "progress":5.3753432308
     },
@@ -18463,7 +18463,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.6502386487,
+        "value":6.6494527952,
         "discount":null,
         "progress":35.0304835482
     },
@@ -18520,7 +18520,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":7.3287180588,
+        "value":7.3277263612,
         "discount":null,
         "progress":44.2062642528
     },
@@ -18577,7 +18577,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":19,
-        "value":7.3712520693,
+        "value":7.3702474672,
         "discount":null,
         "progress":44.7814957882
     },
@@ -18634,7 +18634,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":5.8609505705,
+        "value":5.8604041794,
         "discount":null,
         "progress":24.3561223065
     },
@@ -18691,7 +18691,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.224836497,
+        "value":4.2247864872,
         "discount":null,
         "progress":2.2292548983
     },
@@ -18748,7 +18748,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.0554507544,
+        "value":6.0548453538,
         "discount":null,
         "progress":26.986550007
     },
@@ -18805,7 +18805,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.4194743314,
+        "value":4.4193652703,
         "discount":null,
         "progress":4.8615441895
     },
@@ -18862,7 +18862,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":11.4601607478,
+        "value":11.4579156103,
         "discount":null,
         "progress":100.0
     },
@@ -18919,7 +18919,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":8.8304852253,
+        "value":8.829037906,
         "discount":null,
         "progress":64.5162191092
     },
@@ -18976,7 +18976,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.4511339509,
+        "value":4.4510152846,
         "discount":null,
         "progress":5.2897100572
     },
@@ -19033,7 +19033,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":7.1521124424,
+        "value":7.1511743252,
         "discount":null,
         "progress":41.8178433471
     },
@@ -19090,7 +19090,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":12,
         "elementalWeaponsProficiency":2,
-        "value":4.5774971277,
+        "value":4.577340124,
         "discount":null,
         "progress":6.9986503467
     },
@@ -19147,7 +19147,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3943463331,
+        "value":6.3936381149,
         "discount":null,
         "progress":31.5697863825
     },
@@ -19204,7 +19204,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.8085057226,
+        "value":5.8079752428,
         "discount":null,
         "progress":23.6468562387
     },
@@ -19261,7 +19261,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.8108457814,
+        "value":5.8103145917,
         "discount":null,
         "progress":23.6785032811
     },
@@ -19318,7 +19318,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":4.4090128919,
+        "value":4.4089070048,
         "discount":null,
         "progress":4.7200632941
     },
@@ -19375,7 +19375,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3297882395,
+        "value":6.3290996076,
         "discount":null,
         "progress":30.6967003304
     },
@@ -19432,7 +19432,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.5252519771,
+        "value":6.5245040433,
         "discount":null,
         "progress":33.340159166
     },
@@ -19489,7 +19489,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":7.7005121116,
+        "value":7.6994076153,
         "discount":null,
         "progress":49.2344208126
     },
@@ -19546,7 +19546,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.0705612881,
+        "value":5.0702546936,
         "discount":null,
         "progress":13.666868339
     },
@@ -19603,7 +19603,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.9234128829,
+        "value":4.9231509317,
         "discount":null,
         "progress":11.6768278494
     },
@@ -19888,7 +19888,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.0711496921,
+        "value":4.0711463094,
         "discount":null,
         "progress":0.1507888491
     },
@@ -19945,7 +19945,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3790671255,
+        "value":6.3783635428,
         "discount":null,
         "progress":31.3631498115
     },
@@ -20002,7 +20002,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.3131325267,
+        "value":6.312448948,
         "discount":null,
         "progress":30.4714478522
     },
@@ -20059,7 +20059,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":9.4858393482,
+        "value":9.4841932007,
         "discount":null,
         "progress":73.3792525713
     },
@@ -20116,7 +20116,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.7202407163,
+        "value":4.7200404056,
         "discount":null,
         "progress":8.929119933
     },
@@ -20173,7 +20173,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":6.6463844341,
+        "value":6.64559975,
         "discount":null,
         "progress":34.9783590078
     },
@@ -20208,7 +20208,7 @@
         "talentPointsAvailable":60,
         "talentPointsTotal":60,
         "earnRate":2.82,
-        "characterTokens":8299,
+        "characterTokens":8302,
         "overachiever":5,
         "hodler":7,
         "grounded":0,
@@ -20230,9 +20230,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":9.7740795358,
+        "value":9.7727587653,
         "discount":null,
-        "progress":77.2774235584
+        "progress":77.2830083306
     },
     "CRHEROES-9edff2-03":{
         "identifier":"CRHEROES-9edff2-03",
@@ -20287,7 +20287,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4476363867,
+        "value":2.8475309172,
         "discount":null,
         "progress":4.7014473868
     },
@@ -20344,7 +20344,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":3,
-        "value":2.8097949032,
+        "value":3.2095795583,
         "discount":null,
         "progress":9.5992925955
     },
@@ -20401,7 +20401,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.9812318467,
+        "value":5.3803577087,
         "discount":null,
         "progress":38.9658863499
     },
@@ -20458,7 +20458,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8048394846,
+        "value":3.204625643,
         "discount":null,
         "progress":9.5322753293
     },
@@ -20515,7 +20515,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6465413872,
+        "value":3.0463755719,
         "discount":null,
         "progress":7.3914459906
     },
@@ -20572,7 +20572,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2459783758,
+        "value":2.6459340874,
         "discount":null,
         "progress":1.9742169684
     },
@@ -20629,7 +20629,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2583669226,
+        "value":2.6583188756,
         "discount":null,
         "progress":2.141760134
     },
@@ -20686,7 +20686,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3543093346,
+        "value":2.7542321796,
         "discount":null,
         "progress":3.4392888723
     },
@@ -20743,7 +20743,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":4.8614758948,
+        "value":5.2606380896,
         "discount":null,
         "progress":37.3463024154
     },
@@ -20800,7 +20800,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":3,
         "elementalWeaponsProficiency":1,
-        "value":2.9365710316,
+        "value":3.336317224,
         "discount":null,
         "progress":11.3138176572
     },
@@ -20857,7 +20857,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":17,
         "elementalWeaponsProficiency":0,
-        "value":3.003469184,
+        "value":3.4031950802,
         "discount":null,
         "progress":12.2185507516
     },
@@ -20914,7 +20914,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.8885310003,
+        "value":3.2882917676,
         "discount":null,
         "progress":10.6641224927
     },
@@ -20971,7 +20971,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2858970264,
+        "value":2.6858406271,
         "discount":null,
         "progress":2.5140782799
     },
@@ -21028,7 +21028,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.177910194,
+        "value":2.5778865568,
         "discount":null,
         "progress":1.0536603528
     },
@@ -21085,7 +21085,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.3453620508,
+        "value":2.7452876103,
         "discount":null,
         "progress":3.3182854749
     },
@@ -21142,7 +21142,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1210605295,
+        "value":2.5210541399,
         "discount":null,
         "progress":0.2848233816
     },
@@ -21199,7 +21199,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -21256,7 +21256,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -21313,7 +21313,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -21370,7 +21370,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1005506021,
+        "value":2.500550435,
         "discount":null,
         "progress":0.0074463629
     },
@@ -21427,7 +21427,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -21484,7 +21484,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.100275301,
+        "value":2.5002752175,
         "discount":null,
         "progress":0.0037231815
     },
@@ -21541,7 +21541,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -21598,7 +21598,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "value":2.6433754253,
+        "value":3.0432105704,
         "discount":null,
         "progress":7.3486294038
     },
@@ -21655,7 +21655,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "value":2.4912716014,
+        "value":2.8911528933,
         "discount":null,
         "progress":5.291571648
     },
@@ -21712,7 +21712,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8943123222,
+        "value":3.2940713354,
         "discount":null,
         "progress":10.7423093033
     },
@@ -21769,7 +21769,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -21826,7 +21826,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.7519816851,
+        "value":3.1517838801,
         "discount":null,
         "progress":8.8174244892
     },
@@ -21883,7 +21883,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4079930371,
+        "value":2.807899595,
         "discount":null,
         "progress":4.1653092568
     },
@@ -21940,7 +21940,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1001376505,
+        "value":2.5001376088,
         "discount":null,
         "progress":0.0018615907
     },
@@ -21997,7 +21997,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9766273328,
+        "value":3.3763613725,
         "discount":null,
         "progress":11.8555405594
     },
@@ -22054,7 +22054,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":20,
-        "value":6.3648948676,
+        "value":6.7636009395,
         "discount":null,
         "progress":57.6785963606
     },
@@ -22111,7 +22111,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5291254942,
+        "value":2.9289953017,
         "discount":null,
         "progress":5.8035090985
     },
@@ -22168,7 +22168,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3600906564,
+        "value":2.7600117474,
         "discount":null,
         "progress":3.517475683
     },
@@ -22225,7 +22225,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.3284310369,
+        "value":2.7283617332,
         "discount":null,
         "progress":3.0893098152
     },
@@ -22282,7 +22282,7 @@
         "precisionWeaponsProficiency":18,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5145345392,
+        "value":2.9144087734,
         "discount":null,
         "progress":5.6061804812
     },
@@ -22339,7 +22339,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.6690404687,
+        "value":5.0682610465,
         "discount":null,
         "progress":34.7437985759
     },
@@ -22396,7 +22396,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1667605019,
+        "value":2.5667402474,
         "discount":null,
         "progress":0.9028715037
     },
@@ -22453,7 +22453,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3452244003,
+        "value":2.7451500016,
         "discount":null,
         "progress":3.3164238842
     },
@@ -22510,7 +22510,7 @@
         "precisionWeaponsProficiency":11,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":3,
-        "value":2.6020802695,
+        "value":3.0019279432,
         "discount":null,
         "progress":6.790152185
     },
@@ -22567,7 +22567,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2280838083,
+        "value":2.6280449489,
         "discount":null,
         "progress":1.7322101736
     },
@@ -22624,7 +22624,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1556796351,
+        "value":2.5556627424,
         "discount":null,
         "progress":0.75301345
     },
@@ -22681,7 +22681,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6234161,
+        "value":3.0232573006,
         "discount":null,
         "progress":7.0786987481
     },
@@ -22738,7 +22738,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5640887261,
+        "value":2.9639479261,
         "discount":null,
         "progress":6.2763531438
     },
@@ -22795,7 +22795,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -22852,7 +22852,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -22909,7 +22909,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -22966,7 +22966,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23023,7 +23023,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23080,7 +23080,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23137,7 +23137,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23194,7 +23194,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "value":2.5033848471,
+        "value":2.903262464,
         "discount":null,
         "progress":5.4553916321
     },
@@ -23251,7 +23251,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6290597713,
+        "value":3.0288992596,
         "discount":null,
         "progress":7.155023968
     },
@@ -23308,7 +23308,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1652463462,
+        "value":2.5652265511,
         "discount":null,
         "progress":0.8823940057
     },
@@ -23365,7 +23365,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1627686368,
+        "value":2.5627495934,
         "discount":null,
         "progress":0.8488853726
     },
@@ -23422,7 +23422,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1966306646,
+        "value":2.5966013478,
         "discount":null,
         "progress":1.306836692
     },
@@ -23479,7 +23479,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5910682279,
+        "value":2.9909192426,
         "discount":null,
         "progress":6.6412249267
     },
@@ -23536,7 +23536,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4871420858,
+        "value":2.8870246306,
         "discount":null,
         "progress":5.2357239261
     },
@@ -23593,7 +23593,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.4942999128,
+        "value":2.894180286,
         "discount":null,
         "progress":5.332526644
     },
@@ -23650,7 +23650,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "value":2.3505927706,
+        "value":2.7505167431,
         "discount":null,
         "progress":3.3890259227
     },
@@ -23707,7 +23707,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23764,7 +23764,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23821,7 +23821,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -23878,7 +23878,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":12,
-        "value":2.4620896913,
+        "value":2.8619798367,
         "discount":null,
         "progress":4.8969144134
     },
@@ -23935,7 +23935,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":2,
-        "value":2.4517659023,
+        "value":2.8516591799,
         "discount":null,
         "progress":4.7572951087
     },
@@ -23992,7 +23992,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.79038618,
+        "value":3.1901767235,
         "discount":null,
         "progress":9.3368083027
     },
@@ -24049,7 +24049,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1006882526,
+        "value":2.5006880438,
         "discount":null,
         "progress":0.0093079536
     },
@@ -24106,7 +24106,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4644297501,
+        "value":2.8643191856,
         "discount":null,
         "progress":4.9285614558
     },
@@ -24163,7 +24163,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":14,
         "elementalWeaponsProficiency":0,
-        "value":2.4582354767,
+        "value":2.8581267915,
         "discount":null,
         "progress":4.8447898729
     },
@@ -24198,7 +24198,7 @@
         "talentPointsAvailable":25,
         "talentPointsTotal":25,
         "earnRate":1.2,
-        "characterTokens":780,
+        "characterTokens":781,
         "overachiever":1,
         "hodler":0,
         "grounded":0,
@@ -24220,9 +24220,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9503360835,
+        "value":3.3502157085,
         "discount":null,
-        "progress":11.4999767301
+        "progress":11.5018383208
     },
     "CRHEROES-9edff2-4f":{
         "identifier":"CRHEROES-9edff2-4f",
@@ -24277,7 +24277,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":11,
-        "value":2.7332612145,
+        "value":3.1330690891,
         "discount":null,
         "progress":8.56424815
     },
@@ -24334,7 +24334,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "value":2.8940370211,
+        "value":3.2937961179,
         "discount":null,
         "progress":10.7385861218
     },
@@ -24391,7 +24391,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8937617201,
+        "value":3.2935209004,
         "discount":null,
         "progress":10.7348629404
     },
@@ -24448,7 +24448,7 @@
         "precisionWeaponsProficiency":2,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.2816298603,
+        "value":2.6815747556,
         "discount":null,
         "progress":2.4563689673
     },
@@ -24505,7 +24505,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.738110006,
+        "value":4.1376130192,
         "discount":null,
         "progress":22.1538604738
     },
@@ -24562,7 +24562,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.11059909,
+        "value":2.5105958743,
         "discount":null,
         "progress":0.1433424862
     },
@@ -24619,7 +24619,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":12,
         "elementalWeaponsProficiency":0,
-        "value":2.5073767121,
+        "value":2.907253118,
         "discount":null,
         "progress":5.5093777633
     },
@@ -24676,7 +24676,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.9708460109,
+        "value":3.3705818046,
         "discount":null,
         "progress":11.7773537488
     },
@@ -24733,7 +24733,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8933487685,
+        "value":3.2931080741,
         "discount":null,
         "progress":10.7292781682
     },
@@ -24790,7 +24790,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3552728882,
+        "value":2.7551954409,
         "discount":null,
         "progress":3.4523200074
     },
@@ -24847,7 +24847,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -24904,7 +24904,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -24961,7 +24961,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25018,7 +25018,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25075,7 +25075,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25132,7 +25132,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25189,7 +25189,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25246,7 +25246,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25303,7 +25303,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25360,7 +25360,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25417,7 +25417,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25474,7 +25474,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25531,7 +25531,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25588,7 +25588,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25645,7 +25645,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25702,7 +25702,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25759,7 +25759,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25816,7 +25816,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25873,7 +25873,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25930,7 +25930,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -25987,7 +25987,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26044,7 +26044,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26101,7 +26101,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26158,7 +26158,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26215,7 +26215,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26272,7 +26272,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26329,7 +26329,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26386,7 +26386,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26443,7 +26443,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26500,7 +26500,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26557,7 +26557,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26614,7 +26614,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26671,7 +26671,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26728,7 +26728,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26785,7 +26785,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26842,7 +26842,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26899,7 +26899,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -26956,7 +26956,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27013,7 +27013,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27070,7 +27070,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27127,7 +27127,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27184,7 +27184,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27241,7 +27241,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27298,7 +27298,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27355,7 +27355,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27412,7 +27412,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27469,7 +27469,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27526,7 +27526,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27583,7 +27583,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27640,7 +27640,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27697,7 +27697,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27754,7 +27754,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27811,7 +27811,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27868,7 +27868,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27925,7 +27925,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -27982,7 +27982,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28039,7 +28039,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28096,7 +28096,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28153,7 +28153,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28210,7 +28210,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28267,7 +28267,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28324,7 +28324,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28381,7 +28381,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28438,7 +28438,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28495,7 +28495,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28552,7 +28552,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28609,7 +28609,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28666,7 +28666,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28723,7 +28723,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28780,7 +28780,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28837,7 +28837,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28894,7 +28894,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -28951,7 +28951,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29008,7 +29008,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29065,7 +29065,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29122,7 +29122,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29179,7 +29179,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29236,7 +29236,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29293,7 +29293,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29350,7 +29350,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29407,7 +29407,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29464,7 +29464,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29521,7 +29521,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29578,7 +29578,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29635,7 +29635,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29692,7 +29692,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29749,7 +29749,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29806,7 +29806,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29863,7 +29863,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29920,7 +29920,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -29977,7 +29977,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30034,7 +30034,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30091,7 +30091,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30148,7 +30148,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30205,7 +30205,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30262,7 +30262,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30319,7 +30319,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30376,7 +30376,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30433,7 +30433,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30490,7 +30490,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30547,7 +30547,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30604,7 +30604,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30661,7 +30661,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30718,7 +30718,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30775,7 +30775,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30832,7 +30832,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30889,7 +30889,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -30946,7 +30946,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31003,7 +31003,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31060,7 +31060,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31117,7 +31117,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31174,7 +31174,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31231,7 +31231,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31288,7 +31288,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31345,7 +31345,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31402,7 +31402,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31459,7 +31459,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31516,7 +31516,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31573,7 +31573,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31630,7 +31630,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31687,7 +31687,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.1,
+        "value":2.5,
         "discount":null,
         "progress":0.0
     },
@@ -31744,7 +31744,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":19,
         "elementalWeaponsProficiency":0,
-        "value":2.6223148958,
+        "value":3.0221564305,
         "discount":null,
         "progress":7.0638060222
     },
@@ -31801,7 +31801,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.1210227276,
+        "value":3.5207129591,
         "discount":null,
         "progress":13.8083492344
     },
@@ -31858,7 +31858,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.4138364057,
+        "value":4.81313441,
         "discount":null,
         "progress":31.2924093638
     },
@@ -31915,7 +31915,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":2.2514843966,
+        "value":2.6514384377,
         "discount":null,
         "progress":2.0486805976
     },
@@ -31972,7 +31972,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.5123631542,
+        "value":3.9119346568,
         "discount":null,
         "progress":19.1008516778
     },
@@ -32029,7 +32029,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3309087463,
+        "value":2.7308386908,
         "discount":null,
         "progress":3.1228184484
     },
@@ -32086,7 +32086,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.0939365987,
+        "value":4.4933316575,
         "discount":null,
         "progress":26.966072509
     },
@@ -32143,7 +32143,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5466071102,
+        "value":2.9464716139,
         "discount":null,
         "progress":6.0399311211
     },
@@ -32200,7 +32200,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5113685772,
+        "value":2.9112437719,
         "discount":null,
         "progress":5.5633638944
     },
@@ -32257,7 +32257,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5504613247,
+        "value":2.9503246591,
         "discount":null,
         "progress":6.0920556616
     },
@@ -32314,7 +32314,7 @@
         "precisionWeaponsProficiency":14,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.9498165049,
+        "value":4.3492552883,
         "discount":null,
         "progress":25.0169870154
     },
@@ -32371,7 +32371,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4864538332,
+        "value":2.8863365868,
         "discount":null,
         "progress":5.2264159724
     },
@@ -32428,7 +32428,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":0,
-        "value":3.127217001,
+        "value":3.5269053532,
         "discount":null,
         "progress":13.8921208172
     },
@@ -32485,7 +32485,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":10,
-        "value":6.3310328398,
+        "value":6.7297491852,
         "discount":null,
         "progress":57.2206450412
     },
@@ -32542,7 +32542,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6417236191,
+        "value":3.0415592653,
         "discount":null,
         "progress":7.3262903151
     },
@@ -32599,7 +32599,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "value":3.7173247776,
+        "value":4.1168340968,
         "discount":null,
         "progress":21.8727602737
     },
@@ -32656,7 +32656,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.9149909235,
+        "value":4.3144402727,
         "discount":null,
         "progress":24.5460045609
     },
@@ -32713,7 +32713,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.2119341172,
+        "value":5.6109899863,
         "discount":null,
         "progress":42.0859124122
     },
@@ -32770,7 +32770,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.5006318367,
+        "value":2.9005102888,
         "discount":null,
         "progress":5.4181598176
     },
@@ -32827,7 +32827,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6316751312,
+        "value":3.031513826,
         "discount":null,
         "progress":7.1903941918
     },
@@ -32884,7 +32884,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.8607566188,
+        "value":4.2602224222,
         "discount":null,
         "progress":23.8125378136
     },
@@ -32941,7 +32941,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.6494320482,
+        "value":3.0492653558,
         "discount":null,
         "progress":7.4305393959
     },
@@ -32998,7 +32998,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":1,
-        "value":3.1140025511,
+        "value":3.5136949125,
         "discount":null,
         "progress":13.7134081072
     },
@@ -33055,7 +33055,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":1,
-        "value":2.4890691931,
+        "value":2.8889511532,
         "discount":null,
         "progress":5.2617861963
     },
@@ -33112,7 +33112,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3841794973,
+        "value":2.78409328,
         "discount":null,
         "progress":3.8432540606
     },
@@ -33169,7 +33169,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8443451836,
+        "value":3.2441193565,
         "discount":null,
         "progress":10.0665518686
     },
@@ -33226,7 +33226,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8429686784,
+        "value":3.2427432689,
         "discount":null,
         "progress":10.0479359613
     },
@@ -33283,7 +33283,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.5314965764,
+        "value":3.9310622741,
         "discount":null,
         "progress":19.3596127891
     },
@@ -33340,7 +33340,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.7803687155,
+        "value":4.1798589078,
         "discount":null,
         "progress":22.7253688277
     },
@@ -33397,7 +33397,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.4989800305,
+        "value":2.8988589838,
         "discount":null,
         "progress":5.3958207288
     },
@@ -33454,7 +33454,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":3,
-        "value":3.8533234908,
+        "value":4.2527915493,
         "discount":null,
         "progress":23.7120119142
     },
@@ -33511,7 +33511,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.8985794883,
+        "value":3.2983372069,
         "discount":null,
         "progress":10.8000186159
     },
@@ -33568,7 +33568,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.2952126814,
+        "value":5.6942432846,
         "discount":null,
         "progress":43.2121748034
     },
@@ -33625,7 +33625,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":3.4948815383,
+        "value":3.8944583446,
         "discount":null,
         "progress":18.8644296551
     },
@@ -33682,7 +33682,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":5.0466158434,
+        "value":5.4457218685,
         "discount":null,
         "progress":39.8501419463
     },
@@ -33739,7 +33739,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.3903737707,
+        "value":2.7902856741,
         "discount":null,
         "progress":3.9270256434
     },
@@ -33796,7 +33796,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":2,
         "elementalWeaponsProficiency":1,
-        "value":3.4787764275,
+        "value":3.87835812,
         "discount":null,
         "progress":18.6466235398
     },
@@ -33831,7 +33831,7 @@
         "talentPointsAvailable":65,
         "talentPointsTotal":65,
         "earnRate":3.13,
-        "characterTokens":1933,
+        "characterTokens":1948,
         "overachiever":0,
         "hodler":10,
         "grounded":0,
@@ -33853,9 +33853,9 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":8.1649507097,
+        "value":8.5651747934,
         "discount":null,
-        "progress":82.0226183274
+        "progress":82.0505421883
     },
     "CRHEROES-9edff2-fa":{
         "identifier":"CRHEROES-9edff2-fa",
@@ -33910,7 +33910,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":7,
-        "value":2.6291974218,
+        "value":3.0290368684,
         "discount":null,
         "progress":7.1568855587
     },
@@ -33967,7 +33967,7 @@
         "precisionWeaponsProficiency":10,
         "explosiveWeaponsProficiency":1,
         "elementalWeaponsProficiency":0,
-        "value":2.311224722,
+        "value":2.7111606385,
         "discount":null,
         "progress":2.8566109741
     },
@@ -34024,7 +34024,7 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":2.322099113,
+        "value":2.7220317303,
         "discount":null,
         "progress":3.0036766417
     },
@@ -34081,7 +34081,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":3,
-        "value":2.5439917503,
+        "value":2.9438570475,
         "discount":null,
         "progress":6.0045608973
     },
@@ -34138,7 +34138,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":4.9996770163,
+        "value":5.3987972822,
         "discount":null,
         "progress":39.2153395076
     },
@@ -34195,7 +34195,7 @@
         "precisionWeaponsProficiency":0,
         "explosiveWeaponsProficiency":10,
         "elementalWeaponsProficiency":10,
-        "value":3.9019141241,
+        "value":4.3013674407,
         "discount":null,
         "progress":24.3691534416
     }

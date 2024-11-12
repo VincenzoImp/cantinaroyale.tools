@@ -18797,7 +18797,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":98936,
+        "xp":98940,
         "wear":100.0,
         "level":17,
         "starLevel":5,
@@ -18805,9 +18805,9 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":5.3770221312,
+        "value":5.3771597817,
         "discount":null,
-        "progress":79.2520751636
+        "progress":79.2545492782
     },
     "CRWEAPONS-e5ab49-09d1":{
         "identifier":"CRWEAPONS-e5ab49-09d1",
@@ -39147,7 +39147,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":112413,
+        "xp":112450,
         "wear":100.0,
         "level":10,
         "starLevel":6,
@@ -39155,9 +39155,9 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":7.1692260907,
+        "value":7.170499358,
         "discount":null,
-        "progress":74.005096676
+        "progress":74.0279822359
     },
     "CRWEAPONS-e5ab49-1315":{
         "identifier":"CRWEAPONS-e5ab49-1315",
@@ -45373,7 +45373,7 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":67763,
+        "xp":68063,
         "wear":100.0,
         "level":16,
         "starLevel":4,
@@ -45381,9 +45381,9 @@
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":3.5322547464,
+        "value":3.5425785354,
         "discount":null,
-        "progress":57.7563491965
+        "progress":57.9419077897
     },
     "CRWEAPONS-e5ab49-1763":{
         "identifier":"CRWEAPONS-e5ab49-1763",
@@ -57667,7 +57667,7 @@
         "name":"Boomstick-X",
         "url":"https:\/\/media.elrond.com\/nfts\/asset\/bafybeibrxxffbbdt6ile7cvm4lmnggrqkxlaz3v7mden4gct32ch5sg5im\/Boomstick-X.png",
         "thumbnailUrl":"https:\/\/media.elrond.com\/nfts\/thumbnail\/CRWEAPONS-e5ab49-40c00fbf",
-        "owner":"erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
+        "owner":"erd19n2mxuvrnysq2298gzuxh8rdh07nnkrm2e8695mxtu47srq24utsjfw4n4",
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,

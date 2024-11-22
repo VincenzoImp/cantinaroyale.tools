@@ -157,7 +157,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 .filter((value) => value !== null && value !== undefined && value !== "")
                 .map((value) => formatDisplayValue(value, columnUid));
 
-            const uniqueValues = [...new Set(values)];
+            const uniqueValues = Array.from(new Set(values));
 
             return uniqueValues.sort((a, b) => {
                 const numA = parseFloat(a);

@@ -1,8 +1,6 @@
-# Cantina Royale Tools
+# ![Cantina Royale Tools](https://cantinaroyale.io/images/favicon.ico) Cantina Royale Tools
 
 A comprehensive web application for exploring and analyzing Cantina Royale NFT collections, character stats, weapons, and game data. Built with Next.js and TypeScript.
-
-![Cantina Royale Tools](https://cantinaroyale.io/images/favicon.ico)
 
 ## 🎮 About Cantina Royale
 

@@ -1,3 +1,4 @@
+// src/app/layout.tsx
 import "./globals.css";
 import { Providers } from "./providers";
 
@@ -104,12 +105,26 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className="dark:bg-gray-900 bg-gray-100">
+		<html lang="en" suppressHydrationWarning>
 			<head>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+							(function() {
+								try {
+									var theme = localStorage.getItem('theme');
+									if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+										document.documentElement.classList.add('dark');
+									}
+								} catch (e) {}
+							})();
+						`,
+					}}
+				/>
 			</head>
-			<body className="dark:bg-gray-900 bg-gray-100 antialiased">
+			<body className="bg-theme-background text-theme-text antialiased theme-transition">
 				<Providers>
 					{children}
 				</Providers>

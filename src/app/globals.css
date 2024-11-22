@@ -1,3 +1,154 @@
+/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Root CSS variables for theme consistency */
+:root {
+    --color-background: 248 250 252;
+    /* slate-50 */
+    --color-surface: 255 255 255;
+    /* white */
+    --color-primary: 59 130 246;
+    /* blue-500 */
+    --color-text: 31 41 55;
+    /* gray-800 */
+    --color-muted: 107 114 128;
+    /* gray-500 */
+    --color-border: 229 231 235;
+    /* gray-200 */
+}
+
+.dark {
+    --color-background: 15 23 42;
+    /* slate-900 */
+    --color-surface: 30 41 59;
+    /* slate-800 */
+    --color-primary: 96 165 250;
+    /* blue-400 */
+    --color-text: 241 245 249;
+    /* slate-100 */
+    --color-muted: 148 163 184;
+    /* slate-400 */
+    --color-border: 51 65 85;
+    /* slate-600 */
+}
+
+/* Smooth theme transitions */
+* {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Base styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-text));
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+}
+
+/* Utility classes for theme-aware styling */
+@layer utilities {
+    .bg-theme-background {
+        background-color: rgb(var(--color-background));
+    }
+
+    .bg-theme-surface {
+        background-color: rgb(var(--color-surface));
+    }
+
+    .text-theme-primary {
+        color: rgb(var(--color-primary));
+    }
+
+    .text-theme-text {
+        color: rgb(var(--color-text));
+    }
+
+    .text-theme-muted {
+        color: rgb(var(--color-muted));
+    }
+
+    .border-theme-border {
+        border-color: rgb(var(--color-border));
+    }
+}
+
+/* Custom scrollbar for dark/light themes */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(var(--color-surface));
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--color-muted));
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--color-primary));
+}
+
+/* Focus styles that work with both themes */
+.focus-visible {
+    outline: 2px solid rgb(var(--color-primary));
+    outline-offset: 2px;
+}
+
+/* Theme transition animation for smooth switching */
+.theme-transition {
+    animation: theme-transition 0.3s ease-in-out;
+}
+
+@keyframes theme-transition {
+    0% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Enhanced form styling for both themes */
+input,
+textarea,
+select {
+    @apply bg-white dark:bg-gray-700 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    @apply ring-blue-500 dark:ring-blue-400 border-blue-500 dark:border-blue-400;
+}
+
+/* Button variants for consistent theming */
+.btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white;
+}
+
+.btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-900 dark:text-white;
+}
+
+/* Card styling for consistent appearance */
+.card {
+    @apply bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm;
+}
+
+/* Navigation enhancements */
+.nav-link {
+    @apply text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400;
+}
+
+.nav-link.active {
+    @apply text-blue-600 dark:text-blue-400;
+}

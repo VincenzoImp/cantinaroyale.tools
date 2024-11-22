@@ -1,39 +1,35 @@
-"use client";
+// src/components/navbar.tsx
+'use client'
 
-import { contents, variables, identifiers } from "../app/layout";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { Popover, PopoverTrigger, PopoverContent } from "@heroui/react";
+import { useRouter } from "next/navigation";
+import { contents, variables } from "@/app/layout";
+// Removed theme toggle import
 
 const navbar = contents.components.navbar;
+const characters = variables.collections.characters;
+const weapons = variables.collections.weapons;
 
 export default function Navbar({ activeItemID }: { activeItemID: string }) {
-    const [activeToast, setActiveToast] = useState(false);
     const [mobileDropdown, setMobileDropdown] = useState(false);
+    const [activeToast, setActiveToast] = useState(false);
     const router = useRouter();
 
-    const activeClass = "py-2 px-3 dark:text-white text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 dark:bg-blue-800 md:dark:bg-transparent";
-    const inactiveClass = "py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-gray-400 dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent";
+    const activeClass = "block py-2 px-3 text-blue-700 bg-blue-100 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500";
+    const inactiveClass = "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
 
-    const characters = variables.collections.characters;
-    const weapons = variables.collections.weapons;
+    const handleSearch = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        if (event.key === "Enter") {
+            const target = event.target as HTMLInputElement;
+            const nftId = target.value.trim();
 
-    const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === 'Enter') {
-            const searchText = (e.target as HTMLInputElement).value.trim();
-            if (searchText !== '') {
-                let found = false;
-                for (const collection in identifiers) {
-                    if (searchText.startsWith(collection) && identifiers[collection].includes(searchText)) {
-                        found = true;
-                        router.push(`/nft/${searchText}`);
-                        break;
-                    }
-                }
-                if (!found) {
-                    setActiveToast(true);
-                    setTimeout(() => setActiveToast(false), 3000);
-                }
+            if (nftId) {
+                router.push(`/nft/${nftId}`);
+                target.value = "";
+            } else {
+                setActiveToast(true);
+                setTimeout(() => setActiveToast(false), 3000);
             }
         }
     };
@@ -47,8 +43,11 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
     );
 
     const renderHomeItem = () => (
-        <li key="home">
-            <a href="/" className={`block ${activeItemID === "home" ? activeClass : inactiveClass}`}>
+        <li>
+            <a
+                href="/"
+                className={`${activeItemID === "home" ? activeClass : inactiveClass}`}
+            >
                 {navbar.home}
             </a>
         </li>
@@ -85,31 +84,33 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
         const { name, list, allName, allUrl } = config[type];
 
         return (
-            <Popover placement="bottom" key={type}>
-                <PopoverTrigger>
-                    <button className={`flex items-center justify-between w-full ${activeItemID === type ? activeClass : inactiveClass}`}>
-                        {name}
-                        <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-                </PopoverTrigger>
-                <PopoverContent className="p-0 m-0">
-                    <div className="font-normal bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 text-center">
-                        <ul className="py-2 text-sm text-gray-700 dark:text-white">
-                            {list}
-                        </ul>
-                        <div className="py-2">
-                            <a
-                                href={`/collection/${allUrl}`}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                            >
-                                {allName}
-                            </a>
+            <li key={type}>
+                <Popover placement="bottom">
+                    <PopoverTrigger>
+                        <button className={`flex items-center justify-between w-full md:w-auto ${activeItemID === type ? activeClass : inactiveClass}`}>
+                            <span>{name}</span>
+                            <svg className="w-2.5 h-2.5 ml-2 md:ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+                    </PopoverTrigger>
+                    <PopoverContent className="p-0 m-0">
+                        <div className="font-normal bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 text-center">
+                            <ul className="py-2 text-sm text-gray-700 dark:text-white">
+                                {list}
+                            </ul>
+                            <div className="py-2">
+                                <a
+                                    href={`/collection/${allUrl}`}
+                                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                                >
+                                    {allName}
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                </PopoverContent>
-            </Popover>
+                    </PopoverContent>
+                </Popover>
+            </li>
         );
     };
 
@@ -161,14 +162,16 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
                 <nav className={baseNavClass}>
                     <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
                         {renderTitle()}
-                        <button
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                            onClick={() => setMobileDropdown(!mobileDropdown)}
-                        >
-                            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
-                            </svg>
-                        </button>
+                        <div className="flex items-center">
+                            <button
+                                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                onClick={() => setMobileDropdown(!mobileDropdown)}
+                            >
+                                <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                     <div className={`px-4 pb-4 ${mobileDropdown ? "" : "hidden"}`}>
                         {renderSearchItem()}

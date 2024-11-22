@@ -355,7 +355,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     // Column header with advanced dropdown
     const renderColumnHeader = React.useCallback((columnUid: string) => {
         const column = tableColumns.find((col) => col.uid === columnUid);
-        if (!column) return column?.name || columnUid;
+        if (!column) return columnUid;
 
         const hasFilters = column.searchable || column.sortable || column.filterable || column.rangeble;
 

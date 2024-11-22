@@ -3,8 +3,6 @@
   Cantina Royale Tools
 </h1>
 
-A comprehensive web application for exploring and analyzing Cantina Royale NFT collections, character stats, weapons, and game data. Built with Next.js and TypeScript.
-
 ## 🎮 About Cantina Royale
 
 Cantina Royale is a competitive battle royale game featuring NFT characters and weapons. This tools website provides detailed information about:

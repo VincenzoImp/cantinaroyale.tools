@@ -1,7 +1,4 @@
-<h1>
-  <img src="https://cantinaroyale.io/images/favicon.ico" alt="Cantina Royale Tools" width="32" height="32" style="vertical-align: middle;">
-  Cantina Royale Tools
-</h1>
+# Cantina Royale Tools
 
 ## 🎮 About Cantina Royale
 

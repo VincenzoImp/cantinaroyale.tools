@@ -113,136 +113,107 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 case "priceAmount":
                     if (typeof value === "number" || !isNaN(parseFloat(value))) {
                         const price = parseFloat(value);
-                        return price.toFixed(2).replace(/\.?0+$/, "");
+                        return price.toFixed(2).replace(/\.00$/, "");
                     }
                     break;
-                case "collection":
-                    const collectionNames: { [key: string]: string } = {
-                        "GSPACEAPE-08bc2b": "Genesis Space Apes",
-                        "CEA-2d29f9": "CEA Collection",
-                        "CRHEROES-9edff2": "Cantina Royale Heroes",
-                        "CRWEAPONS-e5ab49": "Cantina Weapons",
-                        "CRMYTH-546419": "Mythical Weapons"
-                    };
-                    return collectionNames[value] || value;
-                case "value":
-                case "discount":
-                case "progress":
-                    if (typeof value === "number" || (!isNaN(parseFloat(value)) && isFinite(value))) {
-                        const numValue = parseFloat(value);
-                        return numValue.toFixed(2).replace(/\.?0+$/, "");
+                case "level":
+                case "stars":
+                case "experience":
+                    if (typeof value === "number" || !isNaN(parseFloat(value))) {
+                        return parseFloat(value).toString();
                     }
                     break;
                 default:
-                    if (typeof value === "number" || (!isNaN(parseFloat(value)) && isFinite(value))) {
-                        const numValue = parseFloat(value);
-                        if (Number.isInteger(numValue) && numValue < 1000) {
-                            return numValue.toString();
-                        }
-                        return numValue.toFixed(2).replace(/\.?0+$/, "");
-                    }
-                    break;
+                    return value;
             }
         } catch (error) {
-            console.warn(`Error formatting value for column ${columnUid}:`, error);
+            console.error(`Error formatting value for column ${columnUid}:`, error);
         }
 
         return value;
     }, []);
 
+    // Get unique values for filterable columns
     const getUniqueValues = React.useCallback((columnUid: string): string[] => {
         try {
-            const values = tableEntries
-                .map((entry) => entry[columnUid])
-                .filter((value) => value !== null && value !== undefined && value !== "")
-                .map((value) => formatDisplayValue(value, columnUid));
-
-            const uniqueValues = Array.from(new Set(values));
-
-            return uniqueValues.sort((a, b) => {
-                const numA = parseFloat(a);
-                const numB = parseFloat(b);
-
-                if (!isNaN(numA) && !isNaN(numB)) {
-                    return numA - numB;
+            const values = new Set<string>();
+            tableEntries.forEach((entry) => {
+                const value = entry[columnUid];
+                if (value !== null && value !== undefined && value !== "") {
+                    values.add(String(value));
                 }
-
-                return a.toString().localeCompare(b.toString());
             });
+            return Array.from(values).sort();
         } catch (error) {
-            console.warn(`Error getting unique values for column ${columnUid}:`, error);
+            console.error(`Error getting unique values for column ${columnUid}:`, error);
             return [];
         }
-    }, [tableEntries, formatDisplayValue]);
+    }, [tableEntries]);
 
-    // Advanced filtering and sorting logic
+    // Filter and sort entries
     const filteredEntries = React.useMemo(() => {
         try {
             let result = [...tableEntries];
 
-            // Apply search filters
-            tableColumns.forEach((column) => {
-                if (!visibleColumns.includes(column.uid)) return;
-
-                const searchValue = filterStates.searchable[column.uid];
-                const filterValues = filterStates.filterable[column.uid];
-                const rangeValues = filterStates.rangeble[column.uid];
-
-                // Search filter
-                if (column.searchable && searchValue && searchValue.trim() !== "") {
+            // Apply searchable filters
+            Object.entries(filterStates.searchable).forEach(([columnUid, searchTerm]) => {
+                if (searchTerm && visibleColumns.includes(columnUid)) {
                     result = result.filter((entry) => {
-                        const value = entry[column.uid];
-                        if (!value) return false;
-                        return value.toString().toLowerCase().includes(searchValue.toLowerCase());
+                        const value = formatDisplayValue(entry[columnUid], columnUid);
+                        return String(value).toLowerCase().includes(searchTerm.toLowerCase());
                     });
                 }
+            });
 
-                // Multi-select filter
-                if (column.filterable && filterValues && filterValues.length > 0) {
+            // Apply filterable filters
+            Object.entries(filterStates.filterable).forEach(([columnUid, filterValues]) => {
+                if (filterValues.length > 0 && visibleColumns.includes(columnUid)) {
                     result = result.filter((entry) => {
-                        const displayValue = formatDisplayValue(entry[column.uid], column.uid);
-                        return filterValues.includes(displayValue);
+                        const value = String(entry[columnUid] || "");
+                        return filterValues.includes(value);
                     });
                 }
+            });
 
-                // Range filter
-                if (column.rangeble && rangeValues && rangeValues.min !== "" && rangeValues.max !== "") {
-                    const min = parseFloat(rangeValues.min);
-                    const max = parseFloat(rangeValues.max);
-                    if (!isNaN(min) && !isNaN(max)) {
-                        result = result.filter((entry) => {
-                            const value = parseFloat(entry[column.uid]);
-                            return !isNaN(value) && value >= min && value <= max;
-                        });
-                    }
+            // Apply range filters
+            Object.entries(filterStates.rangeble).forEach(([columnUid, range]) => {
+                if ((range.min || range.max) && visibleColumns.includes(columnUid)) {
+                    result = result.filter((entry) => {
+                        const value = parseFloat(entry[columnUid]);
+                        if (isNaN(value)) return false;
+
+                        const min = range.min ? parseFloat(range.min) : -Infinity;
+                        const max = range.max ? parseFloat(range.max) : Infinity;
+
+                        return value >= min && value <= max;
+                    });
                 }
             });
 
             // Apply sorting
             filterStates.sortable.forEach(({ column, direction }) => {
-                result.sort((a, b) => {
-                    const valA = a[column];
-                    const valB = b[column];
+                if (visibleColumns.includes(column)) {
+                    result.sort((a, b) => {
+                        const valA = formatDisplayValue(a[column], column);
+                        const valB = formatDisplayValue(b[column], column);
 
-                    if (valA === null || valA === undefined) return 1;
-                    if (valB === null || valB === undefined) return -1;
+                        const numA = parseFloat(valA);
+                        const numB = parseFloat(valB);
 
-                    const numA = parseFloat(valA);
-                    const numB = parseFloat(valB);
+                        if (!isNaN(numA) && !isNaN(numB)) {
+                            return direction === "asc" ? numA - numB : numB - numA;
+                        }
 
-                    if (!isNaN(numA) && !isNaN(numB)) {
-                        return direction === "asc" ? numA - numB : numB - numA;
-                    }
+                        const strA = valA.toString().toLowerCase();
+                        const strB = valB.toString().toLowerCase();
 
-                    const strA = valA.toString().toLowerCase();
-                    const strB = valB.toString().toLowerCase();
-
-                    if (direction === "asc") {
-                        return strA.localeCompare(strB);
-                    } else {
-                        return strB.localeCompare(strA);
-                    }
-                });
+                        if (direction === "asc") {
+                            return strA.localeCompare(strB);
+                        } else {
+                            return strB.localeCompare(strA);
+                        }
+                    });
+                }
             });
 
             return result;
@@ -387,7 +358,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 </DropdownTrigger>
                 <DropdownMenu
                     aria-label={`${column.name} filters`}
-                    className="w-80 max-h-96 overflow-y-auto"
+                    className="w-80 max-h-96 overflow-y-auto bg-theme-surface border-theme-border"
                     variant="flat"
                 >
                     {/* Search Section */}
@@ -395,18 +366,17 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         <DropdownItem
                             key="search-section"
                             isReadOnly
-                            className="p-3 border-b border-divider"
+                            className="p-3 bg-theme-surface"
                             textValue="Search section"
                         >
                             <div className="space-y-2">
-                                <p className="text-sm font-medium text-foreground">Search</p>
+                                <label className="text-xs font-medium text-theme-muted">Search</label>
                                 <Input
+                                    size="sm"
                                     placeholder={`Search ${column.name.toLowerCase()}...`}
                                     value={filterStates.searchable[columnUid] || ""}
                                     onChange={(e) => handleSearch(columnUid, e.target.value)}
-                                    size="sm"
-                                    className="w-full"
-                                    variant="bordered"
+                                    className="bg-theme-surface text-theme-text"
                                 />
                             </div>
                         </DropdownItem>
@@ -414,34 +384,22 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
                     {/* Sort Section */}
                     {column.sortable ? (
-                        <DropdownItem
-                            key="sort-section"
-                            isReadOnly
-                            className="p-3 border-b border-divider"
-                            textValue="Sort section"
-                        >
-                            <div className="space-y-2">
-                                <p className="text-sm font-medium text-foreground">Sort</p>
-                                <div className="flex gap-2">
-                                    <Button
-                                        size="sm"
-                                        variant={filterStates.sortable.some(s => s.column === columnUid && s.direction === "asc") ? "solid" : "bordered"}
-                                        onClick={() => handleSort(columnUid, "asc")}
-                                        className="flex-1"
-                                    >
-                                        ↑ Ascending
-                                    </Button>
-                                    <Button
-                                        size="sm"
-                                        variant={filterStates.sortable.some(s => s.column === columnUid && s.direction === "desc") ? "solid" : "bordered"}
-                                        onClick={() => handleSort(columnUid, "desc")}
-                                        className="flex-1"
-                                    >
-                                        ↓ Descending
-                                    </Button>
-                                </div>
-                            </div>
-                        </DropdownItem>
+                        <>
+                            <DropdownItem
+                                key="sort-asc"
+                                onClick={() => handleSort(columnUid, "asc")}
+                                className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                            >
+                                Sort Ascending
+                            </DropdownItem>
+                            <DropdownItem
+                                key="sort-desc"
+                                onClick={() => handleSort(columnUid, "desc")}
+                                className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                            >
+                                Sort Descending
+                            </DropdownItem>
+                        </>
                     ) : null}
 
                     {/* Filter Section */}
@@ -449,48 +407,29 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         <DropdownItem
                             key="filter-section"
                             isReadOnly
-                            className="p-3 border-b border-divider"
+                            className="p-3 bg-theme-surface"
                             textValue="Filter section"
                         >
                             <div className="space-y-2">
-                                <p className="text-sm font-medium text-foreground">Filter</p>
-                                <div className="max-h-32 overflow-y-auto">
-                                    <div className="flex flex-wrap gap-1">
-                                        {getUniqueValues(columnUid).map((value) => {
-                                            const isSelected = filterStates.filterable[columnUid]?.includes(value);
-                                            return (
-                                                <Chip
-                                                    key={value}
-                                                    size="sm"
-                                                    variant={isSelected ? "solid" : "bordered"}
-                                                    color={isSelected ? "primary" : "default"}
-                                                    className="cursor-pointer"
-                                                    onClick={() =>
-                                                        isSelected
-                                                            ? handleFilterRemove(columnUid, value)
-                                                            : handleFilterAdd(columnUid, value)
+                                <label className="text-xs font-medium text-theme-muted">Filters</label>
+                                <div className="max-h-40 overflow-y-auto space-y-1">
+                                    {getUniqueValues(columnUid).map((value) => (
+                                        <div key={value} className="flex items-center justify-between">
+                                            <span className="text-sm text-theme-text truncate">{value}</span>
+                                            <Switch
+                                                size="sm"
+                                                isSelected={filterStates.filterable[columnUid]?.includes(value)}
+                                                onChange={(isSelected) => {
+                                                    if (isSelected) {
+                                                        handleFilterAdd(columnUid, value);
+                                                    } else {
+                                                        handleFilterRemove(columnUid, value);
                                                     }
-                                                >
-                                                    {value}
-                                                </Chip>
-                                            );
-                                        })}
-                                    </div>
+                                                }}
+                                            />
+                                        </div>
+                                    ))}
                                 </div>
-                                {filterStates.filterable[columnUid]?.length > 0 ? (
-                                    <Button
-                                        size="sm"
-                                        variant="flat"
-                                        color="danger"
-                                        onClick={() => setFilterStates(prev => ({
-                                            ...prev,
-                                            filterable: { ...prev.filterable, [columnUid]: [] }
-                                        }))}
-                                        className="w-full"
-                                    >
-                                        Clear Filters
-                                    </Button>
-                                ) : null}
                             </div>
                         </DropdownItem>
                     ) : null}
@@ -500,45 +439,45 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         <DropdownItem
                             key="range-section"
                             isReadOnly
-                            className="p-3 border-b border-divider"
+                            className="p-3 bg-theme-surface"
                             textValue="Range section"
                         >
                             <div className="space-y-2">
-                                <p className="text-sm font-medium text-foreground">Range</p>
+                                <label className="text-xs font-medium text-theme-muted">Range</label>
                                 <div className="flex gap-2">
                                     <Input
+                                        size="sm"
                                         placeholder="Min"
                                         type="number"
-                                        size="sm"
                                         value={filterStates.rangeble[columnUid]?.min || ""}
                                         onChange={(e) => handleRange(columnUid, {
-                                            min: e.target.value,
-                                            max: filterStates.rangeble[columnUid]?.max || ""
+                                            ...filterStates.rangeble[columnUid],
+                                            min: e.target.value
                                         })}
-                                        variant="bordered"
+                                        className="bg-theme-surface text-theme-text"
                                     />
                                     <Input
+                                        size="sm"
                                         placeholder="Max"
                                         type="number"
-                                        size="sm"
                                         value={filterStates.rangeble[columnUid]?.max || ""}
                                         onChange={(e) => handleRange(columnUid, {
-                                            min: filterStates.rangeble[columnUid]?.min || "",
+                                            ...filterStates.rangeble[columnUid],
                                             max: e.target.value
                                         })}
-                                        variant="bordered"
+                                        className="bg-theme-surface text-theme-text"
                                     />
                                 </div>
                             </div>
                         </DropdownItem>
                     ) : null}
 
-                    {/* Clear All Section */}
+                    {/* Clear Section */}
                     {hasFilters ? (
                         <DropdownItem
                             key="clear-all-section"
                             isReadOnly
-                            className="p-3"
+                            className="p-3 bg-theme-surface"
                             textValue="Clear all section"
                         >
                             <Button
@@ -589,7 +528,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
             return (
                 <TableCell key={columnUid}>
-                    <Chip variant="light" className="dark:text-white text-foreground">
+                    <Chip variant="light" className="bg-theme-surface text-theme-text border-theme-border">
                         {displayValue}
                     </Chip>
                 </TableCell>
@@ -598,7 +537,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             console.error(`Error rendering cell for column ${columnUid}:`, error);
             return (
                 <TableCell key={columnUid}>
-                    <Chip variant="light" className="dark:text-white text-foreground">
+                    <Chip variant="light" className="bg-theme-surface text-theme-text border-theme-border">
                         Error
                     </Chip>
                 </TableCell>
@@ -608,11 +547,11 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     // Table controls
     const tableControls = (
-        <Card className="mb-4">
+        <Card className="mb-4 bg-theme-surface border-theme-border">
             <CardBody className="p-4">
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                        <span className="text-sm text-gray-600 dark:text-gray-400">
+                        <span className="text-sm text-theme-muted">
                             {filteredEntries.length} {contents?.components?.collectionTable?.nfts || "items"}
                             {filteredEntries.length !== tableEntries.length && (
                                 <span className="text-xs ml-1">
@@ -626,7 +565,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         {/* Column Visibility */}
                         <Dropdown>
                             <DropdownTrigger>
-                                <Button variant="bordered" size="sm">
+                                <Button variant="bordered" size="sm" className="bg-theme-surface text-theme-text border-theme-border">
                                     Columns ({visibleColumns.length}/{tableColumns.length})
                                 </Button>
                             </DropdownTrigger>
@@ -639,9 +578,13 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                     const newVisibleColumns = Array.from(keys as Set<string>);
                                     setVisibleColumns(newVisibleColumns);
                                 }}
+                                className="bg-theme-surface border-theme-border"
                             >
                                 {tableColumns.map((column) => (
-                                    <DropdownItem key={column.uid}>
+                                    <DropdownItem
+                                        key={column.uid}
+                                        className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                                    >
                                         {column.name}
                                     </DropdownItem>
                                 ))}
@@ -650,23 +593,25 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
                         {/* Rows per page */}
                         <div className="flex items-center gap-2">
-                            <span className="text-sm whitespace-nowrap">
-                                {contents?.components?.collectionTable?.nftsPerPage || "Rows per page:"}
-                            </span>
+                            <span className="text-sm text-theme-muted">Rows:</span>
                             <Select
                                 size="sm"
-                                className="w-20"
                                 selectedKeys={[rowsPerPage.toString()]}
                                 onSelectionChange={(keys) => {
-                                    const selected = Array.from(keys)[0] as string;
-                                    if (selected) {
-                                        handleRowsPerPageChange(parseInt(selected));
-                                    }
+                                    const value = Array.from(keys)[0] as string;
+                                    handleRowsPerPageChange(parseInt(value));
                                 }}
-                                aria-label="Rows per page selection"
+                                className="w-20"
+                                classNames={{
+                                    trigger: "bg-theme-surface text-theme-text border-theme-border",
+                                    popoverContent: "bg-theme-surface border-theme-border"
+                                }}
                             >
                                 {(variables?.tableInfo?.nftsPerPage?.options || [10, 25, 50, 100]).map((option) => (
-                                    <SelectItem key={option.toString()}>
+                                    <SelectItem
+                                        key={option.toString()}
+                                        className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                                    >
                                         {option.toString()}
                                     </SelectItem>
                                 ))}
@@ -685,7 +630,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 <TableColumn
                     key={columnUid}
                     align="center"
-                    className="dark:bg-gray-800 bg-white dark:text-white"
+                    className="bg-theme-surface text-theme-text border-theme-border"
                 >
                     {renderColumnHeader(columnUid)}
                 </TableColumn>
@@ -718,12 +663,13 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 onChange={handlePageChange}
                 classNames={{
                     base: "mb-2",
-                    prev: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                    next: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                    item: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                    forwardIcon: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                    ellipsis: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                    chevronNext: "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                    prev: "bg-theme-surface text-theme-text border-theme-border hover:bg-theme-surfaceElevated",
+                    next: "bg-theme-surface text-theme-text border-theme-border hover:bg-theme-surfaceElevated",
+                    item: "bg-theme-surface text-theme-text border-theme-border hover:bg-theme-surfaceElevated",
+                    forwardIcon: "bg-theme-surface text-theme-text",
+                    ellipsis: "bg-theme-surface text-theme-text",
+                    chevronNext: "bg-theme-surface text-theme-text",
+                    cursor: "bg-blue-600 text-white hover:bg-blue-700"
                 }}
             />
         </div>
@@ -732,13 +678,13 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     return (
         <div className="space-y-4">
             {tableControls}
-            <Card>
+            <Card className="bg-theme-surface border-theme-border">
                 <CardBody className="p-0">
                     <Table
                         shadow="none"
                         classNames={{
-                            table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                            wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4"
+                            table: "bg-theme-surface text-theme-text",
+                            wrapper: "bg-theme-surface border-theme-border rounded-lg p-4"
                         }}
                     >
                         {tableHeader}

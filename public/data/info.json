@@ -139,14 +139,14 @@
                 },
                 "home": {
                     "title": "Cantina Royale Tools",
-                    "heroTitle": "Coming Soon",
-                    "heroDescription": "We are currently working on something awesome. Stay tuned!"
+                    "heroTitle": "Cantina Royale Tools",
+                    "heroDescription": "Everything you need to explore the Cantina Royale ecosystem"
                 },
                 "characterCollection": {
-                    "allCharacters":"All Characters"
+                    "allCharacters": "All Characters"
                 },
                 "weaponCollection": {
-                    "allWeapons":"All Weapons"
+                    "allWeapons": "All Weapons"
                 },
                 "characterNft": {},
                 "weaponNft": {}
@@ -184,7 +184,7 @@
                                 "discount": "Discount",
                                 "value": "Value",
                                 "progress": "Progress"
-                          }
+                            }
                         },
                         "stats": {
                             "title": "Stats",
@@ -214,7 +214,7 @@
                                 "progress": "Progress"
                             }
                         },
-                        "stats": {                            
+                        "stats": {
                             "title": "Stats",
                             "keys": {
                                 "level": "Level",
@@ -233,7 +233,7 @@
                                 "tactics": "Tactics",
                                 "resolve": "Resolve"
                             },
-                            "keys": {    
+                            "keys": {
                                 "overachiever": {
                                     "text": "Overachiever",
                                     "info": "Increased champion skill charge speed."

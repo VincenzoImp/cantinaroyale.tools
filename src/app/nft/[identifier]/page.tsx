@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { contents, variables, data } from "@/app/layout";
+import { contents, variables, data } from "@/lib/data";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import CharacterNft from "@/components/nft/characterNft";
@@ -19,7 +19,7 @@ export const generateMetadata = ({ params }: { params: { identifier: string } })
 export default function Page({ params }: { params: { identifier: string } }) {
     for (const collectionName in data) {
         if (params.identifier.startsWith(collectionName) && params.identifier in data[collectionName].nfts) {
-            const nft: {[key: string]: any} = data[collectionName].nfts[params.identifier];
+            const nft: { [key: string]: any } = data[collectionName].nfts[params.identifier];
             if (variables.collections.characters.includes(collectionName)) {
                 return (
                     <>

@@ -1,4 +1,4 @@
-import {contents} from "./layout";
+import { contents } from "@/lib/data";
 
 const notFound = contents.pages.notFound;
 

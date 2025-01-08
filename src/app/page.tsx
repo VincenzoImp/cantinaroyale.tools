@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { contents, variables } from "@/app/layout";
+import { contents, variables } from "@/lib/data";
 import { themeClasses } from "@/utils/theme";
 
 const home = contents.pages.home;

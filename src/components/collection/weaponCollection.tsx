@@ -1,22 +1,24 @@
 import CollectionTable from './collectionTable';
 import CollectionTitle from './collectionTitle';
-import { contents, variables } from "@/app/layout";
+import { contents, variables } from "@/lib/data";
 
 export default function WeaponCollection({ collectionName, collectionData }: { collectionName: string, collectionData: { [key: string]: any } }) {
-    var tableColumns: { uid: string, name: string, searchable: boolean, sortable: boolean, filterable: boolean, rangeble: boolean }[] = [];
+    var tableColumns: { uid: string, name: string, searchable: boolean, sortable: boolean, filterable: boolean, rangeable: boolean }[] = [];
     for (const [key, value] of Object.entries(contents.components.collectionTable.weapons.columns)) {
-        tableColumns.push({ 
-            uid: key, 
+        tableColumns.push({
+            uid: key,
             name: value,
             searchable: variables.tabelEntries.weapons.searchable.includes(key),
             sortable: variables.tabelEntries.weapons.sortable.includes(key),
             filterable: variables.tabelEntries.weapons.filterable.includes(key),
-            rangeble: variables.tabelEntries.weapons.rangeble.includes(key)
+            rangeable: variables.tabelEntries.weapons.rangeble.includes(key)
         });
     }
     var tableEntries: any[] = [];
     for (const collection of Object.values(collectionData)) {
-        tableEntries = tableEntries.concat(Object.values(collection.nfts));
+        if (collection && collection.nfts) {
+            tableEntries = tableEntries.concat(Object.values(collection.nfts));
+        }
     }
     return (
         <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">

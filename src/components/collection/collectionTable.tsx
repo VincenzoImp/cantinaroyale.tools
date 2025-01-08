@@ -579,6 +579,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     // Filter presets management
     const saveFilterPreset = React.useCallback((presetName: string) => {
         try {
+            if (typeof window === 'undefined') return false;
+            
             const preset = {
                 name: presetName,
                 filterStates,
@@ -601,6 +603,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     const loadFilterPreset = React.useCallback((presetName: string) => {
         try {
+            if (typeof window === 'undefined') return false;
+            
             const presets = JSON.parse(localStorage.getItem('filterPresets') || '[]');
             const preset = presets.find((p: any) => p.name === presetName);
 
@@ -621,6 +625,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     const getFilterPresets = React.useCallback(() => {
         try {
+            if (typeof window === 'undefined') return [];
             return JSON.parse(localStorage.getItem('filterPresets') || '[]');
         } catch (error) {
             console.error('Error getting filter presets:', error);
@@ -630,6 +635,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     const deleteFilterPreset = React.useCallback((presetName: string) => {
         try {
+            if (typeof window === 'undefined') return false;
+            
             setIsLoading(true);
             setError(null);
 
@@ -734,7 +741,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                 <Select
                                     size="sm"
                                     selectedKeys={[activeSort.priority.toString()]}
-                                    onSelectionChange={(keys) => {
+                                    onSelectionChange={(keys: any) => {
                                         const newPriority = parseInt(Array.from(keys)[0] as string);
                                         handleSort(columnUid, activeSort.direction, newPriority);
                                     }}
@@ -950,7 +957,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         if (!hasFilters) {
             return (
                 <div className="flex items-center justify-center">
-                    <span className="font-medium text-theme-text">{column.name}</span>
+                    <span className="font-medium text-theme-text text-xs sm:text-sm truncate">{column.name}</span>
                 </div>
             );
         }
@@ -960,7 +967,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 <DropdownTrigger>
                     <Button
                         variant="light"
-                        className="h-auto p-3 min-w-0 font-medium text-theme-text hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl relative"
+                        className="h-auto p-1 sm:p-3 min-w-0 font-medium text-theme-text hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl relative text-xs sm:text-sm"
                         endContent={
                             <div className="flex items-center gap-1">
                                 {activeSort && (
@@ -973,19 +980,19 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                             </div>
                         }
                     >
-                        {column.name}
+                        <span className="truncate max-w-[60px] sm:max-w-none">{column.name}</span>
                         {/* Active filter indicator */}
                         {hasActiveFilters && (
-                            <span className="ml-2 w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full"></span>
+                            <span className="ml-1 sm:ml-2 w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-600 dark:bg-blue-400 rounded-full flex-shrink-0"></span>
                         )}
                     </Button>
                 </DropdownTrigger>
                 <DropdownMenu
                     aria-label={`${column.name} filters`}
-                    className="w-80 sm:w-96 max-h-[600px] overflow-y-auto"
+                    className="w-72 sm:w-80 md:w-96 max-h-[400px] sm:max-h-[600px] overflow-y-auto"
                     variant="flat"
                     classNames={{
-                        base: "bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-3 border border-gray-200 dark:border-gray-700",
+                        base: "bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-2 sm:p-3 border border-gray-200 dark:border-gray-700",
                         list: "bg-white dark:bg-gray-800 gap-1"
                     }}
                 >
@@ -1026,7 +1033,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             }
 
             return (
-                <TableCell key={columnUid} className="text-theme-text">
+                <TableCell key={columnUid} className="text-theme-text text-xs sm:text-sm py-2 sm:py-3 px-1 sm:px-2">
                     {displayValue}
                 </TableCell>
             );
@@ -1040,17 +1047,18 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         }
     }, [type, formatDisplayOnly]);
 
-    // Table controls
+    // Table controls - mobile responsive
     const tableControls = (
-        <Card className="mb-6 bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden">
-            <CardBody className="p-4 sm:p-6">
-                <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center gap-4 xl:gap-6">
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
-                        <div className="bg-blue-50 dark:bg-blue-900/20 px-3 sm:px-4 py-2 rounded-xl">
-                            <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
+        <Card className="mb-4 sm:mb-6 bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden">
+            <CardBody className="p-3 sm:p-4 lg:p-6">
+                <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
+                    {/* Left side - Status and filters */}
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
+                        <div className="bg-blue-50 dark:bg-blue-900/20 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">
+                            <span className="text-xs sm:text-sm font-medium text-blue-700 dark:text-blue-300">
                                 {filteredEntries.length} {contents?.components?.collectionTable?.nfts || "items"}
                                 {filteredEntries.length !== tableEntries.length && (
-                                    <span className="text-xs ml-1 text-blue-600 dark:text-blue-400">
+                                    <span className="text-xs ml-1 text-blue-600 dark:text-blue-400 hidden sm:inline">
                                         (filtered from {tableEntries.length})
                                     </span>
                                 )}
@@ -1062,17 +1070,17 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                             Object.values(filterStates.filterable).some(v => v.length > 0) ||
                             filterStates.sortable.length > 0 ||
                             Object.values(filterStates.rangeable).some(v => v.min || v.max) ? (
-                            <div className="flex flex-col gap-2 bg-green-50 dark:bg-green-900/20 px-3 sm:px-4 py-2 rounded-xl">
+                            <div className="flex flex-col gap-1 sm:gap-2 bg-green-50 dark:bg-green-900/20 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">
                                 <div className="flex items-center gap-2">
-                                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                                    <span className="text-sm font-medium text-green-700 dark:text-green-300">
+                                    <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-green-500 rounded-full"></span>
+                                    <span className="text-xs sm:text-sm font-medium text-green-700 dark:text-green-300">
                                         Active Filters
                                     </span>
                                 </div>
 
                                 {/* Sort Summary */}
                                 {filterStates.sortable.length > 0 && (
-                                    <div className="text-xs text-green-600 dark:text-green-400">
+                                    <div className="text-xs text-green-600 dark:text-green-400 hidden sm:block">
                                         Sort: {filterStates.sortable
                                             .sort((a, b) => a.priority - b.priority)
                                             .map(s => {
@@ -1094,11 +1102,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                             </div>
                         ) : null}
 
+                    </div>
+
+                    {/* Right side - Actions and status */}
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
                         {/* Loading Indicator */}
                         {isLoading && (
-                            <div className="flex items-center gap-2 bg-blue-50 dark:bg-blue-900/20 px-3 sm:px-4 py-2 rounded-xl">
-                                <div className="w-4 h-4 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
-                                <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
+                            <div className="flex items-center gap-2 bg-blue-50 dark:bg-blue-900/20 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">
+                                <div className="w-3 h-3 sm:w-4 sm:h-4 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                                <span className="text-xs sm:text-sm font-medium text-blue-700 dark:text-blue-300">
                                     Processing...
                                 </span>
                             </div>
@@ -1106,37 +1118,35 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
                         {/* Error Indicator */}
                         {error && (
-                            <div className="flex items-center gap-2 bg-red-50 dark:bg-red-900/20 px-3 sm:px-4 py-2 rounded-xl">
-                                <span className="w-2 h-2 bg-red-500 rounded-full"></span>
-                                <span className="text-sm font-medium text-red-700 dark:text-red-300">
+                            <div className="flex items-center gap-2 bg-red-50 dark:bg-red-900/20 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">
+                                <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-red-500 rounded-full"></span>
+                                <span className="text-xs sm:text-sm font-medium text-red-700 dark:text-red-300 truncate">
                                     {error}
                                 </span>
                                 <Button
                                     size="sm"
                                     variant="light"
-                                    className="text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/40 p-1"
+                                    className="text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/40 p-1 flex-shrink-0"
                                     onClick={() => setError(null)}
                                 >
                                     ×
                                 </Button>
                             </div>
                         )}
-                    </div>
-
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 w-full xl:w-auto">
 
                         {/* Clear All Filters Button */}
                         <Button
                             size="sm"
                             variant="flat"
-                            className="bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 hover:bg-red-100 dark:hover:bg-red-900/40 transition-colors rounded-xl"
+                            className="bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 hover:bg-red-100 dark:hover:bg-red-900/40 transition-colors rounded-xl text-xs sm:text-sm px-2 sm:px-3 py-1.5 sm:py-2"
                             onClick={clearAllFilters}
                             isDisabled={Object.values(filterStates.searchable).every(v => !v) &&
                                 Object.values(filterStates.filterable).every(v => v.length === 0) &&
                                 filterStates.sortable.length === 0 &&
                                 Object.values(filterStates.rangeable).every(v => !v.min && !v.max)}
                         >
-                            Clear All Filters
+                            <span className="hidden sm:inline">Clear All Filters</span>
+                            <span className="sm:hidden">Clear</span>
                         </Button>
 
 
@@ -1146,9 +1156,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                 <Button
                                     variant="bordered"
                                     size="sm"
-                                    className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl"
+                                    className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl text-xs sm:text-sm px-2 sm:px-3 py-1.5 sm:py-2"
                                 >
-                                    💾 Presets
+                                    <span className="hidden sm:inline">💾 Presets</span>
+                                    <span className="sm:hidden">💾</span>
                                 </Button>
                             </DropdownTrigger>
                             <DropdownMenu
@@ -1261,9 +1272,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                 <Button
                                     variant="bordered"
                                     size="sm"
-                                    className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl"
+                                    className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl text-xs sm:text-sm px-2 sm:px-3 py-1.5 sm:py-2"
                                 >
-                                    Columns ({visibleColumns.length}/{tableColumns.length})
+                                    <span className="hidden sm:inline">Columns ({visibleColumns.length}/{tableColumns.length})</span>
+                                    <span className="sm:hidden">Cols ({visibleColumns.length})</span>
                                 </Button>
                             </DropdownTrigger>
                             <DropdownMenu
@@ -1292,17 +1304,17 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         </Dropdown>
 
                         {/* Rows per page */}
-                        <div className="flex items-center gap-2 sm:gap-3 bg-gray-50 dark:bg-gray-700 px-3 sm:px-4 py-2 rounded-xl">
-                            <span className="text-sm font-medium text-gray-700 dark:text-gray-300 hidden sm:inline">Rows:</span>
-                            <span className="text-sm font-medium text-gray-700 dark:text-gray-300 sm:hidden">Per page:</span>
+                        <div className="flex items-center gap-1 sm:gap-2 lg:gap-3 bg-gray-50 dark:bg-gray-700 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">
+                            <span className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 hidden sm:inline">Rows:</span>
+                            <span className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 sm:hidden">Per page:</span>
                             <Select
                                 size="sm"
                                 selectedKeys={[rowsPerPage.toString()]}
-                                onSelectionChange={(keys) => {
+                                onSelectionChange={(keys: any) => {
                                     const value = Array.from(keys)[0] as string;
                                     handleRowsPerPageChange(parseInt(value));
                                 }}
-                                className="w-16 sm:w-20"
+                                className="w-12 sm:w-16 lg:w-20"
                                 classNames={{
                                     trigger: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 rounded-xl",
                                     popoverContent: "bg-white dark:bg-gray-800 shadow-xl rounded-2xl"
@@ -1324,14 +1336,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         </Card>
     );
 
-    // Table header
+    // Table header - mobile responsive
     const tableHeader = (
         <TableHeader>
             {visibleColumns.map((columnUid) => (
                 <TableColumn
                     key={columnUid}
                     align="center"
-                    className="bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 font-medium py-4"
+                    className="bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 font-medium py-2 sm:py-4 px-1 sm:px-2 text-xs sm:text-sm"
                 >
                     {renderColumnHeader(columnUid)}
                 </TableColumn>
@@ -1384,14 +1396,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             {tableControls}
             <Card className="bg-white dark:bg-gray-800 shadow-xl overflow-hidden rounded-2xl">
                 <CardBody className="p-0">
-                    <div className="overflow-x-auto">
+                    <div className="overflow-x-auto -mx-4 sm:mx-0">
                         <Table
                             shadow="none"
                             classNames={{
                                 table: "bg-white dark:bg-gray-800 min-w-full",
                                 wrapper: "bg-white dark:bg-gray-800 rounded-2xl overflow-x-auto",
-                                th: "bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-2 sm:px-4 py-3 sm:py-4 text-xs sm:text-sm",
-                                td: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 py-3 sm:py-4 px-2 sm:px-4 text-xs sm:text-sm"
+                                th: "bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-1 sm:px-4 py-2 sm:py-4 text-xs sm:text-sm font-medium",
+                                td: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 py-2 sm:py-4 px-1 sm:px-4 text-xs sm:text-sm"
                             }}
                         >
                             {tableHeader}

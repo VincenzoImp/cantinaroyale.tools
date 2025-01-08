@@ -580,7 +580,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     const saveFilterPreset = React.useCallback((presetName: string) => {
         try {
             if (typeof window === 'undefined') return false;
-            
+
             const preset = {
                 name: presetName,
                 filterStates,
@@ -604,7 +604,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     const loadFilterPreset = React.useCallback((presetName: string) => {
         try {
             if (typeof window === 'undefined') return false;
-            
+
             const presets = JSON.parse(localStorage.getItem('filterPresets') || '[]');
             const preset = presets.find((p: any) => p.name === presetName);
 
@@ -636,7 +636,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     const deleteFilterPreset = React.useCallback((presetName: string) => {
         try {
             if (typeof window === 'undefined') return false;
-            
+
             setIsLoading(true);
             setError(null);
 
@@ -1051,9 +1051,9 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     const tableControls = (
         <Card className="mb-4 sm:mb-6 bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden">
             <CardBody className="p-3 sm:p-4 lg:p-6">
-                <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
+                <div className="flex flex-col lg:flex-row lg:justify-between items-start lg:items-center gap-4">
                     {/* Left side - Status and filters */}
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 lg:flex-1">
                         <div className="bg-blue-50 dark:bg-blue-900/20 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">
                             <span className="text-xs sm:text-sm font-medium text-blue-700 dark:text-blue-300">
                                 {filteredEntries.length} {contents?.components?.collectionTable?.nfts || "items"}
@@ -1105,7 +1105,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                     </div>
 
                     {/* Right side - Actions and status */}
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 lg:flex-shrink-0">
                         {/* Loading Indicator */}
                         {isLoading && (
                             <div className="flex items-center gap-2 bg-blue-50 dark:bg-blue-900/20 px-2 sm:px-3 lg:px-4 py-1.5 sm:py-2 rounded-xl">

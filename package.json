@@ -2,31 +2,73 @@
   "name": "cantinaroyale.tools",
   "version": "0.1.0",
   "private": true,
+  "description": "Public Cantina Royale NFT explorer for collections, characters, weapons, traits, stats and market data.",
+  "homepage": "https://cantinaroyale-tools.vercel.app/",
+  "keywords": [
+    "cantina-royale",
+    "nft",
+    "nft-explorer",
+    "gaming-nfts",
+    "multiversx",
+    "web3",
+    "nextjs",
+    "typescript",
+    "sqlite",
+    "data-visualization"
+  ],
   "scripts": {
     "dev": "next dev",
+    "predev": "npm run data:build-db",
     "build": "next build",
+    "prebuild": "npm run data:build-db",
     "start": "next start",
-    "lint": "next lint"
+    "prestart": "npm run data:build-db",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "data:build-db": "tsx scripts/data/build-sqlite.ts",
+    "data:validate": "tsx scripts/data/validate-snapshot.ts",
+    "perf:budget": "tsx scripts/performance/check-static-budgets.ts",
+    "private:check": "python3 -m py_compile private/get_data.py private/multiversx_utils.py && python3 -m unittest discover -s private/tests",
+    "quality": "npm run typecheck && npm run lint && npm run test && npm run private:check && npm run build && npm run perf:budget"
+  },
+  "engines": {
+    "node": ">=22"
   },
   "dependencies": {
-    "@heroui/react": "2.7.2",
-    "framer-motion": "^11.3.22",
-    "next": "^14.2.35",
-    "react": "^18",
-    "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18"
+    "better-sqlite3": "^12.10.0",
+    "lucide-react": "^1.16.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.35",
-    "postcss": "^8",
+    "@playwright/test": "^1.60.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "jsdom": "^29.1.1",
+    "postcss": "^8.5.14",
+    "prettier": "^3.8.3",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tsx": "^4.22.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
   },
-  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "overrides": {
+    "brace-expansion": "^5.0.6",
+    "glob": "^10.5.0",
+    "minimatch": "^10.2.5",
+    "postcss": "$postcss",
+    "picomatch": "^4.0.4"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -36,6 +78,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VincenzoImp/cantinaroyale.tools/issues"
-  },
-  "homepage": "https://github.com/VincenzoImp/cantinaroyale.tools#readme"
+  }
 }

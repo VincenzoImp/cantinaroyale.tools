@@ -1,106 +1,72 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { contents, variables, data } from "@/lib/data";
-import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import CharacterCollection from "@/components/collection/characterCollection";
-import WeaponCollection from "@/components/collection/weaponCollection";
+import Navbar from "@/components/navbar";
+import { CollectionPage } from "@/features/collection/collection-page";
+import { getCantinaRepository } from "@/server/data";
+import { parseCollectionSearchParamsOrDefault } from "@/server/data/query";
 
-type CollectionType = 'characters' | 'weapons';
-
-interface CollectionConfig {
-    collections: string[];
-    allCollection: string;
-    component: typeof CharacterCollection | typeof WeaponCollection;
-    navId: string;
-}
-
-export const generateMetadata = ({ params }: { params: { identifier: string } }): Metadata => {
-    const homeTitle = contents.pages.home.title;
-    const allCollections = [
-        ...variables.collections.characters,
-        ...variables.collections.weapons,
-        variables.collections.allCharacters,
-        variables.collections.allWeapons
-    ];
-
-    if (allCollections.includes(params.identifier)) {
-        return { title: `${params.identifier} - ${homeTitle}` };
-    }
-    return { title: `404 - ${homeTitle}` };
+type PageProps = {
+  params: Promise<{ identifier: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
-function getCollectionType(identifier: string): CollectionType | null {
-    const characterCollections = [...variables.collections.characters, variables.collections.allCharacters];
-    const weaponCollections = [...variables.collections.weapons, variables.collections.allWeapons];
-
-    if (characterCollections.includes(identifier)) return 'characters';
-    if (weaponCollections.includes(identifier)) return 'weapons';
-    return null;
+function toURLSearchParams(
+  values: Record<string, string | string[] | undefined>,
+) {
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(values)) {
+    if (Array.isArray(value)) {
+      value.forEach((item) => params.append(key, item));
+    } else if (value !== undefined) {
+      params.set(key, value);
+    }
+  }
+  return params;
 }
 
-function buildCollectionData(collectionName: string, type: CollectionType): Record<string, any> {
-    const config: Record<CollectionType, CollectionConfig> = {
-        characters: {
-            collections: variables.collections.characters,
-            allCollection: variables.collections.allCharacters,
-            component: CharacterCollection,
-            navId: 'characters'
-        },
-        weapons: {
-            collections: variables.collections.weapons,
-            allCollection: variables.collections.allWeapons,
-            component: WeaponCollection,
-            navId: 'weapons'
-        }
-    };
+export async function generateMetadata({
+  params,
+}: Pick<PageProps, "params">): Promise<Metadata> {
+  const { identifier } = await params;
+  const collection = getCantinaRepository().getCollectionSummary(identifier);
 
-    const { collections, allCollection } = config[type];
-    const collectionData: Record<string, any> = {};
-
-    if (collectionName === allCollection) {
-        collections.forEach(collection => {
-            collectionData[collection] = data[collection];
-        });
-    } else {
-        collectionData[collectionName] = data[collectionName];
-    }
-
-    return collectionData;
+  return {
+    title: collection ? collection.name : "Collection not found",
+    description: collection?.description ?? undefined,
+  };
 }
 
-export default function CollectionPage({ params }: { params: { identifier: string } }) {
-    const { identifier } = params;
-    const type = getCollectionType(identifier);
+export default async function Page({ params, searchParams }: PageProps) {
+  const { identifier } = await params;
+  const repository = getCantinaRepository();
+  const type = repository.getCollectionType(identifier);
 
-    if (!type) {
-        return notFound();
-    }
+  if (!type) {
+    notFound();
+  }
 
-    const collectionData = buildCollectionData(identifier, type);
+  const query = parseCollectionSearchParamsOrDefault(
+    identifier,
+    type,
+    toURLSearchParams(await searchParams),
+  );
+  const collection = repository.getCollectionSummary(identifier);
 
-    const config: Record<CollectionType, CollectionConfig> = {
-        characters: {
-            collections: variables.collections.characters,
-            allCollection: variables.collections.allCharacters,
-            component: CharacterCollection,
-            navId: 'characters'
-        },
-        weapons: {
-            collections: variables.collections.weapons,
-            allCollection: variables.collections.allWeapons,
-            component: WeaponCollection,
-            navId: 'weapons'
-        }
-    };
+  if (!collection) {
+    notFound();
+  }
 
-    const { component: Component, navId } = config[type];
-
-    return (
-        <>
-            <Navbar activeItemID={navId} />
-            <Component collectionName={identifier} collectionData={collectionData} />
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Navbar activeItemID={type} />
+      <CollectionPage
+        collection={collection}
+        initialPage={repository.getCollectionPage(query)}
+        filters={repository.getFilterOptions(identifier, type)}
+        query={query}
+      />
+      <Footer />
+    </>
+  );
 }

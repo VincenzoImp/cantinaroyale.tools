@@ -1,0 +1,35 @@
+:root {
+  --color-canvas: 246 248 247;
+  --color-surface: 255 255 255;
+  --color-elevated: 255 255 255;
+  --color-soft: 236 243 240;
+  --color-line: 214 224 219;
+  --color-strong: 124 141 132;
+  --color-ink: 19 26 22;
+  --color-muted: 91 106 97;
+  --color-primary: 15 118 110;
+  --color-primary-strong: 17 94 89;
+  --color-focus: 20 184 166;
+  --color-danger: 180 35 24;
+  --color-danger-soft: 254 243 242;
+  --color-asset-alpha-base: 248 250 249;
+  --color-asset-alpha-tile: 226 235 230;
+}
+
+[data-theme="dark"] {
+  --color-canvas: 17 20 18;
+  --color-surface: 25 31 27;
+  --color-elevated: 31 40 34;
+  --color-soft: 39 49 42;
+  --color-line: 54 66 57;
+  --color-strong: 137 153 143;
+  --color-ink: 238 244 239;
+  --color-muted: 170 183 174;
+  --color-primary: 94 234 212;
+  --color-primary-strong: 153 246 228;
+  --color-focus: 45 212 191;
+  --color-danger: 252 162 155;
+  --color-danger-soft: 69 26 24;
+  --color-asset-alpha-base: 238 244 239;
+  --color-asset-alpha-tile: 211 222 216;
+}

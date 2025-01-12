@@ -47,7 +47,7 @@ describe("CollectionPage", () => {
       rows: [],
     };
 
-    render(
+    const { container } = render(
       <CollectionPage
         collection={{
           id: "All-Weapons",
@@ -66,5 +66,13 @@ describe("CollectionPage", () => {
 
     expect(screen.getByText("Results")).toBeInTheDocument();
     expect(screen.queryByText("Listed")).not.toBeInTheDocument();
+
+    const clearFilters = screen.getByRole("button", { name: "Clear filters" });
+    expect(
+      container.querySelector("[data-collection-results-actions]"),
+    ).toContainElement(clearFilters);
+    expect(
+      container.querySelector("[data-collection-filter-grid]"),
+    ).not.toContainElement(clearFilters);
   });
 });

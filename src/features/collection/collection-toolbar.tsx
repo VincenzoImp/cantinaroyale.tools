@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, SlidersHorizontal, RotateCcw, Search } from "lucide-react";
+import { ChevronDown, SlidersHorizontal, Search } from "lucide-react";
 import type { ReactNode, SelectHTMLAttributes } from "react";
 import type {
   CollectionSortKey,
@@ -39,9 +39,7 @@ type Props = {
   columns: CollectionColumn[];
   filters: FilterOptions;
   showRarity: boolean;
-  loading: boolean;
   onChange: (nextState: CollectionTableState) => void;
-  onReset: () => void;
 };
 
 function fieldId(name: string) {
@@ -152,9 +150,7 @@ export function CollectionToolbar({
   columns,
   filters,
   showRarity,
-  loading,
   onChange,
-  onReset,
 }: Props) {
   const sortableColumns = columns.filter((column) => column.sortBy);
 
@@ -324,15 +320,6 @@ export function CollectionToolbar({
                 </SelectControl>
               </Field>
             </div>
-            <button
-              type="button"
-              onClick={onReset}
-              className="inline-flex h-10 items-center justify-center gap-2 rounded-md border border-line bg-canvas px-3 text-sm font-medium text-ink transition hover:border-strong hover:bg-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus disabled:opacity-60"
-              disabled={loading}
-            >
-              <RotateCcw aria-hidden="true" className="h-4 w-4" />
-              Clear filters
-            </button>
           </FilterGroup>
         </div>
       </div>

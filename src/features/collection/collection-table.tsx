@@ -1,6 +1,12 @@
 "use client";
 
-import { ArrowDown, ArrowUp, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowUp,
+  ChevronLeft,
+  ChevronRight,
+  RotateCcw,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -245,17 +251,32 @@ export function CollectionTable({
         columns={columns}
         filters={filters}
         showRarity={collection.type === "characters"}
-        loading={loading}
         onChange={updateState}
-        onReset={reset}
       />
 
-      <div className="flex items-center justify-between gap-3 border-b border-line px-4 py-3 text-sm text-muted">
+      <div
+        data-collection-results-bar
+        className="flex flex-col gap-3 border-b border-line px-4 py-3 text-sm text-muted sm:flex-row sm:items-center sm:justify-between"
+      >
         <span>
           {page.total.toLocaleString("en")} NFTs, page {state.page} of{" "}
           {totalPages}
         </span>
-        {loading ? <span>Updating...</span> : null}
+        <div
+          data-collection-results-actions
+          className="flex items-center gap-3 sm:justify-end"
+        >
+          {loading ? <span>Updating...</span> : null}
+          <button
+            type="button"
+            onClick={reset}
+            className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-line bg-canvas px-3 text-sm font-medium text-ink transition hover:border-strong hover:bg-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus disabled:opacity-60"
+            disabled={loading}
+          >
+            <RotateCcw aria-hidden="true" className="h-4 w-4" />
+            Clear filters
+          </button>
+        </div>
       </div>
 
       {error ? (

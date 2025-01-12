@@ -53,9 +53,7 @@ describe("CollectionToolbar", () => {
         columns={columns}
         filters={filters}
         showRarity
-        loading={false}
         onChange={vi.fn()}
-        onReset={vi.fn()}
       />,
     );
 
@@ -99,9 +97,7 @@ describe("CollectionToolbar", () => {
         columns={columns}
         filters={filters}
         showRarity
-        loading={false}
         onChange={vi.fn()}
-        onReset={vi.fn()}
       />,
     );
 

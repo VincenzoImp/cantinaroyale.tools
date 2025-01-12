@@ -1,7 +1,7 @@
 "use client";
 
-import { SlidersHorizontal, RotateCcw, Search } from "lucide-react";
-import type { ReactNode } from "react";
+import { ChevronDown, SlidersHorizontal, RotateCcw, Search } from "lucide-react";
+import type { ReactNode, SelectHTMLAttributes } from "react";
 import type {
   CollectionSortKey,
   ListingFilter,
@@ -48,8 +48,8 @@ function fieldId(name: string) {
   return `collection-toolbar-${name}`;
 }
 
-const controlClass =
-  "h-10 w-full min-w-0 rounded-md border border-line bg-canvas px-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-focus/25";
+const selectClass =
+  "h-10 w-full min-w-0 appearance-none rounded-md border border-line bg-canvas py-0 pl-3 pr-10 text-sm text-ink outline-none focus:border-primary focus:ring-2 focus:ring-focus/25";
 
 const compactInputClass =
   "h-9 w-full min-w-0 rounded-md border border-line bg-canvas px-2 text-sm text-ink outline-none focus:border-primary focus:ring-2 focus:ring-focus/25";
@@ -105,6 +105,24 @@ function Field({
       {label}
       {children}
     </label>
+  );
+}
+
+function SelectControl({
+  children,
+  ...props
+}: SelectHTMLAttributes<HTMLSelectElement>) {
+  return (
+    <span data-dropdown-control className="relative block min-w-0">
+      <select {...props} className={selectClass}>
+        {children}
+      </select>
+      <ChevronDown
+        data-dropdown-icon
+        aria-hidden="true"
+        className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
+      />
+    </span>
   );
 }
 
@@ -174,23 +192,21 @@ export function CollectionToolbar({
 
           <FilterGroup title="Market">
             <Field label="Sale status">
-              <select
+              <SelectControl
                 value={state.listing}
                 onChange={(event) =>
                   update({ listing: event.target.value as ListingFilter })
                 }
-                className={controlClass}
               >
                 <option value="all">All NFTs</option>
                 <option value="listed">For sale</option>
                 <option value="unlisted">Not for sale</option>
-              </select>
+              </SelectControl>
             </Field>
             <Field label="Currency">
-              <select
+              <SelectControl
                 value={state.priceCurrency}
                 onChange={(event) => update({ priceCurrency: event.target.value })}
-                className={controlClass}
               >
                 <option value="">Any currency</option>
                 {filters.priceCurrencies.map((currency) => (
@@ -198,16 +214,15 @@ export function CollectionToolbar({
                     {currency}
                   </option>
                 ))}
-              </select>
+              </SelectControl>
             </Field>
           </FilterGroup>
 
           <FilterGroup title="Collection">
             <Field label="Collection">
-              <select
+              <SelectControl
                 value={state.collection}
                 onChange={(event) => update({ collection: event.target.value })}
-                className={controlClass}
               >
                 <option value="">All collections</option>
                 {filters.collections.map((collection) => (
@@ -215,14 +230,13 @@ export function CollectionToolbar({
                     {collection}
                   </option>
                 ))}
-              </select>
+              </SelectControl>
             </Field>
             {showRarity ? (
               <Field label="Rarity">
-                <select
+                <SelectControl
                   value={state.rarityClass}
                   onChange={(event) => update({ rarityClass: event.target.value })}
-                  className={controlClass}
                 >
                   <option value="">All rarities</option>
                   {filters.rarityClasses.map((rarity) => (
@@ -230,14 +244,13 @@ export function CollectionToolbar({
                       {rarity}
                     </option>
                   ))}
-                </select>
+                </SelectControl>
               </Field>
             ) : (
               <Field label="Weapon family">
-                <select
+                <SelectControl
                   value={state.name}
                   onChange={(event) => update({ name: event.target.value })}
-                  className={controlClass}
                 >
                   <option value="">All weapons</option>
                   {filters.names.map((name) => (
@@ -245,21 +258,20 @@ export function CollectionToolbar({
                       {name}
                     </option>
                   ))}
-                </select>
+                </SelectControl>
               </Field>
             )}
           </FilterGroup>
 
           <FilterGroup title="Gameplay">
             <Field label={showRarity ? "Perk" : "Stars"}>
-              <select
+              <SelectControl
                 value={showRarity ? state.perk : state.starLevel}
                 onChange={(event) =>
                   showRarity
                     ? update({ perk: event.target.value })
                     : update({ starLevel: event.target.value })
                 }
-                className={controlClass}
               >
                 <option value="">{showRarity ? "Any perk" : "Any stars"}</option>
                 {(showRarity ? filters.perks : filters.starLevels).map((value) => (
@@ -267,13 +279,12 @@ export function CollectionToolbar({
                     {showRarity ? value : `${value} star${value === 1 ? "" : "s"}`}
                   </option>
                 ))}
-              </select>
+              </SelectControl>
             </Field>
             <Field label="Level">
-              <select
+              <SelectControl
                 value={state.level}
                 onChange={(event) => update({ level: event.target.value })}
-                className={controlClass}
               >
                 <option value="">Any level</option>
                 {filters.levels.map((level) => (
@@ -281,38 +292,36 @@ export function CollectionToolbar({
                     Level {level}
                   </option>
                 ))}
-              </select>
+              </SelectControl>
             </Field>
           </FilterGroup>
 
           <FilterGroup title="Sort">
             <div className="grid grid-cols-[1fr_auto] gap-2">
               <Field label="Sort by">
-                <select
+                <SelectControl
                   value={state.sortBy}
                   onChange={(event) =>
                     update({ sortBy: event.target.value as CollectionSortKey })
                   }
-                  className={controlClass}
                 >
                   {sortableColumns.map((column) => (
                     <option key={column.key} value={column.sortBy}>
                       {column.label}
                     </option>
                   ))}
-                </select>
+                </SelectControl>
               </Field>
               <Field label="Order">
-                <select
+                <SelectControl
                   value={state.sortDirection}
                   onChange={(event) =>
                     update({ sortDirection: event.target.value as SortDirection })
                   }
-                  className={controlClass}
                 >
                   <option value="asc">Ascending</option>
                   <option value="desc">Descending</option>
-                </select>
+                </SelectControl>
               </Field>
             </div>
             <button

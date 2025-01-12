@@ -91,4 +91,35 @@ describe("CollectionToolbar", () => {
       container.querySelector("[data-collection-more-filter-grid]"),
     ).toHaveClass("min-w-[720px]");
   });
+
+  it("keeps dropdown arrows inset from table header filter borders", () => {
+    const { container } = render(
+      <CollectionToolbar
+        state={state}
+        columns={columns}
+        filters={filters}
+        showRarity
+        loading={false}
+        onChange={vi.fn()}
+        onReset={vi.fn()}
+      />,
+    );
+
+    const dropdowns = container.querySelectorAll("[data-dropdown-control]");
+    const selects = container.querySelectorAll("[data-dropdown-control] select");
+    const icons = container.querySelectorAll("[data-dropdown-icon]");
+
+    expect(dropdowns).toHaveLength(8);
+    expect(selects).toHaveLength(8);
+    expect(icons).toHaveLength(8);
+
+    for (const select of selects) {
+      expect(select).toHaveClass("appearance-none");
+      expect(select).toHaveClass("pr-10");
+    }
+
+    for (const icon of icons) {
+      expect(icon).toHaveClass("right-3");
+    }
+  });
 });

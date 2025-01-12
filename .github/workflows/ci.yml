@@ -14,7 +14,14 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: private/requirements.txt
       - run: npm ci
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -r private/requirements.txt
       - run: npm run typecheck
       - run: npm run lint
       - run: npm run test

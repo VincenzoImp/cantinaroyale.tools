@@ -88,6 +88,13 @@ describe("CollectionToolbar", () => {
     expect(
       container.querySelector("[data-collection-more-filter-grid]"),
     ).toHaveClass("min-w-[720px]");
+    expect(container.querySelector("[data-sort-control-stack]")).toHaveClass(
+      "grid",
+      "gap-2",
+    );
+    expect(container.querySelector("[data-sort-control-stack]")).not.toHaveClass(
+      "grid-cols-[1fr_auto]",
+    );
   });
 
   it("keeps dropdown arrows inset from table header filter borders", () => {

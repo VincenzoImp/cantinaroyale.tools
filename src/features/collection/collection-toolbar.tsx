@@ -293,7 +293,7 @@ export function CollectionToolbar({
           </FilterGroup>
 
           <FilterGroup title="Sort">
-            <div className="grid grid-cols-[1fr_auto] gap-2">
+            <div data-sort-control-stack className="grid gap-2">
               <Field label="Sort by">
                 <SelectControl
                   value={state.sortBy}
@@ -337,56 +337,56 @@ export function CollectionToolbar({
             data-collection-more-filter-grid
             className="grid min-w-[720px] gap-3 p-3 md:min-w-0 md:grid-cols-2 xl:grid-cols-4"
           >
-          <RangeGroup title="Price">
-            <NumberField
-              label="From"
-              value={state.minPrice}
-              onChange={(value) => update({ minPrice: value })}
-            />
-            <NumberField
-              label="To"
-              value={state.maxPrice}
-              onChange={(value) => update({ maxPrice: value })}
-            />
-          </RangeGroup>
-          {showRarity ? (
-            <RangeGroup title="Rank">
+            <RangeGroup title="Price">
               <NumberField
                 label="From"
-                value={state.minRank}
-                onChange={(value) => update({ minRank: value })}
+                value={state.minPrice}
+                onChange={(value) => update({ minPrice: value })}
               />
               <NumberField
                 label="To"
-                value={state.maxRank}
-                onChange={(value) => update({ maxRank: value })}
+                value={state.maxPrice}
+                onChange={(value) => update({ maxPrice: value })}
               />
             </RangeGroup>
-          ) : null}
-          <RangeGroup title="Estimated value">
-            <NumberField
-              label="From"
-              value={state.minValue}
-              onChange={(value) => update({ minValue: value })}
-            />
-            <NumberField
-              label="To"
-              value={state.maxValue}
-              onChange={(value) => update({ maxValue: value })}
-            />
-          </RangeGroup>
-          <RangeGroup title="Progress">
-            <NumberField
-              label="From"
-              value={state.minProgress}
-              onChange={(value) => update({ minProgress: value })}
-            />
-            <NumberField
-              label="To"
-              value={state.maxProgress}
-              onChange={(value) => update({ maxProgress: value })}
-            />
-          </RangeGroup>
+            {showRarity ? (
+              <RangeGroup title="Rank">
+                <NumberField
+                  label="From"
+                  value={state.minRank}
+                  onChange={(value) => update({ minRank: value })}
+                />
+                <NumberField
+                  label="To"
+                  value={state.maxRank}
+                  onChange={(value) => update({ maxRank: value })}
+                />
+              </RangeGroup>
+            ) : null}
+            <RangeGroup title="Estimated value">
+              <NumberField
+                label="From"
+                value={state.minValue}
+                onChange={(value) => update({ minValue: value })}
+              />
+              <NumberField
+                label="To"
+                value={state.maxValue}
+                onChange={(value) => update({ maxValue: value })}
+              />
+            </RangeGroup>
+            <RangeGroup title="Progress">
+              <NumberField
+                label="From"
+                value={state.minProgress}
+                onChange={(value) => update({ minProgress: value })}
+              />
+              <NumberField
+                label="To"
+                value={state.maxProgress}
+                onChange={(value) => update({ maxProgress: value })}
+              />
+            </RangeGroup>
           </div>
         </div>
       </details>

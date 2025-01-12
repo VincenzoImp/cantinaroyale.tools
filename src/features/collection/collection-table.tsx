@@ -7,9 +7,9 @@ import {
   ChevronRight,
   RotateCcw,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { AssetThumbnail } from "@/features/nft/asset-thumbnail";
 import type { FilterOptions } from "@/server/data/repository";
 import type {
   CollectionPage,
@@ -86,35 +86,19 @@ function sortIcon(
   );
 }
 
-function assetImageUrl(nft: Pick<CollectionRow, "type" | "url" | "thumbnailUrl">) {
-  return nft.type === "weapons" ? nft.url ?? nft.thumbnailUrl : nft.thumbnailUrl;
-}
-
 function AssetCell({ nft }: { nft: CollectionRow }) {
-  const imageUrl = assetImageUrl(nft);
-  const isTransparentAsset = nft.type === "weapons";
-
   return (
     <Link
       href={`/nft/${nft.identifier}`}
       className="flex min-w-[240px] items-center gap-3 rounded py-1 pr-2 transition hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus"
     >
-      <span
-        data-transparent-asset-surface={isTransparentAsset ? "true" : undefined}
-        className={`relative h-12 w-12 shrink-0 overflow-hidden rounded-md border border-line ${
-          isTransparentAsset ? "asset-transparent-surface" : "bg-canvas"
-        }`}
-      >
-        {imageUrl ? (
-          <Image
-            src={imageUrl}
-            alt=""
-            fill
-            sizes="48px"
-            className={isTransparentAsset ? "object-contain p-1" : "object-cover"}
-          />
-        ) : null}
-      </span>
+      <AssetThumbnail
+        type={nft.type}
+        url={nft.url}
+        thumbnailUrl={nft.thumbnailUrl}
+        className="h-12 w-12 rounded-md"
+        sizes="48px"
+      />
       <span className="min-w-0">
         <span className="block truncate text-sm font-semibold text-ink">
           {nft.name}

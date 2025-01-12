@@ -1,9 +1,9 @@
 "use client";
 
 import { Search, X } from "lucide-react";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState, type FormEvent } from "react";
+import { AssetThumbnail } from "@/features/nft/asset-thumbnail";
 import type { SearchResult } from "@/server/data/schema";
 
 type SearchResponse = {
@@ -132,50 +132,30 @@ export function SearchBox({ compact = false }: { compact?: boolean }) {
           {loading && results.length === 0 ? (
             <div className="px-3 py-3 text-sm text-muted">Searching...</div>
           ) : results.length > 0 ? (
-            results.map((result) => {
-              const isTransparentAsset = result.type === "weapons";
-              const imageUrl = isTransparentAsset
-                ? result.url ?? result.thumbnailUrl
-                : result.thumbnailUrl;
-
-              return (
-                <button
-                  key={result.identifier}
-                  type="button"
-                  onClick={() => goTo(result.identifier)}
-                  className="flex w-full items-center gap-3 rounded px-3 py-2 text-left transition hover:bg-soft focus-visible:bg-soft focus-visible:outline-none"
-                >
-                  <div
-                    data-transparent-asset-surface={
-                      isTransparentAsset ? "true" : undefined
-                    }
-                    className={`relative h-10 w-10 shrink-0 overflow-hidden rounded border border-line ${
-                      isTransparentAsset ? "asset-transparent-surface" : "bg-canvas"
-                    }`}
-                  >
-                    {imageUrl ? (
-                      <Image
-                        src={imageUrl}
-                        alt=""
-                        fill
-                        sizes="40px"
-                        className={
-                          isTransparentAsset ? "object-contain p-1" : "object-cover"
-                        }
-                      />
-                    ) : null}
-                  </div>
-                  <span className="min-w-0">
-                    <span className="block truncate text-sm font-medium text-ink">
-                      {result.name}
-                    </span>
-                    <span className="block truncate text-xs text-muted">
-                      {result.identifier}
-                    </span>
+            results.map((result) => (
+              <button
+                key={result.identifier}
+                type="button"
+                onClick={() => goTo(result.identifier)}
+                className="flex w-full items-center gap-3 rounded px-3 py-2 text-left transition hover:bg-soft focus-visible:bg-soft focus-visible:outline-none"
+              >
+                <AssetThumbnail
+                  type={result.type}
+                  url={result.url}
+                  thumbnailUrl={result.thumbnailUrl}
+                  className="h-10 w-10 rounded"
+                  sizes="40px"
+                />
+                <span className="min-w-0">
+                  <span className="block truncate text-sm font-medium text-ink">
+                    {result.name}
                   </span>
-                </button>
-              );
-            })
+                  <span className="block truncate text-xs text-muted">
+                    {result.identifier}
+                  </span>
+                </span>
+              </button>
+            ))
           ) : (
             <div className="px-3 py-3 text-sm text-muted">No matches</div>
           )}

@@ -16,7 +16,7 @@ function imageUrlForAsset({
   url,
   thumbnailUrl,
 }: Pick<AssetThumbnailProps, "type" | "url" | "thumbnailUrl">) {
-  return type === "weapons" ? url ?? thumbnailUrl : thumbnailUrl ?? url;
+  return type === "weapons" ? (url ?? thumbnailUrl) : (thumbnailUrl ?? url);
 }
 
 export function AssetThumbnail({
@@ -28,15 +28,11 @@ export function AssetThumbnail({
   sizes,
   priority = false,
 }: AssetThumbnailProps) {
-  const isTransparentAsset = type === "weapons";
   const imageUrl = imageUrlForAsset({ type, url, thumbnailUrl });
 
   return (
     <span
-      data-transparent-asset-surface={isTransparentAsset ? "true" : undefined}
-      className={`relative block shrink-0 overflow-hidden border border-line ${
-        isTransparentAsset ? "asset-transparent-surface" : "bg-canvas"
-      } ${className}`}
+      className={`relative block shrink-0 overflow-hidden border border-line bg-canvas ${className}`}
     >
       {imageUrl ? (
         <Image
@@ -45,7 +41,7 @@ export function AssetThumbnail({
           fill
           priority={priority}
           sizes={sizes}
-          className={isTransparentAsset ? "object-contain p-1" : "object-cover"}
+          className={type === "weapons" ? "object-contain p-1" : "object-cover"}
         />
       ) : null}
     </span>

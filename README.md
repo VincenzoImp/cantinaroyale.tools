@@ -1,7 +1,7 @@
 # Cantina Royale Tools
 
 Public explorer for Cantina Royale NFT collections, characters, weapons,
-rarity, perks, gameplay stats and marketplace data.
+rarity, perks, gameplay charts, upgrade economy and live market context.
 
 Live site: <https://cantinaroyale-tools.vercel.app/>
 
@@ -16,8 +16,10 @@ ecosystem without loading massive NFT datasets in the browser.
   rank, estimated value and progress.
 - Open detailed NFT pages with market data, ownership, gameplay stats,
   appearance traits and perk/stat bonuses.
-- Compare aggregate home insights for market overview, largest collections,
-  character traits and weapon star ratings.
+- Review curated game data views for character growth, weapon balance and
+  upgrade economy.
+- Compare aggregate home insights for market overview, character traits and
+  weapon star ratings.
 - Use a polished light/dark theme with the theme switch in the footer.
 
 ## Supported Collections
@@ -34,17 +36,20 @@ Collection definitions live in `public/data/info.json`.
 
 ## Architecture
 
-The app is built around a server-side data layer. The source snapshot remains
-as JSON under `public/data`, then `npm run data:build-db` creates a derived
-SQLite database at `public/data/cantina.sqlite`.
+The app is built around a server-side SQLite data layer. NFT and market
+snapshots live as JSON under `public/data`; gameplay balance exports live under
+`private/game_data`. `npm run data:build-db` validates both sources and creates
+the derived database at `public/data/cantina.sqlite`.
 
 Runtime flow:
 
 1. `scripts/data/build-sqlite.ts` reads the public JSON snapshot.
-2. `src/server/data/build.ts` normalizes and validates rows.
-3. `src/server/data/sqlite-repository.ts` serves compact queries.
-4. App Router pages render lightweight initial payloads.
-5. `/api/search` and `/api/collections/[identifier]` power interactive search,
+2. `src/server/data/gameplay.ts` imports the gameplay exports and materializes
+   typed gameplay/economy tables.
+3. `src/server/data/build.ts` normalizes and validates NFT rows.
+4. `src/server/data/sqlite-repository.ts` serves compact queries.
+5. App Router pages render lightweight initial payloads.
+6. `/api/search` and `/api/collections/[identifier]` power interactive search,
    pagination, sorting and filtering.
 
 The SQLite build is atomic: a new database is written to a temporary file and
@@ -102,8 +107,8 @@ npm run quality
 
 ## Data Refresh
 
-The maintained offline Python pipeline lives in `private/`. It can refresh the
-JSON snapshot under `public/data`.
+The maintained offline Python pipeline lives in `private/`. It refreshes the
+NFT JSON snapshot under `public/data`.
 
 ```bash
 python private/get_data.py
@@ -122,9 +127,11 @@ python private/get_data.py --keep-raw
 Data changes should be reviewed like normal source changes:
 
 1. Refresh or edit the JSON snapshot under `public/data`.
-2. Run `npm run data:validate`.
-3. Run `npm run quality`.
-4. Open a pull request with the snapshot changes and validation output.
+2. Refresh `private/game_data/*.csv` only from canonical gameplay database
+   exports.
+3. Run `npm run data:validate`.
+4. Run `npm run quality`.
+5. Open a pull request with the snapshot changes and validation output.
 
 ## Project Layout
 
@@ -136,13 +143,12 @@ src/features/home/                Home dashboard and aggregate views
 src/features/nft/                 NFT detail pages
 src/features/search/              Search UI
 src/features/theme/               Light/dark theme system
-src/server/data/                  Schemas, query parsing and SQLite repository
+src/server/data/                  Schemas, gameplay import and SQLite repository
 src/styles/tokens.css             Semantic theme tokens
 scripts/data/                     SQLite build and snapshot validation
 scripts/performance/              Static asset budget checks
-private/                          Offline data refresh pipeline
+private/                          Offline refresh pipeline and gameplay CSV sources
 tests/                            Unit, UI, API and e2e tests
-docs/                             Audits and implementation plans
 ```
 
 ## Performance Notes

@@ -2,7 +2,7 @@
   "name": "cantinaroyale.tools",
   "version": "0.1.0",
   "private": true,
-  "description": "Public Cantina Royale NFT explorer for collections, characters, weapons, traits, stats and market data.",
+  "description": "Public Cantina Royale NFT explorer for collections, characters, weapons, traits, gameplay charts and market context.",
   "homepage": "https://cantinaroyale-tools.vercel.app/",
   "keywords": [
     "cantina-royale",
@@ -31,7 +31,7 @@
     "data:validate": "tsx scripts/data/validate-snapshot.ts",
     "perf:budget": "tsx scripts/performance/check-static-budgets.ts",
     "private:check": "python3 -m py_compile private/get_data.py private/multiversx_utils.py && python3 -m unittest discover -s private/tests",
-    "quality": "npm run typecheck && npm run lint && npm run test && npm run private:check && npm run build && npm run perf:budget"
+    "quality": "npm run typecheck && npm run lint && npm run test && npm run private:check && npm run data:validate && npm run build && npm run perf:budget"
   },
   "engines": {
     "node": ">=22"
@@ -69,12 +69,10 @@
     "postcss": "$postcss",
     "picomatch": "^4.0.4"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VincenzoImp/cantinaroyale.tools.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VincenzoImp/cantinaroyale.tools/issues"

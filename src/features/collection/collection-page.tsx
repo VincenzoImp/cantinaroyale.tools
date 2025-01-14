@@ -62,7 +62,6 @@ export function CollectionPage({
           </div>
         </div>
       </header>
-
       <CollectionTable
         collection={collection}
         initialPage={initialPage}

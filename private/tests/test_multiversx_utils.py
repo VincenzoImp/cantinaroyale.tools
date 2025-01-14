@@ -31,6 +31,22 @@ class MultiversxUtilsTest(unittest.TestCase):
         self.assertTrue(math.isfinite(result["ZeroShare"]["floorPrice"]))
         self.assertGreater(result["ZeroShare"]["floorPrice"], 0)
 
+    def test_upgrade_costs_are_generated_from_game_data(self):
+        characters, weapons = mu._load_upgrade_costs()
+
+        self.assertEqual(
+            characters["nft"]["20"],
+            {"tokens": 8820, "shards": 94000, "crown": 460000},
+        )
+        self.assertEqual(
+            weapons["nft"]["20"],
+            {"tokens": 121200, "shards": 100000, "crown": 92000},
+        )
+        self.assertEqual(
+            weapons["free"]["2"],
+            {"tokens": 50, "shards": 2500, "crown": 0},
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

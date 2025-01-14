@@ -3,12 +3,18 @@ import { existsSync, mkdirSync, readFileSync, renameSync, rmSync } from "node:fs
 import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { nftSchema, type CollectionType, type Nft } from "./schema";
-import { DEFAULT_DATABASE_PATH, DEFAULT_DATA_DIRECTORY } from "./paths";
+import {
+  DEFAULT_DATABASE_PATH,
+  DEFAULT_DATA_DIRECTORY,
+  DEFAULT_GAME_DATA_DIRECTORY,
+} from "./paths";
+import { type GameplaySummary, insertGameplayData } from "./gameplay";
 
 type RawObject = Record<string, unknown>;
 
 type BuildOptions = {
   dataDirectory?: string;
+  gameDataDirectory?: string | null;
   outputPath?: string;
 };
 
@@ -219,8 +225,15 @@ function stagingDatabasePath(outputPath: string) {
   );
 }
 
+function defaultGameDataDirectoryFor(dataDirectory: string) {
+  return path.resolve(dataDirectory) === path.resolve(DEFAULT_DATA_DIRECTORY)
+    ? DEFAULT_GAME_DATA_DIRECTORY
+    : null;
+}
+
 export function buildSqliteDatabase({
   dataDirectory = DEFAULT_DATA_DIRECTORY,
+  gameDataDirectory,
   outputPath = DEFAULT_DATABASE_PATH,
 }: BuildOptions = {}) {
   const appInfo = readJson<AppInfo>(path.join(dataDirectory, "info.json"));
@@ -236,7 +249,12 @@ export function buildSqliteDatabase({
   db.pragma("journal_mode = DELETE");
   db.pragma("synchronous = NORMAL");
 
+  const resolvedGameDataDirectory =
+    gameDataDirectory === undefined
+      ? defaultGameDataDirectoryFor(dataDirectory)
+      : gameDataDirectory;
   let closed = false;
+  let gameplay: GameplaySummary | null = null;
 
   try {
     db.exec(`
@@ -389,6 +407,9 @@ export function buildSqliteDatabase({
     });
 
     insertAll();
+    gameplay = insertGameplayData(db, {
+      gameDataDirectory: resolvedGameDataDirectory,
+    });
     db.pragma("optimize");
     db.close();
     closed = true;
@@ -402,5 +423,13 @@ export function buildSqliteDatabase({
     throw error;
   }
 
-  return { outputPath, collections: collectionIds.length };
+  if (!gameplay) {
+    throw new Error("SQLite build finished without importing gameplay data.");
+  }
+
+  return {
+    outputPath,
+    collections: collectionIds.length,
+    gameplay,
+  };
 }

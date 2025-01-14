@@ -1,0 +1,22 @@
+ID,Name,Category,MinValue,MaxValue,Param1,Param2,Description
+Overachiever,Talent_Overachiever_Name,1,1.01,1.15,,,Talent_Overachiever_Desc
+Hodler,Talent_Hodler_Name,2,1.01,1.1,3.0,,Talent_Hodler_Desc
+Grounded,Talent_Grounded_Name,3,1.02,1.12,2.5,,Talent_Grounded_Desc
+Stonewall,Talent_Stonewall_Name,3,0.01,0.1,,,Talent_Stonewall_Desc
+Adrenaline Rush,Talent_Adrenaline Rush_Name,2,1.02,1.25,3.0,,Talent_Adrenaline Rush_Desc
+Overshield,Talent_Overshield_Name,1,250.0,1200.0,,,Talent_Overshield_Desc
+Black Widow,Talent_Black Widow_Name,2,200.0,1000.0,,,Talent_Black Widow_Desc
+Galvanized,Talent_Galvanized_Name,1,2.0,10.0,,,Talent_Galvanized_Desc
+Nano Meds,Talent_Nano Meds_Name,1,1.0025,1.05,,,Talent_Nano Meds_Desc
+Resilience,Talent_Resilience_Name,1,1.03,1.5,8.0,25.0,Talent_Resilience_Desc
+Cold Blooded,Talent_Cold Blooded_Name,2,1.05,2.0,3.0,25.0,Talent_Cold Blooded_Desc
+Perseverance,Talent_Perseverance_Name,1,1.02,1.4,2.0,,Talent_Perseverance_Desc
+Escape Artist,Talent_Escape Artist_Name,2,1.04,1.3,4.0,25.0,Talent_Escape Artist_Desc
+Scavenger,Talent_Scavenger_Name,2,1.01,1.13,,,Talent_Scavenger_Desc
+Cool Moves,Talent_Cool Moves_Name,2,1.02,1.2,,,Talent_Cool Moves_Desc
+Brawler,Talent_Brawler_Name,1,1.03,1.3,5.0,25.0,Talent_Brawler_Desc
+Automatic Weapons Proficiency,Talent_Automatic Weapons Proficiency_Name,3,1.01,1.1,,,Talent_Automatic Weapons Proficiency_Desc
+Scatter Weapons Proficiency,Talent_Scatter Weapons Proficiency_Name,3,1.01,1.1,,,Talent_Scatter Weapons Proficiency_Desc
+Precision Weapons Proficiency,Talent_Precision Weapons Proficiency_Name,3,1.01,1.1,,,Talent_Precision Weapons Proficiency_Desc
+Explosive Weapons Proficiency,Talent_Explosive Weapons Proficiency_Name,3,1.01,1.1,,,Talent_Explosive Weapons Proficiency_Desc
+Elemental Weapons Proficiency,Talent_Elemental Weapons Proficiency_Name,3,1.01,1.1,,,Talent_Elemental Weapons Proficiency_Desc

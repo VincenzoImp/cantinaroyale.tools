@@ -331,8 +331,66 @@ def parse_nft_data(nft: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def _read_json(path: Path) -> Any:
-    return json.loads(path.read_text(encoding="utf-8"))
+def _game_data_path() -> Path:
+    return Path(__file__).resolve().parent / "game_data"
+
+
+def _price_amount(price_pool: pd.DataFrame, price_id: str, item_id: str) -> int:
+    matches = price_pool[
+        (price_pool["ID"] == price_id) & (price_pool["ItemID"] == item_id)
+    ]["Amount"]
+    if matches.empty:
+        return 0
+    return int(matches.astype(float).sum())
+
+
+def _upgrade_entry(price_pool: pd.DataFrame, price_id: str, tokens: int) -> dict[str, int]:
+    return {
+        "tokens": int(tokens),
+        "shards": _price_amount(price_pool, price_id, "Shards"),
+        "crown": _price_amount(price_pool, price_id, "Crown"),
+    }
+
+
+def _load_upgrade_costs(
+    game_data_path: str | Path | None = None,
+) -> tuple[dict[str, dict[str, dict[str, int]]], dict[str, dict[str, dict[str, int]]]]:
+    source_path = Path(game_data_path) if game_data_path is not None else _game_data_path()
+    price_pool = pd.read_csv(source_path / "PricePool.csv")
+    character_levels = pd.read_csv(source_path / "Character.Levels.Info.csv")
+    weapon_levels = pd.read_csv(source_path / "Weapon.Levels.csv")
+
+    characters = {"free": {}, "nft": {}}
+    for row in character_levels.to_dict("records"):
+        level = str(int(row["Level"]))
+        tokens = int(row["RequiredTokens"])
+        characters["free"][level] = _upgrade_entry(
+            price_pool,
+            row["FreeCharacterPriceID"],
+            tokens,
+        )
+        characters["nft"][level] = _upgrade_entry(
+            price_pool,
+            row["NFTCharacterPriceID"],
+            tokens,
+        )
+
+    weapons = {"free": {}, "nft": {}}
+    for row in weapon_levels.to_dict("records"):
+        level = str(int(row["Level"]))
+        tokens = int(row["XPNeeded"])
+        weapons["free"][level] = _upgrade_entry(
+            price_pool,
+            row["FreeWeaponPriceID"],
+            tokens,
+        )
+        weapons["nft"][level] = _upgrade_entry(
+            price_pool,
+            row["NFTWeaponPriceID"],
+            tokens,
+        )
+
+    return characters, weapons
 
 
 def _crt_egld_rate() -> float:
@@ -352,8 +410,7 @@ def _crt_egld_rate() -> float:
 
 def add_market_data(data_folder_path: str | Path, collections: dict[str, list[str]]) -> None:
     data_path = Path(data_folder_path)
-    characters_upgrade = _read_json(data_path / "characters_upgrade.json")
-    weapons_upgrade = _read_json(data_path / "weapons_upgrade.json")
+    characters_upgrade, weapons_upgrade = _load_upgrade_costs()
     crt_egld_rate = _crt_egld_rate()
 
     genesis = pd.concat(

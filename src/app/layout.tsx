@@ -5,47 +5,47 @@ import ErrorBoundary from "@/components/ErrorBoundary";
 import { ThemeScript } from "@/features/theme/theme-script";
 
 export const metadata: Metadata = {
-	title: {
-		default: "Cantina Royale Tools",
-		template: "%s | Cantina Royale Tools",
-	},
-	description:
-		"Browse Cantina Royale characters, weapons, prices, rarity, perks, and gameplay stats.",
-	metadataBase: new URL("https://cantinaroyale.tools"),
-	openGraph: {
-		title: "Cantina Royale Tools",
-		description:
-			"Browse Cantina Royale characters, weapons, prices, rarity, perks, and gameplay stats.",
-		type: "website",
-	},
+  title: {
+    default: "Cantina Royale Tools",
+    template: "%s | Cantina Royale Tools",
+  },
+  description:
+    "Browse Cantina Royale characters, weapons, prices, rarity, perks, gameplay charts, and upgrade economy.",
+  metadataBase: new URL("https://cantinaroyale-tools.vercel.app/"),
+  openGraph: {
+    title: "Cantina Royale Tools",
+    description:
+      "Browse Cantina Royale characters, weapons, prices, rarity, perks, gameplay charts, and upgrade economy.",
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {
-	width: "device-width",
-	initialScale: 1,
-	themeColor: [
-		{ media: "(prefers-color-scheme: light)", color: "#f6f8f7" },
-		{ media: "(prefers-color-scheme: dark)", color: "#111412" },
-	],
+  width: "device-width",
+  initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f6f8f7" },
+    { media: "(prefers-color-scheme: dark)", color: "#111412" },
+  ],
 };
 
 export default function RootLayout({
-	children
+  children,
 }: Readonly<{
-	children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-	return (
-		<html lang="en" suppressHydrationWarning>
-			<head>
-				<ThemeScript />
-			</head>
-			<body className="min-h-screen bg-canvas text-ink antialiased">
-				<Providers>
-					<ErrorBoundary>
-						<div className="flex min-h-screen flex-col">{children}</div>
-					</ErrorBoundary>
-				</Providers>
-			</body>
-		</html>
-	);
+  return (
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
+      <body className="min-h-screen bg-canvas text-ink antialiased">
+        <Providers>
+          <ErrorBoundary>
+            <div className="flex min-h-screen flex-col">{children}</div>
+          </ErrorBoundary>
+        </Providers>
+      </body>
+    </html>
+  );
 }

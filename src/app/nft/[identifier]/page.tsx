@@ -23,7 +23,8 @@ export async function generateMetadata({
 
 export default async function Page({ params }: PageProps) {
   const { identifier } = await params;
-  const nft = getCantinaRepository().findNft(identifier);
+  const repository = getCantinaRepository();
+  const nft = repository.findNft(identifier);
 
   if (!nft) {
     notFound();
@@ -32,7 +33,10 @@ export default async function Page({ params }: PageProps) {
   return (
     <>
       <Navbar activeItemID={nft.type} />
-      <NftDetail nft={nft} />
+      <NftDetail
+        nft={nft}
+        gameplay={repository.getNftGameplay(identifier)}
+      />
       <Footer />
     </>
   );

@@ -12,8 +12,6 @@
   --color-focus: 20 184 166;
   --color-danger: 180 35 24;
   --color-danger-soft: 254 243 242;
-  --color-asset-alpha-base: 248 250 249;
-  --color-asset-alpha-tile: 226 235 230;
 }
 
 [data-theme="dark"] {
@@ -30,6 +28,4 @@
   --color-focus: 45 212 191;
   --color-danger: 252 162 155;
   --color-danger-soft: 69 26 24;
-  --color-asset-alpha-base: 238 244 239;
-  --color-asset-alpha-tile: 211 222 216;
 }

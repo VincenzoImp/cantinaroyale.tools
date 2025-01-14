@@ -7,8 +7,15 @@ import { useEffect, useRef, useState } from "react";
 import { SearchBox } from "@/features/search/search-box";
 import type { CollectionGroups } from "@/server/data/repository";
 
-export type ActiveItem = "home" | "characters" | "weapons";
-type MenuKey = "characters" | "weapons";
+export type ActiveItem = "home" | "characters" | "weapons" | "game-data";
+type CollectionMenuKey = "characters" | "weapons";
+type MenuKey = CollectionMenuKey | "game-data";
+
+const GAME_DATA_LINKS = [
+  { href: "/game-data/characters", label: "Characters" },
+  { href: "/game-data/weapons", label: "Weapons" },
+  { href: "/game-data/economy", label: "Economy" },
+];
 
 type Props = {
   activeItemID: ActiveItem;
@@ -18,14 +25,65 @@ type Props = {
 function navLinkClass(active: boolean) {
   return [
     "rounded-md px-3 py-2 text-sm font-medium transition",
-    active
-      ? "bg-soft text-primary"
-      : "text-muted hover:bg-soft hover:text-ink",
+    active ? "bg-soft text-primary" : "text-muted hover:bg-soft hover:text-ink",
   ].join(" ");
 }
 
 function collectionCount(value: number) {
   return value.toLocaleString("en");
+}
+
+function GameDataDropdown({
+  active,
+  open,
+  onOpen,
+  onClose,
+}: {
+  active: boolean;
+  open: boolean;
+  onOpen: (menu: MenuKey) => void;
+  onClose: () => void;
+}) {
+  return (
+    <div className="relative">
+      <button
+        type="button"
+        aria-label="Open Game Data menu"
+        aria-expanded={open}
+        aria-controls="game-data-menu"
+        onClick={() => (open ? onClose() : onOpen("game-data"))}
+        className={`${navLinkClass(active)} flex items-center gap-1`}
+      >
+        Game Data
+        <ChevronDown
+          aria-hidden="true"
+          className={`h-3.5 w-3.5 text-muted transition ${
+            open ? "rotate-180" : ""
+          }`}
+        />
+      </button>
+      {open ? (
+        <div
+          id="game-data-menu"
+          role="menu"
+          aria-label="Game data views"
+          className="absolute left-0 top-full z-40 mt-2 w-56 rounded-md border border-line bg-elevated p-2 shadow-xl"
+        >
+          {GAME_DATA_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={onClose}
+              role="menuitem"
+              className="block rounded px-3 py-2 text-sm font-medium text-ink transition hover:bg-soft"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
+      ) : null}
+    </div>
+  );
 }
 
 function CollectionDropdown({
@@ -39,7 +97,7 @@ function CollectionDropdown({
   onOpen,
   onClose,
 }: {
-  menuKey: MenuKey;
+  menuKey: CollectionMenuKey;
   label: string;
   active: boolean;
   open: boolean;
@@ -72,7 +130,7 @@ function CollectionDropdown({
           id={`${menuKey}-menu`}
           role="menu"
           aria-label={`${label} collections`}
-          className="absolute left-0 top-full z-40 mt-2 w-80 rounded-md border border-line bg-elevated p-2 shadow-xl"
+          className="absolute left-0 top-full z-40 mt-2 max-h-[70vh] w-80 overflow-y-auto rounded-md border border-line bg-elevated p-2 shadow-xl"
         >
           <Link
             href={allHref}
@@ -83,7 +141,10 @@ function CollectionDropdown({
             <span>{allLabel}</span>
             <span className="text-xs font-medium text-muted">
               {collectionCount(
-                collections.reduce((total, collection) => total + collection.nftCount, 0),
+                collections.reduce(
+                  (total, collection) => total + collection.nftCount,
+                  0,
+                ),
               )}
             </span>
           </Link>
@@ -118,13 +179,13 @@ function MobileSection({
   onToggle,
   onClose,
 }: {
-  menuKey: MenuKey;
+  menuKey: CollectionMenuKey;
   label: string;
   allHref: string;
   allLabel: string;
   open: boolean;
   collections: { id: string; name: string; nftCount: number }[];
-  onToggle: (menu: MenuKey) => void;
+  onToggle: (menu: CollectionMenuKey) => void;
   onClose: () => void;
 }) {
   return (
@@ -140,7 +201,10 @@ function MobileSection({
         <span>{label}</span>
         <span className="inline-flex items-center gap-2 text-xs font-medium text-muted">
           {collectionCount(
-            collections.reduce((total, collection) => total + collection.nftCount, 0),
+            collections.reduce(
+              (total, collection) => total + collection.nftCount,
+              0,
+            ),
           )}
           <ChevronDown
             aria-hidden="true"
@@ -149,7 +213,10 @@ function MobileSection({
         </span>
       </button>
       {open ? (
-        <div id={`mobile-${menuKey}`} className="border-t border-line p-2">
+        <div
+          id={`mobile-${menuKey}`}
+          className="max-h-72 overflow-y-auto border-t border-line p-2"
+        >
           <Link
             href={allHref}
             onClick={onClose}
@@ -158,7 +225,10 @@ function MobileSection({
             <span>{allLabel}</span>
             <span className="text-xs text-muted">
               {collectionCount(
-                collections.reduce((total, collection) => total + collection.nftCount, 0),
+                collections.reduce(
+                  (total, collection) => total + collection.nftCount,
+                  0,
+                ),
               )}
             </span>
           </Link>
@@ -181,11 +251,65 @@ function MobileSection({
   );
 }
 
+function MobileGameDataSection({
+  open,
+  active,
+  onToggle,
+  onClose,
+}: {
+  open: boolean;
+  active: boolean;
+  onToggle: () => void;
+  onClose: () => void;
+}) {
+  return (
+    <section className="rounded-md border border-line bg-canvas">
+      <button
+        type="button"
+        aria-label={`${open ? "Hide" : "Show"} game data views`}
+        aria-expanded={open}
+        aria-controls="mobile-game-data"
+        onClick={onToggle}
+        className={`flex w-full items-center justify-between gap-3 px-3 py-3 text-left text-sm font-semibold ${
+          active ? "text-primary" : "text-ink"
+        }`}
+      >
+        <span>Game Data</span>
+        <span className="inline-flex items-center gap-2 text-xs font-medium text-muted">
+          {GAME_DATA_LINKS.length}
+          <ChevronDown
+            aria-hidden="true"
+            className={`h-4 w-4 transition ${open ? "rotate-180" : ""}`}
+          />
+        </span>
+      </button>
+      {open ? (
+        <div
+          id="mobile-game-data"
+          className="grid gap-1 border-t border-line p-2"
+        >
+          {GAME_DATA_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={onClose}
+              className="rounded px-3 py-2 text-sm font-medium text-muted transition hover:bg-soft hover:text-ink"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
+      ) : null}
+    </section>
+  );
+}
+
 export function NavbarClient({ activeItemID, groups }: Props) {
   const [openDesktopMenu, setOpenDesktopMenu] = useState<MenuKey | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [openMobileSection, setOpenMobileSection] =
-    useState<MenuKey | null>(null);
+  const [openMobileSection, setOpenMobileSection] = useState<MenuKey | null>(
+    null,
+  );
   const rootRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -193,12 +317,14 @@ export function NavbarClient({ activeItemID, groups }: Props) {
       if (!rootRef.current?.contains(event.target as Node)) {
         setOpenDesktopMenu(null);
         setMobileOpen(false);
+        setOpenMobileSection(null);
       }
     };
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setOpenDesktopMenu(null);
         setMobileOpen(false);
+        setOpenMobileSection(null);
       }
     };
 
@@ -213,6 +339,7 @@ export function NavbarClient({ activeItemID, groups }: Props) {
   const closeMenus = () => {
     setOpenDesktopMenu(null);
     setMobileOpen(false);
+    setOpenMobileSection(null);
   };
 
   return (
@@ -269,6 +396,12 @@ export function NavbarClient({ activeItemID, groups }: Props) {
             onOpen={setOpenDesktopMenu}
             onClose={() => setOpenDesktopMenu(null)}
           />
+          <GameDataDropdown
+            active={activeItemID === "game-data"}
+            open={openDesktopMenu === "game-data"}
+            onOpen={setOpenDesktopMenu}
+            onClose={() => setOpenDesktopMenu(null)}
+          />
         </div>
 
         <div className="hidden min-w-[320px] max-w-md flex-1 justify-end lg:flex">
@@ -298,15 +431,15 @@ export function NavbarClient({ activeItemID, groups }: Props) {
           id="mobile-navigation"
           role="dialog"
           aria-label="Site navigation"
-          className="border-t border-line bg-elevated px-4 py-4 shadow-xl lg:hidden"
+          className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-line bg-elevated px-4 py-4 shadow-xl lg:hidden"
         >
           <div className="mx-auto grid max-w-7xl gap-3">
             <SearchBox compact />
-            <div className="rounded-md border border-line bg-canvas px-3 py-2">
+            <div className="grid gap-2">
               <Link
                 href="/"
                 onClick={closeMenus}
-                className={navLinkClass(activeItemID === "home")}
+                className={`${navLinkClass(activeItemID === "home")} flex items-center justify-center border border-line bg-canvas`}
               >
                 Home
               </Link>
@@ -319,7 +452,9 @@ export function NavbarClient({ activeItemID, groups }: Props) {
               open={openMobileSection === "characters"}
               collections={groups.characters}
               onToggle={(menu) =>
-                setOpenMobileSection((current) => (current === menu ? null : menu))
+                setOpenMobileSection((current) =>
+                  current === menu ? null : menu,
+                )
               }
               onClose={closeMenus}
             />
@@ -331,7 +466,19 @@ export function NavbarClient({ activeItemID, groups }: Props) {
               open={openMobileSection === "weapons"}
               collections={groups.weapons}
               onToggle={(menu) =>
-                setOpenMobileSection((current) => (current === menu ? null : menu))
+                setOpenMobileSection((current) =>
+                  current === menu ? null : menu,
+                )
+              }
+              onClose={closeMenus}
+            />
+            <MobileGameDataSection
+              active={activeItemID === "game-data"}
+              open={openMobileSection === "game-data"}
+              onToggle={() =>
+                setOpenMobileSection((current) =>
+                  current === "game-data" ? null : "game-data",
+                )
               }
               onClose={closeMenus}
             />

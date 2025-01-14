@@ -64,7 +64,7 @@ function FilterGroup({
   return (
     <section
       data-collection-filter-group
-      className={`flex h-full min-w-0 flex-col rounded-md border border-line bg-canvas/60 p-3 ${className}`}
+      className={`flex h-full min-w-0 snap-start flex-col rounded-md border border-line bg-canvas/60 p-3 ${className}`}
     >
       <h3 className="text-xs font-semibold uppercase tracking-wide text-muted">
         {title}
@@ -82,7 +82,7 @@ function RangeGroup({
   children: ReactNode;
 }) {
   return (
-    <section className="min-w-0 rounded border border-line bg-canvas p-3">
+    <section className="min-w-0 snap-start rounded border border-line bg-canvas p-3">
       <h4 className="text-xs font-semibold uppercase tracking-wide text-muted">
         {title}
       </h4>
@@ -91,13 +91,7 @@ function RangeGroup({
   );
 }
 
-function Field({
-  label,
-  children,
-}: {
-  label: string;
-  children: ReactNode;
-}) {
+function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
     <label className="grid gap-1 text-xs font-medium uppercase tracking-wide text-muted">
       {label}
@@ -162,11 +156,11 @@ export function CollectionToolbar({
     <div className="border-b border-line bg-surface px-4 py-4">
       <div
         data-collection-filter-scroll
-        className="-mx-4 overflow-x-auto px-4 pb-1"
+        className="-mx-4 overflow-x-auto px-4 pb-2"
       >
         <div
           data-collection-filter-grid
-          className="grid min-w-[1160px] grid-cols-5 items-stretch gap-3"
+          className="grid min-w-[1160px] snap-x grid-cols-5 items-stretch gap-3"
         >
           <FilterGroup title="Search">
             <Field label="Search NFTs">
@@ -202,7 +196,9 @@ export function CollectionToolbar({
             <Field label="Currency">
               <SelectControl
                 value={state.priceCurrency}
-                onChange={(event) => update({ priceCurrency: event.target.value })}
+                onChange={(event) =>
+                  update({ priceCurrency: event.target.value })
+                }
               >
                 <option value="">Any currency</option>
                 {filters.priceCurrencies.map((currency) => (
@@ -232,7 +228,9 @@ export function CollectionToolbar({
               <Field label="Rarity">
                 <SelectControl
                   value={state.rarityClass}
-                  onChange={(event) => update({ rarityClass: event.target.value })}
+                  onChange={(event) =>
+                    update({ rarityClass: event.target.value })
+                  }
                 >
                   <option value="">All rarities</option>
                   {filters.rarityClasses.map((rarity) => (
@@ -269,12 +267,18 @@ export function CollectionToolbar({
                     : update({ starLevel: event.target.value })
                 }
               >
-                <option value="">{showRarity ? "Any perk" : "Any stars"}</option>
-                {(showRarity ? filters.perks : filters.starLevels).map((value) => (
-                  <option key={value} value={value}>
-                    {showRarity ? value : `${value} star${value === 1 ? "" : "s"}`}
-                  </option>
-                ))}
+                <option value="">
+                  {showRarity ? "Any perk" : "Any stars"}
+                </option>
+                {(showRarity ? filters.perks : filters.starLevels).map(
+                  (value) => (
+                    <option key={value} value={value}>
+                      {showRarity
+                        ? value
+                        : `${value} star${value === 1 ? "" : "s"}`}
+                    </option>
+                  ),
+                )}
               </SelectControl>
             </Field>
             <Field label="Level">
@@ -312,7 +316,9 @@ export function CollectionToolbar({
                 <SelectControl
                   value={state.sortDirection}
                   onChange={(event) =>
-                    update({ sortDirection: event.target.value as SortDirection })
+                    update({
+                      sortDirection: event.target.value as SortDirection,
+                    })
                   }
                 >
                   <option value="asc">Ascending</option>
@@ -326,7 +332,10 @@ export function CollectionToolbar({
 
       <details className="mt-3 rounded-md border border-line bg-canvas/60">
         <summary className="flex cursor-pointer list-none items-center gap-2 px-3 py-2 text-sm font-medium text-ink">
-          <SlidersHorizontal aria-hidden="true" className="h-4 w-4 text-primary" />
+          <SlidersHorizontal
+            aria-hidden="true"
+            className="h-4 w-4 text-primary"
+          />
           More filters
         </summary>
         <div
@@ -335,7 +344,7 @@ export function CollectionToolbar({
         >
           <div
             data-collection-more-filter-grid
-            className="grid min-w-[720px] gap-3 p-3 md:min-w-0 md:grid-cols-2 xl:grid-cols-4"
+            className="grid min-w-[720px] snap-x gap-3 p-3 md:min-w-0 md:grid-cols-2 xl:grid-cols-4"
           >
             <RangeGroup title="Price">
               <NumberField

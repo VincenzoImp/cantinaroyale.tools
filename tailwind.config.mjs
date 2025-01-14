@@ -1,8 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const token = (name: string) => `rgb(var(${name}) / <alpha-value>)`;
-
-const config: Config = {
+/** @type {import("tailwindcss").Config} */
+const config = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -37,5 +34,9 @@ const config: Config = {
   },
   plugins: [],
 };
+
+function token(name) {
+  return `rgb(var(${name}) / <alpha-value>)`;
+}
 
 export default config;

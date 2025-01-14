@@ -610,14 +610,15 @@ export function HomeDashboard({ stats, insights }: Props) {
         aria-label="Market overview"
         className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8"
       >
+        <SectionTitle
+          icon={<BadgeDollarSign aria-hidden="true" className="h-5 w-5" />}
+          title="Market overview"
+        />
         <div className="rounded-md border border-line bg-surface p-4 shadow-sm">
           <div className="flex flex-wrap items-start justify-between gap-4 border-b border-line pb-4">
-            <span className="inline-flex min-w-0 items-center gap-2 text-primary">
-              <BadgeDollarSign aria-hidden="true" className="h-5 w-5" />
-              <h2 className="text-xl font-semibold text-ink">
-                Market overview
-              </h2>
-            </span>
+            <p className="text-sm font-medium text-muted">
+              Listed inventory across characters and weapons.
+            </p>
             <span className="rounded bg-soft px-2.5 py-1 text-sm font-medium text-muted">
               {formatNumber(stats.listedNfts)} listed across{" "}
               {formatNumber(stats.totalNfts)} NFTs

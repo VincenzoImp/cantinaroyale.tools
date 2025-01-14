@@ -196,6 +196,22 @@ describe("HomeDashboard", () => {
     expect(within(weaponMatrix).queryByRole("table")).not.toBeInTheDocument();
   });
 
+  it("uses the same section chrome for the market overview as the other aggregate sections", () => {
+    render(<HomeDashboard stats={stats} insights={insights} />);
+
+    const marketOverview = screen.getByRole("region", {
+      name: "Market overview",
+    });
+    const heading = within(marketOverview).getByRole("heading", {
+      name: "Market overview",
+    });
+    const [titleRow, contentCard] = Array.from(marketOverview.children);
+
+    expect(titleRow).toContainElement(heading);
+    expect(titleRow).toHaveClass("mb-4");
+    expect(contentCard).toHaveClass("rounded-md", "border", "bg-surface");
+  });
+
   it("keeps the primary hero action readable on dark theme backgrounds", () => {
     render(<HomeDashboard stats={stats} insights={insights} />);
 

@@ -17,7 +17,7 @@ import {
     Chip,
     Pagination,
     Avatar,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { contents, variables } from "@/app/layout";
 
 export default function CollectionTable({ tableColumns, tableEntries, type }: { tableColumns: { rangeble: boolean; filterable: boolean; searchable: boolean; uid: string, name: string, sortable: boolean; }[], tableEntries: { [key: string]: any }[], type: string }) {

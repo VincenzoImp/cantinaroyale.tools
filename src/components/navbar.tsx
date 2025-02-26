@@ -2,7 +2,7 @@
 
 import { contents, variables, identifiers } from "../app/layout";
 import { useState } from "react";
-import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@heroui/react";
 
 const navbar = contents.components.navbar;
 

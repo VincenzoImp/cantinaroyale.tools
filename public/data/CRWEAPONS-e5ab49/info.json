@@ -1,6 +1,7 @@
 {
     "collection": "CRWEAPONS-e5ab49",
     "type": "NonFungibleESDT",
+    "subType": "NonFungibleESDT",
     "name": "CantinaWeapons",
     "ticker": "CRWEAPONS",
     "owner": "erd1qqqqqqqqqqqqqpgq5dz6p0nsz35sht95kp6vjrznffzqpq79a9rsputqa4",
@@ -16,8 +17,8 @@
         "website": "https://cantinaroyale.io",
         "description": "Cantina Royale Weapons is an NFT weapon collection that can be earned by winning in the competitive modes of Catina Royale. With exclusive power bonuses, they can bring an edge to skilled players.",
         "status": "active",
-        "pngUrl": "https://media.elrond.com/tokens/asset/CRWEAPONS-e5ab49/logo.png",
-        "svgUrl": "https://media.elrond.com/tokens/asset/CRWEAPONS-e5ab49/logo.svg",
+        "pngUrl": "https://tools.multiversx.com/assets-cdn/tokens/CRWEAPONS-e5ab49/icon.png",
+        "svgUrl": "https://tools.multiversx.com/assets-cdn/tokens/CRWEAPONS-e5ab49/icon.svg",
         "social": {
             "blog": "https://blog.cantinaroyale.io",
             "twitter": "https://twitter.com/CantinaRoyale",
@@ -27,8 +28,8 @@
         }
     },
     "isVerified": true,
-    "holderCount": 128,
-    "nftCount": 2595,
+    "holderCount": 142,
+    "nftCount": 3028,
     "canTransfer": true,
     "roles": [
         {
@@ -56,5 +57,5 @@
             ]
         }
     ],
-    "totalNfts": 2555
+    "totalNfts": 3028
 }

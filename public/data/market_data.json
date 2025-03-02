@@ -1,21 +1,21 @@
 {
-    "CRT/EGLD": 6.8833383897145e-05,
+    "CRT/EGLD": 6.8825593482068e-05,
     "floorPrice": {
         "genesis": {
             "Bronze": {
                 "count": 5687,
                 "percent": 0.349861581051984,
-                "floorPrice": 0.26
+                "floorPrice": 0.29
             },
             "Epic": {
                 "count": 2034,
                 "percent": 0.12513072900645955,
-                "floorPrice": 1.25
+                "floorPrice": 1.08
             },
             "Gold": {
                 "count": 2848,
                 "percent": 0.175207628422024,
-                "floorPrice": 0.55
+                "floorPrice": 0.53
             },
             "Legendary": {
                 "count": 809,
@@ -25,14 +25,14 @@
             "Silver": {
                 "count": 4877,
                 "percent": 0.3000307597662258,
-                "floorPrice": 0.303
+                "floorPrice": 0.292
             }
         },
         "heroes": {
             "Epic": {
                 "count": 190,
                 "percent": 0.31666666666666665,
-                "floorPrice": 1.6800000000000002
+                "floorPrice": 1.6099999999999999
             },
             "Gold": {
                 "count": 350,
@@ -42,7 +42,7 @@
             "Legendary": {
                 "count": 60,
                 "percent": 0.1,
-                "floorPrice": 4.48
+                "floorPrice": 4.42
             }
         },
         "weapons": {
@@ -78,7 +78,7 @@
             },
             "Skybreaker": {
                 "count1*": 1420,
-                "floorPrice": 0.03481481481481482,
+                "floorPrice": 0.03111111111111111,
                 "percent1*": 0.20888496616651955
             },
             "Hellfire Launcher": {

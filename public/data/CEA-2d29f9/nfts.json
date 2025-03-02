@@ -94873,7 +94873,7 @@
         "priceCurrency":null,
         "priceAmount":null,
         "level":7,
-        "characterTokens":8411,
+        "characterTokens":8469,
         "health":3364,
         "shield":1743,
         "talentPointsAvailable":5,
@@ -94900,9 +94900,9 @@
         "precisionWeaponsProficiency":1,
         "explosiveWeaponsProficiency":0,
         "elementalWeaponsProficiency":0,
-        "value":1.6040277741,
+        "value":1.6120099618,
         "discount":null,
-        "progress":17.5985479592
+        "progress":17.7065202215
     },
     "CEA-2d29f9-0763":{
         "identifier":"CEA-2d29f9-0763",

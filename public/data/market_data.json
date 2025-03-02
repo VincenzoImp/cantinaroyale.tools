@@ -1,5 +1,5 @@
 {
-    "CRT/EGLD": 6.8811962454199e-05,
+    "CRT/EGLD": 6.8811415668103e-05,
     "floorPrice": {
         "genesis": {
             "Bronze": {
@@ -32,7 +32,7 @@
             "Epic": {
                 "count": 190,
                 "percent": 0.31666666666666665,
-                "floorPrice": 2.02
+                "floorPrice": 1.8599999999999999
             },
             "Gold": {
                 "count": 350,

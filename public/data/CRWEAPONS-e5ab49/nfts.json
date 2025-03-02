@@ -8985,17 +8985,17 @@
         "rank":null,
         "priceCurrency":null,
         "priceAmount":null,
-        "xp":507,
-        "wear":0.4,
+        "xp":515,
+        "wear":0.5,
         "level":3,
         "starLevel":1,
         "damage":2264.0,
         "reloadTime":2.1,
         "ammo":3.0,
         "range":9.0,
-        "value":0.0345152738,
+        "value":0.0347905216,
         "discount":null,
-        "progress":0.427403293
+        "progress":0.4323515222
     },
     "CRWEAPONS-e5ab49-035f":{
         "identifier":"CRWEAPONS-e5ab49-035f",

@@ -1,5 +1,5 @@
 {
-    "CRT/EGLD": 6.88018993163e-05,
+    "CRT/EGLD": 6.8816313441168e-05,
     "floorPrice": {
         "genesis": {
             "Bronze": {
@@ -32,7 +32,7 @@
             "Epic": {
                 "count": 190,
                 "percent": 0.31666666666666665,
-                "floorPrice": 1.48
+                "floorPrice": 1.42
             },
             "Gold": {
                 "count": 350,
@@ -73,7 +73,7 @@
             },
             "Dragonbreath": {
                 "count1*": 3986,
-                "floorPrice": 0.04888888888888889,
+                "floorPrice": 0.11777777777777779,
                 "percent1*": 0.587905604719764
             },
             "Skybreaker": {

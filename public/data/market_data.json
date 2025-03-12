@@ -1,5 +1,5 @@
 {
-    "CRT/EGLD": 6.8504304680394e-05,
+    "CRT/EGLD": 6.8480344548367e-05,
     "floorPrice": {
         "genesis": {
             "Bronze": {
@@ -20,7 +20,7 @@
             "Legendary": {
                 "count": 809,
                 "percent": 0.049769301753306676,
-                "floorPrice": 4.204
+                "floorPrice": 4.0
             },
             "Silver": {
                 "count": 4877,
@@ -49,27 +49,27 @@
             "Boomstick-X": {
                 "count1*": 16997,
                 "floorPrice": 0.013127572016460904,
-                "percent1*": 0.21395752822849662
+                "percent1*": 0.21393598409042278
             },
             "Tesla Gun X": {
-                "count1*": 16354,
+                "count1*": 16358,
                 "floorPrice": 0.0024444444444444444,
-                "percent1*": 0.20586347100363792
+                "percent1*": 0.20589308864806355
             },
             "Blaster-X": {
                 "count1*": 16272,
                 "floorPrice": 0.0026666666666666666,
-                "percent1*": 0.20483125841819716
+                "percent1*": 0.20481063323641582
             },
             "Mortar Gun X": {
-                "count1*": 16246,
+                "count1*": 16249,
                 "floorPrice": 0.007777777777777778,
-                "percent1*": 0.20450397150086227
+                "percent1*": 0.20452113934725422
             },
             "Railgun-X": {
-                "count1*": 13572,
+                "count1*": 13573,
                 "floorPrice": 0.000925925925925926,
-                "percent1*": 0.17084377084880603
+                "percent1*": 0.17083915467784364
             },
             "Dragonbreath": {
                 "count1*": 3986,

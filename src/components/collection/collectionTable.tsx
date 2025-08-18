@@ -333,7 +333,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         if (!hasFilters) {
             return (
                 <div className="flex items-center justify-center">
-                    <span className="font-semibold">{column.name}</span>
+                    <span className="font-medium text-theme-text">{column.name}</span>
                 </div>
             );
         }
@@ -343,8 +343,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 <DropdownTrigger>
                     <Button
                         variant="light"
-                        className="h-auto p-2 min-w-0 font-semibold data-[hover=true]:bg-transparent"
-                        endContent={<span className="text-xs ml-1">▼</span>}
+                        className="h-auto p-3 min-w-0 font-medium text-theme-text hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl"
+                        endContent={<span className="text-xs ml-1 text-theme-muted">▼</span>}
                     >
                         {column.name}
                         {/* Active filter indicator */}
@@ -352,31 +352,40 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                             filterStates.filterable[columnUid]?.length > 0 ||
                             filterStates.sortable.some(s => s.column === columnUid) ||
                             (filterStates.rangeble[columnUid]?.min || filterStates.rangeble[columnUid]?.max)) && (
-                                <span className="ml-1 text-blue-500">●</span>
+                                <span className="ml-2 w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full"></span>
                             )}
                     </Button>
                 </DropdownTrigger>
                 <DropdownMenu
                     aria-label={`${column.name} filters`}
-                    className="w-80 max-h-96 overflow-y-auto bg-theme-surface border-theme-border"
+                    className="w-80 max-h-96 overflow-y-auto"
                     variant="flat"
+                    classNames={{
+                        base: "bg-white dark:bg-gray-800 shadow-xl rounded-2xl p-1",
+                        list: "bg-white dark:bg-gray-800"
+                    }}
                 >
                     {/* Search Section */}
                     {column.searchable ? (
                         <DropdownItem
                             key="search-section"
                             isReadOnly
-                            className="p-3 bg-theme-surface"
+                            className="p-4 mb-2"
                             textValue="Search section"
                         >
-                            <div className="space-y-2">
-                                <label className="text-xs font-medium text-theme-muted">Search</label>
+                            <div className="space-y-3">
+                                <label className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                                    Search
+                                </label>
                                 <Input
                                     size="sm"
                                     placeholder={`Search ${column.name.toLowerCase()}...`}
                                     value={filterStates.searchable[columnUid] || ""}
                                     onChange={(e) => handleSearch(columnUid, e.target.value)}
-                                    className="bg-theme-surface text-theme-text"
+                                    classNames={{
+                                        input: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100",
+                                        inputWrapper: "bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl"
+                                    }}
                                 />
                             </div>
                         </DropdownItem>
@@ -388,14 +397,16 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                             <DropdownItem
                                 key="sort-asc"
                                 onClick={() => handleSort(columnUid, "asc")}
-                                className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                                className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl mx-1 my-1"
+                                startContent={<span className="text-blue-600 dark:text-blue-400">↑</span>}
                             >
                                 Sort Ascending
                             </DropdownItem>
                             <DropdownItem
                                 key="sort-desc"
                                 onClick={() => handleSort(columnUid, "desc")}
-                                className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                                className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl mx-1 my-1"
+                                startContent={<span className="text-blue-600 dark:text-blue-400">↓</span>}
                             >
                                 Sort Descending
                             </DropdownItem>
@@ -407,15 +418,17 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         <DropdownItem
                             key="filter-section"
                             isReadOnly
-                            className="p-3 bg-theme-surface"
+                            className="p-4 mb-2"
                             textValue="Filter section"
                         >
-                            <div className="space-y-2">
-                                <label className="text-xs font-medium text-theme-muted">Filters</label>
-                                <div className="max-h-40 overflow-y-auto space-y-1">
+                            <div className="space-y-3">
+                                <label className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                                    Filters
+                                </label>
+                                <div className="max-h-40 overflow-y-auto space-y-2 bg-gray-50 dark:bg-gray-700 rounded-xl p-3">
                                     {getUniqueValues(columnUid).map((value) => (
-                                        <div key={value} className="flex items-center justify-between">
-                                            <span className="text-sm text-theme-text truncate">{value}</span>
+                                        <div key={value} className="flex items-center justify-between p-2 hover:bg-white dark:hover:bg-gray-600 transition-colors rounded-lg">
+                                            <span className="text-sm text-gray-900 dark:text-gray-100 truncate flex-1 mr-3">{value}</span>
                                             <Switch
                                                 size="sm"
                                                 isSelected={filterStates.filterable[columnUid]?.includes(value)}
@@ -425,6 +438,11 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                                     } else {
                                                         handleFilterRemove(columnUid, value);
                                                     }
+                                                }}
+                                                classNames={{
+                                                    base: "inline-flex flex-row-reverse max-w-md",
+                                                    wrapper: "bg-gray-200 dark:bg-gray-600",
+                                                    thumb: "bg-white"
                                                 }}
                                             />
                                         </div>
@@ -439,12 +457,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         <DropdownItem
                             key="range-section"
                             isReadOnly
-                            className="p-3 bg-theme-surface"
+                            className="p-4 mb-2"
                             textValue="Range section"
                         >
-                            <div className="space-y-2">
-                                <label className="text-xs font-medium text-theme-muted">Range</label>
-                                <div className="flex gap-2">
+                            <div className="space-y-3">
+                                <label className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                                    Range
+                                </label>
+                                <div className="flex gap-3">
                                     <Input
                                         size="sm"
                                         placeholder="Min"
@@ -454,7 +474,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                             ...filterStates.rangeble[columnUid],
                                             min: e.target.value
                                         })}
-                                        className="bg-theme-surface text-theme-text"
+                                        classNames={{
+                                            input: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100",
+                                            inputWrapper: "bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl"
+                                        }}
                                     />
                                     <Input
                                         size="sm"
@@ -465,7 +488,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                             ...filterStates.rangeble[columnUid],
                                             max: e.target.value
                                         })}
-                                        className="bg-theme-surface text-theme-text"
+                                        classNames={{
+                                            input: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100",
+                                            inputWrapper: "bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl"
+                                        }}
                                     />
                                 </div>
                             </div>
@@ -477,15 +503,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         <DropdownItem
                             key="clear-all-section"
                             isReadOnly
-                            className="p-3 bg-theme-surface"
+                            className="p-4 mt-2"
                             textValue="Clear all section"
                         >
                             <Button
                                 size="sm"
                                 variant="flat"
-                                color="warning"
+                                className="w-full bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 hover:bg-red-100 dark:hover:bg-red-900/40 transition-colors rounded-xl"
                                 onClick={() => clearColumnFilters(columnUid)}
-                                className="w-full"
                             >
                                 Clear All Filters
                             </Button>
@@ -504,7 +529,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             if (columnUid === "identifier") {
                 displayValue = (
                     <a
-                        className="underline hover:text-blue-500 dark:hover:text-blue-500 cursor-pointer transition-colors"
+                        className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 cursor-pointer transition-colors font-medium underline decoration-transparent hover:decoration-current"
                         href={`/nft/${displayValue}`}
                     >
                         {displayValue}
@@ -517,7 +542,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         src={imageUrl}
                         alt={entry["name"] || "NFT"}
                         size="lg"
-                        radius="sm"
+                        radius="md"
                         className="bg-transparent"
                         fallback={<span className="text-xs">NFT</span>}
                     />
@@ -527,19 +552,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             }
 
             return (
-                <TableCell key={columnUid}>
-                    <Chip variant="light" className="bg-theme-surface text-theme-text border-theme-border">
-                        {displayValue}
-                    </Chip>
+                <TableCell key={columnUid} className="text-theme-text">
+                    {displayValue}
                 </TableCell>
             );
         } catch (error) {
             console.error(`Error rendering cell for column ${columnUid}:`, error);
             return (
-                <TableCell key={columnUid}>
-                    <Chip variant="light" className="bg-theme-surface text-theme-text border-theme-border">
-                        Error
-                    </Chip>
+                <TableCell key={columnUid} className="text-red-600 dark:text-red-400">
+                    Error
                 </TableCell>
             );
         }
@@ -547,25 +568,31 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     // Table controls
     const tableControls = (
-        <Card className="mb-4 bg-theme-surface border-theme-border">
-            <CardBody className="p-4">
-                <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
+        <Card className="mb-6 bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden">
+            <CardBody className="p-6">
+                <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                        <span className="text-sm text-theme-muted">
-                            {filteredEntries.length} {contents?.components?.collectionTable?.nfts || "items"}
-                            {filteredEntries.length !== tableEntries.length && (
-                                <span className="text-xs ml-1">
-                                    (filtered from {tableEntries.length})
-                                </span>
-                            )}
-                        </span>
+                        <div className="bg-blue-50 dark:bg-blue-900/20 px-4 py-2 rounded-xl">
+                            <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
+                                {filteredEntries.length} {contents?.components?.collectionTable?.nfts || "items"}
+                                {filteredEntries.length !== tableEntries.length && (
+                                    <span className="text-xs ml-1 text-blue-600 dark:text-blue-400">
+                                        (filtered from {tableEntries.length})
+                                    </span>
+                                )}
+                            </span>
+                        </div>
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                         {/* Column Visibility */}
                         <Dropdown>
                             <DropdownTrigger>
-                                <Button variant="bordered" size="sm" className="bg-theme-surface text-theme-text border-theme-border">
+                                <Button
+                                    variant="bordered"
+                                    size="sm"
+                                    className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 hover:border-blue-400 dark:hover:border-blue-500 rounded-xl"
+                                >
                                     Columns ({visibleColumns.length}/{tableColumns.length})
                                 </Button>
                             </DropdownTrigger>
@@ -578,12 +605,15 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                     const newVisibleColumns = Array.from(keys as Set<string>);
                                     setVisibleColumns(newVisibleColumns);
                                 }}
-                                className="bg-theme-surface border-theme-border"
+                                classNames={{
+                                    base: "bg-white dark:bg-gray-800 shadow-xl rounded-2xl p-1",
+                                    list: "bg-white dark:bg-gray-800"
+                                }}
                             >
                                 {tableColumns.map((column) => (
                                     <DropdownItem
                                         key={column.uid}
-                                        className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                                        className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl mx-1 my-1"
                                     >
                                         {column.name}
                                     </DropdownItem>
@@ -592,8 +622,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                         </Dropdown>
 
                         {/* Rows per page */}
-                        <div className="flex items-center gap-2">
-                            <span className="text-sm text-theme-muted">Rows:</span>
+                        <div className="flex items-center gap-3 bg-gray-50 dark:bg-gray-700 px-4 py-2 rounded-xl">
+                            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Rows:</span>
                             <Select
                                 size="sm"
                                 selectedKeys={[rowsPerPage.toString()]}
@@ -603,14 +633,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                                 }}
                                 className="w-20"
                                 classNames={{
-                                    trigger: "bg-theme-surface text-theme-text border-theme-border",
-                                    popoverContent: "bg-theme-surface border-theme-border"
+                                    trigger: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 rounded-xl",
+                                    popoverContent: "bg-white dark:bg-gray-800 shadow-xl rounded-2xl"
                                 }}
                             >
                                 {(variables?.tableInfo?.nftsPerPage?.options || [10, 25, 50, 100]).map((option) => (
                                     <SelectItem
                                         key={option.toString()}
-                                        className="bg-theme-surface text-theme-text hover:bg-theme-surfaceElevated"
+                                        className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 rounded-xl mx-1 my-1"
                                     >
                                         {option.toString()}
                                     </SelectItem>
@@ -630,7 +660,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 <TableColumn
                     key={columnUid}
                     align="center"
-                    className="bg-theme-surface text-theme-text border-theme-border"
+                    className="bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 font-medium py-4"
                 >
                     {renderColumnHeader(columnUid)}
                 </TableColumn>
@@ -644,7 +674,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             {filteredEntries
                 .slice((page - 1) * rowsPerPage, page * rowsPerPage)
                 .map((entry, index) => (
-                    <TableRow key={entry.uid || entry.identifier || `row-${index}`}>
+                    <TableRow
+                        key={entry.uid || entry.identifier || `row-${index}`}
+                        className="hover:bg-gray-50 dark:hover:bg-gray-700/30 transition-colors"
+                    >
                         {visibleColumns.map((columnUid) => renderCell(entry, columnUid))}
                     </TableRow>
                 ))}
@@ -653,7 +686,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     // Pagination
     const pagination = totalPages > 1 ? (
-        <div className="flex w-full justify-center py-4">
+        <div className="flex w-full justify-center py-6">
             <Pagination
                 isCompact
                 showControls
@@ -662,29 +695,31 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 total={totalPages}
                 onChange={handlePageChange}
                 classNames={{
-                    base: "mb-2",
-                    prev: "bg-theme-surface text-theme-text border-theme-border hover:bg-theme-surfaceElevated",
-                    next: "bg-theme-surface text-theme-text border-theme-border hover:bg-theme-surfaceElevated",
-                    item: "bg-theme-surface text-theme-text border-theme-border hover:bg-theme-surfaceElevated",
-                    forwardIcon: "bg-theme-surface text-theme-text",
-                    ellipsis: "bg-theme-surface text-theme-text",
-                    chevronNext: "bg-theme-surface text-theme-text",
-                    cursor: "bg-blue-600 text-white hover:bg-blue-700"
+                    base: "gap-2",
+                    prev: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl",
+                    next: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl",
+                    item: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors rounded-xl",
+                    forwardIcon: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100",
+                    ellipsis: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100",
+                    chevronNext: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100",
+                    cursor: "bg-blue-600 text-white hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 rounded-xl"
                 }}
             />
         </div>
     ) : null;
 
     return (
-        <div className="space-y-4">
+        <div className="space-y-6">
             {tableControls}
-            <Card className="bg-theme-surface border-theme-border">
+            <Card className="bg-white dark:bg-gray-800 shadow-xl overflow-hidden rounded-2xl">
                 <CardBody className="p-0">
                     <Table
                         shadow="none"
                         classNames={{
-                            table: "bg-theme-surface text-theme-text",
-                            wrapper: "bg-theme-surface border-theme-border rounded-lg p-4"
+                            table: "bg-white dark:bg-gray-800",
+                            wrapper: "bg-white dark:bg-gray-800 rounded-2xl",
+                            th: "bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100",
+                            td: "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 py-4"
                         }}
                     >
                         {tableHeader}

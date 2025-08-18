@@ -19,11 +19,8 @@ import {
     Avatar,
     Select,
     SelectItem,
-    Card,
-    CardBody,
 } from "@heroui/react";
 import { contents, variables } from "@/app/layout";
-import { formatDisplayValue, validateTableEntries, getUniqueColumnValues } from "@/utils/tableUtils";
 
 // Define proper TypeScript interfaces
 interface TableColumn {
@@ -37,7 +34,8 @@ interface TableColumn {
 
 interface TableEntry {
     [key: string]: any;
-    uid: string;
+    uid?: string;
+    identifier?: string;
 }
 
 interface EntriesUseStates {
@@ -58,13 +56,10 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     const INITIAL_PAGE = 1;
     const INITIAL_VISIBLE_COLUMNS = tableColumns.map((column) => column.uid);
 
-    // Validate and clean table entries
-    const validatedEntries = React.useMemo(() => validateTableEntries(tableEntries), [tableEntries]);
-
     const [visibleColumns, setVisibleColumns] = React.useState<string[]>(INITIAL_VISIBLE_COLUMNS);
     const [rowsPerPage, setRowsPerPage] = React.useState(INITIAL_ROWS_PER_PAGE);
     const [page, setPage] = React.useState(INITIAL_PAGE);
-    const [totalPages, setTotalPages] = React.useState(Math.ceil(validatedEntries.length / INITIAL_ROWS_PER_PAGE));
+    const [totalPages, setTotalPages] = React.useState(Math.ceil(tableEntries.length / INITIAL_ROWS_PER_PAGE));
 
     // Initialize the filter states properly
     function initEntriesUseStates(tableColumns: TableColumn[]): EntriesUseStates {
@@ -96,7 +91,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
     // Fixed filtering and sorting logic
     const selectedEntries = React.useMemo(() => {
-        let filteredEntries = [...validatedEntries];
+        let filteredEntries = [...tableEntries];
 
         // Apply search filters
         tableColumns.forEach((column) => {
@@ -162,7 +157,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         });
 
         return filteredEntries;
-    }, [validatedEntries, entriesUseStates, visibleColumns, tableColumns]);
+    }, [tableEntries, entriesUseStates, visibleColumns, tableColumns]);
 
     // Update total pages when filtered entries change
     React.useEffect(() => {
@@ -182,15 +177,6 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
             filterable: { ...prev.filterable, [columnUid]: [] },
             rangeble: { ...prev.rangeble, [columnUid]: { min: "", max: "" } },
         }));
-    }
-
-    function handleColumnVisibilityAdd(columnUid: string) {
-        setVisibleColumns([...visibleColumns, columnUid]);
-    }
-
-    function handleColumnVisibilityRemove(columnUid: string) {
-        setVisibleColumns(visibleColumns.filter((column) => column !== columnUid));
-        clearEntriesUseStates(columnUid);
     }
 
     function handleSearch(column: string, value: string) {
@@ -247,9 +233,57 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         setPage(INITIAL_PAGE);
     }
 
-    // Get unique values for filter dropdown using utility function
+    // Get unique values for filter dropdown
     function getUniqueValues(columnUid: string): string[] {
-        return getUniqueColumnValues(validatedEntries, columnUid);
+        const uniqueValues = [...new Set(
+            tableEntries
+                .map((entry) => entry[columnUid])
+                .filter((value) => value !== null && value !== undefined && value !== "")
+        )];
+        return uniqueValues.sort();
+    }
+
+    // Format display value
+    function formatDisplayValue(value: any, columnUid: string): any {
+        if (value === null || value === undefined || value === "") {
+            return "-";
+        }
+
+        switch (columnUid) {
+            case "owner":
+                if (typeof value === "string" && value.length > 12) {
+                    return `${value.slice(0, 6)}...${value.slice(-6)}`;
+                }
+                break;
+            case "priceAmount":
+                if (typeof value === "number" || !isNaN(parseFloat(value))) {
+                    const price = parseFloat(value);
+                    return price.toFixed(2).replace(/\.?0+$/, "");
+                }
+                break;
+            case "collection":
+                // Map collection identifiers to readable names if needed
+                const collectionNames: { [key: string]: string } = {
+                    "GSPACEAPE-08bc2b": "Genesis Space Apes",
+                    "CEA-2d29f9": "CEA Collection",
+                    "CRHEROES-9edff2": "Cantina Royale Heroes",
+                    "CRWEAPONS-e5ab49": "Cantina Weapons",
+                    "CRMYTH-546419": "Mythical Weapons"
+                };
+                return collectionNames[value] || value;
+            default:
+                if (typeof value === "number" || (!isNaN(parseFloat(value)) && isFinite(value))) {
+                    const numValue = parseFloat(value);
+                    // Don't format integers unless they're very large
+                    if (Number.isInteger(numValue) && numValue < 1000) {
+                        return numValue.toString();
+                    }
+                    return numValue.toFixed(2).replace(/\.?0+$/, "");
+                }
+                break;
+        }
+
+        return value;
     }
 
     // Fixed header cell with proper dropdown implementation
@@ -272,7 +306,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 <DropdownTrigger>
                     <Button
                         variant="light"
-                        className="h-auto p-2 min-w-0 font-semibold"
+                        className="h-auto p-2 min-w-0 font-semibold data-[hover=true]:bg-transparent"
                         endContent={<span className="text-xs">▼</span>}
                     >
                         {column.name}
@@ -285,8 +319,9 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 >
                     {/* Search */}
                     {column.searchable && (
-                        <DropdownItem key="search" textValue="Search">
-                            <div className="p-2">
+                        <DropdownItem key="search" textValue="Search" className="p-2">
+                            <div className="space-y-2">
+                                <p className="text-sm font-medium">Search:</p>
                                 <Input
                                     placeholder={`Search ${column.name.toLowerCase()}...`}
                                     value={entriesUseStates.searchable[columnUid] || ""}
@@ -300,8 +335,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
                     {/* Sort */}
                     {column.sortable && (
-                        <DropdownItem key="sort" textValue="Sort">
-                            <div className="p-2 space-y-2">
+                        <DropdownItem key="sort" textValue="Sort" className="p-2">
+                            <div className="space-y-2">
                                 <p className="text-sm font-medium">Sort by:</p>
                                 <div className="flex gap-2">
                                     <Button
@@ -325,8 +360,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
                     {/* Filter */}
                     {column.filterable && (
-                        <DropdownItem key="filter" textValue="Filter">
-                            <div className="p-2 space-y-2">
+                        <DropdownItem key="filter" textValue="Filter" className="p-2">
+                            <div className="space-y-2">
                                 <p className="text-sm font-medium">Filter by:</p>
                                 <div className="max-h-32 overflow-y-auto space-y-1">
                                     {getUniqueValues(columnUid).map((value) => {
@@ -367,8 +402,8 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
 
                     {/* Range */}
                     {column.rangeble && (
-                        <DropdownItem key="range" textValue="Range">
-                            <div className="p-2 space-y-2">
+                        <DropdownItem key="range" textValue="Range" className="p-2">
+                            <div className="space-y-2">
                                 <p className="text-sm font-medium">Range:</p>
                                 <div className="flex gap-2">
                                     <Input
@@ -397,7 +432,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                     )}
 
                     {hasFilters && (
-                        <DropdownItem key="clear-all" textValue="Clear All">
+                        <DropdownItem key="clear-all" textValue="Clear All" className="p-2">
                             <Button
                                 size="sm"
                                 variant="flat"
@@ -419,9 +454,9 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         <div className="flex justify-between items-center dark:text-white mx-4 pt-4 pb-2">
             <span className="text-sm text-gray-600 dark:text-gray-400">
                 {selectedEntries.length} {contents?.components?.collectionTable?.nfts || "items"}
-                {selectedEntries.length !== validatedEntries.length && (
+                {selectedEntries.length !== tableEntries.length && (
                     <span className="text-xs ml-1">
-                        (filtered from {validatedEntries.length})
+                        (filtered from {tableEntries.length})
                     </span>
                 )}
             </span>
@@ -455,13 +490,14 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 {/* Rows per page */}
                 <div className="flex items-center gap-2">
                     <span className="text-sm">
-                        {contents?.components?.collectionTable?.nftsPerPage || "Rows per page"}:
+                        {contents?.components?.collectionTable?.nftsPerPage || "Rows per page"}
                     </span>
                     <Select
                         size="sm"
                         className="w-20"
                         selectedKeys={[rowsPerPage.toString()]}
                         onChange={(e) => handleRowsPerPageChange(parseInt(e.target.value))}
+                        aria-label="Rows per page selection"
                     >
                         {(variables?.tableInfo?.nftsPerPage?.options || [10, 25, 50, 100]).map((option) => (
                             <SelectItem key={option.toString()} value={option.toString()}>
@@ -510,7 +546,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
         </TableHeader>
     );
 
-    // Fixed cell rendering with better formatting
+    // Fixed cell rendering
     function renderCell(entry: TableEntry, columnUid: string) {
         let displayValue: any = entry[columnUid];
 
@@ -536,8 +572,7 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
                 />
             );
         } else {
-            // Use utility function for formatting
-            displayValue = formatDisplayValue(displayValue, columnUid, type);
+            displayValue = formatDisplayValue(displayValue, columnUid);
         }
 
         return (
@@ -563,23 +598,21 @@ export default function CollectionTable({ tableColumns, tableEntries, type }: Co
     );
 
     return (
-        <Card className="dark:bg-gray-800 bg-white">
-            <CardBody className="p-0">
-                {tableTop}
-                <div className="mx-4 mt-2">
-                    <Table
-                        shadow="none"
-                        classNames={{
-                            table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
-                            wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4 mb-4"
-                        }}
-                    >
-                        {tableHeader}
-                        {tableBody}
-                    </Table>
-                </div>
-                {tableBottom}
-            </CardBody>
-        </Card>
+        <div className="dark:bg-gray-800 bg-white rounded-lg shadow-lg">
+            {tableTop}
+            <div className="mx-4 mt-4">
+                <Table
+                    shadow="none"
+                    classNames={{
+                        table: "dark:bg-gray-900 bg-gray-100 dark:text-white",
+                        wrapper: "dark:bg-gray-900 bg-gray-100 rounded-lg p-4 mb-4"
+                    }}
+                >
+                    {tableHeader}
+                    {tableBody}
+                </Table>
+            </div>
+            {tableBottom}
+        </div>
     );
 }

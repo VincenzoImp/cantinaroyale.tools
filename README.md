@@ -218,7 +218,7 @@ This project is optimized for deployment on [Vercel](https://vercel.com/):
 
 ## 🔗 Links
 
-- **Website**: [cantinaroyale.tools](https://cantinaroyale.tools)
+- **Website**: [cantinaroyale.tools](cantinaroyale-tools.vercel.app)
 - **Game**: [cantinaroyale.io](https://cantinaroyale.io)
 - **GitHub**: [VincenzoImp/cantinaroyale.tools](https://github.com/VincenzoImp/cantinaroyale.tools)
 - **MultiversX Explorer**: [explorer.multiversx.com](https://explorer.multiversx.com)

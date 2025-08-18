@@ -1,4 +1,7 @@
-# ![Cantina Royale Tools](https://cantinaroyale.io/images/favicon.ico) Cantina Royale Tools
+<h1>
+  <img src="https://cantinaroyale.io/images/favicon.ico" alt="Cantina Royale Tools" width="32" height="32" style="vertical-align: middle;">
+  Cantina Royale Tools
+</h1>
 
 A comprehensive web application for exploring and analyzing Cantina Royale NFT collections, character stats, weapons, and game data. Built with Next.js and TypeScript.
 

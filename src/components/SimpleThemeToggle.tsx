@@ -2,48 +2,24 @@
 'use client'
 
 import { Button } from '@heroui/react';
+import { useTheme } from '@/contexts/ThemeContext';
 import { useState, useEffect } from 'react';
 
 export default function SimpleThemeToggle() {
-    const [theme, setTheme] = useState<'light' | 'dark'>('light');
     const [mounted, setMounted] = useState(false);
+    const { theme, toggleTheme } = useTheme();
 
     useEffect(() => {
         setMounted(true);
-
-        // Get initial theme
-        const savedTheme = localStorage.getItem('theme') as 'light' | 'dark';
-        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        const initialTheme = savedTheme || systemTheme;
-
-        setTheme(initialTheme);
-        applyTheme(initialTheme);
     }, []);
 
-    const applyTheme = (newTheme: 'light' | 'dark') => {
-        const root = document.documentElement;
-
-        if (newTheme === 'dark') {
-            root.classList.add('dark');
-        } else {
-            root.classList.remove('dark');
-        }
-    };
-
-    const toggleTheme = () => {
-        const newTheme = theme === 'light' ? 'dark' : 'light';
-        setTheme(newTheme);
-        localStorage.setItem('theme', newTheme);
-        applyTheme(newTheme);
-    };
-
-    // Prevent hydration mismatch
+    // Handle SSR case - don't render until mounted
     if (!mounted) {
         return (
             <Button
                 isIconOnly
                 variant="ghost"
-                className="text-gray-500 dark:text-gray-400"
+                className="text-theme-muted"
                 size="sm"
                 disabled
             >
@@ -57,7 +33,7 @@ export default function SimpleThemeToggle() {
             isIconOnly
             variant="ghost"
             onClick={toggleTheme}
-            className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors"
+            className="text-theme-muted hover:text-theme-text transition-colors"
             size="sm"
             aria-label={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
         >

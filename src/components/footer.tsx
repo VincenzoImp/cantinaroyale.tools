@@ -1,5 +1,5 @@
 // src/components/footer.tsx
-import { contents } from "@/app/layout";
+import { contents } from "@/lib/data";
 import SimpleThemeToggle from './SimpleThemeToggle';
 
 const footer = contents.components.footer;

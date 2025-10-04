@@ -1,4 +1,4 @@
-import { contents, variables } from "@/app/layout";
+import { contents, variables } from "@/lib/data";
 
 export default function CollectionTitle({ collectionName, collectionData }: { collectionName: string, collectionData: { [key: string]: any } }) {
     var collections = [...variables.collections.characters, ...variables.collections.weapons];

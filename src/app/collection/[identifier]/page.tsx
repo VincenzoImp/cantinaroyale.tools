@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { contents, variables, data } from "@/app/layout";
+import { contents, variables, data } from "@/lib/data";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import CharacterCollection from "@/components/collection/characterCollection";

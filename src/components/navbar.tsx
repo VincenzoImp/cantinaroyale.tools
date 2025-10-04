@@ -1,9 +1,11 @@
 "use client";
 
-import { contents, variables, identifiers } from "../app/layout";
+import { contents, variables, identifiers } from "../lib/data";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Popover, PopoverTrigger, PopoverContent } from "@heroui/react";
+import SimpleThemeToggle from "./SimpleThemeToggle";
+import ErrorBoundary from "./ErrorBoundary";
 
 const navbar = contents.components.navbar;
 
@@ -116,14 +118,14 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
     const renderSearchItem = () => (
         <div className="relative flex">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                <svg className="w-4 h-4 text-gray-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <svg className="w-4 h-4 text-theme-muted" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                 </svg>
             </div>
             <input
                 type="text"
                 onKeyDown={handleSearch}
-                className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="block w-full p-2 ps-10 text-sm text-theme-text border border-theme-border rounded-lg bg-theme-surface focus:ring-theme-primary focus:border-theme-primary transition-colors duration-200"
                 placeholder={navbar.searchPlaceholder}
             />
         </div>
@@ -155,14 +157,14 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
     const baseNavClass = "w-full mx-auto max-w-screen-xl dark:bg-gray-800 bg-white rounded-lg shadow-lg border-gray-200 m-4";
 
     return (
-        <>
+        <ErrorBoundary>
             {/* Mobile Navbar */}
             <div className="md:hidden outline-none">
                 <nav className={baseNavClass}>
                     <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
                         {renderTitle()}
                         <button
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-muted rounded-lg hover:bg-theme-surface transition-colors duration-200"
                             onClick={() => setMobileDropdown(!mobileDropdown)}
                         >
                             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -171,7 +173,9 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
                         </button>
                     </div>
                     <div className={`px-4 pb-4 ${mobileDropdown ? "" : "hidden"}`}>
-                        {renderSearchItem()}
+                        <div className="flex items-center gap-4 mb-4">
+                            {renderSearchItem()}
+                        </div>
                         {renderListItem()}
                     </div>
                 </nav>
@@ -183,12 +187,14 @@ export default function Navbar({ activeItemID }: { activeItemID: string }) {
                     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                         {renderTitle()}
                         {renderListItem()}
-                        {renderSearchItem()}
+                        <div className="flex items-center gap-4">
+                            {renderSearchItem()}
+                        </div>
                     </div>
                 </nav>
             </div>
 
             {activeToast && renderToastError()}
-        </>
+        </ErrorBoundary>
     );
 }

@@ -1,9 +1,10 @@
 "use client";
 
-import { contents, variables } from "@/app/layout";
+import { contents, variables } from "@/lib/data";
 import { useState } from "react";
-import {Popover, PopoverTrigger, PopoverContent} from "@heroui/react";
+import { Popover, PopoverTrigger, PopoverContent } from "@heroui/react";
 import { ScrollShadow } from "@heroui/react";
+import Image from "next/image";
 
 export default function NftCard({ nft, type }: { [key: string]: any, type: string }) {
 
@@ -11,13 +12,13 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
     nftCard = nftCard[type];
 
     const talentTypes: { [key: string]: string } = variables.talentTypes;
-    
+
     function About({ about, nft }: { about: { [key: string]: any }, nft: { [key: string]: any } }) {
         const component = Object.entries(about.keys).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)).map(([key, value]: [string, any]) => {
             const displayKey: any = value;
             var displayValue: any = nft[key];
             if (parseFloat(displayValue)) {
-                displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
+                displayValue = parseFloat(displayValue).toFixed(2);
             }
             if (key === "collection") {
                 displayValue = <a href={"/collection/" + displayValue} className="underline hover:text-blue-500 dark:hover:text-blue-500">{displayValue}</a>;
@@ -76,7 +77,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             const displayKey: any = value;
             var displayValue: any = nft[key];
             if (parseFloat(displayValue)) {
-                displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
+                displayValue = parseFloat(displayValue).toFixed(2);
             }
             if (key === "wear") {
                 displayValue = displayValue + " %";
@@ -109,6 +110,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             resolve: "bg-purple-200 text-purple-800 dark:bg-purple-800 dark:text-purple-200"
         };
         const component = Object.entries(talentsMap).sort(([talentNameA], [talentNameB]) => talentsMap[talentNameB] - talentsMap[talentNameA] || talentNameA.localeCompare(talentNameB)).map(([talentName, talentValue]: [string, number]) => {
+            talentValue = parseFloat(talentValue.toFixed(2));
             return (
                 <div key={talentName} className="flex justify-between items-center dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg">
                     <span className="text-sm dark:text-white">
@@ -116,7 +118,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                             <Popover placement="top">
                                 <PopoverTrigger>
                                     <svg className="flex-shrink-0 inline w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
+                                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
                                     </svg>
                                 </PopoverTrigger>
                                 <PopoverContent className="m-0 p-0">
@@ -131,7 +133,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                         <span className="ms-2 me-2">
                             {talents.keys[talentName].text}
                         </span>
-                        <span className={"text-xs font-medium px-2.5 py-0.5 rounded-full "+colors[talentTypes[talentName]]}>
+                        <span className={"text-xs font-medium px-2.5 py-0.5 rounded-full " + colors[talentTypes[talentName]]}>
                             {talents.types[talentTypes[talentName]]}
                         </span>
                     </span>
@@ -149,7 +151,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
             const displayKey: any = value;
             var displayValue: any = nft[key];
             if (parseFloat(displayValue)) {
-                displayValue = parseFloat(displayValue).toFixed(2).replace(/\.?0*$/, "");
+                displayValue = parseFloat(displayValue).toFixed(2);
             }
             if (displayValue === null) {
                 return null;
@@ -168,7 +170,7 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
         return component;
     }
 
-    function DynamicArea({nftCard, nft}: {nftCard: { [key: string]: any }, nft: { [key: string]: any }}) {
+    function DynamicArea({ nftCard, nft }: { nftCard: { [key: string]: any }, nft: { [key: string]: any } }) {
         const [activeKey, setactiveKey] = useState("about");
         const classButtonActive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-blue-800 bg-blue-500 text-white";
         const classButtonInactive = "w-full inline-block p-4 rounded-lg shadow-lg dark:text-white dark:bg-gray-900 bg-gray-100 dark:hover:bg-gray-700 hover:bg-gray-200";
@@ -198,17 +200,26 @@ export default function NftCard({ nft, type }: { [key: string]: any, type: strin
                 <ul className="text-sm font-medium text-center rounded-lg flex flex-wrap dark:text-white m-4 justify-between gap-1">
                     {buttons}
                 </ul>
-                <ScrollShadow size={20} style={{maxHeight: maxH}} hideScrollBar={true}>
+                <ScrollShadow size={20} style={{ maxHeight: maxH }} hideScrollBar={true}>
                     {dynamic[activeKey]}
                 </ScrollShadow>
             </div>
         );
     }
-    
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 dark:bg-gray-800 bg-white rounded-lg shadow-lg">
             <div className="dark:bg-gray-900 bg-gray-100 rounded-lg m-4 p-4 shadow-lg flex justify-center items-center">
-                <a href={nft.url}><img src={nft.url} alt={nft.name} className="w-full h-auto"/></a>
+                <a href={nft.url}>
+                    <Image
+                        src={nft.url}
+                        alt={nft.name}
+                        width={400}
+                        height={400}
+                        className="w-full h-auto"
+                        unoptimized
+                    />
+                </a>
             </div>
             <DynamicArea nftCard={nftCard} nft={nft} />
         </div>

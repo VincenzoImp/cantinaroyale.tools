@@ -25,7 +25,7 @@ export default function CharacterCollection({ collectionName, collectionData }: 
         tableFilters[column] = [];
     }
     return (
-        <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-12">
+        <section className="items-center justify-center min-h-screen w-full mx-auto max-w-screen-xl m-4 sm:m-8 lg:m-12">
             <CollectionTitle collectionName={collectionName} collectionData={collectionData} />
             <CollectionTable tableColumns={tableColumns} tableEntries={tableEntries} type="characters" />
         </section>

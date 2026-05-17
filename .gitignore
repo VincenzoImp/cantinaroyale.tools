@@ -1,36 +1,55 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
+# Dependencies
+node_modules/
+.pnp
 .pnp.js
 .yarn/install-state.gz
 
-# testing
-/coverage
+# Next.js and production output
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
 
-# next.js
-/.next/
-/out/
+# Generated data
+public/data/cantina.sqlite*
+public/data/.cantina.sqlite*.tmp*
 
-# production
-/build
+# Test and coverage output
+coverage/
+test-results/
+playwright-report/
 
-# misc
-.DS_Store
-*.pem
+# Local environment and deployments
+.env
+.env.*
+!.env.example
+!.env.*.example
+.vercel/
 
-# debug
+# Python local state for private pipeline
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+private/__pycache__/
+private/.venv/
+private/venv/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# local env files
-.env*.local
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
 
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Local secrets and certificates
+*.pem

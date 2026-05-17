@@ -1,238 +1,152 @@
 # Cantina Royale Tools
 
-## 🎮 About Cantina Royale
+Public explorer for Cantina Royale NFT collections, characters, weapons,
+rarity, perks, gameplay stats and marketplace data.
 
-Cantina Royale is a competitive battle royale game featuring NFT characters and weapons. This tools website provides detailed information about:
-- **Character Collections**: Genesis Space Apes and Cantina Royale Heroes
-- **Weapon Collections**: Arsenal X Weapons, Mythical Weapons, and Standard Weapons
-- **Game Statistics**: Character skills, weapon stats, upgrade paths, and reward pools
+Live site: <https://cantinaroyale-tools.vercel.app/>
 
-## ✨ Features
+## What It Does
 
-### 🔍 NFT Explorer
-- **Character Browser**: Explore all character NFTs with detailed stats and attributes
-- **Weapon Browser**: Browse weapon collections with performance metrics
-- **Search Functionality**: Find specific NFTs by identifier
-- **Collection Filtering**: Filter by rarity, level, and other attributes
+Cantina Royale Tools helps players and collectors explore the Cantina Royale
+ecosystem without loading massive NFT datasets in the browser.
 
-### 📊 Game Data Analytics
-- **Character Skills**: Ultimate abilities, charging mechanics, and stat progressions
-- **Weapon Statistics**: Damage values, ranges, and upgrade paths
-- **Reward Pools**: Lootbox contents and drop rates
-- **Battle Pass Data**: Season rewards and progression systems
+- Browse all supported character and weapon collections.
+- Search NFTs by name, collection, trait or owner.
+- Filter collection tables by sale status, rarity, perks, level, stars, price,
+  rank, estimated value and progress.
+- Open detailed NFT pages with market data, ownership, gameplay stats,
+  appearance traits and perk/stat bonuses.
+- Compare aggregate home insights for market overview, largest collections,
+  character traits and weapon star ratings.
+- Use a polished light/dark theme with the theme switch in the footer.
 
-### 🎨 Modern UI/UX
-- **Responsive Design**: Optimized for desktop and mobile devices
-- **Dark Mode Support**: Toggle between light and dark themes
-- **Smooth Animations**: Powered by Framer Motion
-- **Interactive Charts**: Data visualizations with Chart.js
+## Supported Collections
 
-## 🛠️ Tech Stack
+The current snapshot covers:
 
-### Frontend
-- **[Next.js 14](https://nextjs.org/)** - React framework with App Router
-- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[HeroUI](https://heroui.com/)** - Modern React UI library
+- `GSPACEAPE-08bc2b`
+- `CEA-2d29f9`
+- `CRHEROES-9edff2`
+- `CRWEAPONS-e5ab49`
+- `CRMYTH-546419`
 
-### Animations & Visualization
-- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
-- **[Chart.js](https://www.chartjs.org/)** - Data visualization
-- **[React Chart.js 2](https://react-chartjs-2.js.org/)** - React wrapper for Chart.js
+Collection definitions live in `public/data/info.json`.
 
-### Development Tools
-- **[ESLint](https://eslint.org/)** - Code linting
-- **[PostCSS](https://postcss.org/)** - CSS processing
-- **[Git](https://git-scm.com/)** - Version control
+## Architecture
 
-## 🚀 Getting Started
+The app is built around a server-side data layer. The source snapshot remains
+as JSON under `public/data`, then `npm run data:build-db` creates a derived
+SQLite database at `public/data/cantina.sqlite`.
 
-### Prerequisites
-- **Node.js** (version 18 or higher)
-- **npm**, **yarn**, **pnpm**, or **bun** package manager
+Runtime flow:
 
-### Installation
+1. `scripts/data/build-sqlite.ts` reads the public JSON snapshot.
+2. `src/server/data/build.ts` normalizes and validates rows.
+3. `src/server/data/sqlite-repository.ts` serves compact queries.
+4. App Router pages render lightweight initial payloads.
+5. `/api/search` and `/api/collections/[identifier]` power interactive search,
+   pagination, sorting and filtering.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/VincenzoImp/cantinaroyale.tools.git
-   cd cantinaroyale.tools
-   ```
+The SQLite build is atomic: a new database is written to a temporary file and
+only replaces the current database after a successful build.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   # or
-   bun install
-   ```
+## Stack
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   # or
-   bun dev
-   ```
+- Next.js App Router
+- React 19
+- TypeScript
+- Tailwind CSS with semantic light/dark tokens
+- SQLite via `better-sqlite3`
+- Zod schemas
+- Vitest and Testing Library
+- Playwright
+- ESLint flat config
+- Vercel deployment
 
-4. **Open in browser**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+## Local Development
 
-### Build for Production
+```bash
+npm ci
+npm run dev
+```
+
+Open <http://localhost:3000>.
+
+`npm run dev`, `npm run build` and `npm run start` build the SQLite database
+first through npm lifecycle hooks.
+
+## Production Build
 
 ```bash
 npm run build
-npm start
+npm run start
 ```
 
-## 📁 Project Structure
-
-```
-cantinaroyale.tools/
-├── src/
-│   ├── app/                    # Next.js App Router
-│   │   ├── collection/         # Collection pages
-│   │   ├── nft/               # Individual NFT pages
-│   │   ├── globals.css        # Global styles
-│   │   ├── layout.tsx         # Root layout
-│   │   ├── page.tsx           # Home page
-│   │   └── providers.tsx      # Context providers
-│   └── components/            # React components
-│       ├── collection/        # Collection browsers
-│       ├── nft/              # NFT detail components
-│       ├── footer.tsx        # Footer component
-│       └── navbar.tsx        # Navigation component
-├── public/
-│   └── data/                  # Static data files
-│       ├── CRHEROES-9edff2/   # Heroes collection
-│       ├── CRWEAPONS-e5ab49/  # Weapons collection
-│       ├── CRMYTH-546419/     # Mythical weapons
-│       ├── GSPACEAPE-08bc2b/  # Genesis Space Apes
-│       └── info.json          # App configuration
-├── private/
-│   └── game_data/             # Game statistics & data
-│       ├── Character.Skills.Stats.csv
-│       ├── RewardPool.csv
-│       └── Lootboxes.Info.csv
-└── package.json
-```
-
-## 🎯 Key Features in Detail
-
-### NFT Collections Support
-- **Genesis Space Apes** (`GSPACEAPE-08bc2b`) - The original Cantina Royale character collection
-- **Cantina Royale Heroes** (`CRHEROES-9edff2`) - Second generation characters with unique abilities
-- **Cantina Weapons** (`CRWEAPONS-e5ab49`) - Weapon NFTs with gameplay bonuses
-- **Mythical Weapons** (`CRMYTH-546419`) - Rare legendary weapons with unique play modes
-
-### Game Data Integration
-- **Character Ultimate Skills**: Detailed breakdown of each character's special abilities
-- **Weapon Statistics**: Damage values, ranges, and special effects
-- **Upgrade Paths**: Progression systems for characters and weapons
-- **Reward Systems**: Lootbox contents and probability distributions
-
-### Dynamic Search & Filtering
-- Search NFTs by exact identifier
-- Filter collections by multiple criteria
-- Sort by rarity, level, stats, and other attributes
-- Real-time results with responsive UI
-
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env.local` file for environment-specific settings:
+## Quality Checks
 
 ```bash
-# Example environment variables
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXT_PUBLIC_API_URL=https://api.multiversx.com
+npm run typecheck
+npm run lint
+npm run test
+npm run test:e2e
+npm run data:validate
+npm run private:check
+npm audit --audit-level=moderate
 ```
 
-### Data Sources
-- NFT metadata is stored in `public/data/` directory
-- Game statistics are in `private/game_data/` directory
-- Configuration is managed through `public/data/info.json`
+Full local gate:
 
-## 🤝 Contributing
-
-We welcome contributions to improve Cantina Royale Tools!
-
-### Development Guidelines
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Code Style
-- Follow TypeScript best practices
-- Use ESLint configuration provided
-- Maintain consistent formatting with Prettier
-- Write descriptive commit messages
-
-## 📊 Data Structure
-
-### NFT Collections
-Each collection follows a standardized structure:
-```json
-{
-  "collection": "COLLECTION-ID",
-  "name": "Collection Name",
-  "ticker": "TICKER",
-  "holderCount": 142,
-  "nftCount": 3028,
-  "assets": {
-    "website": "https://cantinaroyale.io",
-    "description": "Collection description"
-  }
-}
+```bash
+npm run quality
 ```
 
-### Character Skills
-Character abilities are defined with level-based progression:
-```csv
-Character,Skill,Level1,Level2,...,Level10,Scaling
-FreeCharacter3,ultimateskill_charging_duration,90,90,...,90,1.0
-FreeCharacter3,ultimateskill_9lives_healthPercentage,25,30,...,80,1.0
+## Data Refresh
+
+The maintained offline Python pipeline lives in `private/`. It can refresh the
+JSON snapshot under `public/data`.
+
+```bash
+python private/get_data.py
+npm run data:validate
+npm run quality
 ```
 
-## 🚀 Deployment
+Useful refresh flags:
 
-### Vercel (Recommended)
-This project is optimized for deployment on [Vercel](https://vercel.com/):
+```bash
+python private/get_data.py --collections CRMYTH-546419 CRWEAPONS-e5ab49
+python private/get_data.py --skip-nfts
+python private/get_data.py --keep-raw
+```
 
-1. **Connect** your GitHub repository to Vercel
-2. **Configure** build settings (auto-detected for Next.js)
-3. **Deploy** with automatic CI/CD
+Data changes should be reviewed like normal source changes:
 
-### Alternative Platforms
-- **Netlify**: Compatible with static export
-- **Railway**: Node.js hosting
-- **Digital Ocean**: VPS deployment
+1. Refresh or edit the JSON snapshot under `public/data`.
+2. Run `npm run data:validate`.
+3. Run `npm run quality`.
+4. Open a pull request with the snapshot changes and validation output.
 
-## 🔗 Links
+## Project Layout
 
-- **Website**: [cantinaroyale.tools](https://cantinaroyale-tools.vercel.app)
-- **Game**: [cantinaroyale.io](https://cantinaroyale.io)
-- **GitHub**: [VincenzoImp/cantinaroyale.tools](https://github.com/VincenzoImp/cantinaroyale.tools)
-- **MultiversX Explorer**: [explorer.multiversx.com](https://explorer.multiversx.com)
+```text
+src/app/                         App Router pages and API routes
+src/components/                  Shared layout components
+src/features/collection/          Collection table, filters and columns
+src/features/home/                Home dashboard and aggregate views
+src/features/nft/                 NFT detail pages
+src/features/search/              Search UI
+src/features/theme/               Light/dark theme system
+src/server/data/                  Schemas, query parsing and SQLite repository
+src/styles/tokens.css             Semantic theme tokens
+scripts/data/                     SQLite build and snapshot validation
+scripts/performance/              Static asset budget checks
+private/                          Offline data refresh pipeline
+tests/                            Unit, UI, API and e2e tests
+docs/                             Audits and implementation plans
+```
 
-### Social Media
-- **Twitter**: [@CantinaRoyale](https://twitter.com/CantinaRoyale)
-- **Discord**: [discord.gg/cantinaroyale](https://discord.gg/cantinaroyale)
-- **Telegram**: [t.me/CantinaRoyale](https://t.me/CantinaRoyale)
-- **Blog**: [blog.cantinaroyale.io](https://blog.cantinaroyale.io)
+## Performance Notes
 
-## 📄 License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
-
----
-
-**Made with ❤️ for the Cantina Royale community**
+Collection pages fetch only the current table page. Full trait payloads are
+reserved for NFT detail pages. This keeps home and collection routes responsive
+and avoids sending the full NFT corpus to the browser.

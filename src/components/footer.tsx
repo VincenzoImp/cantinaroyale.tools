@@ -1,73 +1,41 @@
-// src/components/footer.tsx
-import { contents } from "@/lib/data";
-import SimpleThemeToggle from './SimpleThemeToggle';
-
-const footer = contents.components.footer;
+import Link from "next/link";
+import { ThemeToggle } from "@/features/theme/theme-toggle";
 
 export default function Footer() {
-    return (
-        <div className="w-full mx-auto max-w-screen-xl bg-theme-surface border border-theme-border rounded-lg m-4 p-4 shadow-lg transition-all duration-300">
-            {/* Desktop Layout */}
-            <div className="hidden sm:flex items-center justify-between">
-                <span className="text-sm text-theme-muted">
-                    {footer.madeForText}{" "}
-                    <a
-                        href={footer.madeForLink}
-                        className="underline hover:text-theme-primary transition-colors duration-200"
-                    >
-                        {footer.madeForName}
-                    </a>
-                </span>
-
-                {/* Centered Theme Toggle */}
-                <div className="flex items-center gap-2">
-                    <span className="text-xs text-theme-muted">
-                        Theme
-                    </span>
-                    <SimpleThemeToggle />
-                </div>
-
-                <span className="text-sm text-theme-muted">
-                    {footer.donationText}{" "}
-                    <a
-                        href={footer.donationLink}
-                        className="underline hover:text-theme-primary transition-colors duration-200"
-                    >
-                        {footer.donationName}
-                    </a>
-                </span>
-            </div>
-
-            {/* Mobile Layout */}
-            <div className="sm:hidden flex flex-col items-center space-y-3">
-                <span className="text-sm text-theme-muted text-center">
-                    {footer.madeForText}{" "}
-                    <a
-                        href={footer.madeForLink}
-                        className="underline hover:text-theme-primary transition-colors duration-200"
-                    >
-                        {footer.madeForName}
-                    </a>
-                </span>
-
-                <span className="text-sm text-theme-muted text-center">
-                    {footer.donationText}{" "}
-                    <a
-                        href={footer.donationLink}
-                        className="underline hover:text-theme-primary transition-colors duration-200"
-                    >
-                        {footer.donationName}
-                    </a>
-                </span>
-
-                {/* Centered Theme Toggle on Mobile */}
-                <div className="flex items-center gap-2">
-                    <span className="text-xs text-theme-muted">
-                        Theme
-                    </span>
-                    <SimpleThemeToggle />
-                </div>
-            </div>
+  return (
+    <footer className="mt-auto border-t border-line bg-surface">
+      <div className="mx-auto grid max-w-7xl gap-5 px-4 py-6 text-sm text-muted sm:px-6 md:grid-cols-[1fr_auto] md:items-center lg:grid-cols-[1fr_auto_auto] lg:px-8">
+        <div className="min-w-0">
+          <div className="font-semibold text-ink">Cantina Royale Tools</div>
+          <p className="mt-1 max-w-xl leading-6">
+            Public market and gameplay views for Cantina Royale characters and
+            weapons.
+          </p>
         </div>
-    );
+
+        <nav
+          aria-label="Footer"
+          className="flex flex-wrap items-center gap-x-4 gap-y-2"
+        >
+          <Link
+            href="https://cantinaroyale.io"
+            className="font-medium text-ink transition hover:text-primary"
+          >
+            Cantina Royale
+          </Link>
+          <Link
+            href="https://explorer.multiversx.com/accounts/erd1keu46ueul2pryusnrlrnz7xcvegucs323t5zd0ytsudgfr3zamfq9mg8lj"
+            className="font-medium text-ink transition hover:text-primary"
+          >
+            Support @vincenzoimp
+          </Link>
+        </nav>
+
+        <div className="flex items-center justify-between gap-3 rounded-md border border-line bg-canvas px-3 py-2 md:justify-start">
+          <span>Display</span>
+          <ThemeToggle />
+        </div>
+      </div>
+    </footer>
+  );
 }

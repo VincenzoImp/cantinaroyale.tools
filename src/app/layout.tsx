@@ -1,9 +1,34 @@
-// src/app/layout.tsx
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import { ThemeScript } from "@/features/theme/theme-script";
 
-// Root layout component
+export const metadata: Metadata = {
+	title: {
+		default: "Cantina Royale Tools",
+		template: "%s | Cantina Royale Tools",
+	},
+	description:
+		"Browse Cantina Royale characters, weapons, prices, rarity, perks, and gameplay stats.",
+	metadataBase: new URL("https://cantinaroyale.tools"),
+	openGraph: {
+		title: "Cantina Royale Tools",
+		description:
+			"Browse Cantina Royale characters, weapons, prices, rarity, perks, and gameplay stats.",
+		type: "website",
+	},
+};
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	themeColor: [
+		{ media: "(prefers-color-scheme: light)", color: "#f6f8f7" },
+		{ media: "(prefers-color-scheme: dark)", color: "#111412" },
+	],
+};
+
 export default function RootLayout({
 	children
 }: Readonly<{
@@ -12,29 +37,14 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head>
-				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-							(function() {
-								try {
-									var theme = localStorage.getItem('theme');
-									if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-										document.documentElement.classList.add('dark');
-									}
-								} catch (e) {}
-							})();
-						`,
-					}}
-				/>
+				<ThemeScript />
 			</head>
-			<body className="bg-theme-background text-theme-text antialiased theme-transition">
-				<ErrorBoundary>
-					<Providers>
-						{children}
-					</Providers>
-				</ErrorBoundary>
+			<body className="min-h-screen bg-canvas text-ink antialiased">
+				<Providers>
+					<ErrorBoundary>
+						<div className="flex min-h-screen flex-col">{children}</div>
+					</ErrorBoundary>
+				</Providers>
 			</body>
 		</html>
 	);

@@ -1,44 +1,39 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { contents, variables, data } from "@/lib/data";
-import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import CharacterNft from "@/components/nft/characterNft";
-import WeaponNft from "@/components/nft/weaponNft";
+import Navbar from "@/components/navbar";
+import { NftDetail } from "@/features/nft/nft-detail";
+import { getCantinaRepository } from "@/server/data";
 
-export const generateMetadata = ({ params }: { params: { identifier: string } }): Metadata => {
-    const homeTitle = contents.pages.home.title;
-    for (const collectionName in data) {
-        if (params.identifier.startsWith(collectionName) && params.identifier in data[collectionName].nfts) {
-            return { title: `${params.identifier} - ${homeTitle}` };
-        }
-    }
-    return { title: `404 - ${homeTitle}` };
+type PageProps = {
+  params: Promise<{ identifier: string }>;
 };
 
-export default function Page({ params }: { params: { identifier: string } }) {
-    for (const collectionName in data) {
-        if (params.identifier.startsWith(collectionName) && params.identifier in data[collectionName].nfts) {
-            const nft: { [key: string]: any } = data[collectionName].nfts[params.identifier];
-            if (variables.collections.characters.includes(collectionName)) {
-                return (
-                    <>
-                        <Navbar activeItemID="characters" />
-                        <CharacterNft nft={nft} />
-                        <Footer />
-                    </>
-                );
-            }
-            if (variables.collections.weapons.includes(collectionName)) {
-                return (
-                    <>
-                        <Navbar activeItemID="weapons" />
-                        <WeaponNft nft={nft} />
-                        <Footer />
-                    </>
-                );
-            }
-        }
-    }
-    return notFound();
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { identifier } = await params;
+  const nft = getCantinaRepository().findNft(identifier);
+
+  return {
+    title: nft ? nft.name : "NFT not found",
+    description: nft ? `${nft.name} (${nft.identifier})` : undefined,
+  };
+}
+
+export default async function Page({ params }: PageProps) {
+  const { identifier } = await params;
+  const nft = getCantinaRepository().findNft(identifier);
+
+  if (!nft) {
+    notFound();
+  }
+
+  return (
+    <>
+      <Navbar activeItemID={nft.type} />
+      <NftDetail nft={nft} />
+      <Footer />
+    </>
+  );
 }

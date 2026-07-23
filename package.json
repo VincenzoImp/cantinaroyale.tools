@@ -68,7 +68,8 @@
     "glob": "^10.5.0",
     "minimatch": "^10.2.5",
     "postcss": "$postcss",
-    "picomatch": "^4.0.4"
+    "picomatch": "^4.0.4",
+    "sharp": "0.35.3"
   },
   "repository": {
     "type": "git",

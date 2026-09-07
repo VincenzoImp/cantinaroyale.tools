@@ -17,6 +17,15 @@ export const metadata: Metadata = {
     description:
       "Browse Cantina Royale characters, weapons, prices, rarity, perks, gameplay charts, and upgrade economy.",
     type: "website",
+    images: [
+      {
+        url: "/images/cantina_logo.png",
+        width: 550,
+        height: 375,
+        type: "image/png",
+        alt: "Cantina Royale logo",
+      },
+    ],
   },
 };
 
